@@ -1,0 +1,102 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2017年8月28日10时40分许，贵州省毕节市纳雍县张家湾镇普洒社区大树脚组发生山体滑坡灾害。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "滑坡灾害",
+          "agent_attri": "",
+          "object_attri": "山体",
+          "time": "2017年8月28日10时40分",
+          "time_align": "2017-08-28-10-40",
+          "location": "贵州省毕节市纳雍县张家湾镇普洒社区大树脚组",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截至8月29日10时统计，灾害殃及34户人家，3人死亡，还有32人失联。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "殃及",
+          "trigger_agent": "灾害",
+          "trigger_object": "人家",
+          "agent_attri": "",
+          "object_attri": "34户",
+          "time": "8月29日10时",
+          "time_align": "2017-08-29-10-XX",
+          "location": "贵州省毕节市纳雍县张家湾镇普洒社区大树脚组",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "死亡",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "34",
+          "object_attri": "",
+          "time": "8月29日10时",
+          "time_align": "2017-08-29-10-XX",
+          "location": "贵州省毕节市纳雍县张家湾镇普洒社区大树脚组",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "失联",
+          "trigger_agent": "人",
+          "trigger_object": "32",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "8月29日10时",
+          "time_align": "2017-08-29-10-XX",
+          "location": "贵州省毕节市纳雍县张家湾镇普洒社区大树脚组",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "具体灾情正在进一步统计核查中。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "统计核查",
+          "trigger_agent": "灾情",
+          "trigger_object": "",
+          "agent_attri": "具体",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系",
+      "e04": "因果关系"
+    },
+    "e02": {
+      "e03": "因果关系",
+      "e04": "因果关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

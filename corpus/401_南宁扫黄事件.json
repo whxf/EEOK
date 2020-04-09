@@ -1,0 +1,105 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "10月25日凌晨，广西南宁警方在南宁大沙田实施扫黄行动，共抓获涉黄男女20人，其中女性15人",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "实施",
+          "trigger_agent": "警方",
+          "trigger_object": "扫黄行动",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "10月25日凌晨",
+          "time_align": "XXXX-10-25-XX-XX",
+          "location": "广西南宁大沙田",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger_agent": "警方",
+          "trigger": "抓获",
+          "trigger_object": "人",
+          "object_attri": "涉黄男女20/女性15",
+          "time": "10月25日凌晨",
+          "time_align": "XXXX-10-25-XX-XX",
+          "location": "广西南宁大沙田",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "警方现每天安排专门的民警在唐山路等有涉黄场所的地方着装或便衣巡逻，还将适时组织警力清查辖区内的涉黄场所。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "安排",
+          "trigger_agent": "警方",
+          "trigger_object": "民警",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "广西南宁大沙田",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "巡逻",
+          "trigger_agent": "民警",
+          "trigger_object": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "广西南宁大沙田",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "组织",
+          "trigger_agent": "警方",
+          "trigger_object": "警力",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "广西南宁大沙田",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "清查",
+          "trigger_agent": "警力",
+          "trigger_object": "涉黄场所",
+          "object_attri": "辖区内的",
+          "time": "",
+          "time_align": "",
+          "location": "广西南宁大沙田",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

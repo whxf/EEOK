@@ -1,0 +1,130 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年8月29日，安徽巢湖的家电卖场安德利里，格力的一名商场导购和美的一名实习业务员发生了打斗，美的这名业务员在打斗中头部受伤，经抢救无效后死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2010年8月29日",
+          "time_align": "2010-08-29-XX-XX",
+          "trigger_agent": "导购/业务员",
+          "agent_attri": "格力的一名商场/美的一名实习",
+          "trigger": "发生",
+          "trigger_object": "打斗",
+          "object_attri": "",
+          "location": "安徽巢湖",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2010年8月29日",
+          "time_align": "2010-08-29-XX-XX",
+          "trigger_agent": "业务员",
+          "agent_attri": "美的",
+          "trigger": "受伤",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "安徽巢湖",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "抢救",
+          "trigger_object": "业务员",
+          "object_attri": "美的",
+          "location": "安徽巢湖",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "业务员",
+          "agent_attri": "美的",
+          "trigger": "死亡",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "安徽巢湖",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "导购孙军因涉嫌故意伤害，于当日被警方采取强制措施。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "导购",
+          "agent_attri": "",
+          "trigger": "涉嫌",
+          "trigger_object": "故意伤害",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": "孙军"
+        },
+        {
+          "child_event_id": "e06",
+          "time": "当日",
+          "time_align": "",
+          "trigger_agent": "警方",
+          "agent_attri": "",
+          "trigger": "采取",
+          "trigger_object": "强制措施",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前已经对嫌疑人孙军实施了批捕。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "实施",
+          "trigger_object": "批捕",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": "孙军"
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "因果关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

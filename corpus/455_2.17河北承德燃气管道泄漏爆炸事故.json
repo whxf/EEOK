@@ -1,0 +1,94 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2017年2月17日上午11点多，承德市一酒店KTV发生爆炸，目前政府相关部门已经采取应急预案，调查事件发生原因。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "KTV",
+          "trigger_object": "爆炸",
+          "agent_attri": "一酒店",
+          "object_attri": "",
+          "time": "2017年2月17日上午11点",
+          "time_align": "2017-02-17-11-XX",
+          "location": "承德市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "采取",
+          "trigger_agent": "相关部门",
+          "trigger_object": "预案",
+          "agent_attri": "政府",
+          "object_attri": "应急",
+          "time": "2017年2月17日上午11点",
+          "time_align": "2017-02-17-11-XX",
+          "location": "承德市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "调查",
+          "trigger_agent": "相关部门",
+          "trigger_object": "原因",
+          "agent_attri": "政府",
+          "object_attri": "事件发生",
+          "time": "2017年2月17日上午11点",
+          "time_align": "2017-02-17-11-XX",
+          "location": "承德市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2017年2月17日，经承德市警方排查，爆炸原因初步断定为盛华大酒店南侧地下燃气管道泄漏。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "排查",
+          "trigger_agent": "警方",
+          "trigger_object": "",
+          "agent_attri": "承德市",
+          "object_attri": "",
+          "time": "2017年2月17日",
+          "time_align": "2017-02-17-XX-XX",
+          "location": "承德市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "断定",
+          "trigger_agent": "爆炸原因",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2017年2月17日",
+          "time_align": "2017-02-17-XX-XX",
+          "location": "承德市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

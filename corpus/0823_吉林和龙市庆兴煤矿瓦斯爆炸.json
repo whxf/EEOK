@@ -1,0 +1,93 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年4月20日13时26分，吉林省和龙市庆兴煤矿发生一起瓦斯爆炸事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "煤矿",
+          "trigger_object": "爆炸事故",
+          "agent_attri": "吉林省和龙市庆兴",
+          "object_attri": "一起瓦斯",
+          "time": "2013年4月20日13时26分",
+          "time_align": "2013-04-20-13-26",
+          "location": "吉林省和龙市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "当班作业73人，经全力救援，55人安全升井，其中12人不同程度受伤，18人遇难。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "救援",
+          "trigger_agent": "",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2013-04-20-13-26",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "升井",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "55",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2013-04-20-13-26",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "受伤",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "其中12",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2013-04-20-13-26",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "遇难",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "18",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2013-04-20-13-26",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系"
+    }
+  }
+}

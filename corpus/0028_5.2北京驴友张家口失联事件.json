@@ -1,0 +1,114 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年5月2日，河北省张家口赤城县警方接到北京方面转来的报警，称在海坨山景区3名驴友和1名向导被困，他们报警称另外还有15名驴友也失去联系。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2014年5月2日",
+          "time_align": "2014-05-02-XX-XX",
+          "trigger_agent": "警方",
+          "agent_attri": "",
+          "trigger": "接到",
+          "trigger_object": "报警",
+          "object_attri": "北京方面转来的",
+          "location": "河北省张家口赤城县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2014年5月2日",
+          "time_align": "2014-05-02-XX-XX",
+          "trigger_agent": "驴友/向导",
+          "agent_attri": "3名/1名",
+          "trigger": "被-困",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "海坨山景区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2014年5月2日",
+          "time_align": "2014-05-02-XX-XX",
+          "trigger_agent": "驴友",
+          "agent_attri": "另外15名",
+          "trigger": "失去",
+          "trigger_object": "联系",
+          "object_attri": "",
+          "location": "海坨山景区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "接到报警后，赤城县公安消防部门立即赶赴现场进行搜救。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "消防部门",
+          "agent_attri": "公安",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "赤城县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "进行",
+          "trigger_object": "搜救",
+          "object_attri": "",
+          "location": "赤城县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2014年5月3日上午10时，目前所有失联的驴友都被找到。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "time": "2014年5月3日上午10时",
+          "time_align": "2014-05-03-10-00",
+          "trigger_agent": "驴友",
+          "agent_attri": "所有失联的",
+          "trigger": "被-找到",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

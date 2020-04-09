@@ -1,0 +1,235 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2017年6月5日1时左右，位于山东临沂市临港经济开发区团林镇埃沟一村的临沂金誉石化有限公司装卸区一液化气罐车在装卸作业时发生爆炸，引发火灾，造成1人当场死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "气罐车",
+          "trigger_object": "爆炸",
+          "agent_attri": "一液化",
+          "object_attri": "",
+          "time": "2017年6月5日1时",
+          "time_align": "2017-06-05-01-00",
+          "location": "山东临沂市临港经济开发区团林镇埃沟一村",
+          "organization": "临沂金誉石化有限公司",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "引发",
+          "trigger_agent": "",
+          "trigger_object": "火灾",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2017年6月5日1时",
+          "time_align": "2017-06-05-01-00",
+          "location": "山东临沂市临港经济开发区团林镇埃沟一村",
+          "organization": "临沂金誉石化有限公司",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "1人当场",
+          "time": "2017年6月5日1时",
+          "time_align": "2017-06-05-01-00",
+          "location": "山东临沂市临港经济开发区团林镇埃沟一村",
+          "organization": "临沂金誉石化有限公司",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "当天16时事故现场明火扑灭后，指挥部立即组织公安民警和警犬对事故现场进行进一步人员搜寻，又发现7名遇难者遗体。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "扑灭",
+          "trigger_agent": "明火",
+          "trigger_object": "",
+          "agent_attri": "事故现场",
+          "object_attri": "",
+          "time": "当天16时",
+          "time_align": "2017-06-05-16-XX",
+          "location": "山东临沂市临港经济开发区团林镇埃沟一村",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "组织",
+          "trigger_agent": "指挥部",
+          "trigger_object": "公安民警和警犬",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "当天16时",
+          "time_align": "2017-06-05-16-XX",
+          "location": "山东临沂市临港经济开发区团林镇埃沟一村",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "进行",
+          "trigger_agent": "公安民警和警犬",
+          "trigger_object": "搜索",
+          "agent_attri": "",
+          "object_attri": "进一步人员",
+          "time": "2017年6月5日1时",
+          "time_align": "2017-06-05-01-XX",
+          "location": "山东临沂市临港经济开发区团林镇埃沟一村",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "发现",
+          "trigger_agent": "公安民警和警犬",
+          "trigger_object": "遗体",
+          "agent_attri": "",
+          "object_attri": "7名遇难者",
+          "time": "2017年6月5日1时",
+          "time_align": "2017-06-05-01-XX",
+          "location": "山东临沂市临港经济开发区团林镇埃沟一村",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "6日5时和10时，搜救人员又分别找到2具遇难者遗骸。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "trigger": "找到",
+          "trigger_agent": "搜救人员",
+          "trigger_object": "遗骸",
+          "agent_attri": "",
+          "object_attri": "2具遇难者",
+          "time": "6日5时和10时",
+          "time_align": "2017-06-06-05-XX、2017-06-06-10-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "6月6日，经省政府批准，省政府临沂市临港区金誉石化有限公司“6·5”爆炸着火重大事故调查组成立。",
+      "event_graph": [
+        {
+          "child_event_id": "e11",
+          "trigger": "批准",
+          "trigger_agent": "政府",
+          "trigger_object": "",
+          "agent_attri": "省",
+          "object_attri": "",
+          "time": "6月6日",
+          "time_align": "2017-06-06-XX-XX",
+          "location": "临沂市临港区",
+          "organization": "金誉石化有限公司",
+          "person": ""
+        },
+        {
+          "child_event_id": "e12",
+          "trigger": "成立",
+          "trigger_agent": "调查组",
+          "trigger_object": "",
+          "agent_attri": "省政府临沂市临港区金誉石化有限公司“6·5”爆炸着火重大事故",
+          "object_attri": "",
+          "time": "6月6日",
+          "time_align": "2017-06-06-XX-XX",
+          "location": "临沂市临港区",
+          "organization": "金誉石化有限公司",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事故调查工作已有序展开。",
+      "event_graph": [
+        {
+          "child_event_id": "e11",
+          "trigger": "展开",
+          "trigger_agent": "工作",
+          "trigger_object": "",
+          "agent_attri": "事故调查",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "公安机关正进行遇难者遗体DNA比对，确认其具体身份。",
+      "event_graph": [
+        {
+          "child_event_id": "e12",
+          "trigger": "进行",
+          "trigger_agent": "公安机关",
+          "trigger_object": "比对",
+          "agent_attri": "遇难者遗体DNA",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e13",
+          "trigger": "确认",
+          "trigger_agent": "公安机关",
+          "trigger_object": "身份",
+          "agent_attri": "其具体",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "因果关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e11": "顺承关系"
+    },
+    "e11": {
+      "e12": "顺承关系"
+    },
+    "e12": {
+      "e13": "顺承关系"
+    }
+  }
+}

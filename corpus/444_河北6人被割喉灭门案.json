@@ -1,0 +1,151 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年05月9日，河北保定市曲阳县公安局接警，该县灵山镇东庞家洼村发生命案，村民庞某龙一家7口被杀。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "接警",
+          "trigger_agent": "公安局",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2014年05月9日",
+          "time_align": "2014-05-09-XX-XX",
+          "location": "河北保定市曲阳县",
+          "organization": "河北保定市曲阳县公安局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "命案",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "河北保定市曲阳县灵山镇东庞家洼村",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "被-杀",
+          "trigger_agent": "庞某龙一家7口",
+          "trigger_object": "",
+          "agent_attri": "村民",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "河北保定市曲阳县灵山镇东庞家洼村",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "据警方初步侦查，西庞家洼村村民庞金某因与被害人庞某龙有经济纠纷，有重大作案嫌疑。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "侦查",
+          "trigger_agent": "警方",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "有",
+          "trigger_agent": "庞金某/庞某龙",
+          "trigger_object": "纠纷",
+          "agent_attri": "西庞家洼村村民/被害人",
+          "object_attri": "经济",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "有",
+          "trigger_agent": "",
+          "trigger_object": "嫌疑",
+          "agent_attri": "",
+          "object_attri": "重大作案",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "案发后庞金某在公路上撞车身亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "撞车身亡",
+          "trigger_agent": "庞金某",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，案件仍在被调查中。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "trigger": "被-调查",
+          "trigger_agent": "案件",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "因果关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    }
+  }
+}

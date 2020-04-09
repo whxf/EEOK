@@ -1,0 +1,100 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年2月24日16时许，河北省秦皇岛骊骅淀粉股份有限公司淀粉四车间发生爆炸。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "车间",
+          "trigger_object": "爆炸",
+          "agent_attri": "骊骅淀粉股份有限公司淀粉四",
+          "object_attri": "",
+          "time": "2010年2月24日16时",
+          "time_align": "2010-02-24-16-00",
+          "location": "河北省秦皇岛",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "昨天下午2时30分，截至目前，该事故已造成19人死亡，49人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "19人",
+          "time": "昨天下午2时30分",
+          "time_align": "XXXX-XX-XX-14-30",
+          "location": "河北省秦皇岛",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "49人",
+          "time": "昨天下午2时30分",
+          "time_align": "XXXX-XX-XX-14-30",
+          "location": "河北省秦皇岛",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "河北省政府已于昨天下午成立事故调查组，对事故原因展开全面调查。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "成立",
+          "trigger_agent": "政府",
+          "trigger_object": "调查组",
+          "agent_attri": "河北省",
+          "object_attri": "事故",
+          "time": "昨天下午",
+          "time_align": "",
+          "location": "河北省",
+          "organization": "河北省政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "展开",
+          "trigger_agent": "政府",
+          "trigger_object": "调查",
+          "agent_attri": "",
+          "object_attri": "全面",
+          "time": "昨天下午",
+          "time_align": "",
+          "location": "河北省",
+          "organization": "河北省政府",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

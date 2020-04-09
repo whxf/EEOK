@@ -1,0 +1,93 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年6月11日，濮阳市开发区开州路办事处张仪村村内街道上，一辆超载幼儿园校车发生燃烧事件，致使四名幼儿死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "校车",
+          "trigger_object": "燃烧事件",
+          "agent_attri": "一辆超载幼儿园",
+          "object_attri": "",
+          "time": "2012年6月11日",
+          "time_align": "2012-06-11-XX-XX",
+          "location": "濮阳市开发区开州路办事处张仪村村内街道",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "致使",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "四名幼儿",
+          "time": "2012年6月11日",
+          "time_align": "2012-06-11-XX-XX",
+          "location": "濮阳市开发区开州路办事处张仪村村内街道",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "濮阳市委市政府有关负责人第一时间赶赴现场，指挥救治伤员，处理善后工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "赶赴",
+          "trigger_agent": "负责人",
+          "trigger_object": "现场",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "濮阳市",
+          "organization": "濮阳市委市政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "指挥",
+          "trigger_agent": "负责人",
+          "trigger_object": "救治伤员",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "濮阳市开发区开州路办事处张仪村村内街道",
+          "organization": "濮阳市委市政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "处理",
+          "trigger_agent": "负责人",
+          "trigger_object": "善后工作",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "濮阳市开发区开州路办事处张仪村村内街道",
+          "organization": "濮阳市委市政府",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

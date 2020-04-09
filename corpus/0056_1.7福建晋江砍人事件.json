@@ -1,0 +1,98 @@
+{
+  "event_element": [
+    {
+      "event_sentence": " 2015年1月7日晚九点多，晋江大剧院附近，一男子持刀砍伤数人。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2015年1月7日晚九点",
+          "time_align": "2015-01-07-21-00",
+          "trigger_agent": "男子",
+          "agent_attri": "一",
+          "trigger": "砍伤",
+          "trigger_object": "人",
+          "object_attri": "数",
+          "location": "晋江大剧院附近",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "有9人受伤，全部送医院救治，凶手已落网。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "2015年1月7日晚九点",
+          "time_align": "2015-01-07-21-00",
+          "trigger_agent": "人",
+          "agent_attri": "9",
+          "trigger": "受伤",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "晋江大剧院附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "医院",
+          "agent_attri": "",
+          "trigger": "救治",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "凶手",
+          "agent_attri": "",
+          "trigger": "落网",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，6名伤情较轻人员在派出所接受警方询问。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "人员",
+          "agent_attri": "6名伤情较轻",
+          "trigger": "接受",
+          "trigger_object": "询问",
+          "object_attri": "警方",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

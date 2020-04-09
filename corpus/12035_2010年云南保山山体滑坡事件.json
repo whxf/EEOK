@@ -1,0 +1,132 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年9月1日22时22分许，云南省保山市隆阳区瓦马乡河东村大石房村民小组发生特大地质灾害，造成该村民小组21户受灾。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "村民小组",
+          "trigger": "发生",
+          "trigger_object": "地质灾害",
+          "agent_attri": "大石房",
+          "object_attri": "特大",
+          "time": "2010年9月1日22时22分",
+          "time_align": "2010-09-01-22-22",
+          "location": "云南省保山市隆阳区瓦马乡河东村",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger_agent": "",
+          "trigger": "造成",
+          "trigger_object": "受灾",
+          "agent_attri": "",
+          "object_attri": "村民小组21户",
+          "time": "2010年9月1日22时22分",
+          "time_align": "2010-09-01-22-22",
+          "location": "云南省保山市隆阳区瓦马乡河东村",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "经过现场抢险救灾人员的努力，有23人获救，伤员都得到及时救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "经过",
+          "trigger_agent": "",
+          "trigger_object": "努力",
+          "agent_attri": "",
+          "object_attri": "现场抢险救灾人员的",
+          "time": "",
+          "time_align": "",
+          "location": "云南省保山市隆阳区瓦马乡河东村",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "获救",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "23",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "云南省保山市隆阳区瓦马乡河东村",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "得到-救治",
+          "trigger_agent": "伤员",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "云南省保山市隆阳区瓦马乡河东村",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截至9月2日21时30分，灾害已造成12人死亡，36人失踪。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "造成",
+          "trigger_agent": "灾害",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "12人",
+          "time": "9月2日21时30分",
+          "time_align": "2010-09-02-21-30",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "造成",
+          "trigger_agent": "灾害",
+          "trigger_object": "失踪",
+          "agent_attri": "36人",
+          "object_attri": "",
+          "time": "9月2日21时30分",
+          "time_align": "2010-09-02-21-30",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e06": "因果关系",
+      "e07": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "并列关系"
+    }
+  }
+}

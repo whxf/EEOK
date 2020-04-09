@@ -1,0 +1,114 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年4月22日下午，四川省达州市大竹县周家镇8岁女孩李微微为救落水小同伴，不幸溺水身亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "女孩",
+          "trigger": "救",
+          "trigger_object": "小同伴",
+          "agent_attri": "8岁",
+          "object_attri": "落水",
+          "time": "2014年4月22日下午",
+          "time_align": "2014-04-22-XX-XX",
+          "location": "四川省达州市大竹县周家镇",
+          "organization": "",
+          "person": "李薇薇"
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "溺水身亡",
+          "trigger_agent": "女孩",
+          "trigger_object": "",
+          "agent_attri": "8岁",
+          "object_attri": "",
+          "time": "2014年4月22日下午",
+          "time_align": "2014-04-22-XX-XX",
+          "location": "四川省达州市大竹县周家镇",
+          "organization": "",
+          "person": "李薇薇"
+        }
+      ]
+    },
+    {
+      "event_sentence": "事发后，当地政府曾打算为其申报“见义勇为”称号，却未获得批准。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "申报",
+          "trigger_agent": "当地政府",
+          "trigger_object": "“见义勇为”称号",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "未-获得",
+          "trigger_agent": "称号",
+          "trigger_object": "批准",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "7月4日下午，当地综治办决定，为李微微申报评定见义勇为先进个人。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "决定",
+          "trigger_agent": "综治办",
+          "trigger_object": "",
+          "agent_attri": "当地",
+          "object_attri": "都江堰市",
+          "time": "7月4日下午",
+          "time_align": "2014-07-04-XX-XX",
+          "location": "",
+          "organization": "综治办",
+          "person": "李薇薇"
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "申报评定",
+          "trigger_agent": "当地综治办",
+          "trigger_object": "李薇薇",
+          "agent_attri": "",
+          "object_attri": "为先进个人",
+          "time": "7月4日下午",
+          "time_align": "2014-07-04-XX-XX",
+          "location": "",
+          "organization": "综治办",
+          "person": "李薇薇"
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "并列关系"
+    }
+  }
+}

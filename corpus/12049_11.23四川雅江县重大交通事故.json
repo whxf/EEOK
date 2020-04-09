@@ -1,0 +1,163 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2011年11月23日13时35分左右，四川甘孜雅江县境内一辆农用车车载19人，发生重大道路交通事故，致17人死亡（其中1名小孩），2人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "",
+          "trigger": "发生",
+          "trigger_object": "交通事故",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2011年11月23日13时35分",
+          "time_align": "2011-11-23-13-35",
+          "location": "四川甘孜雅江县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger_agent": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "agent_attri": "17人",
+          "time": "2011年11月23日13时35分",
+          "time_align": "2011-11-23-13-35",
+          "location": "四川甘孜雅江县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger_agent": "",
+          "trigger": "造成",
+          "trigger_object": "受伤",
+          "agent_attri": "2人",
+          "object_attri": "",
+          "time": "2011年11月23日13时35分",
+          "time_align": "2011-11-23-13-35",
+          "location": "四川甘孜雅江县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "甘孜州委、州政府立即启动重大交通事故应急预案，迅速成立事故调查处理工作组，相关领导赶赴事故现场展开善后及事故调查。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger_agent": "政府",
+          "trigger": "启动",
+          "trigger_object": "应急预案",
+          "agent_attri": "甘孜",
+          "object_attri": "重大交通事故",
+          "time": "",
+          "time_align": "",
+          "location": "甘孜州",
+          "organization": "甘孜州委/州政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger_agent": "政府",
+          "trigger": "成立",
+          "trigger_object": "工作组",
+          "agent_attri": "",
+          "object_attri": "事故调查处理",
+          "time": "",
+          "time_align": "",
+          "location": "甘孜州",
+          "organization": "甘孜州委/州政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger_agent": "领导",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "agent_attri": "",
+          "object_attri": "事故",
+          "time": "",
+          "time_align": "",
+          "location": "甘孜州",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger_agent": "领导",
+          "trigger": "展开",
+          "trigger_object": "善后",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "四川甘孜雅江县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger_agent": "领导",
+          "trigger": "展开",
+          "trigger_object": "调查",
+          "agent_attri": "",
+          "object_attri": "事故",
+          "time": "",
+          "time_align": "",
+          "location": "四川甘孜雅江县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "四川省甘孜藏族自治州相关部门在11月24日上午通报了雅江县重大交通事故的最新情况",
+      "event_graph": [
+        {
+          "child_event_id": "e09",
+          "trigger_agent": "相关部门",
+          "trigger": "通报",
+          "trigger_object": "情况",
+          "agent_attri": "",
+          "object_attri": "雅江县重大交通事故的最新",
+          "time": "11月24日",
+          "time_align": "2011-11-24-XX-XX",
+          "location": "四川省甘孜藏族自治州",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    }
+  }
+}

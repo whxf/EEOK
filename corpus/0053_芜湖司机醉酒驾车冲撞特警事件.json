@@ -1,0 +1,98 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年8月4日凌晨，安徽芜湖一司机醉酒驾车连续撞倒3名执法民警，其中，年仅22岁的特警范鑫因头部伤势过重牺牲，其他2位民警重伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2010年8月4日凌晨",
+          "time_align": "2010-08-04-XX-XX",
+          "trigger_agent": "司机",
+          "agent_attri": "一",
+          "trigger": "撞倒",
+          "trigger_object": "民警",
+          "object_attri": "3名执法",
+          "location": "安徽芜湖",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2010年8月4日凌晨",
+          "time_align": "2010-08-04-XX-XX",
+          "trigger_agent": "特警",
+          "agent_attri": "年仅22岁的",
+          "trigger": "牺牲",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "安徽芜湖",
+          "organization": "",
+          "person": "范鑫"
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2010年8月4日凌晨",
+          "time_align": "2010-08-04-XX-XX",
+          "trigger_agent": "民警",
+          "agent_attri": "2位",
+          "trigger": "重伤",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "安徽芜湖",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "犯罪嫌疑人",
+          "agent_attri": "",
+          "trigger": "被-刑拘。",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": "王某"
+        }
+      ]
+    },
+    {
+      "event_sentence": "2010年11月9日该案在芜湖中院开庭公开审理。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "2010年11月9日",
+          "time_align": "2010-11-09-XX-XX",
+          "trigger_agent": "案",
+          "agent_attri": "该",
+          "trigger": "开庭",
+          "trigger_object": "审理",
+          "object_attri": "公开",
+          "location": "芜湖",
+          "organization": "芜湖中院",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

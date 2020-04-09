@@ -1,0 +1,157 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2016年4月28日，在陕西西安市福银高速蓝田段草坪隧道口前200米处，一辆车牌号为陕AG7597的长途客车起火，造成8人死亡5人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "客车",
+          "trigger": "起火",
+          "trigger_object": "",
+          "agent_attri": "一辆车牌号为陕AG7597的长途",
+          "object_attri": "",
+          "time": "2016年4月28日",
+          "time_align": "2016-04-28-XX-XX",
+          "location": "陕西西安市福银高速蓝田段草坪隧道口前200米处",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger_agent": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "8人",
+          "time": "2016年4月28日",
+          "time_align": "2016-04-28-XX-XX",
+          "location": "陕西西安市福银高速蓝田段草坪隧道口前200米处",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger_agent": "",
+          "trigger": "造成",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "5人",
+          "time": "2016年4月28日",
+          "time_align": "2016-04-28-XX-XX",
+          "location": "福银高速蓝田段草坪隧道口前200米处",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "陕西省相关部门领导第一时间赶赴现场，指挥处置和伤员抢救工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "赶赴",
+          "trigger_agent": "领导",
+          "trigger_object": "现场",
+          "agent_attri": "陕西省相关部门",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "陕西省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "指挥",
+          "trigger_agent": "领导",
+          "trigger_object": "处置工作",
+          "agent_attri": "陕西省",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "福银高速蓝田段草坪隧道口前200米处",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "指挥",
+          "trigger_agent": "领导",
+          "trigger_object": "抢救工作",
+          "agent_attri": "陕西省",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "福银高速蓝田段草坪隧道口前200米处",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "客车被劫纵火案后，西安全面排查6类重点车辆。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "排查",
+          "trigger_agent": "",
+          "trigger_object": "车辆",
+          "agent_attri": "",
+          "object_attri": "重点",
+          "time": "",
+          "time_align": "",
+          "location": "西安",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "陕西客车被劫事件，受到了社会各界的关注。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "trigger": "受到",
+          "trigger_agent": "被劫事件",
+          "trigger_object": "关注",
+          "agent_attri": "陕西客车",
+          "object_attri": "社会各界的",
+          "time": "",
+          "time_align": "",
+          "location": "陕西",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系",
+      "e03": "并列关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "并列关系",
+      "e07": "顺承关系"
+    },
+    "e05": {
+      "e06": "并列关系",
+      "e07": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    }
+  }
+}

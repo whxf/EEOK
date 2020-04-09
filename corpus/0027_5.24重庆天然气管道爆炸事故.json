@@ -1,0 +1,95 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "5月24日上午8点多，重庆南岸弹子石一工地发生垮塌，导致天然气管道破裂并爆炸，一名路人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "5月24日上午8点多",
+          "time_align": "XXXX-05-24-08-XX",
+          "trigger_agent": "工地",
+          "agent_attri": "弹子石一",
+          "trigger": "发生",
+          "trigger_object": "垮塌",
+          "object_attri": "",
+          "location": "重庆南岸",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "5月24日上午8点多",
+          "time_align": "XXXX-05-24-08-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "导致",
+          "trigger_object": "破裂",
+          "object_attri": "天然气管道",
+          "location": "重庆南岸",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "5月24日上午8点多",
+          "time_align": "XXXX-05-24-08-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "导致",
+          "trigger_object": "爆炸",
+          "object_attri": "",
+          "location": "重庆南岸",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "5月24日上午8点多",
+          "time_align": "XXXX-05-24-08-XX",
+          "trigger_agent": "路人",
+          "agent_attri": "一名",
+          "trigger": "受伤",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "重庆南岸",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "除铜元局片区和茶园片区外，南岸其他片区停气。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "片区",
+          "agent_attri": "南岸其他",
+          "trigger": "停气",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "南岸",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

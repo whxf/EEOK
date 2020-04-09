@@ -1,0 +1,133 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年10月2日7时20分左右，辽宁丹东居民楼燃气爆炸，致4死5伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "爆炸",
+          "trigger_agent": "燃气",
+          "trigger_object": "",
+          "agent_attri": "辽宁丹东居民楼",
+          "object_attri": "",
+          "time": "2015年10月2日7时20分",
+          "time_align": "2015-10-02-07-20",
+          "location": "辽宁丹东",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "致",
+          "trigger_agent": "",
+          "trigger_object": "死",
+          "agent_attri": "4",
+          "object_attri": "",
+          "time": "2015年10月2日7时20分",
+          "time_align": "2015-10-02-07-20",
+          "location": "辽宁丹东",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "致",
+          "trigger_agent": "",
+          "trigger_object": "伤",
+          "agent_attri": "5",
+          "object_attri": "",
+          "time": "2015年10月2日7时20分",
+          "time_align": "2015-10-02-07-20",
+          "location": "辽宁丹东",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "丹东市委市政府已经启动应急救援预案，正组织相关部门全力做好人员救助及各项善后工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "启动",
+          "trigger_agent": "政府",
+          "trigger_object": "预案",
+          "agent_attri": "市委市",
+          "object_attri": "应急救援",
+          "time": "",
+          "time_align": "",
+          "location": "丹东市",
+          "organization": "丹东市委市政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "组织",
+          "trigger_agent": "政府",
+          "trigger_object": "相关部门",
+          "agent_attri": "市委市",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "丹东市",
+          "organization": "丹东市委市政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "做好",
+          "trigger_agent": "相关部门",
+          "trigger_object": "工作",
+          "agent_attri": "",
+          "object_attri": "人员救助及各项善后",
+          "time": "",
+          "time_align": "",
+          "location": "丹东市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事故原因正在调查中。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "被-调查",
+          "trigger_agent": "原因",
+          "trigger_object": "",
+          "agent_attri": "事故",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "并列关系",
+      "e07": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

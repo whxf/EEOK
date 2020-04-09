@@ -1,0 +1,77 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年4月15日中午11时许，一辆广西贵港籍的运钞车途经六（景）钦（州）高速距金桔收费站1公里处时突然起火",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "起火",
+          "trigger_agent": "运钞车",
+          "trigger_object": "",
+          "agent_attri": "一辆广西贵港籍",
+          "object_attri": "",
+          "time": "2015年4月15日中午11时",
+          "time_align": "2015-04-15-11-XX",
+          "location": "六（景）钦（州）高速距金桔收费站1公里处",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "4月17日，广西钦州市警方向中新网记者表示，目前就运钞车起火事件进行调查，但并未立案，事件亦尚未有结论。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "进行",
+          "trigger_agent": "调查",
+          "trigger_object": "",
+          "agent_attri": "运钞车起火事件",
+          "object_attri": "",
+          "time": "4月17日",
+          "time_align": "2015-04-17-XX-XX",
+          "location": "广西钦州市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "并未-立案",
+          "trigger_agent": "",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "4月17日",
+          "time_align": "2015-04-17-XX-XX",
+          "location": "广西钦州市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "尚未-有",
+          "trigger_agent": "",
+          "trigger_object": "结论",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "4月17日",
+          "time_align": "2015-04-17-XX-XX",
+          "location": "广西钦州市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2017年4月27日凌晨，发生在广西来宾市祥和路柏菲酒吧的一起两伙人打架斗殴事件，事件造成一名20多岁男子当场死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2017年4月27日凌晨",
+          "time_align": "2017-04-27-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发生",
+          "trigger_object": "打架斗殴事件",
+          "object_attri": "",
+          "location": "广西来宾市祥和路",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2017年4月27日凌晨",
+          "time_align": "2017-04-27-XX-XX",
+          "trigger_agent": "事件",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "object_attri": "一名20多岁男子当场",
+          "location": "广西来宾市祥和路",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "案发当日凌晨，来宾市公安局兴宾分局第一时间出警赶赴现场开展处置工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "当日凌晨",
+          "time_align": "2017-04-27-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "来宾市",
+          "organization": "来宾市公安局兴宾分局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "当日凌晨",
+          "time_align": "2017-04-27-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "开展",
+          "trigger_object": "工作",
+          "object_attri": "处置",
+          "location": "来宾市",
+          "organization": "来宾市公安局兴宾分局",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，警方正在对涉案人员展开追捕。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "警方",
+          "agent_attri": "",
+          "trigger": "展开",
+          "trigger_object": "追捕",
+          "object_attri": "",
+          "location": "来宾市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年1月30日18时55分，安徽淮北矿业集团公司朱仙庄煤矿866-1采煤工作面发生突水事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2015年1月30日18时55分",
+          "time_align": "2015-01-30-18-55",
+          "trigger_agent": "工作面",
+          "agent_attri": "淮北矿业集团公司朱仙庄煤矿866-1采煤",
+          "trigger": "发生",
+          "trigger_object": "突水事故",
+          "object_attri": "",
+          "location": "安徽",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "此次突水事故中被困7名人员全部遇难。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "人员",
+          "agent_attri": "此次突水事故中被困7名",
+          "trigger": "遇难",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "安徽",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "淮北矿业集团立即启动抢险救援预案，主要领导迅速赶赴现场，组织救援工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "矿业集团",
+          "agent_attri": "",
+          "trigger": "启动",
+          "trigger_object": "救援预案",
+          "object_attri": "抢险",
+          "location": "淮北",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "领导",
+          "agent_attri": "主要",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "淮北",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "领导",
+          "agent_attri": "主要",
+          "trigger": "组织",
+          "trigger_object": "救援工作",
+          "object_attri": "",
+          "location": "安徽",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2015年3月，安徽煤矿安全监察局事故调查报告日前正式公布，共处理煤矿党委书记、矿长等13名事故责任人。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "time": "2015年3月",
+          "time_align": "2015-03-XX-XX-XX",
+          "trigger_agent": "调查报告",
+          "agent_attri": "事故",
+          "trigger": "公布",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "安徽",
+          "organization": "安徽煤矿安全监察局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "处理",
+          "trigger_object": "事故责任人",
+          "object_attri": "13名",
+          "location": "安徽",
+          "organization": "安徽煤矿安全监察局",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

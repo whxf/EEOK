@@ -1,0 +1,116 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年12月30日云南昆明市官渡区金马寺附近的昆明全新生物制药有限公司发生一起爆炸事故，造成5人死亡，8人受伤，其中5人重伤，两人中度烧伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "有限公司",
+          "trigger": "发生",
+          "trigger_object": "爆炸事故",
+          "agent_attri": "昆明全新生物制药",
+          "object_attri": "一起",
+          "time": "2010年12月30日",
+          "time_align": "2010-12-30-XX-XX",
+          "location": "云南昆明市官渡区金马寺附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger_agent": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "5人",
+          "time": "2010年12月30日",
+          "time_align": "2010-12-30-XX-XX",
+          "location": "云南昆明市官渡区金马寺附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger_agent": "",
+          "trigger": "造成",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "8人",
+          "time": "2010年12月30日",
+          "time_align": "2010-12-30-XX-XX",
+          "location": "云南昆明市官渡区金马寺附近",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "昆明市全新生物制药厂的相关负责人已被警方控制，事故原因还在进一步调查中。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "被-控制",
+          "trigger_agent": "负责人",
+          "trigger_object": "警方",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "昆明市",
+          "organization": "全新生物制药厂",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "被-调查",
+          "trigger_agent": "原因",
+          "trigger_object": "",
+          "agent_attri": "事故",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "昆明市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2010年1月1日，昆明市全新生物制药厂爆炸事件原因查明。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "被-查明",
+          "trigger_agent": "事件原因",
+          "trigger_object": "",
+          "agent_attri": "昆明全新生物制药厂爆炸",
+          "object_attri": "",
+          "time": "2010年1月1日",
+          "time_align": "2010-01-01-XX-XX",
+          "location": "昆明市",
+          "organization": "全新生物制药厂",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

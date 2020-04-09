@@ -1,0 +1,131 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2005年2月14日15时，辽宁省阜新矿业(集团)有限责任公司孙家湾煤矿海州立井发生一起特别重大瓦斯爆炸事故，造成214人死亡，30人受伤，直接经济损失4968.9万元。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "井",
+          "trigger_object": "爆炸事故",
+          "agent_attri": "辽宁省阜新矿业(集团)有限责任公司孙家湾煤矿海州立",
+          "object_attri": "特别重大瓦斯",
+          "time": "2005年2月14日15时",
+          "time_align": "2005-02-14-15-XX",
+          "location": "辽宁省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "214人",
+          "time": "2005年2月14日15时",
+          "time_align": "2005-02-14-15-XX",
+          "location": "辽宁省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "30人",
+          "time": "2005年2月14日15时",
+          "time_align": "2005-02-14-15-XX",
+          "location": "辽宁省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "经济损失",
+          "agent_attri": "",
+          "object_attri": "直接、4968.9万元",
+          "time": "2005年2月14日15时",
+          "time_align": "2005-02-14-15-XX",
+          "location": "辽宁省",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事故发生后，国务院成立调查组，经认定，该起事故是一起责任事故，33名事故责任者受到处理。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "成立",
+          "trigger_agent": "国务院",
+          "trigger_object": "调查组",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "国务院",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "认定",
+          "trigger_agent": "调查组",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "受到",
+          "trigger_agent": "责任者",
+          "trigger_object": "处理",
+          "agent_attri": "33名事故",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系",
+      "e04": "因果关系"
+    },
+    "e02": {
+      "e03": "因果关系",
+      "e04": "因果关系"
+    },
+    "e03": {
+      "e04": "因果关系",
+      "e02": "因果关系"
+    },
+    "e04": {
+      "e05": "顺承关系",
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

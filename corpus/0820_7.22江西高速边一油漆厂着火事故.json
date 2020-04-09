@@ -1,0 +1,88 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年7月22日中午12时许，位于大广高速3065km江西赣州市南康段高速路边的一家油漆厂突发大火，大火蔓延到高速公路附近，火灾导致大量黑烟笼罩高速，目前大广高速赣定段因事故暂时双向封闭。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "突发",
+          "trigger_agent": "油漆厂",
+          "trigger_object": "大火",
+          "agent_attri": "一家",
+          "object_attri": "",
+          "time": "2015年7月22日中午12时",
+          "time_align": "2015-07-22-12-00",
+          "location": "大广高速3065km江西赣州市南康段高速路边",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "蔓延",
+          "trigger_agent": "大火",
+          "trigger_object": "附近",
+          "agent_attri": "",
+          "object_attri": "高速公路",
+          "time": "2015年7月22日中午12时",
+          "time_align": "2015-07-22-12-00",
+          "location": "大广高速3065km江西赣州市南康段高速路边",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "导致",
+          "trigger_agent": "火灾",
+          "trigger_object": "黑烟",
+          "agent_attri": "",
+          "object_attri": "大量",
+          "time": "2015年7月22日中午12时",
+          "time_align": "2015-07-22-12-00",
+          "location": "大广高速3065km江西赣州市南康段高速路边",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "笼罩",
+          "trigger_agent": "黑烟",
+          "trigger_object": "高速",
+          "agent_attri": "大量",
+          "object_attri": "",
+          "time": "2015年7月22日中午12时",
+          "time_align": "2015-07-22-12-00",
+          "location": "大广高速3065km江西赣州市南康段高速路边",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "封闭",
+          "trigger_agent": "",
+          "trigger_object": "高速/",
+          "agent_attri": "",
+          "object_attri": "大广/赣定段",
+          "time": "2015年7月22日中午12时",
+          "time_align": "2015-07-22-12-00",
+          "location": "大广高速赣定段",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "因果关系"
+    },
+    "e03": {
+      "e04": "因果关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

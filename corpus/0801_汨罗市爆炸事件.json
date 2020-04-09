@@ -1,0 +1,96 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "19日晚上8时40分，一辆装载疑似易燃易爆物品的大货车在京港澳高速由南往北行驶至湖南岳阳汨罗市境内时起火爆炸。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "起火",
+          "trigger_agent": "大货车",
+          "trigger_object": "",
+          "agent_attri": "一辆装载疑似易燃易爆物品",
+          "object_attri": "",
+          "time": "19日晚上8时40分",
+          "time_align": "XXXX-03-19-20-40",
+          "location": "京港澳高速由南往北行驶至湖南岳阳汨罗市境内",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "爆炸",
+          "trigger_agent": "大货车",
+          "trigger_object": "",
+          "agent_attri": "一辆装载疑似易燃易爆物品",
+          "object_attri": "",
+          "time": "19日晚上8时40分",
+          "time_align": "XXXX-03-19-20-40",
+          "location": "京港澳高速由南往北行驶至湖南岳阳汨罗市境内",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "3月20日，已经确认事故导致5人死亡，20人受伤，其中4人重伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "导致",
+          "trigger_agent": "事故",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "5人",
+          "time": "3月20日",
+          "time_align": "XXXX-3-20-XX-XX",
+          "location": "京港澳高速由南往北行驶至湖南岳阳汨罗市境内",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "导致",
+          "trigger_agent": "事故",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "20人",
+          "time": "3月20日",
+          "time_align": "XXXX-3-20-XX-XX",
+          "location": "京港澳高速由南往北行驶至湖南岳阳汨罗市境内",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "导致",
+          "trigger_agent": "事故",
+          "trigger_object": "重伤",
+          "agent_attri": "",
+          "object_attri": "4人",
+          "time": "3月20日",
+          "time_align": "XXXX-3-20-XX-XX",
+          "location": "京港澳高速由南往北行驶至湖南岳阳汨罗市境内",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "并列关系"
+    },
+    "e02": {
+      "e03": "因果关系",
+      "e04": "因果关系",
+      "e05": "因果关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "并列关系"
+    },
+    "e04": {
+      "e05": "并列关系"
+    }
+  }
+}

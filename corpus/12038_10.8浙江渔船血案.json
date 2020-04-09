@@ -1,0 +1,236 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年10月8日凌晨，一艘停泊于普陀东极附近海域的浙普渔69291号船上发生一起惨案。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "船上",
+          "trigger": "发生",
+          "trigger_object": "惨案",
+          "agent_attri": "浙普渔69291号",
+          "object_attri": "",
+          "time": "2015年10月8日凌晨",
+          "time_align": "2015-10-08-XX-XX",
+          "location": "普陀东极附近海域",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger_agent": "人",
+          "trigger": "死亡",
+          "trigger_object": "",
+          "agent_attri": "5",
+          "object_attri": "村民小组21户",
+          "time": "2015年10月8日凌晨",
+          "time_align": "2015-10-08-XX-XX",
+          "location": "普陀东极附近海域",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "船上共6名船员，5人被杀身亡，唯一下落不明的方忠岳，有重大作案嫌疑，被警方悬赏通缉",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "被-杀",
+          "trigger_agent": "人",
+          "trigger_object": "身亡",
+          "agent_attri": "5",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2015-10-08-XX-XX",
+          "location": "普陀东极附近海域",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "被-悬赏通缉",
+          "trigger_agent": "嫌疑犯",
+          "trigger_object": "警方",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": "方忠岳"
+        }
+      ]
+    },
+    {
+      "event_sentence": "案发两天后，即10月10日上午8点半左右，舟山市普陀区公安分局确认，方忠岳在苏州吴江落网",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "落网",
+          "trigger_agent": "犯罪份子",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "10月10日上午8点半",
+          "time_align": "2015-10-10-08-30",
+          "location": "苏州吴江",
+          "organization": "舟山市普陀区公安分局",
+          "person": "方忠岳"
+        }
+      ]
+    },
+    {
+      "event_sentence": "10月20日下午，舟山市普陀区检察院依法对犯罪嫌疑人方忠岳以涉嫌故意杀人罪、盗窃罪作出批准逮捕决定。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "作出",
+          "trigger_agent": "检察院",
+          "trigger_object": "决定",
+          "agent_attri": "舟山市普陀区",
+          "object_attri": "批准逮捕",
+          "time": "10月20日下午",
+          "time_align": "2015-10-10-XX-XX",
+          "location": "舟山市普陀区",
+          "organization": "舟山市普陀区检察院",
+          "person": "方忠岳"
+        }
+      ]
+    },
+    {
+      "event_sentence": "据他初步交代，浙普渔68291号的其他5名船员，全部是他杀害的，而杀人的动机是为了发泄心中的怨恨。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "交代",
+          "trigger_agent": "他",
+          "trigger_object": "杀人动机",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": "方忠岳"
+        }
+      ]
+    },
+    {
+      "event_sentence": "案发后，每户受害人家属都得到了舟山当地政府2万元的补助。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "trigger": "得到",
+          "trigger_agent": "家属",
+          "trigger_object": "补助",
+          "agent_attri": "每户受害人",
+          "object_attri": "2万元",
+          "time": "",
+          "time_align": "",
+          "location": "舟山",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2016年5月13日，轰动全国的“普陀渔船杀人案”一审宣判,夺人五命的罪犯方忠岳获死刑。",
+      "event_graph": [
+        {
+          "child_event_id": "e09",
+          "trigger": "一审宣判",
+          "trigger_agent": "杀人案",
+          "trigger_object": "",
+          "agent_attri": "轰动全国的普陀渔船",
+          "object_attri": "",
+          "time": "2016年5月13日",
+          "time_align": "2016-05-13-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e10",
+          "trigger": "获",
+          "trigger_agent": "罪犯",
+          "trigger_object": "死刑",
+          "agent_attri": "夺人五命的",
+          "object_attri": "",
+          "time": "2016年5月13日",
+          "time_align": "2016-05-13-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "方忠岳"
+        }
+      ]
+    },
+    {
+      "event_sentence": "17日，经最高人民法院核准，罪犯方忠岳被执行死刑。",
+      "event_graph": [
+        {
+          "child_event_id": "e11",
+          "trigger": "核准",
+          "trigger_agent": "最高人民法院",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "17日",
+          "time_align": "2017-05-17-XX-XX",
+          "location": "",
+          "organization": "最高人民法院",
+          "person": ""
+        },
+        {
+          "child_event_id": "e12",
+          "trigger": "被-执行",
+          "trigger_agent": "罪犯",
+          "trigger_object": "死刑",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "17日",
+          "time_align": "2017-05-17-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "方忠岳"
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "并列关系",
+      "e03": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    },
+    "e10": {
+      "e11": "顺承关系"
+    },
+    "e11": {
+      "e12": "顺承关系"
+    }
+  }
+}

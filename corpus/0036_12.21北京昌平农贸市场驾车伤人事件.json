@@ -1,0 +1,110 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "北京昌平区一农贸市场发生一起驾车伤人事件。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "市场",
+          "agent_attri": "一农贸",
+          "trigger": "发生",
+          "trigger_object": "伤人事件",
+          "object_attri": "一起驾车",
+          "location": "北京昌平区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": " 北京警方通报，2016年12月21日15时许，一辆面包车驶入昌平区马池口镇一农贸市场，与市场内人员发生碰撞，造成4人死亡、多人不同程度受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "警方",
+          "agent_attri": "北京",
+          "trigger": "通报",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "北京",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2016年12月21日15时",
+          "time_align": "2016-12-21-15-00",
+          "trigger_agent": "车",
+          "agent_attri": "一辆面包",
+          "trigger": "驶入",
+          "trigger_object": "市场",
+          "object_attri": "一农贸",
+          "location": "昌平区马池口镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "2016年12月21日15时",
+          "time_align": "2016-12-21-15-00",
+          "trigger_agent": "人员",
+          "agent_attri": "市场内",
+          "trigger": "发生",
+          "trigger_object": "碰撞",
+          "object_attri": "",
+          "location": "昌平区马池口镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "2016年12月21日15时",
+          "time_align": "2016-12-21-15-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "object_attri": "4人",
+          "location": "昌平区马池口镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "2016年12月21日15时",
+          "time_align": "2016-12-21-15-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "受伤",
+          "object_attri": "多人不同程度",
+          "location": "昌平区马池口镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "因果关系",
+      "e06": "因果关系"
+    },
+    "e05": {
+      "e06": "并列关系"
+    }
+  }
+}

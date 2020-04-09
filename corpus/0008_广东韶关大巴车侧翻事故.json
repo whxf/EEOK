@@ -1,0 +1,109 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年5月11日，京港澳高速公路广东韶关段发生一起大巴车侧翻事故，3人甩出并坠落十余米桥而身亡",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2014年5月11日",
+          "time_align": "2014-05-11-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发生",
+          "trigger_object": "侧翻事故",
+          "object_attri": "一起大巴车",
+          "location": "京港澳高速公路广东韶关段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2014年5月11日",
+          "time_align": "2014-05-11-XX-XX",
+          "trigger_agent": "人",
+          "agent_attri": "3",
+          "trigger": "甩出",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "京港澳高速公路广东韶关段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2014年5月11日",
+          "time_align": "2014-05-11-XX-XX",
+          "trigger_agent": "人",
+          "agent_attri": "3",
+          "trigger": "坠落",
+          "trigger_object": "桥",
+          "object_attri": "十余米",
+          "location": "京港澳高速公路广东韶关段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "2014年5月11日",
+          "time_align": "2014-05-11-XX-XX",
+          "trigger_agent": "人",
+          "agent_attri": "3",
+          "trigger": "身亡",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "京港澳高速公路广东韶关段",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，伤者分别被送往粤北医院、翁源县医院等医院救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "伤者",
+          "agent_attri": "",
+          "trigger": "被-送往",
+          "trigger_object": "医院",
+          "object_attri": "",
+          "location": "翁源县",
+          "organization": "粤北医院/翁源县医院",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "救治",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "翁源县",
+          "organization": "粤北医院/翁源县医院",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

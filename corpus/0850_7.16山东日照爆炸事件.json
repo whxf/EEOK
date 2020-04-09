@@ -1,0 +1,354 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年7月16日上午7:38，山东日照石大科技石化有限公司起火。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "起火",
+          "trigger_agent": "公司",
+          "trigger_object": "",
+          "agent_attri": "山东日照石大科技石化有限",
+          "object_attri": "",
+          "time": "2015年7月16日上午7:38",
+          "time_align": "2015-07-16-07-38",
+          "location": "山东日照",
+          "organization": "石大科技石化有限公司",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "日照消防已调集9个消防中队，23辆消防车、138名消防官兵全力扑救。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "调集",
+          "trigger_agent": "消防",
+          "trigger_object": "中队",
+          "agent_attri": "日照",
+          "object_attri": "9个消防",
+          "time": "",
+          "time_align": "",
+          "location": "山东日照",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "扑救",
+          "trigger_agent": "消防车/消防官兵",
+          "trigger_object": "",
+          "agent_attri": "23辆、138名",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "山东日照",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "市内7个企业消防队、青岛市消防支队已增援。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "增援",
+          "trigger_agent": "消防队、消防支队",
+          "trigger_object": "",
+          "agent_attri": "市内7个企业、青岛市",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "青岛市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "公安部已组成专家组，参与指挥灭火，山东消防部门也根据山东省公安消防总队区域增援方案，调集青岛、临沂、东营、济南、泰安、济宁、潍坊7个支队赶往增援。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "组成",
+          "trigger_agent": "公安部",
+          "trigger_object": "专家组",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "山东省",
+          "organization": "公安部",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "参与",
+          "trigger_agent": "专家组",
+          "trigger_object": "指挥",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "山东省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "参与",
+          "trigger_agent": "专家组",
+          "trigger_object": "灭火",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "山东省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "调集",
+          "trigger_agent": "消防部门",
+          "trigger_object": "支队",
+          "agent_attri": "山东",
+          "object_attri": "青岛/临沂/东营/济南/泰安/济宁/潍坊7个",
+          "time": "",
+          "time_align": "",
+          "location": "山东日照",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "赶往",
+          "trigger_agent": "支队",
+          "trigger_object": "增援",
+          "agent_attri": "青岛/临沂/东营/济南/泰安/济宁/潍坊7个",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "山东日照",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "经过近24小时的燃烧后，明火于17日7时24分被扑灭。",
+      "event_graph": [
+        {
+          "child_event_id": "e10",
+          "trigger": "被-扑灭",
+          "trigger_agent": "明火",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "17日7时24分",
+          "time_align": "2015-07-17-07-24",
+          "location": "山东日照",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "大火造成2名消防员轻伤，无民众伤亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e11",
+          "trigger": "造成",
+          "trigger_agent": "大火",
+          "trigger_object": "轻伤",
+          "agent_attri": "",
+          "object_attri": "2名消防员",
+          "time": "",
+          "time_align": "",
+          "location": "山东日照",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e12",
+          "trigger": "无",
+          "trigger_agent": "",
+          "trigger_object": "伤亡",
+          "agent_attri": "",
+          "object_attri": "民众",
+          "time": "",
+          "time_align": "",
+          "location": "山东日照",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "消防部门采取关阀断药、冷却抑爆等方式，确保不再爆炸。",
+      "event_graph": [
+        {
+          "child_event_id": "e15",
+          "trigger": "采取",
+          "trigger_agent": "消防部门",
+          "trigger_object": "方式",
+          "agent_attri": "",
+          "object_attri": "关阀断药/冷却抑爆等",
+          "time": "",
+          "time_align": "",
+          "location": "山东日照",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e16",
+          "trigger": "确保",
+          "trigger_agent": "消防部门",
+          "trigger_object": "爆炸",
+          "agent_attri": "",
+          "object_attri": "不再",
+          "time": "",
+          "time_align": "",
+          "location": "山东日照",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "日照当地政府已经紧急疏散周围民众",
+      "event_graph": [
+        {
+          "child_event_id": "e15",
+          "trigger": "紧急疏散",
+          "trigger_agent": "政府",
+          "trigger_object": "民众",
+          "agent_attri": "日照当地",
+          "object_attri": "周围",
+          "time": "",
+          "time_align": "",
+          "location": "日照",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "当地环保人员已对石大石化公司下风向，距事故现场2公里的松树园、1.5公里的董家湖、3公里的蔡家村三个敏感点进行非甲烷总烃浓度的跟踪检测，目前尚未发现严重环境污染。",
+      "event_graph": [
+        {
+          "child_event_id": "e16",
+          "trigger": "进行",
+          "trigger_agent": "环保人员",
+          "trigger_object": "检测",
+          "agent_attri": "",
+          "object_attri": "非甲烷总烃浓度的跟踪",
+          "time": "",
+          "time_align": "",
+          "location": "石大石化公司下风向，距事故现场2公里的松树园、1.5公里的董家湖、3公里的蔡家村三个敏感点",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e17",
+          "trigger": "未-发现",
+          "trigger_agent": "环保人员",
+          "trigger_object": "环境污染",
+          "agent_attri": "",
+          "object_attri": "严重",
+          "time": "",
+          "time_align": "",
+          "location": "石大石化公司下风向，距事故现场2公里的松树园、1.5公里的董家湖、3公里的蔡家村三个敏感点",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "日照气象局的工作人员也已经赶到着火现场，将根据情况实施人工降雨。",
+      "event_graph": [
+        {
+          "child_event_id": "e18",
+          "trigger": "赶到",
+          "trigger_agent": "工作人员",
+          "trigger_object": "现场",
+          "agent_attri": "日照气象局",
+          "object_attri": "着火",
+          "time": "",
+          "time_align": "",
+          "location": "日照",
+          "organization": "日照气象局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e19",
+          "trigger": "实施",
+          "trigger_agent": "工作人员",
+          "trigger_object": "人工降雨",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "日照",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系",
+      "e11": "因果关系",
+      "e12": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    },
+    "e10": {
+      "e11": "顺承关系"
+    },
+    "e11": {
+      "e12": "并列关系",
+      "e15": "顺承关系"
+    },
+    "e12": {
+      "e15": "顺承关系"
+    },
+    "e15": {
+      "e16": "顺承关系"
+    },
+    "e16": {
+      "e17": "顺承关系"
+    },
+    "e17": {
+      "e18": "顺承关系"
+    },
+    "e18": {
+      "e19": "顺承关系"
+    }
+  }
+}

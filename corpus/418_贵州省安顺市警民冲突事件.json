@@ -1,0 +1,111 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年9月5日凌晨，贵州安顺市七眼桥镇发生一起警民冲突事件，造成两名协警死亡、两名协警受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "冲突事件",
+          "agent_attri": "",
+          "object_attri": "警民",
+          "time": "2014年9月5日凌晨",
+          "time_align": "2014-09-05-XX-XX",
+          "location": "贵州安顺市七眼桥镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "两名协警",
+          "time": "2014年9月5日凌晨",
+          "time_align": "2014-09-05-XX-XX",
+          "location": "贵州安顺市七眼桥镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "两名协警",
+          "time": "2014年9月5日凌晨",
+          "time_align": "2014-09-05-XX-XX",
+          "location": "贵州安顺市七眼桥镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前行凶者已被抓获，贵州安顺市公安局已成立专案组调查此事。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "被-抓获",
+          "trigger_agent": "行凶者",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "贵州安顺市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "成立",
+          "trigger_agent": "市公安局",
+          "trigger_object": "专案组",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "贵州安顺市",
+          "organization": "贵州安顺市公安局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "调查",
+          "trigger_agent": "专案组",
+          "trigger_object": "此事",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "贵州安顺市",
+          "organization": "贵州安顺市公安局",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

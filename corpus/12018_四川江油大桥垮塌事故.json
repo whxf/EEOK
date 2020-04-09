@@ -1,0 +1,164 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年7月9日上午11时许 ，四川省江油市绵江公路通口河老青莲大桥(正式名字为盘江大桥)发生垮塌，多辆汽车和行人掉入河中。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "大桥",
+          "trigger_object": "坍塌",
+          "agent_attri": "老青莲",
+          "object_attri": "",
+          "time": "2013年7月9日上午11时许",
+          "time_align": "2013-07-09-11-xx",
+          "location": "四川省江油市绵江公路通口河",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "掉入",
+          "trigger_agent": "汽车/行人",
+          "trigger_object": "河中",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2013年7月9日上午11时许",
+          "time_align": "2013-07-09-11-XX",
+          "location": "四川省江油市绵江公路通口河",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截至9日21时，绵阳市交通运输局已核实有5辆车坠河失踪，其中轿车1辆，微型面包车3辆，越野车1辆，已确认3人被救起，6人失踪。,",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "核实",
+          "trigger_agent": "交通运输局",
+          "trigger_object": "车坠河失踪",
+          "agent_attri": "绵阳市",
+          "object_attri": "5辆",
+          "time": "9日21时",
+          "time_align": "2013-07-09-11-XX",
+          "location": "绵阳市",
+          "organization": "绵阳市交通运输局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "确认",
+          "trigger_agent": "交通运输局",
+          "trigger_object": "救起",
+          "agent_attri": "绵阳市",
+          "object_attri": "3人",
+          "time": "9日21时",
+          "time_align": "2013-07-09-11-XX",
+          "location": "绵阳市",
+          "organization": "绵阳市交通运输局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "确认",
+          "trigger_agent": "交通运输局",
+          "trigger_object": "失踪",
+          "agent_attri": "绵阳市",
+          "object_attri": "6人",
+          "time": "9日21时",
+          "time_align": "2013-07-09-11-XX",
+          "location": "绵阳市",
+          "organization": "绵阳市交通运输局",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截止发稿日期，搜救工作仍在进行，绵阳市、江油市共出动搜救人员2756人，新增设3个搜救点，对盘江大桥至涪江入口和涪江江油段至叁台遂宁段进行24小时昼夜搜救。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "进行",
+          "trigger_agent": "搜救工作",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "绵阳市/江油市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "出动",
+          "trigger_agent": "",
+          "trigger_object": "搜救人员",
+          "agent_attri": "",
+          "object_attri": "2756人",
+          "time": "",
+          "time_align": "",
+          "location": "绵阳市/江油市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "新增设",
+          "trigger_agent": "",
+          "trigger_object": "搜救点",
+          "agent_attri": "",
+          "object_attri": "3个",
+          "time": "",
+          "time_align": "",
+          "location": "绵阳市/江油市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "进行",
+          "trigger_agent": "",
+          "trigger_object": "搜救",
+          "agent_attri": "",
+          "object_attri": "24小时昼夜",
+          "time": "",
+          "time_align": "",
+          "location": "绵阳市/江油市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "并列关系",
+      "e03": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    }
+  }
+}

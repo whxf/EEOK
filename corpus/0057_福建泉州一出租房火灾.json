@@ -1,0 +1,98 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年5月30日凌晨近4时，泉州市区发生火灾，年轻女租户不幸身亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2013年5月30日凌晨近4时",
+          "time_align": "2013-05-30-04-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发生",
+          "trigger_object": "火灾",
+          "object_attri": "",
+          "location": "泉州市区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2013年5月30日凌晨近4时",
+          "time_align": "2013-05-30-04-00",
+          "trigger_agent": "租户",
+          "agent_attri": "年轻女",
+          "trigger": "身亡",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "泉州市区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "泉州市、丰泽区两级公安刑侦部门介入调查。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "部门",
+          "agent_attri": "刑侦",
+          "trigger": "介入",
+          "trigger_object": "调查",
+          "object_attri": "",
+          "location": "泉州市、丰泽区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，此事已移交公安刑侦部门，刑警仍在全力侦查此案。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "此事",
+          "agent_attri": "",
+          "trigger": "移交",
+          "trigger_object": "刑侦部门",
+          "object_attri": "公安",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "刑警",
+          "agent_attri": "",
+          "trigger": "侦查",
+          "trigger_object": "案",
+          "object_attri": "此",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

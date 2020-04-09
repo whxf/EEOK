@@ -1,0 +1,149 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2016年9月27日早晨，宁夏石嘴山市宁夏林利煤炭有限公司煤矿三号井发生瓦斯爆炸事故，截至27日22时30分，事故已造成18人遇难，另有2人下落不明。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "井",
+          "trigger_object": "爆炸事故",
+          "agent_attri": "宁夏石嘴山市宁夏林利煤炭有限公司煤矿三号",
+          "object_attri": "瓦斯",
+          "time": "2016年9月27日早晨",
+          "time_align": "2016-09-27-07-XX",
+          "location": "宁夏石嘴山市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "遇难",
+          "agent_attri": "",
+          "object_attri": "18人",
+          "time": "27日22时30分",
+          "time_align": "2016-09-27-22-30",
+          "location": "宁夏石嘴山市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "下落不明",
+          "agent_attri": "",
+          "object_attri": "2人",
+          "time": "27日22时30分",
+          "time_align": "2016-09-27-22-30",
+          "location": "宁夏石嘴山市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "在27日早晨7时左右，井下共有20名矿工，其中1人在升井后死亡，剩余19人被困井下。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "共有",
+          "trigger_agent": "井下",
+          "trigger_object": "矿工",
+          "agent_attri": "",
+          "object_attri": "20名",
+          "time": "27日早晨7时",
+          "time_align": "2016-09-27-07-00",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "死亡",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "其中1、升井后",
+          "object_attri": "",
+          "time": "27日早晨7时",
+          "time_align": "2016-09-27-07-00",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "被-困",
+          "trigger_agent": "人",
+          "trigger_object": "井下",
+          "agent_attri": "剩余19",
+          "object_attri": "",
+          "time": "27日早晨7时",
+          "time_align": "2016-09-27-07-00",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "随着救援的展开，陆续有17名矿工的遗体被找到。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "展开",
+          "trigger_agent": "救援",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "被-找到",
+          "trigger_agent": "遗体",
+          "trigger_object": "",
+          "agent_attri": "17名矿工",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "并列关系",
+      "e07": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    }
+  }
+}

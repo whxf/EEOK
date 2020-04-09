@@ -1,0 +1,117 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年5月4日，福建宁德市福鼎一皮革工厂车间发生爆炸事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2013年5月4日",
+          "time_align": "2013-05-04-XX-XX",
+          "trigger_agent": "车间",
+          "agent_attri": "一皮革工厂",
+          "trigger": "发生",
+          "trigger_object": "爆炸事故",
+          "object_attri": "",
+          "location": "福建宁德市福鼎",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "经现场清理和反复排查，事故共造成3人死亡，1人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "现场",
+          "agent_attri": "",
+          "trigger": "清理",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "福建宁德市福鼎",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "现场",
+          "agent_attri": "",
+          "trigger": "排查",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "福建宁德市福鼎",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "事故",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "object_attri": "3人",
+          "location": "福建宁德市福鼎",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "事故",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "受伤",
+          "object_attri": "1人",
+          "location": "福建宁德市福鼎",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，福鼎市已启动事故原因调查程序。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "启动",
+          "trigger_object": "调查程序",
+          "object_attri": "事故原因",
+          "location": "福鼎市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系",
+      "e04": "因果关系",
+      "e05": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

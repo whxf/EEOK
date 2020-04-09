@@ -1,0 +1,121 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年9月26日7时许，在百色市右江区东合一路龙船巷发生一起枪击案，大约20名男子手持枪支，以汽车和楼房为掩护开枪互射。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "枪击案",
+          "object_attri": "一起",
+          "agent_attri": "",
+          "time": "2014年9月26日7时",
+          "time_align": "2014-09-26-07-XX",
+          "location": "百色市右江区东合一路龙船巷",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "手持",
+          "trigger_agent": "男子",
+          "trigger_object": "枪支",
+          "agent_attri": "大约20名",
+          "time": "2014年9月26日7时",
+          "time_align": "2014-09-26-07-XX",
+          "location": "百色市右江区东合一路龙船巷",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "开枪互射",
+          "trigger_agent": "男子",
+          "time": "2014年9月26日7时",
+          "time_align": "2014-09-26-07-XX",
+          "location": "百色市右江区东合一路龙船巷",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "冲突中，多辆汽车被打得遍体鳞伤，事件未造成人员伤亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "被-打",
+          "trigger_object": "汽车",
+          "object_attri": "多辆",
+          "time": "2014年9月26日7时",
+          "time_align": "2014-09-26-07-XX",
+          "location": "百色市右江区东合一路龙船巷",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "未-造成",
+          "trigger_agent": "事件",
+          "trigger_object": "伤亡",
+          "object_attri": "人员",
+          "time": "2014年9月26日7时",
+          "time_align": "2014-09-26-07-XX",
+          "location": "百色市右江区东合一路龙船巷",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，百色警方已成立专案组进行调查，一名犯罪嫌疑人已向警方自首。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "成立",
+          "trigger_agent": "警方",
+          "trigger_object": "专案组",
+          "agent_attri": "百色",
+          "time": "目前",
+          "time_align": "",
+          "location": "百色",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "自首",
+          "trigger_agent": "犯罪嫌疑人",
+          "trigger_object": "",
+          "agent_attri": "一名",
+          "time": "目前",
+          "time_align": "",
+          "location": "百色",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年06月03日当晚7点多，邯郸市发生一起大学生溺水事件，5人落水，其中两人安全无事，剩下3人正在被打捞当中。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "溺水事件",
+          "agent_attri": "",
+          "object_attri": "一起大学生",
+          "time": "2014年06月03日当晚7点",
+          "time_align": "2014-06-03-07-XX",
+          "location": "邯郸市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "落水",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "5",
+          "object_attri": "",
+          "time": "2014年06月03日当晚7点",
+          "time_align": "2014-06-03-07-XX",
+          "location": "邯郸市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "安全无事",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "两",
+          "object_attri": "",
+          "time": "2017年2月17日上午11点",
+          "time_align": "2017-02-17-11-XX",
+          "location": "承德市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "打捞",
+          "trigger_agent": "",
+          "trigger_object": "人",
+          "agent_attri": "",
+          "object_attri": "剩下3",
+          "time": "2017年2月17日上午11点",
+          "time_align": "2017-02-17-11-XX",
+          "location": "承德市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "其中3人已被证实抢救无效死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "被-证实",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "3",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "承德市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

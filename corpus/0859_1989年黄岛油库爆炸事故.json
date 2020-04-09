@@ -1,0 +1,235 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "1989年8月12日位于山东省青岛市黄岛油库的中国石油总公司管道局发生特大火灾爆炸事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "输油公司",
+          "trigger_object": "爆炸事故",
+          "agent_attri": "中国石油总公司管道局胜利",
+          "object_attri": "特大火灾",
+          "time": "1989年8月12日",
+          "time_align": "1989-08-12-XX-XX",
+          "location": "山东省青岛市",
+          "organization": "中国石油总公司管道局",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "该起事故共造成19人死亡，100多人受伤，直接经济损失3540万元人民币。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "死亡",
+          "agent_attri": "该起",
+          "object_attri": "19人",
+          "time": "1989年8月12日",
+          "time_align": "1989-08-12-XX-XX",
+          "location": "山东省青岛市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "受伤",
+          "agent_attri": "该起",
+          "object_attri": "100多人",
+          "time": "1989年8月12日",
+          "time_align": "1989-08-12-XX-XX",
+          "location": "山东省青岛市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "经济损失",
+          "agent_attri": "该起",
+          "object_attri": "直接、3540万元人民币",
+          "time": "1989年8月12日",
+          "time_align": "1989-08-12-XX-XX",
+          "location": "山东省青岛市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "10时15分，青岛市的消防机构立即调派距火场较近的黄岛开发区、胶州市和胶南县消防队赶往灭火。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "调派",
+          "trigger_agent": "消防机构",
+          "trigger_object": "消防队",
+          "agent_attri": "青岛市",
+          "object_attri": "距火场较近的黄岛开发区/胶州市和胶南县",
+          "time": "10时15分",
+          "time_align": "1989-08-12-10-15",
+          "location": "青岛市/黄岛开发区/胶州市和胶南县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "赶往",
+          "trigger_agent": "消防队",
+          "trigger_object": "灭火",
+          "agent_attri": "距火场较近的黄岛开发区/胶州市和胶南县",
+          "object_attri": "",
+          "time": "10时15分",
+          "time_align": "1989-08-12-10-15",
+          "location": "山东省青岛市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "救火现场撤退不及，三名消防员在救火中死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "撤退不及",
+          "trigger_agent": "现场",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "山东省青岛市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "死亡",
+          "trigger_agent": "消防人员",
+          "trigger_object": "",
+          "agent_attri": "三名",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "山东省青岛市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "次日凌晨，山东省其他地方增员而来的消防力量陆续赶到火场。",
+      "event_graph": [
+        {
+          "child_event_id": "e09",
+          "trigger": "赶到",
+          "trigger_agent": "消防力量",
+          "trigger_object": "火场",
+          "agent_attri": "山东省其他地方增员而来",
+          "object_attri": "",
+          "time": "次日凌晨",
+          "time_align": "1989-08-13-XX-XX",
+          "location": "山东省",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "至16日17时，现场明火全部扑灭。",
+      "event_graph": [
+        {
+          "child_event_id": "e10",
+          "trigger": "扑灭",
+          "trigger_agent": "明火",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "16日17时",
+          "time_align": "1989-08-16-17-XX",
+          "location": "山东省青岛市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "为纪念1989年8月在黄岛油库灭火中牺牲的19名消防员，中国政府修建了黄岛油库烈士纪念亭。",
+      "event_graph": [
+        {
+          "child_event_id": "e11",
+          "trigger": "纪念",
+          "trigger_agent": "",
+          "trigger_object": "消防员",
+          "agent_attri": "",
+          "object_attri": "1989年8月在黄岛油库灭火中牺牲的19名",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e12",
+          "trigger": "修建",
+          "trigger_agent": "政府",
+          "trigger_object": "纪念亭",
+          "agent_attri": "中国",
+          "object_attri": "黄岛油库烈士",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系",
+      "e04": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    },
+    "e10": {
+      "e11": "顺承关系"
+    },
+    "e11": {
+      "e12": "顺承关系"
+    }
+  }
+}

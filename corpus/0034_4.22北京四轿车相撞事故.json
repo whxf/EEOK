@@ -1,0 +1,130 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年4月22日18时10分许，北京市海淀区玲珑路慈寿寺桥西发生四车相撞事故，有3辆车起火。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2013年4月22日18时10分",
+          "time_align": "2013-04-22-18-10",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发生",
+          "trigger_object": "相撞事故",
+          "object_attri": "四车",
+          "location": "北京市海淀区玲珑路慈寿寺桥西",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2013年4月22日18时10分",
+          "time_align": "2013-04-22-18-10",
+          "trigger_agent": "车",
+          "agent_attri": "3辆",
+          "trigger": "起火",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "北京市海淀区玲珑路慈寿寺桥西",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "消防赶至现场扑灭大火，伤者被送往医院并接受治疗。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "消防",
+          "agent_attri": "",
+          "trigger": "赶至",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "北京市海淀区玲珑路慈寿寺桥西",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "消防",
+          "agent_attri": "",
+          "trigger": "扑灭",
+          "trigger_object": "大火",
+          "object_attri": "",
+          "location": "北京市海淀区玲珑路慈寿寺桥西",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "伤者",
+          "agent_attri": "",
+          "trigger": "被-送往",
+          "trigger_object": "医院",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "伤者",
+          "agent_attri": "",
+          "trigger": "治疗",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "直到晚上8点，交通恢复正常。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "time": "晚上8点",
+          "time_align": "2013-04-22-20-00",
+          "trigger_agent": "交通",
+          "agent_attri": "",
+          "trigger": "恢复",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "北京市海淀区玲珑路慈寿寺桥西",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

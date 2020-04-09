@@ -1,0 +1,141 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年5月20日11时许，湖北省宜昌市伍家岗区一工厂在施工过程中机器发生故障，二百吨的机械坠下，多名工人被压，目前已确定有2名工人身亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "机器",
+          "trigger_object": "故障",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2013年5月20日11时",
+          "time_align": "2013-05-20-11-XX",
+          "location": "湖北省宜昌市伍家岗区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "坠下",
+          "trigger_agent": "机械",
+          "trigger_object": "",
+          "agent_attri": "二百吨的",
+          "object_attri": "",
+          "time": "2013年5月20日11时",
+          "time_align": "2013-05-20-11-XX",
+          "location": "湖北省宜昌市伍家岗区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "被-压",
+          "trigger_agent": "工人",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "多名",
+          "time": "2013年5月20日11时",
+          "time_align": "2013-05-20-11-XX",
+          "location": "湖北省宜昌市伍家岗区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "身亡",
+          "trigger_agent": "工人",
+          "trigger_object": "",
+          "agent_attri": "2名",
+          "object_attri": "",
+          "time": "2013年5月20日11时",
+          "time_align": "2013-05-20-11-XX",
+          "location": "湖北省宜昌市伍家岗区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "宜昌市委市政府领导立即责成相关部门启动应急救援预案，安监、质监、公安等部门领导和专业技术人员当即赶赴现场，参与救援与处置。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "启动",
+          "trigger_agent": "领导",
+          "trigger_object": "应急救援预案",
+          "agent_attri": "宜昌市委市政府",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "宜昌市",
+          "organization": "宜昌市委市政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "赶赴",
+          "trigger_agent": "领导/技术人员",
+          "trigger_object": "现场",
+          "agent_attri": "安监/质监/公安等部门/专业",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "宜昌市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "参与",
+          "trigger_agent": "领导",
+          "trigger_object": "救援",
+          "agent_attri": "安监/质监/公安等部门",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "湖北省宜昌市伍家岗区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "参与",
+          "trigger_agent": "领导",
+          "trigger_object": "处置",
+          "agent_attri": "安监/质监/公安等部门",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "湖北省宜昌市伍家岗区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "并列关系"
+    }
+  }
+}

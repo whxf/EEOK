@@ -1,0 +1,103 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2011年7月19日，北京怀柔区白河大桥被超载大货车压塌。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2011年7月19日",
+          "time_align": "2011-07-19-XX-XX",
+          "trigger_agent": "桥",
+          "agent_attri": "白河大",
+          "trigger": "被-压塌",
+          "trigger_object": "车",
+          "object_attri": "超载大货",
+          "location": "北京怀柔区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "有关部门铺设紧急便道用于临时通行。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "2011年7月19日",
+          "time_align": "2011-07-19-XX-XX",
+          "trigger_agent": "有关部门",
+          "agent_attri": "",
+          "trigger": "铺设",
+          "trigger_object": "便道",
+          "object_attri": "紧急",
+          "location": "北京怀柔区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事故未造成人员伤亡，货车司机已被警方控制。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "2011年7月19日",
+          "time_align": "2011-07-19-XX-XX",
+          "trigger_agent": "事故",
+          "agent_attri": "",
+          "trigger": "未-造成",
+          "trigger_object": "伤亡",
+          "object_attri": "人员",
+          "location": "北京怀柔区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "2011年7月19日",
+          "time_align": "2011-07-19-XX-XX",
+          "trigger_agent": "司机",
+          "agent_attri": "货车",
+          "trigger": "被-控制",
+          "trigger_object": "警方",
+          "object_attri": "",
+          "location": "北京怀柔区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "肇事司机被追责。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "司机",
+          "agent_attri": "肇事",
+          "trigger": "被-追责",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2016年12月7日上午10点多，四川省宜宾市长宁县下长镇政府征用村民土地修路，该镇永利村一村民被推土机碾压致死。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "镇政府",
+          "trigger": "征用-修路",
+          "trigger_object": "土地",
+          "agent_attri": "四川省宜宾市长宁县下长",
+          "object_attri": "村民",
+          "time": "2016年12月7日上午10点",
+          "time_align": "2016-12-07-10-XX",
+          "location": "四川省宜宾市长宁县下长镇",
+          "organization": "四川省宜宾市长宁县下长镇政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "被-碾压致死",
+          "trigger_agent": "村民",
+          "trigger_object": "推土机",
+          "agent_attri": "一",
+          "object_attri": "",
+          "time": "2016年12月7日上午10点多",
+          "time_align": "2016-12-07-10-XX",
+          "location": "四川省宜宾市长宁县下长镇永利村",
+          "organization": "四川省宜宾市长宁县下长镇政府",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "长宁县委宣传部通报事故原因。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "通报",
+          "trigger_agent": "长宁县委宣传部",
+          "trigger_object": "事故原因",
+          "agent_attri": "",
+          "object_attri": "系施工操作不当，涉嫌重大责任事故罪。",
+          "time": "",
+          "time_align": "",
+          "location": "长宁县",
+          "organization": "长宁县委宣传部",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，涉事人员推土机驾驶员邱某、负责人沈某已被依法刑事拘留。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "被-拘留",
+          "trigger_agent": "涉事人员",
+          "trigger_object": "刑事",
+          "agent_attri": "推土机驾驶员邱某/负责人沈某",
+          "object_attri": "依法",
+          "time": "目前",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": "邱某、沈某"
+        }
+      ]
+    },
+    {
+      "event_sentence": "该事件引起社会大众的普遍关注。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "引起",
+          "trigger_agent": "该事件",
+          "trigger_object": "关注",
+          "agent_attri": "",
+          "object_attri": "社会大众的普遍",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

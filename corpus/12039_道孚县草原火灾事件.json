@@ -1,0 +1,194 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年12月5日12时30分左右，四川省甘孜州道孚县鲜水镇孜龙村呷乌沟突发草原火灾，15点10分左右，突起大风，22名扑救人员遇难，其中包括15名战士、5名群众、2名林业职工，因扑救大火导致4名群众受伤，其中3名重伤员已送往康定救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "",
+          "trigger": "突发",
+          "trigger_object": "火灾",
+          "agent_attri": "",
+          "object_attri": "草原",
+          "time": "2010年12月5日12时30分",
+          "time_align": "2010-12-05-12-30",
+          "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger_agent": "",
+          "trigger": "突起",
+          "trigger_object": "大风",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "15点10分",
+          "time_align": "2010-12-5-15-10",
+          "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger_agent": "",
+          "trigger": "遇难",
+          "trigger_object": "人员",
+          "agent_attri": "",
+          "object_attri": "22名扑救",
+          "time": "15点10分",
+          "time_align": "2010-12-5-15-10",
+          "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger_agent": "",
+          "trigger": "导致",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "4名群众",
+          "time": "15点10分",
+          "time_align": "2010-12-5-15-10",
+          "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger_agent": "重伤人员",
+          "trigger": "送往-救治",
+          "trigger_object": "",
+          "agent_attri": "3名",
+          "object_attri": "康定",
+          "time": "15点10分",
+          "time_align": "2010-12-5-15-10",
+          "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "12月6日凌晨，现场参与救火人员正在等待时机彻底扑灭大火。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "扑灭",
+          "trigger_agent": "救火人员",
+          "trigger_object": "大火",
+          "agent_attri": "",
+          "object_attri": "彻底",
+          "time": "12月6日凌晨",
+          "time_align": "2010-12-06-XX-XX",
+          "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2010年12月06日，四川甘孜州纪委和检察院开始调查道孚县草原火灾原因。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "调查",
+          "trigger_agent": "",
+          "trigger_object": "火灾原因",
+          "agent_attri": "四川甘孜州纪委和检察院",
+          "object_attri": "",
+          "time": "2010年12月6日",
+          "time_align": "2010-12-06-XX-XX",
+          "location": "道孚县",
+          "organization": "四川甘孜州纪委和检察院",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "四川道孚火灾15名战士为营救被困民众遇难。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "trigger": "遇难",
+          "trigger_agent": "战士",
+          "trigger_object": "",
+          "agent_attri": "四川道孚火灾15名",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "四川道孚",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2010年12月07日，四川道孚万人夹道送别火灾中遇难15名战士。",
+      "event_graph": [
+        {
+          "child_event_id": "e09",
+          "trigger": "送别",
+          "trigger_agent": "万人",
+          "trigger_object": "战士",
+          "agent_attri": "火灾中遇难15名",
+          "object_attri": "",
+          "time": "2010年12月07日",
+          "time_align": "",
+          "location": "四川道孚",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2010年12月09日，道孚火灾4名群众2名公务人员被追认为革命烈士。",
+      "event_graph": [
+        {
+          "child_event_id": "e10",
+          "trigger": "被-追认为",
+          "trigger_agent": "群众/公务人员",
+          "trigger_object": "革命烈士",
+          "agent_attri": "4名/2名",
+          "object_attri": "",
+          "time": "2010年12月09日",
+          "time_align": "2010-12-09-XX-XX",
+          "location": "道孚",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系",
+      "e04": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    }
+  }
+}

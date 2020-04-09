@@ -1,0 +1,146 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年5月5日13时30分，川AA7886中型普通客车（核载19人，当时搭乘20人），在四川中江县南华镇高桥村10组路段一处下坡弯道发生侧翻，造成3人重伤、17人轻伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "客车",
+          "trigger": "发生",
+          "trigger_object": "侧翻",
+          "agent_attri": "川AA7886中型普通",
+          "time": "2014年5月5日13时30分",
+          "time_align": "2014-05-05-13-30",
+          "location": "四川中江县南华镇高桥村10组路段一处下坡弯道",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "重伤",
+          "agent_attri": "",
+          "object_attri": "3人",
+          "time": "2014年5月5日13时30分",
+          "time_align": "2014-05-05-13-30",
+          "location": "四川中江县南华镇高桥村10组路段一处下坡弯道",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "轻伤",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "17人",
+          "time": "2014年5月5日13时30分",
+          "time_align": "2014-05-05-13-30",
+          "location": "四川中江县南华镇高桥村10组路段一处下坡弯道",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "14时30分左右，受伤人员全部送往中江县人民医院救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "送往",
+          "trigger_agent": "受伤人员",
+          "trigger_object": "医院",
+          "agent_attri": "",
+          "object_attri": "中江县人民",
+          "time": "14时30分",
+          "time_align": "2014-05-05-14-30",
+          "location": "中江县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "救治",
+          "trigger_agent": "医院",
+          "trigger_object": "受伤人员",
+          "agent_attri": "",
+          "object_attri": "中江县人民",
+          "time": "14时30分",
+          "time_align": "2014-05-05-14-30",
+          "location": "中江县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "当天，中江县政府随后立即启动事故应急预案，迅速组织医疗救援，对受伤人员采取一对一的救治方案。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "启动",
+          "trigger_agent": "政府",
+          "trigger_object": "事故应急预案",
+          "agent_attri": "中江县",
+          "object_attri": "",
+          "time": "当天",
+          "time_align": "2014-05-05-XX-XX",
+          "location": "中江县",
+          "organization": "中江县政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "组织",
+          "trigger_agent": "政府",
+          "trigger_object": "医疗救援",
+          "agent_attri": "中江县",
+          "object_attri": "",
+          "time": "当天",
+          "time_align": "2014-05-05-XX-XX",
+          "location": "中江县",
+          "organization": "中江县政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "采取",
+          "trigger_agent": "政府",
+          "trigger_object": "救治方案",
+          "agent_attri": "中江县",
+          "object_attri": "一对一",
+          "time": "当天",
+          "time_align": "2014-05-05-XX-XX",
+          "location": "中江县",
+          "organization": "中江县政府",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系",
+      "e01": "因果关系",
+      "e04": "顺承关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e08": "顺承关系"
+    }
+  }
+}

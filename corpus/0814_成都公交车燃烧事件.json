@@ -1,0 +1,100 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2009年06月05日上午8点02分，成都市公共交通集团北星公司的一辆牌号为川A49567的、满载乘客的9路公交车在行驶至成都动物园附近、市北三环川陕立交桥下桥处时发生燃烧。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "公交车",
+          "trigger_object": "燃烧",
+          "agent_attri": "成都市公共交通集团北星公司的一辆牌号为川A49567的、满载乘客的9路",
+          "object_attri": "",
+          "time": "2009年06月05日上午8点02分",
+          "time_align": "2009-06-05-08-02",
+          "location": "成都动物园附近、市北三环川陕立交桥下桥处",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "该事件造成27人遇难，74人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "事件",
+          "trigger_object": "遇难",
+          "agent_attri": "该",
+          "object_attri": "27人",
+          "time": "",
+          "time_align": "2009-06-05-08-02",
+          "location": "成都动物园附近、市北三环川陕立交桥下桥处",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "事件",
+          "trigger_object": "受伤",
+          "agent_attri": "该",
+          "object_attri": "74人",
+          "time": "",
+          "time_align": "2009-06-05-08-02",
+          "location": "成都动物园附近、市北三环川陕立交桥下桥处",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2009年7月2日该案告破，系故意放火案，犯罪嫌疑人张云良已当场死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "告破",
+          "trigger_agent": "案",
+          "trigger_object": "",
+          "agent_attri": "该",
+          "object_attri": "",
+          "time": "2009年7月2日",
+          "time_align": "2009-07-02-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "死亡",
+          "trigger_agent": "张玉良",
+          "trigger_object": "",
+          "agent_attri": "犯罪嫌疑人",
+          "object_attri": "",
+          "time": "2009年7月2日",
+          "time_align": "2009-07-07-XX-XX",
+          "location": "成都动物园附近、市北三环川陕立交桥下桥处",
+          "organization": "",
+          "person": "张云良"
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

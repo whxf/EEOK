@@ -1,0 +1,116 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年3月1日7时20分骆驼山煤矿发生重大透水事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "煤矿",
+          "trigger_object": "透水事故",
+          "agent_attri": "骆驼山",
+          "object_attri": "重大",
+          "time": "2010年3月1日7时20分",
+          "time_align": "2010-03-01-07-20",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "此次透水事故共造成32人遇难、7人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "透水事故",
+          "trigger_object": "遇难",
+          "agent_attri": "此次",
+          "object_attri": "32人",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "透水事故",
+          "trigger_object": "受伤",
+          "agent_attri": "此次",
+          "object_attri": "7人",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事故矿井出现透水征兆后，现场撤离不及时造成大量人员伤亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "出现",
+          "trigger_agent": "矿井",
+          "trigger_object": "透水征兆",
+          "agent_attri": "事故",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "撤离",
+          "trigger_agent": "现场",
+          "trigger_object": "不及时",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "伤亡",
+          "agent_attri": "大量人员",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "因果关系"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "1994年12月8日，克拉玛依市教委和新疆石油管理局教育培训中心在克拉玛依市友谊馆举办迎接新疆维吾尔自治区“两基”（基本普及九年义务教育、基本扫除青壮年文盲）评估验收团专场文艺演出活动。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "",
+          "trigger": "举办",
+          "trigger_object": "活动",
+          "agent_attri": "",
+          "object_attri": "文艺演出",
+          "time": "1994年12月8日",
+          "time_align": "1994-12-08-XX-XX",
+          "location": "克拉玛依市友谊馆",
+          "organization": "克拉玛依市教委/新疆石油管理局教育培训中心",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "全市7所中学、8所小学的学生、教师及有关领导共796人参加。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "参加",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "全市7所中学/8所小学的学生/教师及有关领导共796",
+          "object_attri": "",
+          "time": "1994年12月8日",
+          "time_align": "1994-12-08-XX-XX",
+          "location": "克拉玛依市友谊馆",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "在演出过程中，18时20分左右，舞台纱幕被光柱灯烤燃，火势迅速蔓延至剧厅，各种易燃材料燃烧后产生大量有害气体，由于友谊馆内很多安全门紧锁，从而酿成325人死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "被-烤燃",
+          "trigger_agent": "舞台纱幕",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "18时20分左右",
+          "time_align": "1994-12-18-20-XX",
+          "location": "克拉玛依市友谊馆",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "产生",
+          "trigger_agent": "易燃材料",
+          "trigger_object": "有害气体",
+          "agent_attri": "",
+          "object_attri": "大量",
+          "time": "18时20分左右",
+          "time_align": "1994-12-18-20-XX",
+          "location": "克拉玛依市友谊馆",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "蔓延",
+          "trigger_agent": "火势",
+          "trigger_object": "剧厅",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "18时20分左右",
+          "time_align": "1994-12-18-20-XX",
+          "location": "克拉玛依市友谊馆",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "酿成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "325人",
+          "time": "18时20分左右",
+          "time_align": "1994-12-18-20-XX",
+          "location": "克拉玛依市友谊馆",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "该事件引起社会大众的普遍关注。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "引起",
+          "trigger_agent": "该事件",
+          "trigger_object": "普遍关注",
+          "agent_attri": "",
+          "object_attri": "社会大众的",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系"
+    },
+    "e05": {
+      "e06": "因果关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

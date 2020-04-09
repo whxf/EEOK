@@ -1,0 +1,98 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年1月17日18时50分左右，大连金州桃园小区液化气站发生爆炸。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "液化气站",
+          "trigger_object": "爆炸",
+          "agent_attri": "大连金州桃园小区",
+          "object_attri": "",
+          "time": "2015年1月17日18时50分",
+          "time_align": "2015-01-17-18-50",
+          "location": "大连金州桃园小区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "附近居民已经被疏散，火焰高有几层楼高，公安、消防车、120已经赶到现场。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "被-疏散",
+          "trigger_agent": "居民",
+          "trigger_object": "",
+          "agent_attri": "附近",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "大连金州桃园小区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "赶到",
+          "trigger_agent": "公安、消防车、120",
+          "trigger_object": "现场",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "大连金州桃园小区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前处于警戒状态，四五十辆消防车在现场待命。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "处于",
+          "trigger_agent": "",
+          "trigger_object": "状态",
+          "agent_attri": "",
+          "object_attri": "警戒",
+          "time": "目前",
+          "time_align": "",
+          "location": "大连金州桃园小区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "待命",
+          "trigger_agent": "消防车",
+          "trigger_object": "",
+          "agent_attri": "四五十辆",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "大连金州桃园小区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

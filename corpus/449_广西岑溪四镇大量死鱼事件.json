@@ -1,0 +1,172 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "岑溪镇，9月22日至25日出现大量网箱养鱼死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "出现",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "大量网箱养鱼",
+          "time": "9月22日至25日",
+          "time_align": "XXXX-09-22-XX-XX",
+          "location": "岑溪镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "当地居民担心上游广东信宜紫金尾矿库垮坝，造成水体污染。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "担心",
+          "trigger_agent": "居民",
+          "trigger_object": "垮坝",
+          "agent_attri": "当地",
+          "object_attri": "上游广东信宜紫金尾矿库",
+          "time": "",
+          "time_align": "",
+          "location": "岑溪镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "垮塌",
+          "trigger_agent": "矿库",
+          "trigger_object": "",
+          "agent_attri": "上游广东信宜紫金尾",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "岑溪镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "污染",
+          "agent_attri": "",
+          "object_attri": "水体",
+          "time": "",
+          "time_align": "",
+          "location": "岑溪镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "岑溪镇水产部门要求，死鱼被打捞后，统一进行深埋，不能加工、出售和食用",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "要求",
+          "trigger_agent": "水产部门",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "岑溪镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "被-打捞",
+          "trigger_agent": "死鱼",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "岑溪镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "进行",
+          "trigger_agent": "",
+          "trigger_object": "深埋",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "不能",
+          "trigger_agent": "",
+          "trigger_object": "加工",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "岑溪镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "不能",
+          "trigger_agent": "",
+          "trigger_object": "出售",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "岑溪镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e10",
+          "trigger": "不能",
+          "trigger_agent": "",
+          "trigger_object": "食用",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "因果关系"
+    },
+    "e04": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    }
+  }
+}

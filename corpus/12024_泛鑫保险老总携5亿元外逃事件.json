@@ -1,0 +1,162 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年8月15日，上海最大保险中介机构——泛鑫保险公司的美女高管陈怡携5亿元巨款外逃加拿大，该事件震惊了国内整个保险业。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "外逃",
+          "trigger": "高管",
+          "trigger_object": "加拿大",
+          "agent_attri": "上海最大保险中介机构——泛鑫保险公司的美女",
+          "object_attri": "",
+          "time": "2013年8月15日",
+          "time_align": "2013-08-15-XX-XX",
+          "location": "",
+          "organization": "泛鑫保险公司",
+          "person": "陈怡"
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "震惊",
+          "trigger_agent": "事件",
+          "trigger_object": "保险业",
+          "agent_attri": "",
+          "object_attri": "国内整个",
+          "time": "2013年8月15日",
+          "time_align": "2013-08-15-XX-XX",
+          "location": "上海",
+          "organization": "",
+          "person": "陈怡"
+        }
+      ]
+    },
+    {
+      "event_sentence": "同日，海保监局发布简要公告：在检查中发现上海泛鑫保险代理有限公司擅自销售自制的固定收益理财协议，上海市公安机关已立案侦查",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "发布",
+          "trigger_agent": "海保监局",
+          "trigger_object": "公告",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "海保监局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "销售",
+          "trigger_agent": "公司",
+          "trigger_object": "理财协议",
+          "agent_attri": "上海泛鑫保险代理有限",
+          "object_attri": "固定收益",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "上海泛鑫保险代理有限公司",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "立案",
+          "trigger_agent": "公安机关",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "上海市",
+          "organization": "上海市公安机关",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "侦查",
+          "trigger_agent": "公安机关",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "上海市",
+          "organization": "上海市公安机关",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2013年8月19日，中国警方与斐济执法部门通力合作，在斐济成功抓获涉嫌经济犯罪人陈怡，并于8月19日晚将陈怡押解回国。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "合作",
+          "trigger_agent": "中国警方",
+          "trigger_object": "斐济执法部门",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2013年8月19日",
+          "time_align": "2013-08-19-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "陈怡"
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "抓获",
+          "trigger_agent": "警方",
+          "trigger_object": "犯罪人",
+          "agent_attri": "中国",
+          "object_attri": "涉嫌经济",
+          "time": "2013年8月19日",
+          "time_align": "2013-08-19-XX-XX",
+          "location": "斐济",
+          "organization": "",
+          "person": "陈怡"
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "押解",
+          "trigger_agent": "中国警方",
+          "trigger_object": "回国",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "8月19日晚",
+          "time_align": "2013-08-19-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "陈怡"
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    }
+  }
+}

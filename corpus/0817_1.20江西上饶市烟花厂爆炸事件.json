@@ -1,0 +1,185 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2016年1月20日0时20分左右，位于上饶市广丰区洋口镇一烟花厂发生爆炸事件，目前伤亡情况不明。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "烟花厂",
+          "trigger_object": "爆炸事件",
+          "agent_attri": "一",
+          "object_attri": "",
+          "time": "2016年1月20日0时20分",
+          "time_align": "2016-01-20-00-20",
+          "location": "上饶市广丰区洋口镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截至20日11时30分，该事件已致3死53伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "致",
+          "trigger_agent": "事件",
+          "trigger_object": "死",
+          "agent_attri": "该",
+          "object_attri": "3",
+          "time": "20日11时30分",
+          "time_align": "2016-01-20-11-30",
+          "location": "上饶市广丰区洋口镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "致",
+          "trigger_agent": "事件",
+          "trigger_object": "伤",
+          "agent_attri": "该",
+          "object_attri": "53",
+          "time": "20日11时30分",
+          "time_align": "2016-01-20-11-30",
+          "location": "上饶市广丰区洋口镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "当地已经启动应急预案，当地官员赶赴现场指挥事故救援工作，要求全力以赴抢救伤者，尽快查明事故原因。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "启动",
+          "trigger_agent": "当地",
+          "trigger_object": "预案",
+          "agent_attri": "",
+          "object_attri": "应急",
+          "time": "",
+          "time_align": "",
+          "location": "上饶市广丰区洋口镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "赶赴",
+          "trigger_agent": "官员",
+          "trigger_object": "现场",
+          "agent_attri": "当地",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "上饶市广丰区洋口镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "指挥",
+          "trigger_agent": "官员",
+          "trigger_object": "工作",
+          "agent_attri": "当地",
+          "object_attri": "事故救援",
+          "time": "",
+          "time_align": "",
+          "location": "上饶市广丰区洋口镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "要求",
+          "trigger_agent": "官员",
+          "trigger_object": "",
+          "agent_attri": "当地",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "上饶市广丰区洋口镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "抢救",
+          "trigger_agent": "官员",
+          "trigger_object": "伤者",
+          "agent_attri": "当地",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "上饶市广丰区洋口镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "广丰区成立了现场指挥部，下设事故调查、应急救援、医疗救治、善后安抚、宣传报道等工作组。",
+      "event_graph": [
+        {
+          "child_event_id": "e09",
+          "trigger": "成立",
+          "trigger_agent": "区",
+          "trigger_object": "指挥部",
+          "agent_attri": "广丰",
+          "object_attri": "现场",
+          "time": "",
+          "time_align": "",
+          "location": "广丰区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e10",
+          "trigger": "下设",
+          "trigger_agent": "",
+          "trigger_object": "工作组",
+          "agent_attri": "",
+          "object_attri": "事故调查、应急救援、医疗救治、善后安抚、宣传报道等",
+          "time": "",
+          "time_align": "",
+          "location": "广丰区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    }
+  }
+}

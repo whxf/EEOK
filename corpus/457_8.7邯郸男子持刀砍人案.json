@@ -1,0 +1,184 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2017年8月7日上午11时许，河北省邯郸市武安市中兴路西岭湖大药房门前，一男子持刀砍向路人，导致3人死亡4人重伤",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "持",
+          "trigger_agent": "男子",
+          "trigger_object": "刀",
+          "agent_attri": "一",
+          "object_attri": "",
+          "time": "2017年8月7日上午11时",
+          "time_align": "2017-08-07-11-00",
+          "location": "河北省邯郸市武安市中兴路西岭湖大药房门前",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "砍",
+          "trigger_agent": "",
+          "trigger_object": "路人",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2017年8月7日上午11时",
+          "time_align": "2017-08-07-11-00",
+          "location": "河北省邯郸市武安市中兴路西岭湖大药房门前",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "导致",
+          "trigger_agent": "",
+          "trigger_object": "死亡/重伤",
+          "agent_attri": "",
+          "object_attri": "3人/4人",
+          "time": "2017年8月7日上午11时",
+          "time_align": "2017-08-07-11-00",
+          "location": "河北省邯郸市武安市中兴路西岭湖大药房门前",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "10时23分，武安市公安局迅速组织80名民警赶往现场。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "组织",
+          "trigger_agent": "公安局",
+          "trigger_object": "民警",
+          "agent_attri": "武安市",
+          "object_attri": "80名",
+          "time": "10时23分",
+          "time_align": "2017-08-07-10-23",
+          "location": "武安市",
+          "organization": "武安市公安局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "赶往",
+          "trigger_agent": "民警",
+          "trigger_object": "现场",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "10时23分",
+          "time_align": "2017-08-07-10-23",
+          "location": "武安市",
+          "organization": "武安市公安局",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，7名受伤群众被送往武安市第一人民医院抢救，受伤的7名群众中有3人经抢救无效死亡，4人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "被-送往",
+          "trigger_agent": "受伤群众",
+          "trigger_object": "医院",
+          "agent_attri": "7名",
+          "object_attri": "武安市第一人民",
+          "time": "目前",
+          "time_align": "",
+          "location": "武安市",
+          "organization": "武安市第一人民医院",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "死亡",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "3",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "武安市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "受伤",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "4",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "武安市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "武安市委、市政府成立善后处置等工作组，启动相关善后处置工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e09",
+          "trigger": "成立",
+          "trigger_agent": "市委/市政府",
+          "trigger_object": "工作组",
+          "agent_attri": "武安市",
+          "object_attri": "善后处置",
+          "time": "",
+          "time_align": "",
+          "location": "武安市",
+          "organization": "武安市委/市政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e10",
+          "trigger": "启动",
+          "trigger_agent": "善后处置工作",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "武安市",
+          "organization": "武安市委、市政府",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "因果关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "并列关系",
+      "e09": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    }
+  }
+}

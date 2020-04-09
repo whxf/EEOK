@@ -1,0 +1,139 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2003年10月25日20时41分36.3秒，在北纬38.4°、东经101.2°，即甘肃民乐至山丹交界地区发生一次MS6.1级地震，20时48分零2.6秒，在北纬38.4°、东经101.1°再次发生一次MS5.8级地震。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2003年10月25日20时41分36.3秒",
+          "time_align": "2003-10-25-20-41",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发生",
+          "trigger_object": "地震",
+          "object_attri": "一次MS6.1级",
+          "location": "甘肃民乐至山丹交界地区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "20时48分零2.6秒",
+          "time_align": "2003-10-25-20-48",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "再次-发生",
+          "trigger_object": "地震",
+          "object_attri": "一次MS5.8级",
+          "location": "甘肃民乐至山丹交界地区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截止26日13时，共发生大于MS1.0级余震181次，其中最大余震震级为MS4.8级。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "26日13时",
+          "time_align": "2003-10-26-13-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发生",
+          "trigger_object": "余震",
+          "object_attri": "大于MS1.0级/181次",
+          "location": "甘肃民乐至山丹交界地区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截至15时统计，地震已造成民乐、山丹、肃南3县、22个乡镇受灾，受灾人口4.59万户、13.7万人。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "15时",
+          "time_align": "2003-10-26-15-00",
+          "trigger_agent": "地震",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "受灾",
+          "object_attri": "3县22个乡镇",
+          "location": "民乐/山丹/肃南",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "地震还造成1万多户居民房屋倒塌，大量房屋受损，并导致灾区交通、通讯、水利和电力等基础设施严重损毁。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "地震",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "倒塌",
+          "object_attri": "1万多户居民房屋",
+          "location": "民乐/山丹/肃南",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "地震",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "受损",
+          "object_attri": "大量房屋",
+          "location": "民乐/山丹/肃南",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "地震",
+          "agent_attri": "",
+          "trigger": "导致",
+          "trigger_object": "损毁",
+          "object_attri": "基础设施严重",
+          "location": "民乐/山丹/肃南",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "因果关系",
+      "e05": "因果关系",
+      "e06": "因果关系",
+      "e07": "因果关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "因果关系"
+    },
+    "e06": {
+      "e07": "顺承关系",
+      "e05": "因果关系"
+    }
+  }
+}

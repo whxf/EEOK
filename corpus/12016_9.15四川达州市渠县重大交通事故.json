@@ -1,0 +1,130 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年9月15日，四川省达州市渠县发生一起重大交通事故，一辆由渠县三汇镇开往渠县县城的客车，与一辆满载河沙和鹅卵石的货车（川S37789)相撞，导致客车当场侧翻。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "",
+          "trigger": "发生",
+          "trigger_object": "交通事故",
+          "agent_attri": "",
+          "object_attri": "重大",
+          "time": "2013年9月15日",
+          "time_align": "2013-09-15-XX-XX",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "开往",
+          "trigger_agent": "客车",
+          "trigger_object": "县城",
+          "agent_attri": "一辆由渠县三汇镇开往渠县县城的",
+          "object_attri": "渠县",
+          "time": "2013年9月15日",
+          "time_align": "2013-09-15-XX-XX",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "相撞",
+          "trigger_agent": "",
+          "trigger_object": "货车",
+          "agent_attri": "",
+          "object_attri": "一辆满载河沙和鹅卵石的",
+          "time": "2013年9月15日",
+          "time_align": "2013-09-15-XX-XX",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "导致",
+          "trigger_agent": "",
+          "trigger_object": "客车当场侧翻",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2013年9月15日",
+          "time_align": "2013-09-15-XX-XX",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截至19点20分，现场紧急救援出25人（其中客车24人、货车1人）。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "救援",
+          "trigger_agent": "现场",
+          "trigger_object": "人",
+          "agent_attri": "紧急",
+          "object_attri": "25",
+          "time": "19点20分",
+          "time_align": "2013-09-15-19-20",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事故调查报告提出，对达州市亚通运业有限公司、达州运输(集团)有限公司渠县通林分公司、渠县多江汽车维修部、达州市山力汽车修理厂依法给予行政处罚。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "提出",
+          "trigger_agent": "调查报告",
+          "trigger_object": "",
+          "agent_attri": "事故",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "达州市",
+          "organization": "达州市亚通运业有限公司/达州运输(集团)有限公司渠县通林分公司/渠县多江汽车维修部/达州市山力汽车修理厂",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "给予",
+          "trigger_agent": "",
+          "trigger_object": "行政处罚",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "达州市",
+          "organization": "达州市亚通运业有限公司/达州运输(集团)有限公司渠县通林分公司/渠县多江汽车维修部/达州市山力汽车修理厂",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "因果关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

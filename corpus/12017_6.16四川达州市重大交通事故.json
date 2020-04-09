@@ -1,0 +1,180 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年6月16日，四川省达州市渠县发生一起重大交通事故，一辆由渠县三汇镇开往渠县县城的客车（川S31500，核载24人，实载27人）行至李馥乡境内平桥处，与一辆满载河沙和鹅卵石的货车（川S37789)相撞，导致客车侧翻至河沟内，并被侧翻货车的河沙和鹅卵石掩埋。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "",
+          "trigger": "发生",
+          "trigger_object": "交通事故",
+          "agent_attri": "",
+          "object_attri": "重大",
+          "time": "2015年6月16日",
+          "time_align": "2015-06-16-XX-XX",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "开往",
+          "trigger_agent": "客车",
+          "trigger_object": "县城",
+          "agent_attri": "川S31500，核载24人，实载27人",
+          "object_attri": "渠县",
+          "time": "2015年6月16日",
+          "time_align": "2015-06-16-XX-XX",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "相撞",
+          "trigger_agent": "",
+          "trigger_object": "货车",
+          "agent_attri": "",
+          "object_attri": "一辆满载河沙和鹅卵石的",
+          "time": "2015年6月16日",
+          "time_align": "2015-06-16-XX-XX",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "导致",
+          "trigger_agent": "",
+          "trigger_object": "客车侧翻至沟内",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2015年6月16日",
+          "time_align": "2015-06-16-XX-XX",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "导致",
+          "trigger_agent": "",
+          "trigger_object": "客车被侧翻货车的河沙和鹅卵石掩埋",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2015年6月16日",
+          "time_align": "2015-06-16-XX-XX",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截至19点20分，现场紧急救援出25人（其中客车24人、货车1人）。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "救援",
+          "trigger_agent": "现场",
+          "trigger_object": "25人",
+          "agent_attri": "紧急",
+          "object_attri": "",
+          "time": "19点20分",
+          "time_align": "2015-06-16-19-20",
+          "location": "四川省达州市渠县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "四川省政府依法成立了由四川省安全监管局，与此次渠县重大道路交通事故调查组，并邀请省检察院参加事故调查。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "成立",
+          "trigger_agent": "政府",
+          "trigger_object": "安全监管局",
+          "agent_attri": "四川",
+          "object_attri": "省",
+          "time": "",
+          "time_align": "",
+          "location": "四川省",
+          "organization": "四川省安全监管局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "成立",
+          "trigger_agent": "政府",
+          "trigger_object": "调查组",
+          "agent_attri": "四川",
+          "object_attri": "渠县重大道路交通事故",
+          "time": "",
+          "time_align": "",
+          "location": "四川省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "邀请",
+          "trigger_agent": "政府",
+          "trigger_object": "检察院",
+          "agent_attri": "四川",
+          "object_attri": "省",
+          "time": "",
+          "time_align": "",
+          "location": "四川省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e10",
+          "trigger": "参与",
+          "trigger_agent": "检察院",
+          "trigger_object": "调查",
+          "agent_attri": "省",
+          "object_attri": "事故",
+          "time": "",
+          "time_align": "",
+          "location": "四川省",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "因果关系",
+      "e05": "因果关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    }
+  }
+}

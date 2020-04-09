@@ -1,0 +1,98 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年6月4日17时左右，山西省太原市一处施工工地突发大火，火势凶猛致方圆数百米内烟雾缭绕，烟雾高达百余米。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "突发",
+          "trigger_agent": "工地",
+          "trigger_object": "大火",
+          "agent_attri": "山西省太原市一处施工",
+          "object_attri": "",
+          "time": "2012年6月4日17时",
+          "time_align": "2012-06-04-17-XX",
+          "location": "山西省太原市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "太原市消防部门已出动20余辆消防车，医护人员也赶赴现场随时待命。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "出动",
+          "trigger_agent": "部门",
+          "trigger_object": "消防车",
+          "agent_attri": "太原市消防",
+          "object_attri": "20余辆",
+          "time": "",
+          "time_align": "",
+          "location": "太原市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "赶赴",
+          "trigger_agent": "人员",
+          "trigger_object": "现场",
+          "agent_attri": "医护",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "太原市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "赶赴",
+          "trigger_agent": "人员",
+          "trigger_object": "现场",
+          "agent_attri": "医护",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "太原市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "具体事故原因还在进一步调查中。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "被-调查",
+          "trigger_agent": "原因",
+          "trigger_object": "",
+          "agent_attri": "具体事故",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

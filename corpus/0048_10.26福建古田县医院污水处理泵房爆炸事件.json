@@ -1,0 +1,93 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年10月26日晚19:57分，福建宁德市古田县医院污水处理泵房发生爆炸。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2015年10月26日晚19:57分",
+          "time_align": "2015-10-26-19-57",
+          "trigger_agent": "泵房",
+          "agent_attri": "医院污水处理",
+          "trigger": "发生",
+          "trigger_object": "爆炸",
+          "object_attri": "",
+          "location": "福建宁德市古田县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": " 古田县消防大队迅速出动3辆消防车赶赴现场，目前火势已被扑灭，未发现人员死亡，现场在进一步清理中。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "消防车",
+          "agent_attri": "3辆",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "福建宁德市古田县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "火势",
+          "agent_attri": "",
+          "trigger": "被-扑灭",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "福建宁德市古田县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "未-发现",
+          "trigger_object": "死亡",
+          "object_attri": "人员",
+          "location": "福建宁德市古田县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "清理",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "福建宁德市古田县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

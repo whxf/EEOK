@@ -1,0 +1,111 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年7月3日下午4时30分，湖北黄石工矿集团袁仓煤矿发生一起瓦斯爆炸事故，被困井下的7名矿工3人当场遇难，1人重伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "煤矿",
+          "trigger_object": "爆炸事故",
+          "agent_attri": "工矿集团袁仓",
+          "object_attri": "一起瓦斯",
+          "time": "2010年7月3日下午4时30分",
+          "time_align": "2010-07-03-04-30",
+          "location": "湖北黄石",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "遇难",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "3",
+          "object_attri": "",
+          "time": "2010年7月3日下午4时30分",
+          "time_align": "2010-07-03-04-30",
+          "location": "湖北黄石",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "重伤",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "1",
+          "object_attri": "",
+          "time": "2010年7月3日下午4时30分",
+          "time_align": "2010-07-03-04-30",
+          "location": "湖北黄石",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事故发生后，黄石市委、市政府高度重视，迅速组织力量进行救援。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "重视",
+          "trigger_agent": "市委/市政府",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "黄石市",
+          "organization": "黄石市委/市政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "组织",
+          "trigger_agent": "市委/市政府",
+          "trigger_object": "力量",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "黄石市",
+          "organization": "黄石市委/市政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "救援",
+          "trigger_agent": "市委/市政府",
+          "trigger_object": "",
+          "agent_attri": "1",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "黄石市",
+          "organization": "黄石市委/市政府",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

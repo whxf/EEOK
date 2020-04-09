@@ -1,0 +1,135 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年6月9日，肃宁县发生特大枪击案，案件造成4死5伤，包括肃宁县公安局政委在内的两名干警牺牲。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "枪击案",
+          "agent_attri": "",
+          "object_attri": "特大",
+          "time": "2015年6月9日",
+          "time_align": "2015-06-09-XX-XX",
+          "location": "肃宁县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死/伤",
+          "agent_attri": "",
+          "object_attri": "4/5",
+          "time": "2015年6月9日",
+          "time_align": "2015-06-09-XX-XX",
+          "location": "肃宁县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "牺牲",
+          "trigger_agent": "干警",
+          "trigger_object": "",
+          "agent_attri": "包括肃宁县公安局政委在内的两名",
+          "object_attri": "",
+          "time": "2015年6月9日",
+          "time_align": "2015-06-09-XX-XX",
+          "location": "肃宁县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "6月10日凌晨4时许，牺牲干警薛永清的妻子因悲伤过度从位于肃宁县最北部的金恩大酒店跳楼身亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "跳楼",
+          "trigger_agent": "妻子",
+          "trigger_object": "身亡",
+          "agent_attri": "牺牲干警的",
+          "object_attri": "",
+          "time": "6月10日凌晨4时",
+          "time_align": "2015-06-10-04-XX",
+          "location": "肃宁县最北部的金恩大酒店",
+          "organization": "",
+          "person": "薛永清"
+        }
+      ]
+    },
+    {
+      "event_sentence": "6月12日上午，在河北省沧州市肃宁县举行关于在处置肃宁特大持枪杀人案中英勇牺牲的薛永清、袁帅同志的追悼会。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "举行",
+          "trigger_agent": "",
+          "trigger_object": "追悼会",
+          "agent_attri": "",
+          "object_attri": "在处置肃宁特大持枪杀人案中英勇牺牲的薛永清、袁帅同志的",
+          "time": "6月12日上午",
+          "time_align": "2015-06-12-XX-XX",
+          "location": "河北省沧州市肃宁县",
+          "organization": "",
+          "person": "薛永清/袁帅"
+        }
+      ]
+    },
+    {
+      "event_sentence": "6月12日上午，河北省委、省政府追授薛永清、袁帅“人民卫士”荣誉称号，河北省政府评定薛永清、袁帅为烈士。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "追授",
+          "trigger_agent": "省委/省政府",
+          "trigger_object": "“人民卫士”荣誉称号",
+          "agent_attri": "河北",
+          "object_attri": "薛永清/袁帅",
+          "time": "6月12日上午",
+          "time_align": "2015-06-12-XX-XX",
+          "location": "河北省",
+          "organization": "河北省委/省政府",
+          "person": "薛永清/袁帅"
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "评定",
+          "trigger_agent": "政府",
+          "trigger_object": "烈士",
+          "agent_attri": "河北",
+          "object_attri": "薛永清/袁帅为",
+          "time": "6月12日上午",
+          "time_align": "2015-06-12-XX-XX",
+          "location": "河北省",
+          "organization": "河北省政府",
+          "person": "薛永清/袁帅"
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

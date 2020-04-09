@@ -1,0 +1,225 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年7月28日凌晨，新疆和静县北部山区，河流水位暴涨导致洪灾，铁路中断。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "水位",
+          "trigger": "暴涨",
+          "trigger_object": "",
+          "agent_attri": "河流",
+          "object_attri": "",
+          "time": "2012年7月28日凌晨",
+          "time_align": "2012-07-28-XX-XX",
+          "location": "新疆和静县北部山区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger_agent": "",
+          "trigger": "导致",
+          "trigger_object": "洪灾",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2012年7月28日凌晨",
+          "time_align": "2012-07-28-XX-XX",
+          "location": "新疆和静县北部山区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger_agent": "",
+          "trigger": "导致",
+          "trigger_object": "中断",
+          "agent_attri": "",
+          "object_attri": "铁路",
+          "time": "2012年7月28日凌晨",
+          "time_align": "2012-07-28-XX-XX",
+          "location": "新疆和静县北部山区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "7月29日清晨，新疆和静县境内铁路恢复运行，218国道小车通道已抢通，有望于29日24时前全面恢复通行。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "恢复",
+          "trigger_agent": "铁路",
+          "trigger_object": "运行",
+          "agent_attri": "新疆和静境内",
+          "object_attri": "",
+          "time": "7月29日清晨",
+          "time_align": "2012-07-29-XX-XX",
+          "location": "新疆和静县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "恢复",
+          "trigger_agent": "国道",
+          "trigger_object": "通行",
+          "agent_attri": "218",
+          "object_attri": "",
+          "time": "29日24时",
+          "time_align": "2012-07-29-24-XX",
+          "location": "新疆和静县218国道",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "而此前滞留在该县巴伦台镇的游客，也安全撤出灾区。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "撤出",
+          "trigger_agent": "游客",
+          "trigger_object": "灾区",
+          "agent_attri": "滞留在该县巴伦台镇的",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "新疆和静县巴伦台镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "当地政府已将一部分群众就近安置到了所在乡镇的学校和办公室，同时调运充足的救灾帐篷、食品和饮用水。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "安置",
+          "trigger_agent": "政府",
+          "trigger_object": "群众",
+          "agent_attri": "当地",
+          "object_attri": "一部分",
+          "time": "",
+          "time_align": "",
+          "location": "新疆和静县巴伦台镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "调运",
+          "trigger_agent": "政府",
+          "trigger_object": "救灾帐篷/食品/饮用水",
+          "agent_attri": "当地",
+          "object_attri": "充足的",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "同时，确保饮食健康、市场稳定，防止出现哄抬物价、扰乱市场现象的发生。",
+      "event_graph": [
+        {
+          "child_event_id": "e09",
+          "trigger": "确保",
+          "trigger_agent": "",
+          "trigger_object": "健康",
+          "agent_attri": "",
+          "object_attri": "饮食",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e10",
+          "trigger": "确保",
+          "trigger_agent": "",
+          "trigger_object": "稳定",
+          "agent_attri": "",
+          "object_attri": "市场",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e11",
+          "trigger": "防止",
+          "trigger_agent": "",
+          "trigger_object": "发生",
+          "agent_attri": "",
+          "object_attri": "哄抬物价",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e12",
+          "trigger": "防止",
+          "trigger_agent": "",
+          "trigger_object": "发生",
+          "agent_attri": "",
+          "object_attri": "扰乱市场现场",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "并列关系",
+      "e09": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "并列关系",
+      "e11": "并列关系"
+    },
+    "e10": {
+      "e11": "并列关系",
+      "e12": "并列关系"
+    },
+    "e11": {
+      "e12": "并列关系"
+    }
+  }
+}

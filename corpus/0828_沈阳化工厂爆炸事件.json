@@ -1,0 +1,178 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年11月30日18点35分，辽宁沈阳一家化工厂爆炸起火，当地消防部门立刻赶赴现场扑救。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "爆炸",
+          "trigger_agent": "化工厂",
+          "trigger_object": "",
+          "agent_attri": "辽宁沈阳一家",
+          "object_attri": "",
+          "time": "2013年11月30日18点35分",
+          "time_align": "2013-11-30-18-35",
+          "location": "辽宁沈阳",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "起火",
+          "trigger_agent": "厂",
+          "trigger_object": "",
+          "agent_attri": "辽宁沈阳一家化工",
+          "object_attri": "",
+          "time": "2013年11月30日18点35分",
+          "time_align": "2013-11-30-18-35",
+          "location": "辽宁沈阳",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "赶赴",
+          "trigger_agent": "消防部门",
+          "trigger_object": "现场",
+          "agent_attri": "当地",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "辽宁沈阳",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "扑救",
+          "trigger_agent": "消防部门",
+          "trigger_object": "",
+          "agent_attri": "当地",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "辽宁沈阳",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前大火已经被扑灭，现场发现两具尸体，死者身份还在核实中。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "被-扑灭",
+          "trigger_agent": "大火",
+          "trigger_object": "消防部门",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "辽宁沈阳",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "发现",
+          "trigger_agent": "现场",
+          "trigger_object": "尸体",
+          "agent_attri": "",
+          "object_attri": "两具",
+          "time": "",
+          "time_align": "",
+          "location": "辽宁沈阳",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "被-核实",
+          "trigger_agent": "身份",
+          "trigger_object": "",
+          "agent_attri": "死者",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "辽宁沈阳",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "经初步调查，该事件为安全生产事故，目前安监部门已经介入，事故原因和损失还在进一步调查中。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "trigger": "调查",
+          "trigger_agent": "",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "介入",
+          "trigger_agent": "安监部门",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e10",
+          "trigger": "被-调查",
+          "trigger_agent": "事故原因和损失",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    }
+  }
+}

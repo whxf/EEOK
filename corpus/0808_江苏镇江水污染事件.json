@@ -1,0 +1,120 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年2月3日中午开始，镇江市自来水出现异味，镇江发生了抢购饮用水的风波。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "出现",
+          "trigger_agent": "自来水",
+          "trigger_object": "异味",
+          "agent_attri": "镇江市",
+          "object_attri": "",
+          "time": "2012年2月3日中午",
+          "time_align": "2012-02-03-XX-XX",
+          "location": "镇江市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "风波",
+          "agent_attri": "",
+          "object_attri": "抢购引用水",
+          "time": "",
+          "time_align": "",
+          "location": "镇江",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "镇江自来水公司给出了解释。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "给出",
+          "trigger_agent": "公司",
+          "trigger_object": "解释",
+          "agent_attri": "镇江自来水",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "镇江",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2月7日下午，镇江市政府应急办发布通告承认：水源水苯酚污染是此次异味的主要原因。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "发布",
+          "trigger_agent": "应急办",
+          "trigger_object": "通告",
+          "agent_attri": "镇江市政府",
+          "object_attri": "",
+          "time": "2月7日下午",
+          "time_align": "2012-02-07-XX-XX",
+          "location": "镇江市",
+          "organization": "镇江市政府应急办",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "承认",
+          "trigger_agent": "应急办",
+          "trigger_object": "",
+          "agent_attri": "镇江市政府",
+          "object_attri": "",
+          "time": "2月7日下午",
+          "time_align": "2012-02-07-XX-XX",
+          "location": "镇江市",
+          "organization": "镇江市政府应急办",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，镇江已经恢复了正常的自来水供应。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "恢复",
+          "trigger_agent": "镇江",
+          "trigger_object": "自来水供应",
+          "agent_attri": "",
+          "object_attri": "正常",
+          "time": "目前",
+          "time_align": "",
+          "location": "镇江",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

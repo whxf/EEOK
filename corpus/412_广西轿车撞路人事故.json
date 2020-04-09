@@ -1,0 +1,86 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年1月2日清晨，国道209线广西柳江县穿山镇路段发生一起车祸，不仅损坏了公物，还导致行走的人群1死3伤，最终车上人弃车逃逸。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "车祸",
+          "agent_attri": "",
+          "object_attri": "一起",
+          "time": "2014年1月2日清晨",
+          "time_align": "2014-01-01-XX-XX",
+          "location": "国道209线广西柳江县穿山镇路段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "损坏",
+          "trigger_object": "公物",
+          "object_attri": "",
+          "time": "2014年1月2日清晨",
+          "time_align": "2014-01-01-XX-XX",
+          "location": "国道209线广西柳江县穿山镇路段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "导致",
+          "trigger_object": "1死3伤",
+          "object_attri": "行走的人群",
+          "time": "2014年1月2日清晨",
+          "time_align": "2014-01-01-XX-XX",
+          "location": "国道209线广西柳江县穿山镇路段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "弃",
+          "trigger_agent": "人",
+          "trigger_object": "车",
+          "trigger_attri": "车上",
+          "object_attri": "",
+          "time": "2014年1月2日清晨",
+          "time_align": "2014-01-01-XX-XX",
+          "location": "国道209线广西柳江县穿山镇路段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "逃逸",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "trigger_attri": "",
+          "object_attri": "",
+          "time": "2014年1月2日清晨",
+          "time_align": "2014-01-01-XX-XX",
+          "location": "国道209线广西柳江县穿山镇路段",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系"
+    }
+  }
+}

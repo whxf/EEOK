@@ -1,0 +1,164 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年2月6日重庆武隆前往水江方向的高速路上，发生一起3辆轿车连环追尾的事故，造成3人死亡、3人重伤及1人轻伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2015年2月6日",
+          "time_align": "2015-02-06-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发生",
+          "trigger_object": "追尾事故",
+          "object_attri": "一起3辆轿车连环",
+          "location": "重庆武隆前往水江方向的高速路上",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2015年2月6日",
+          "time_align": "2015-02-06-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "object_attri": "3人",
+          "location": "重庆武隆前往水江方向的高速路上",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2015年2月6日",
+          "time_align": "2015-02-06-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "重伤",
+          "object_attri": "3人",
+          "location": "重庆武隆前往水江方向的高速路上",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "2015年2月6日",
+          "time_align": "2015-02-06-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "轻伤",
+          "object_attri": "1人",
+          "location": "重庆武隆前往水江方向的高速路上",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2015年2月6日凌晨1时左右，水江中队接到报警，该中队迅速出动2台消防车及14名官兵前往救援。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "2015年2月6日凌晨1时",
+          "time_align": "2015-02-06-01-00",
+          "trigger_agent": "中队",
+          "agent_attri": "",
+          "trigger": "接到",
+          "trigger_object": "报警",
+          "object_attri": "",
+          "location": "水江",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "2015年2月6日凌晨1时",
+          "time_align": "2015-02-06-01-00",
+          "trigger_agent": "中队",
+          "agent_attri": "",
+          "trigger": "出动",
+          "trigger_object": "消防车/官兵",
+          "object_attri": "2台/14名",
+          "location": "水江",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "time": "2015年2月6日凌晨1时",
+          "time_align": "2015-02-06-01-00",
+          "trigger_agent": "消防车/官兵",
+          "agent_attri": "2台/14名",
+          "trigger": "前往",
+          "trigger_object": "救援",
+          "object_attri": "",
+          "location": "水江",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "现伤者已全部送往医院并获得救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e09",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "伤者",
+          "agent_attri": "",
+          "trigger": "送往",
+          "trigger_object": "医院",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "伤者",
+          "agent_attri": "",
+          "trigger": "获得",
+          "trigger_object": "救治",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系",
+      "e04": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e09": "顺承关系"
+    }
+  }
+}

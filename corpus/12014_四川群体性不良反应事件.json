@@ -1,0 +1,162 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "7月12日下午，四川内江市、区疾控中心和椑南乡卫生院工作人员组织曾与患者接触的麻湾村村民共143人进行预防性服药。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "工作人员",
+          "trigger": "组织",
+          "trigger_object": "村民",
+          "agent_attri": "四川内江市/区疾控中心和椑南乡卫生院",
+          "object_attri": "麻湾村",
+          "time": "7月12日下午",
+          "time_align": "XXXX-07-12-XX-XX",
+          "location": "四川内江市椑南乡",
+          "organization": "四川内江市/区疾控中心和椑南乡卫生院",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "进行",
+          "trigger_agent": "人",
+          "trigger_object": "服药",
+          "agent_attri": "麻湾村村民共143",
+          "object_attri": "预防性",
+          "time": "7月12日下午",
+          "time_align": "XXXX-07-12-XX-XX",
+          "location": "麻湾村",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "药物尚未分发完时，其中一名先行服药的儿童孟雨珊出现头痛、脸色苍白、无力等症状，内江市椑南乡卫生院对其进行紧急处置后，立即送至椑木医院抢救，最终因抢救无效于12日20时左右死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "出现",
+          "trigger_agent": "儿童",
+          "trigger_object": "症状",
+          "agent_attri": "一名先行服药的",
+          "object_attri": "头痛/脸色苍白/无力等",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": "孟雨珊"
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "进行",
+          "trigger_agent": "卫生院",
+          "trigger_object": "处置",
+          "agent_attri": "椑南乡",
+          "object_attri": "紧急",
+          "time": "",
+          "time_align": "",
+          "location": "内江市椑南乡",
+          "organization": "内江市椑南乡卫生院",
+          "person": "孟雨珊"
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "送往",
+          "trigger_agent": "",
+          "trigger_object": "医院",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "内江市椑南乡",
+          "organization": "椑木医院",
+          "person": "孟雨珊"
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "抢救",
+          "trigger_agent": "",
+          "trigger_object": "无效",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "内江市椑木乡",
+          "organization": "椑木医院",
+          "person": "孟雨珊"
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "死亡",
+          "trigger_agent": "",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "12日20时",
+          "time_align": "XXXX-XX-12-20-XX",
+          "location": "内江市椑南乡",
+          "organization": "椑南医院",
+          "person": "孟雨珊"
+        }
+      ]
+    },
+    {
+      "event_sentence": "7月15日，四川内江市政府通报此次预防服药不适事件的初步结论，表示事故原因属于剂量过大。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "trigger": "通报",
+          "trigger_agent": "政府",
+          "trigger_object": "初步结论",
+          "agent_attri": "四川内江市",
+          "object_attri": "",
+          "time": "7月15日",
+          "time_align": "XX-07-15-XX-XX",
+          "location": "四川内江市",
+          "organization": "四川内江市政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "表示",
+          "trigger_agent": "政府",
+          "trigger_object": "原因",
+          "agent_attri": "四川内江市",
+          "object_attri": "事故",
+          "time": "7月15日",
+          "time_align": "XX-07-15-XX-XX",
+          "location": "四川内江市",
+          "organization": "四川内江市政府",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "因果关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    }
+  }
+}

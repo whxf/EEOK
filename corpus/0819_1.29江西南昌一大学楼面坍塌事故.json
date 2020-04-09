@@ -1,0 +1,173 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年1月29日凌晨零时25分许，位于江西南昌市的江西科技师范大学发生一起楼面坍塌事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "大学",
+          "trigger_object": "坍塌事故",
+          "agent_attri": "江西科技师范",
+          "object_attri": "楼面",
+          "time": "2015年1月29日凌晨零时25分",
+          "time_align": "2015-01-29-00-25",
+          "location": "江西南昌市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截止1月29日上午10点，该事故已造成1人遇难18人受伤，其中3人重伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "遇难",
+          "agent_attri": "该",
+          "object_attri": "1人",
+          "time": "1月29日上午10点",
+          "time_align": "2015-01-29-10-XX",
+          "location": "江西南昌市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "受伤",
+          "agent_attri": "该",
+          "object_attri": "18人",
+          "time": "1月29日上午10点",
+          "time_align": "2015-01-29-10-XX",
+          "location": "江西南昌市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "重伤",
+          "agent_attri": "该",
+          "object_attri": "3人",
+          "time": "1月29日上午10点",
+          "time_align": "2015-01-29-10-XX",
+          "location": "江西南昌市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "据官方通报，事故为该体育馆建筑工程顶层现浇过程中高支模发生坍塌（面积约600平方米），伤亡人员均为工地施工人员，伤者已被送往医院救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "通报",
+          "trigger_agent": "官方",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "发生",
+          "trigger_agent": "高支模",
+          "trigger_object": "坍塌",
+          "agent_attri": "该体育馆建筑工程顶层现浇过程中",
+          "object_attri": "面积约600平方米",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "被-送往",
+          "trigger_agent": "伤员",
+          "trigger_object": "医院",
+          "agent_attri": "工地施工人员",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "救治",
+          "trigger_agent": "医院",
+          "trigger_object": "伤员",
+          "agent_attri": "",
+          "object_attri": "工地施工人员",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事故原因还在进一步调查中。",
+      "event_graph": [
+        {
+          "child_event_id": "e09",
+          "trigger": "被-调查",
+          "trigger_agent": "原因",
+          "trigger_object": "",
+          "agent_attri": "事故",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系",
+      "e04": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "并列关系",
+      "e09": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    }
+  }
+}

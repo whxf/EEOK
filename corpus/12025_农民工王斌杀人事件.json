@@ -1,0 +1,200 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2005年5月5日，农民工王斌余因父亲腿被砸断急需用钱，便找老板多次讨要工钱，未果。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "农民工",
+          "trigger": "因",
+          "trigger_object": "急需用钱",
+          "agent_attri": "",
+          "object_attri": "父亲腿被砸断",
+          "time": "2005年5月11日",
+          "time_align": "2005-05-11-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "王斌"
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "讨要",
+          "trigger_agent": "",
+          "trigger_object": "工钱",
+          "agent_attri": "",
+          "object_attri": "多次未果",
+          "time": "2005年5月11日",
+          "time_align": "2005-05-11-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "王斌"
+        }
+      ]
+    },
+    {
+      "event_sentence": "2005年5月11日，王斌又找包工头讨薪，被辱骂并遭拳打脚踢，极度绝望和愤怒之下，王斌连杀四人，后到公安局投案自首",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "找-讨薪",
+          "trigger_agent": "",
+          "trigger_object": "包工头",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2005年5月11日",
+          "time_align": "2005-05-11-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "王斌"
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "被-辱骂",
+          "trigger_agent": "",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2005年5月11日",
+          "time_align": "2005-05-11-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "王斌"
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "遭",
+          "trigger_agent": "",
+          "trigger_object": "拳打脚踢",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2005年5月11日",
+          "time_align": "2005-05-11-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "王斌"
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "杀",
+          "trigger_agent": "",
+          "trigger_object": "4人",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2005年5月11日",
+          "time_align": "2005-05-11-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "王斌"
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "自首",
+          "trigger_agent": "",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2005年5月11日",
+          "time_align": "2005-05-11-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "王斌"
+        }
+      ]
+    },
+    {
+      "event_sentence": "同年6月16日，宁夏石嘴山市中级人民法院以故意杀人罪判处被告人王斌死刑，剥夺政治权利终身。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "trigger": "判处",
+          "trigger_agent": "中级人民法院",
+          "trigger_object": "被告人",
+          "agent_attri": "",
+          "object_attri": "死刑",
+          "time": "同年6月16日",
+          "time_align": "2005-06-16-XX-XX",
+          "location": "宁夏石嘴山市",
+          "organization": "宁夏石嘴山市中级人民法院",
+          "person": "王斌"
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "剥夺",
+          "trigger_agent": "中级人民法院",
+          "trigger_object": "被告人",
+          "agent_attri": "",
+          "object_attri": "政治权利终身",
+          "time": "同年6月16日",
+          "time_align": "2005-06-16-XX-XX",
+          "location": "宁夏石嘴山市",
+          "organization": "宁夏石嘴山市中级人民法院",
+          "person": "王斌"
+        }
+      ]
+    },
+    {
+      "event_sentence": "该事件经媒体报道后，该案件引起社会对弱势群体权益保障的关注。",
+      "event_graph": [
+        {
+          "child_event_id": "e10",
+          "trigger": "报道",
+          "trigger_agent": "媒体",
+          "trigger_object": "该事件",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e11",
+          "trigger": "引起",
+          "trigger_agent": "该案件",
+          "trigger_object": "关注",
+          "agent_attri": "",
+          "object_attri": "社会对弱势群体权益保障的",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "并列关系",
+      "e10": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    },
+    "e10": {
+      "e11": "顺承关系"
+    }
+  }
+}

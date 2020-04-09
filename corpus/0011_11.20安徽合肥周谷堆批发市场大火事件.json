@@ -1,0 +1,109 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "11月17日晚20时许，合肥市周谷堆批发市场干货区突遭受火袭，合肥市公安消防支队紧急调动10个消防中队、28台消防车、240余名消防官兵赶到现场灭火。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "11月17日晚20时",
+          "time_align": "XXXX-11-17-20-XX",
+          "trigger_agent": "干货区",
+          "agent_attri": "周谷堆批发市场",
+          "trigger": "遭受",
+          "trigger_object": "火袭",
+          "object_attri": "",
+          "location": "合肥市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "11月17日晚20时",
+          "time_align": "XXXX-11-17-20-XX",
+          "trigger_agent": "消防支队",
+          "agent_attri": "公安",
+          "trigger": "调动",
+          "trigger_object": "消防中队/消防车/消防官兵",
+          "object_attri": "10个/28台/240余名",
+          "location": "合肥市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "11月17日晚20时",
+          "time_align": "XXXX-11-17-20-XX",
+          "trigger_agent": "消防中队/消防车/消防官兵",
+          "agent_attri": "10个/28台/240余名",
+          "trigger": "赶到",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "合肥市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "11月17日晚20时",
+          "time_align": "XXXX-11-17-20-XX",
+          "trigger_agent": "消防中队/消防车/消防官兵",
+          "agent_attri": "10个/28台/240余名",
+          "trigger": "灭火",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "合肥市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "经过消防官兵3小时苦战，于当晚23时，大火基本被扑灭。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "消防官兵",
+          "agent_attri": "",
+          "trigger": "苦战",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "合肥市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "当晚23时",
+          "time_align": "",
+          "trigger_agent": "大火",
+          "agent_attri": "",
+          "trigger": "被-扑灭",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "合肥市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

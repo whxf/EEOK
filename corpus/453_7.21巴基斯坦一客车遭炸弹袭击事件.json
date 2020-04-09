@@ -1,0 +1,116 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年7月1日，一辆客车当天上午在巴西北部迪尔地区遭到炸弹袭击，造成至少3人死亡，另有9人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "遭到",
+          "trigger_agent": "客车",
+          "trigger_object": "袭击",
+          "agent_attri": "一辆",
+          "object_attri": "炸弹",
+          "time": "2012年7月1日",
+          "time_align": "2012-07-01-XX-XX",
+          "location": "巴西北部迪尔地区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "至少3人",
+          "time": "2012年7月1日",
+          "time_align": "2012-07-01-XX-XX",
+          "location": "巴西北部迪尔地区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "受伤",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "9",
+          "object_attri": "",
+          "time": "2012年7月1日",
+          "time_align": "2012-07-01-XX-XX",
+          "location": "巴西北部迪尔地区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前尚未有组织宣称制造了此次袭击事件。警方现已封锁事发区域，并展开调查。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "未-宣称",
+          "trigger_agent": "组织",
+          "trigger_object": "制造袭击事件",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "警方现已封锁事发区域，并展开调查。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "封锁",
+          "trigger_agent": "警方",
+          "trigger_object": "区域",
+          "agent_attri": "",
+          "object_attri": "事发",
+          "time": "",
+          "time_align": "",
+          "location": "巴西北部迪尔地区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "展开",
+          "trigger_agent": "警方",
+          "trigger_object": "调查",
+          "agent_attri": "9",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "巴西北部迪尔地区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

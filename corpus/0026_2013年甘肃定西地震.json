@@ -1,0 +1,184 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年07月22日07时45分在甘肃省定西市岷县、漳县交界（北纬34.5度，东经104.2度）发生6.6级地震，震源深度20千米。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2013年07月22日07时45分",
+          "time_align": "2013-07-22-07-45",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发生",
+          "trigger_object": "地震",
+          "object_attri": "6.6级",
+          "location": "甘肃省定西市岷县/漳县交界",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截止07月22日20时统计，此次灾害共造成定西、陇南、天水、白银、临夏、甘南等6市(州)的22个县(区)、204个乡(镇)、12.3万人受灾；因灾死亡89人，失踪5人，受伤628人；紧急转移安置3.16万人；倒塌房屋1968户5785间，损坏房屋22496户73151间。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "07月22日20时",
+          "time_align": "2013-07-22-20-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "受灾",
+          "object_attri": "22个县/204个乡/12.3万人",
+          "location": "定西/陇南/天水/白银/临夏/甘南",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "07月22日20时",
+          "time_align": "2013-07-22-20-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "死亡",
+          "trigger_object": "人",
+          "object_attri": "89",
+          "location": "定西/陇南/天水/白银/临夏/甘南",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "07月22日20时",
+          "time_align": "2013-07-22-20-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "失踪",
+          "trigger_object": "人",
+          "object_attri": "5",
+          "location": "定西/陇南/天水/白银/临夏/甘南",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "07月22日20时",
+          "time_align": "2013-07-22-20-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "受伤",
+          "trigger_object": "人",
+          "object_attri": "628",
+          "location": "定西/陇南/天水/白银/临夏/甘南",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "07月22日20时",
+          "time_align": "2013-07-22-20-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "转移",
+          "trigger_object": "人",
+          "object_attri": "3.16万",
+          "location": "定西/陇南/天水/白银/临夏/甘南",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "time": "07月22日20时",
+          "time_align": "2013-07-22-20-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "安置",
+          "trigger_object": "人",
+          "object_attri": "3.16万",
+          "location": "定西/陇南/天水/白银/临夏/甘南",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "time": "07月22日20时",
+          "time_align": "2013-07-22-20-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "倒塌",
+          "trigger_object": "房屋",
+          "object_attri": "1968户5785间",
+          "location": "定西/陇南/天水/白银/临夏/甘南",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "time": "07月22日20时",
+          "time_align": "2013-07-22-20-00",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "损坏",
+          "trigger_object": "房屋",
+          "object_attri": "22496户73151间",
+          "location": "定西/陇南/天水/白银/临夏/甘南",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "漳县、岷县县城的通讯保持正常。",
+      "event_graph": [
+        {
+          "child_event_id": "e10",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "通讯",
+          "agent_attri": "县城的",
+          "trigger": "保持",
+          "trigger_object": "正常",
+          "object_attri": "",
+          "location": "漳县/岷县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系",
+      "e04": "因果关系",
+      "e05": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    }
+  }
+}

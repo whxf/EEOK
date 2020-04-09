@@ -1,0 +1,119 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年1月5日上午11点40分左右，南京兴隆大街发生爆炸事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "爆炸事故",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2014年1月5日上午11点40分",
+          "time_align": "2014-01-05-11-40",
+          "location": "南京兴隆大街",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "现场浓烟弥漫，有消防车增援。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "弥漫",
+          "trigger_agent": "浓烟",
+          "trigger_object": "",
+          "agent_attri": "现场",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "南京兴隆大街",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "增援",
+          "trigger_agent": "消防车",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "南京兴隆大街",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "由于消防通道缺失，使得火势一直难得到有效控制。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "缺失",
+          "trigger_agent": "通道",
+          "trigger_object": "",
+          "agent_attri": "消防",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "难-得到",
+          "trigger_agent": "火势",
+          "trigger_object": "控制",
+          "agent_attri": "",
+          "object_attri": "有效",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "现场已经有十几辆消防车等待救援。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "等待",
+          "trigger_agent": "消防车",
+          "trigger_object": "救援",
+          "agent_attri": "十几辆",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "南京兴隆大街",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "因果关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

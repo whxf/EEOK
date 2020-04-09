@@ -1,0 +1,222 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年11月18日9时左右，云南省份泸西县小松地煤矿发生爆炸，造成9人死亡，48人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "煤矿",
+          "trigger": "发生",
+          "trigger_object": "爆炸",
+          "agent_attri": "小松地",
+          "object_attri": "",
+          "time": "2010年11月18日9时左右",
+          "time_align": "2010-11-18-09",
+          "location": "云南省份泸西县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger_agent": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "agent_attri": "9人",
+          "object_attri": "",
+          "time": "2010年11月18日9时左右",
+          "time_align": "2010-11-18-09",
+          "location": "云南省份泸西县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger_agent": "",
+          "trigger": "造成",
+          "trigger_object": "受伤",
+          "agent_attri": "48人",
+          "object_attri": "",
+          "time": "2010年11月18日9时左右",
+          "time_align": "2010-11-18-09",
+          "location": "云南省份泸西县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "云南省红河州分管官员在第一时间率州级有关部门人员赶赴案发现场，并召开紧急会议，安排“11·18”案件处置工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger_agent": "官员",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "agent_attri": "云南省红河州分管",
+          "object_attri": "案发",
+          "time": "",
+          "time_align": "",
+          "location": "云南省红河州",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger_agent": "官员",
+          "trigger": "召开",
+          "trigger_object": "会议",
+          "agent_attri": "云南省红河州分管",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "云南省份泸西县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger_agent": "官员",
+          "trigger": "安排",
+          "trigger_object": "处置工作",
+          "agent_attri": "云南省红河州分管",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "云南省份泸西县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，云南泸西煤矿爆炸事件的2名主要涉嫌组织者已被警方依法控制。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger_agent": "组织者",
+          "trigger": "被-控制",
+          "trigger_object": "警方",
+          "agent_attri": "云南泸西煤矿爆炸事件的2名主要涉嫌",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "云南省泸西县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "云南省泸西县警方11月23日通报，煤矿纠纷致57死伤刑事案侦查工作取得重大进展。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "trigger_agent": "警方",
+          "trigger": "通报",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "11月23日",
+          "time_align": "2010-11-23",
+          "location": "云南省泸西县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger_agent": "侦查工作",
+          "trigger": "取得",
+          "trigger_object": "进展",
+          "agent_attri": "煤矿纠纷致57死伤刑事案",
+          "object_attri": "重大",
+          "time": "11月23日",
+          "time_align": "2010-11-23",
+          "location": "云南省泸西县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2012年1月12日在红河哈尼族彝族自治州中级人民法院一审宣判，法院以爆炸罪，非法持有枪支罪等，判处罪犯死刑，剥夺政治权利终身。",
+      "event_graph": [
+        {
+          "child_event_id": "e10",
+          "trigger_agent": "法院",
+          "trigger": "一审宣判",
+          "trigger_object": "",
+          "agent_attri": "红河哈尼族彝族自治州中级人民",
+          "object_attri": "",
+          "time": "2012年1月12日",
+          "time_align": "2012-01-02",
+          "location": "红河哈尼族彝族自治州",
+          "organization": "红河哈尼族彝族自治州中级人民法院",
+          "person": ""
+        },
+        {
+          "child_event_id": "e11",
+          "trigger_agent": "法院",
+          "trigger": "判处",
+          "trigger_object": "死刑",
+          "agent_attri": "红河哈尼族彝族自治州中级人民",
+          "object_attri": "罪犯",
+          "time": "2012年1月12日",
+          "time_align": "2012-01-02",
+          "location": "红河哈尼族彝族自治州",
+          "organization": "红河哈尼族彝族自治州中级人民法院",
+          "person": ""
+        },
+        {
+          "child_event_id": "e12",
+          "trigger_agent": "法院",
+          "trigger": "剥夺",
+          "trigger_object": "政治权利终身",
+          "agent_attri": "红河哈尼族彝族自治州中级人民",
+          "object_attri": "",
+          "time": "2012年1月12日",
+          "time_align": "2012-01-02",
+          "location": "红河哈尼族彝族自治州",
+          "organization": "红河哈尼族彝族自治州中级人民法院",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    },
+    "e10": {
+      "e11": "顺承关系"
+    },
+    "e11": {
+      "e12": "顺承关系"
+    }
+  }
+}

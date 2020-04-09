@@ -1,0 +1,95 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2008年8月18日8点50分，辽宁省法库县柏家沟煤矿井下发生瓦斯爆炸，当时井下入井81人，事故波及37人。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "井下",
+          "trigger_object": "爆炸",
+          "agent_attri": "辽宁省法库县柏家沟煤矿",
+          "object_attri": "",
+          "time": "2008年8月18日8点50分",
+          "time_align": "2008-08-18-08-50",
+          "location": "辽宁省法库县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "入井",
+          "trigger_agent": "",
+          "trigger_object": "人",
+          "agent_attri": "",
+          "object_attri": "81",
+          "time": "2008年8月18日8点50分",
+          "time_align": "2008-08-18-08-50",
+          "location": "辽宁省法库县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "波及",
+          "trigger_agent": "事故",
+          "trigger_object": "人",
+          "agent_attri": "",
+          "object_attri": "37",
+          "time": "2008年8月18日8点50分",
+          "time_align": "2008-08-18-08-50",
+          "location": "辽宁省法库县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "爆炸事故已造成21名矿工遇难，4人被困井下。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "爆炸事故",
+          "trigger_object": "遇难",
+          "agent_attri": "",
+          "object_attri": "21名矿工",
+          "time": "",
+          "time_align": "2008-08-18-08-50",
+          "location": "辽宁省法库县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "被-困",
+          "trigger_agent": "人",
+          "trigger_object": "井下",
+          "agent_attri": "4",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2008-08-18-08-50",
+          "location": "辽宁省法库县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系",
+      "e04": "因果关系",
+      "e05": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系"
+    }
+  }
+}

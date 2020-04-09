@@ -1,0 +1,158 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年12月31日上午9时30分，佛山市顺德区勒流街道港口路的广东富华工程机械制造有限公司发生气体爆炸事故，已造成17人死亡，20人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2014年12月31日上午9时30分",
+          "time_align": "2014-12-31-09-30",
+          "trigger_agent": "公司",
+          "agent_attri": "广东富华工程机械制造有限",
+          "trigger": "发生",
+          "trigger_object": "爆炸事故",
+          "object_attri": "气体",
+          "location": "佛山市顺德区勒流街道港口路",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2014年12月31日上午9时30分",
+          "time_align": "2014-12-31-09-30",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "object_attri": "17人",
+          "location": "佛山市顺德区勒流街道港口路",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2014年12月31日上午9时30分",
+          "time_align": "2014-12-31-09-30",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "受伤",
+          "object_attri": "20人",
+          "location": "佛山市顺德区勒流街道港口路",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "出事工厂被封锁，佛山市和顺德主要领导均在现场部署救援、处置。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "工厂",
+          "agent_attri": "出事",
+          "trigger": "被-封锁",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "佛山市顺德区勒流街道港口路",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "领导",
+          "agent_attri": "主要",
+          "trigger": "部署",
+          "trigger_object": "救援/处置",
+          "object_attri": "",
+          "location": "佛山市顺德区勒流街道港口路",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "厂区内可见被掀翻屋顶厂房，数台消防车辆已赶到救援。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "2014-12-31-XX-XX",
+          "trigger_agent": "厂房",
+          "agent_attri": "屋顶",
+          "trigger": "被-掀翻",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "佛山市顺德区勒流街道港口路",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "该厂工人已疏散到厂区安全地带。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "time": "",
+          "time_align": "2014-12-31-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "疏散",
+          "trigger_object": "工人",
+          "object_attri": "该厂",
+          "location": "佛山市顺德区勒流街道港口路",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "伤者被送往顺德区第一人民医院，勒流医院，伦教医院等救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "time": "",
+          "time_align": "2014-12-31-XX-XX",
+          "trigger_agent": "伤者",
+          "agent_attri": "",
+          "trigger": "被-送往",
+          "trigger_object": "医院",
+          "object_attri": "",
+          "location": "顺德区",
+          "organization": "第一人民医院、勒流医院、伦教医院",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年6月19日21时30分左右，山西朔州开发区一家名为小南国的试营业的饭店发生火灾，在救火过程中发生爆炸。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "饭店",
+          "trigger_object": "火灾",
+          "agent_attri": "山西朔州开发区一家名为小南国的试营业",
+          "object_attri": "",
+          "time": "2013年6月19日21时30分",
+          "time_align": "2013-06-19-21-30",
+          "location": "山西朔州开发区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "发生",
+          "trigger_agent": "饭店",
+          "trigger_object": "爆炸",
+          "agent_attri": "山西朔州开发区一家名为小南国的试营业",
+          "object_attri": "",
+          "time": "2013年6月19日21时30分",
+          "time_align": "2013-06-19-21-30",
+          "location": "山西朔州开发区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "157人送医观察并接受治疗，截止到20日下午，该事故已造成3人死亡，149人在医院接受治疗和观察。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "送医观察",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "157",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "接受",
+          "trigger_agent": "人",
+          "trigger_object": "治疗",
+          "agent_attri": "157",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "死亡",
+          "agent_attri": "该",
+          "object_attri": "3人",
+          "time": "20日下午",
+          "time_align": "2013-06-20-XX-XX",
+          "location": "山西朔州开发区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "接受",
+          "trigger_agent": "人",
+          "trigger_object": "治疗",
+          "agent_attri": "149",
+          "object_attri": "",
+          "time": "截至20日下午",
+          "time_align": "2013-06-20-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "接受",
+          "trigger_agent": "人",
+          "trigger_object": "观察",
+          "agent_attri": "149",
+          "object_attri": "",
+          "time": "截至20日下午",
+          "time_align": "2013-06-20-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系",
+      "e06": "因果关系",
+      "e07": "因果关系",
+      "e05": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "并列关系"
+    },
+    "e06": {
+      "e07": "并列关系"
+    }
+  }
+}

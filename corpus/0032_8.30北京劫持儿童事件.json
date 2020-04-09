@@ -1,0 +1,88 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2009年8月30日，一名男子走进三元西桥附近的三元大厦，在二层一家少儿英语培训学校内持刀劫持一名10岁男童，1个多小时后，警方破门进入现场，将持刀嫌犯制服，成功解救人质",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2009年8月30日",
+          "time_align": "2009-08-30-XX-XX",
+          "trigger_agent": "男子",
+          "agent_attri": "一名",
+          "trigger": "走进",
+          "trigger_object": "大厦",
+          "object_attri": "三元",
+          "location": "三元西桥附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2009年8月30日",
+          "time_align": "2009-08-30-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "劫持",
+          "trigger_object": "童",
+          "object_attri": "一名10岁男",
+          "location": "三元西桥附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2009年8月30日",
+          "time_align": "2009-08-30-XX-XX",
+          "trigger_agent": "警方",
+          "agent_attri": "",
+          "trigger": "进入",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "三元西桥附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "2009年8月30日",
+          "time_align": "2009-08-30-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "制服",
+          "trigger_object": "嫌犯",
+          "object_attri": "持刀",
+          "location": "三元西桥附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "2009年8月30日",
+          "time_align": "2009-08-30-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "解救",
+          "trigger_object": "人质",
+          "object_attri": "",
+          "location": "三元西桥附近",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

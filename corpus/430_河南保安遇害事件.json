@@ -1,0 +1,131 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年1月15日下午5点21分，三门峡市灵宝市区发生持枪抢劫金店案，致一名保安死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "持枪抢劫金店案",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2015年1月15日下午5点21分",
+          "time_align": "2015-01-15-05-21",
+          "location": "三门峡市灵宝市区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "致",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "一名保安",
+          "time": "2015年1月15日下午5点21分",
+          "time_align": "2015-01-15-05-21",
+          "location": "三门峡市灵宝市区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事件发生后三门峡警方立即成立专案组，抓捕犯罪嫌疑人",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "成立",
+          "trigger_agent": "警方",
+          "trigger_object": "专案组",
+          "agent_attri": "三门峡",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "三门峡",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "抓捕",
+          "trigger_agent": "警方",
+          "trigger_object": "犯罪嫌疑人",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "三门峡市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "公安机关在贴吧、本地论坛等网络平台，及时发布了官方的权威消息，实时告知市民案件相关情况以及嫌疑人的特征，发动群众力量全力围剿。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "发布",
+          "trigger_agent": "公安机关",
+          "trigger_object": "消息",
+          "agent_attri": "",
+          "object_attri": "官方的权威",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "告知",
+          "trigger_agent": "公安机关",
+          "trigger_object": "市民",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "发动",
+          "trigger_agent": "公安机关",
+          "trigger_object": "群众力量",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

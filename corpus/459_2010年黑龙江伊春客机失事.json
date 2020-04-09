@@ -1,0 +1,180 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年8月24日21时36分许，一架载有96人的河南航空ERJ-190喷气支线客机在黑龙江伊春机场降落时发生意外，事故共造成42人遇难，54人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "客机",
+          "trigger_object": "降落意外",
+          "agent_attri": "一架载有96人的河南航空ERJ-190喷气支线",
+          "object_attri": "",
+          "time": "2010年8月24日21时36分",
+          "time_align": "2010-08-24-21-36",
+          "location": "黑龙江伊春机场",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "遇难",
+          "agent_attri": "",
+          "object_attri": "42人",
+          "time": "2010年8月24日21时36分",
+          "time_align": "2010-08-24-21-36",
+          "location": "黑龙江伊春机场",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "受伤",
+          "agent_attri": "54人",
+          "object_attri": "",
+          "time": "2010年8月24日21时36分",
+          "time_align": "2010-08-24-21-36",
+          "location": "黑龙江伊春机场",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2010年8月24日21时40分许，伊春市政府立即向有关部门下达指令，伊春市消防支队和急救中心随后到达现场加入救援行动。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "下达",
+          "trigger_agent": "政府",
+          "trigger_object": "指令",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2010年8月24日21时40分",
+          "time_align": "2010-08-24-21-40",
+          "location": "伊春市",
+          "organization": "伊春市政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "到达",
+          "trigger_agent": "消防支队和急救中心",
+          "trigger_object": "现场",
+          "agent_attri": "伊春市",
+          "object_attri": "42人",
+          "time": "2010年8月24日21时40分许",
+          "time_align": "2010-08-24-21-40",
+          "location": "黑龙江伊春机场",
+          "organization": "伊春市消防支队和急救中心",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "加入",
+          "trigger_agent": "消防支队和急救中心",
+          "trigger_object": "救援行动",
+          "agent_attri": "伊春市",
+          "object_attri": "",
+          "time": "2010年8月24日21时40分许",
+          "time_align": "2010-08-24-21-40",
+          "location": "黑龙江伊春机场",
+          "organization": "伊春市消防支队和急救中心",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2010年8月25日，事故搜救工作已全面结束,目前，黑龙江省伊春市已同步成立了飞机坠机事故应急处置工作组，全面开展事故救护、善后处理等项工作。。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "结束",
+          "trigger_agent": "搜救工作",
+          "trigger_object": "",
+          "agent_attri": "事故",
+          "object_attri": "",
+          "time": "2010年8月25日",
+          "time_align": "2010-08-25-XX-XX",
+          "location": "黑龙江伊春机场",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "成立",
+          "trigger_agent": "工作组",
+          "trigger_object": "",
+          "agent_attri": "飞机坠机事故应急处置",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "黑龙江省伊春市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "开展",
+          "trigger_agent": "事故救护",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "黑龙江省伊春市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e10",
+          "trigger": "开展",
+          "trigger_agent": "善后处理",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2010年8月25日",
+          "time_align": "2010-08-25-XX-XX",
+          "location": "黑龙江省伊春市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    }
+  }
+}

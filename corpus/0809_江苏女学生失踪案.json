@@ -1,0 +1,242 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "家住江苏省吴江桃源的19岁女孩高秋曦在南京上大二，在2014年10月12日下午6点后，与家人失去联系。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "失去",
+          "trigger_agent": "女孩",
+          "trigger_object": "联系",
+          "agent_attri": "19岁",
+          "object_attri": "",
+          "time": "2014年10月12日下午6点",
+          "time_align": "2014-10-12-18-XX",
+          "location": "江苏省吴江桃源",
+          "organization": "",
+          "person": "高秋曦"
+        }
+      ]
+    },
+    {
+      "event_sentence": "家人四处寻找无果，于15日报警。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "寻找",
+          "trigger_agent": "家人",
+          "trigger_object": "无果",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "报警",
+          "trigger_agent": "家人",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "15日",
+          "time_align": "2014-10-15-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "8月16日，苏州市吴江区公安局接报女孩高秋曦与家人失联。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "接报",
+          "trigger_agent": "公安局",
+          "trigger_object": "失联",
+          "agent_attri": "苏州市吴江区",
+          "object_attri": "女孩高秋曦",
+          "time": "8月16日",
+          "time_align": "2014-08-16-XX-XX",
+          "location": "苏州市吴江区",
+          "organization": "苏州市吴江区公安局",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "经警方全力侦查，于8月27日18时许在吴江桃源镇抓获犯罪嫌疑人王某某，其供述8月12日下午在桃源一村道抢劫并杀害一过路女孩。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "侦查",
+          "trigger_agent": "警方",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "抓获",
+          "trigger_agent": "警方",
+          "trigger_object": "王某某",
+          "agent_attri": "",
+          "object_attri": "犯罪嫌疑人",
+          "time": "8月27日18时",
+          "time_align": "2014-08-27-18-XX",
+          "location": "吴江桃源镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "供述",
+          "trigger_agent": "其",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": "王某某"
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "抢劫",
+          "trigger_agent": "其",
+          "trigger_object": "女孩",
+          "agent_attri": "",
+          "object_attri": "一过路",
+          "time": "8月12日下午",
+          "time_align": "2014-08-12-XX-XX",
+          "location": "桃源一村道",
+          "organization": "",
+          "person": "王某某"
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "杀害",
+          "trigger_agent": "其",
+          "trigger_object": "女孩",
+          "agent_attri": "",
+          "object_attri": "一过路",
+          "time": "8月12日下午",
+          "time_align": "2014-08-12-XX-XX",
+          "location": "桃源一村道",
+          "organization": "",
+          "person": "王某某"
+        }
+      ]
+    },
+    {
+      "event_sentence": "根据其指认，警方于28日凌晨1时许找到被掩埋的尸体。",
+      "event_graph": [
+        {
+          "child_event_id": "e10",
+          "trigger": "指认",
+          "trigger_agent": "其",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": "王某某"
+        },
+        {
+          "child_event_id": "e11",
+          "trigger": "找到",
+          "trigger_agent": "警方",
+          "trigger_object": "尸体",
+          "agent_attri": "",
+          "object_attri": "被掩埋",
+          "time": "28日凌晨1时",
+          "time_align": "2014-08-28-01-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "经查证，被害人系高秋曦。",
+      "event_graph": [
+        {
+          "child_event_id": "e12",
+          "trigger": "查证",
+          "trigger_agent": "警方",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e13",
+          "trigger": "系",
+          "trigger_agent": "被害人",
+          "trigger_object": "高秋曦",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": "高秋曦"
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "并列关系",
+      "e10": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    },
+    "e10": {
+      "e11": "顺承关系"
+    },
+    "e11": {
+      "e12": "顺承关系"
+    },
+    "e12": {
+      "e13": "顺承关系"
+    }
+  }
+}

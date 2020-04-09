@@ -1,0 +1,116 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年11月20日，合淮阜高速往安徽合肥方向77公里处，因受大雾影响，视线较差，超过70辆车发生追尾事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2014年11月20日",
+          "time_align": "2014-11-20-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "受",
+          "trigger_object": "影响",
+          "object_attri": "大雾",
+          "location": "合淮阜高速往安徽合肥方向77公里处",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2014年11月20日",
+          "time_align": "2014-11-20-XX-XX",
+          "trigger_agent": "车",
+          "agent_attri": "超过70辆",
+          "trigger": "发生",
+          "trigger_object": "追尾事故",
+          "object_attri": "",
+          "location": "合淮阜高速往安徽合肥方向77公里处",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事故造成一死十一伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "2014年11月20日",
+          "time_align": "2014-11-20-XX-XX",
+          "trigger_agent": "事故",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "死",
+          "object_attri": "一",
+          "location": "合淮阜高速往安徽合肥方向77公里处",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "2014年11月20日",
+          "time_align": "2014-11-20-XX-XX",
+          "trigger_agent": "事故",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "伤",
+          "object_attri": "十一",
+          "location": "合淮阜高速往安徽合肥方向77公里处",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，伤者已被送往医院进行救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "伤者",
+          "agent_attri": "",
+          "trigger": "被-送往",
+          "trigger_object": "医院",
+          "object_attri": "",
+          "location,": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "医院",
+          "trigger": "进行",
+          "trigger_object": "救治",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "因果关系",
+      "e04": "因果关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

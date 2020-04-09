@@ -1,0 +1,112 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2001年7月17日凌晨3时许，广西壮族自治区南丹县龙泉矿冶总厂下属的拉甲坡矿发生特大透水事故，造成拉甲坡矿、龙山矿、田角锌矿井下81名矿工死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "拉甲坡矿",
+          "trigger_object": "透水事故",
+          "agent_attri": "龙泉矿冶总厂下属",
+          "object_attri": "特大",
+          "time": "2001年7月17日凌晨3时",
+          "time_align": "2001-07-17-03-00",
+          "location": "广西壮族自治区南丹县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "object_attri": "拉甲坡矿、龙山矿、田角锌矿井下81名",
+          "time": "2001年7月17日凌晨3时",
+          "time_align": "2001-07-17-03-00",
+          "location": "广西壮族自治区南丹县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事故发生后，河池地委、行署于8月1日组织龙山、拉甲坡矿开始抽水，随后恒源、田角、果园、精诚、华星等矿先后投入排水工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "组织",
+          "trigger_agent": "地委、行署",
+          "trigger_object": "抽水",
+          "agent_attri": "河池",
+          "object_attri": "",
+          "time": "8月1日",
+          "time_align": "2001-08-01-XX-XX",
+          "location": "广西壮族自治区南丹县",
+          "organization": "河池地委、行署",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "投入",
+          "trigger_agent": "矿",
+          "trigger_object": "排水工作",
+          "object_attri": "恒源、田角、果园、精诚、华星等",
+          "time": "8月1日",
+          "time_align": "2001-08-01-XX-XX",
+          "location": "广西壮族自治区南丹县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "国务院调查组到达南丹后，立即勘察了事故现场",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "到达",
+          "trigger_agent": "调查组",
+          "trigger_object": "南丹",
+          "agent_attri": "国务院",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "南丹",
+          "organization": "国务院",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "勘察",
+          "trigger_agent": "调查组",
+          "trigger_object": "现场",
+          "agent_attri": "国务院",
+          "object_attri": "事故",
+          "time": "",
+          "time_align": "",
+          "location": "南丹",
+          "organization": "国务院",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

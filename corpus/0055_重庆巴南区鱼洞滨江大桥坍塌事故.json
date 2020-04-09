@@ -1,0 +1,109 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "8月24日晨5点30分许，哈尔滨阳明滩大桥引桥发生坍塌，四辆大型货车坠桥，3人遇难5人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "8月24日晨5点30分",
+          "time_align": "XXXX-08-24-05-30",
+          "trigger_agent": "引桥",
+          "agent_attri": "阳明滩大桥",
+          "trigger": "发生",
+          "trigger_object": "坍塌",
+          "object_attri": "",
+          "location": "哈尔滨阳明滩大桥",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "8月24日晨5点30分",
+          "time_align": "XXXX-08-24-05-30",
+          "trigger_agent": "货车",
+          "agent_attri": "四辆大型",
+          "trigger": "坠桥",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "哈尔滨阳明滩大桥",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "8月24日晨5点30分",
+          "time_align": "XXXX-08-24-05-30",
+          "trigger_agent": "人",
+          "agent_attri": "3",
+          "trigger": "遇难",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "哈尔滨阳明滩大桥",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "8月24日晨5点30分",
+          "time_align": "XXXX-08-24-05-30",
+          "trigger_agent": "人",
+          "agent_attri": "5",
+          "trigger": "受伤",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "哈尔滨阳明滩大桥",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "哈尔滨120急救、消防、交警以及相关部门工作人员立即赶赴现场参与救援。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "120急救/消防/交警/工作人员",
+          "agent_attri": "*/*/*/相关部门",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "哈尔滨阳明滩大桥",
+          "organization": "哈尔滨120急救",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "参与",
+          "trigger_object": "救援",
+          "object_attri": "",
+          "location": "哈尔滨阳明滩大桥",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

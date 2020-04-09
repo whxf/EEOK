@@ -1,0 +1,130 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年5月3日下午13时许，高州深镇镇良坪村委会良坑口村一座在建石拱桥突然坍塌。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2014年5月3日下午13时",
+          "time_align": "2014-05-03-13-00",
+          "trigger_agent": "桥",
+          "agent_attri": "一座在建石拱",
+          "trigger": "坍塌",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "高州深镇镇良坪村委会良坑口村",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "5月4日，警方已控制3名施工责任人，并调查事故原因。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "5月4日",
+          "time_align": "2014-05-04-XX-XX",
+          "trigger_agent": "警方",
+          "agent_attri": "",
+          "trigger": "控制",
+          "trigger_object": "人",
+          "object_attri": "3名施工责任",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "5月4日",
+          "time_align": "2014-05-04-XX-XX",
+          "trigger_agent": "警方",
+          "agent_attri": "",
+          "trigger": "调查",
+          "trigger_object": "原因",
+          "object_attri": "事故",
+          "location": "高州深镇镇良坪村委会良坑口村",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "中共茂名市委书记梁毅民在茂名市委总值班室指挥救援工作，茂名市长李红军及有关负责人赶赴现场协调处置。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "市委书记",
+          "agent_attri": "中共茂名",
+          "trigger": "指挥",
+          "trigger_object": "救援工作",
+          "object_attri": "",
+          "location": "茂名市",
+          "organization": "茂名市委",
+          "person": "梁毅民"
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "市长/负责人",
+          "agent_attri": "茂名/有关",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "茂名市",
+          "organization": "",
+          "person": "李红军"
+        },
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "市长/负责人",
+          "agent_attri": "茂名/有关",
+          "trigger": "协调",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "茂名市",
+          "organization": "",
+          "person": "李红军"
+        },
+        {
+          "child_event_id": "e07",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "市长/负责人",
+          "agent_attri": "茂名/有关",
+          "trigger": "处置",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "茂名市",
+          "organization": "",
+          "person": "李红军"
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

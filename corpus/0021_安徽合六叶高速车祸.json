@@ -1,0 +1,135 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年11月22日早上八点左右，受大雾影响，合六叶高速合肥往六安方向新桥服务区路段附近发生多起车祸。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2013年11月22日早上八点左右",
+          "time_align": "2013-11-22-08-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "受",
+          "trigger_object": "影响",
+          "object_attri": "大雾",
+          "location": "合六叶高速合肥往六安方向新桥服务区路段附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2013年11月22日早上八点左右",
+          "time_align": "2013-11-22-08-XX",
+          "trigger_agent": "路段",
+          "agent_attri": "服务区",
+          "trigger": "发生",
+          "trigger_object": "车祸",
+          "object_attri": "多起",
+          "location": "合六叶高速合肥往六安方向新桥服务区路段附近",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "被困人员救援已基本结束，伤者被送往市区医院救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "救援",
+          "agent_attri": "被困人员",
+          "trigger": "结束",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "合六叶高速合肥往六安方向新桥服务区路段附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "伤者",
+          "agent_attri": "",
+          "trigger": "被-救治",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，交警正在托运事故车辆，疏导交通。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "交警",
+          "agent_attri": "",
+          "trigger": "托运",
+          "trigger_object": "车辆",
+          "object_attri": "事故",
+          "location": "合六叶高速合肥往六安方向新桥服务区路段附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "交通",
+          "trigger_object": "疏导",
+          "object_attri": "",
+          "location": "合六叶高速合肥往六安方向新桥服务区路段附近",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "六安往合肥方向已恢复交通。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "方向",
+          "agent_attri": "六安往合肥",
+          "trigger": "恢复",
+          "trigger_object": "交通",
+          "object_attri": "",
+          "location": "六安往合肥方向",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

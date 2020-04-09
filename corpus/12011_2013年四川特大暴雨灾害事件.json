@@ -1,0 +1,88 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年7月9日晚开始，四川省境内连续遭受强降雨，部分地方暴雨到大暴雨，成都，绵阳，雅安等地受灾严重。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "遭受",
+          "trigger_agent": "境内",
+          "trigger_object": "降雨",
+          "agent_attri": "四川省",
+          "time": "2013年7月9日晚",
+          "time_align": "2013-07-09-XX-XX",
+          "location": "四川省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "受灾",
+          "trigger_agent": "成都/绵阳/雅安",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "严重",
+          "time": "2013年7月9日晚",
+          "time_align": "2013-07-09-XX-XX",
+          "location": "成都/绵阳/雅安",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截至7月10日16时，暴雨已造成9人死亡62人失踪 145万余人受灾。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "暴雨",
+          "trigger_object": "死亡",
+          "agent_attri": "9人",
+          "time": "7月10日16时",
+          "time_align": "2013-07-10-16-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "暴雨",
+          "trigger_object": "失踪",
+          "agent_attri": "62人",
+          "time": "7月10日16时",
+          "time_align": "2013-07-10-16-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "造成",
+          "trigger_agent": "暴雨",
+          "trigger_object": "受灾",
+          "agent_attri": "145人",
+          "time": "7月10日16时",
+          "time_align": "2013-07-10-16-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e04": "因果关系",
+      "e05": "因果关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e04": "并列关系"
+    }
+  }
+}

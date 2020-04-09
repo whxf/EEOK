@@ -1,0 +1,132 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2011年6月4日下午15时许，广东惠河高速惠州段发生大巴翻车特大交通事故，该事故造成至少8人死亡，10人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2011年6月4日下午15时",
+          "time_align": "2011-06-04-15-XX",
+          "trigger_agent": "段",
+          "agent_attri": "高速惠州",
+          "trigger": "发生",
+          "trigger_object": "交通事故",
+          "object_attri": "大巴翻车特大",
+          "location": "广东惠河高速惠州段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2011年6月4日下午15时",
+          "time_align": "2011-06-04-15-XX",
+          "trigger_agent": "事故",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "object_attri": "8人",
+          "location": "广东惠河高速惠州段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2011年6月4日下午15时",
+          "time_align": "2011-06-04-15-XX",
+          "trigger_agent": "事故",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "受伤",
+          "object_attri": "10人",
+          "location": "广东惠河高速惠州段",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "茂名市，茂名市高新区，茂南区两级党委政府，以及有关职能部门主要官员均赶赴现场指挥扑救，并对周围民众进行紧急疏散。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "政府/官员",
+          "agent_attri": "两级党委/有关职能部门主要",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "茂名市/茂名市高新区/茂南区",
+          "organization": "茂名市/茂名市高新区/茂南区两级党委政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "政府/官员",
+          "agent_attri": "两级党委/有关职能部门主要",
+          "trigger": "指挥",
+          "trigger_object": "扑救",
+          "object_attri": "",
+          "location": "茂名市/茂名市高新区/茂南区",
+          "organization": "茂名市/茂名市高新区/茂南区两级党委政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "政府/官员",
+          "agent_attri": "两级党委/有关职能部门主要",
+          "trigger": "进行",
+          "trigger_object": "疏散",
+          "object_attri": "紧急",
+          "location": "茂名市/茂名市高新区/茂南区",
+          "organization": "茂名市/茂名市高新区/茂南区两级党委政府",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "当前，现场大火已被扑灭。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "time": "当前",
+          "time_align": "",
+          "trigger_agent": "大火",
+          "agent_attri": "现场",
+          "trigger": "被-扑灭",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "广东惠河高速惠州段",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

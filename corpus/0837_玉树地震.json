@@ -1,0 +1,163 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年4月14日，青海省玉树藏族自治州玉树市发生6次地震，最高震级7.1级，时间7点49分。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "地震",
+          "agent_attri": "",
+          "object_attri": "6次、最高震级7.1级",
+          "time": "2010年4月14日",
+          "time_align": "2010-04-14-XX-XX",
+          "location": "青海省玉树藏族自治州玉树市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截至2010年5月30日18时，经青海省民政厅、公安厅和玉树州政府按相关程序统计，玉树地震已造成2698人遇难，其中已确认身份2687人，无名尸体11具，失踪270人。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "统计",
+          "trigger_agent": "政府",
+          "trigger_object": "",
+          "agent_attri": "青海省民政厅、公安厅和玉树州",
+          "object_attri": "",
+          "time": "2010年5月30日18时",
+          "time_align": "2010-05-30-18-XX",
+          "location": "青海省玉树藏族自治州玉树市",
+          "organization": "青海省民政厅、公安厅和玉树州政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "地震",
+          "trigger_object": "遇难",
+          "agent_attri": "玉树",
+          "object_attri": "2698人",
+          "time": "2010年5月30日18时",
+          "time_align": "2010-05-30-18-XX",
+          "location": "青海省玉树藏族自治州玉树市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "确认",
+          "trigger_agent": "",
+          "trigger_object": "身份",
+          "agent_attri": "",
+          "object_attri": "2687人",
+          "time": "2010年5月30日18时",
+          "time_align": "2010-05-30-18-XX",
+          "location": "青海省玉树藏族自治州玉树市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "失踪",
+          "trigger_agent": "",
+          "trigger_object": "人",
+          "agent_attri": "",
+          "object_attri": "270",
+          "time": "2010年5月30日18时",
+          "time_align": "2010-05-30-18-XX",
+          "location": "青海省玉树藏族自治州玉树市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2010年4月20日国务院决定，2010年4月21日举行全国哀悼活动，全国和驻外使领馆下半旗致哀，停止公共娱乐活动。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "决定",
+          "trigger_agent": "国务院",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2010年4月20日",
+          "time_align": "2010-04-20-XX-XX",
+          "location": "",
+          "organization": "国务院",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "举行",
+          "trigger_agent": "",
+          "trigger_object": "活动",
+          "agent_attri": "",
+          "object_attri": "全国哀悼",
+          "time": "2010年4月21日",
+          "time_align": "2010-04-21-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "下半旗",
+          "trigger_agent": "全国和驻外使领馆",
+          "trigger_object": "致哀",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2010年4月21日",
+          "time_align": "2010-04-21-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "停止",
+          "trigger_agent": "",
+          "trigger_object": "活动",
+          "agent_attri": "",
+          "object_attri": "公共娱乐",
+          "time": "2010年4月21日",
+          "time_align": "2010-04-21-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    }
+  }
+}

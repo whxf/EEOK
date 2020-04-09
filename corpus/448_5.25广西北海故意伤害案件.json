@@ -1,0 +1,114 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年5月25日晚21时许，广西北海市一男子因为嫌广场舞音乐太吵而持刀砍伤3市民。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "嫌",
+          "trigger_agent": "男子",
+          "trigger_object": "吵",
+          "agent_attri": "",
+          "object_attri": "广场舞音乐",
+          "time": "2014年5月25日晚21时",
+          "time_align": "2014-05-25-21-00",
+          "location": "广西北海市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "持刀",
+          "trigger_agent": "男子",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2014年5月25日晚21时",
+          "time_align": "2014-05-25-21-00",
+          "location": "广西北海市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "砍伤",
+          "trigger_agent": "男子",
+          "trigger_object": "市民",
+          "agent_attri": "",
+          "object_attri": "3名",
+          "time": "2014年5月25日晚21时",
+          "time_align": "2014-05-25-21-00",
+          "location": "广西北海市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2014年5月25日晚，广西市警方接到报案后，迅速将犯罪嫌疑人抓获。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "接到",
+          "trigger_agent": "警方",
+          "trigger_object": "报案",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2014年5月25日晚",
+          "time_align": "2014-05-25-21-00",
+          "location": "广西市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "抓获",
+          "trigger_agent": "警方",
+          "trigger_object": "犯罪嫌疑人",
+          "agent_attri": "",
+          "object_attri": "3",
+          "time": "2014年5月25日晚",
+          "time_align": "2014-05-25-21-00",
+          "location": "广西市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2014年5月28日，北海市海城区人民法院公开开庭审理这次故意伤害事件的犯罪嫌疑人。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "审理",
+          "trigger_agent": "人民法院",
+          "trigger_object": "犯罪嫌疑人",
+          "agent_attri": "",
+          "object_attri": "这次故意伤害事件",
+          "time": "2014年5月28日",
+          "time_align": "2014-05-28-XX-XX",
+          "location": "北海市海城区",
+          "organization": "北海市海城区人民法院",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

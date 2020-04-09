@@ -1,0 +1,111 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "5月11日上午8时30分，窑街煤电集团公司金河煤矿一号井五采区1529探巷工作面发生瓦斯事故，当时在井下作业的15名工人，有6名矿工获救顺利升井，9名矿工遇难",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "5月11日上午8时30分",
+          "time_align": "XXXX-05-11-08-30",
+          "trigger_agent": "工作面",
+          "agent_attri": "窑街煤电集团公司金河煤矿一号井五采区1529探巷",
+          "trigger": "发生",
+          "trigger_object": "瓦斯事故",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "5月11日上午8时30分",
+          "time_align": "XXXX-05-11-08-30",
+          "trigger_agent": "矿工",
+          "agent_attri": "6名",
+          "trigger": "获救",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "窑街煤电集团公司金河煤矿一号井五采区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "5月11日上午8时30分",
+          "time_align": "XXXX-05-11-08-30",
+          "trigger_agent": "矿工",
+          "agent_attri": "",
+          "trigger": "升井",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "窑街煤电集团公司金河煤矿一号井五采区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "5月11日上午8时30分",
+          "time_align": "XXXX-05-11-08-30",
+          "trigger_agent": "矿工",
+          "agent_attri": "9名",
+          "trigger": "遇难",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "窑街煤电集团公司金河煤矿一号井五采区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "相关部门立即启动了重大事故应急预案，成立事故抢险指挥部。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "相关部门",
+          "agent_attri": "",
+          "trigger": "启动",
+          "trigger_object": "应急预案",
+          "object_attri": "重大事故",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "相关部门",
+          "agent_attri": "",
+          "trigger": "成立",
+          "trigger_object": "指挥部",
+          "object_attri": "事故抢险",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系",
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

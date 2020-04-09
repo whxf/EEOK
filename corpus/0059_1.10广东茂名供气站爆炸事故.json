@@ -1,0 +1,114 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年1月10日中午12时40分左右，位于茂名市油城二路文冲口二路的威龙化学工业公司罐区内，两辆槽罐车起火，继而发生爆燃。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2015年1月10日中午12时40分",
+          "time_align": "2015-01-20-12-40",
+          "trigger_agent": "车",
+          "agent_attri": "两辆槽罐",
+          "trigger": "起火",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "茂名市油城二路文冲口二路",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2015年1月10日中午12时40分",
+          "time_align": "2015-01-20-12-40",
+          "trigger_agent": "车",
+          "agent_attri": "两辆槽罐",
+          "trigger": "发生",
+          "trigger_object": "爆燃",
+          "object_attri": "",
+          "location": "茂名市油城二路文冲口二路",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "经过4个小时的紧张扑救，现场大火已被扑灭。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "扑救",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "茂名市油城二路文冲口二路",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "大火",
+          "agent_attri": "现场",
+          "trigger": "被-扑灭",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "茂名市油城二路文冲口二路",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，相关涉事人员已被警方控制，事故原因正在调查中。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "涉事人员",
+          "agent_attri": "相关",
+          "trigger": "被-控制",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "茂名市油城二路文冲口二路",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "事故原因",
+          "agent_attri": "",
+          "trigger": "在-调查",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

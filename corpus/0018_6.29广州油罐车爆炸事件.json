@@ -1,0 +1,111 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年6月29日，广州沿江高速南岗段29日4时30分发生重大交通事故，造成20人亡、31人伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2012年6月29日",
+          "time_align": "2012-06-29-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发生",
+          "trigger_object": "交通事故",
+          "object_attri": "重大",
+          "location": "广州沿江高速南岗段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2012年6月29日",
+          "time_align": "2012-06-29-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "亡",
+          "object_attri": "20人",
+          "location": "广州沿江高速南岗段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2012年6月29日",
+          "time_align": "2012-06-29-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "伤",
+          "object_attri": "31人",
+          "location": "广州沿江高速南岗段",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2013年6月9日下午，广东纪检监察网公布了该事故责任人处理情况，有37人对事故的发生负有责任，其中涉及相关监管单位工作人员28人。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "2013年6月9日下午",
+          "time_align": "2013-06-09-XX-XX",
+          "trigger_agent": "纪检监察网",
+          "agent_attri": "广东",
+          "trigger": "公布",
+          "trigger_object": "情况",
+          "object_attri": "责任人处理",
+          "location": "广东",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "2013年6月9日下午",
+          "time_align": "2013-06-09-XX-XX",
+          "trigger_agent": "人",
+          "agent_attri": "37",
+          "trigger": "负有",
+          "trigger_object": "责任",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "2013年6月9日下午",
+          "time_align": "2013-06-09-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "涉及",
+          "trigger_object": "人",
+          "object_attri": "工作人员28",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

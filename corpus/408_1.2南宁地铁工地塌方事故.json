@@ -1,0 +1,111 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年1月2日14时15分，广西南宁地铁一号线国贸中心前施工现场塌方造成三人被困。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "造成",
+          "trigger_agent": "塌方",
+          "trigger_object": "被困",
+          "agent_attri": "广西南宁地铁一号线国贸中心前施工现场",
+          "object_attri": "三人",
+          "time": "2013年1月2日14时15分",
+          "time_align": "2013-01-02-14-15",
+          "location": "广西南宁地铁一号线国贸中心",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "被困",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "三",
+          "object_attri": "",
+          "time": "2013年1月2日14时15分",
+          "time_align": "2013-01-02-14-15",
+          "location": "广西南宁地铁一号线国贸中心",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前已经有2人被救出送往医院。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "被救出",
+          "trigger_agent": "人",
+          "trigger_object": "医院",
+          "agent_attri": "2",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "广西南宁地铁一号线国贸中心",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "被送往",
+          "trigger_agent": "人",
+          "trigger_object": "医院",
+          "agent_attri": "2",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "广西南宁地铁一号线国贸中心",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，事故原因还在调查中，救援工作仍在紧张进行。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "在-调查",
+          "trigger_agent": "",
+          "trigger_object": "原因",
+          "agent_attri": "",
+          "object_attri": "事故",
+          "time": "目前",
+          "time_align": "",
+          "location": "广西南宁地铁一号线国贸中心",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "进行",
+          "trigger_agent": "",
+          "trigger_object": "救援工作",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "广西南宁地铁一号线国贸中心",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

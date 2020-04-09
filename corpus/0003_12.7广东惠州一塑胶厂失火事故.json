@@ -1,0 +1,129 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年12月7日下午17时许，广东惠州市惠阳区永湖镇一名为志晟再生塑料加工厂发生火灾事故，4000多平方米的简易厂房和塑料堆放物全部焚毁，所幸工人撤离及时，暂时未接到伤亡报告。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2012年12月7日下午17时",
+          "time_align": "2012-12-07-17-XX",
+          "trigger_agent": "加工厂",
+          "agent_attri": "一名为志晟再生塑料",
+          "trigger": "发生",
+          "trigger_object": "火灾事故",
+          "object_attri": "",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2012年12月7日下午17时",
+          "time_align": "2012-12-07-17-XX",
+          "trigger_agent": "厂房/堆放物",
+          "agent_attri": "4000多平方米的简易厂房/塑料",
+          "trigger": "焚毁",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2012年12月7日下午17时",
+          "time_align": "2012-12-07-17-XX",
+          "trigger_agent": "工人",
+          "agent_attri": "",
+          "trigger": "撤离",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "初步怀疑失火原因是该工厂一名工人的小孩拿石头扔电线，导致电线摇摆短路发出火花着火。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "小孩",
+          "agent_attri": "该工厂一名工人的",
+          "trigger": "扔",
+          "trigger_object": "电线",
+          "object_attri": "",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "导致",
+          "trigger_object": "电线摇摆",
+          "object_attri": "",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "导致",
+          "trigger_object": "短路",
+          "object_attri": "",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "导致",
+          "trigger_object": "着火",
+          "object_attri": "发出火花",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系",
+      "e01": "并列关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "因果关系",
+      "e06": "因果关系",
+      "e07": "因果关系"
+    },
+    "e05": {
+      "e06": "并列关系",
+      "e07": "并列关系"
+    },
+    "e06": {
+      "e07": "并列关系"
+    }
+  }
+}

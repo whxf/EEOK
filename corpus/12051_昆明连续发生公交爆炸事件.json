@@ -1,0 +1,142 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2008年7月21日上午7时10分，在云南昆明市人民西路云大医院侧门、昌源路与人民西路交叉口分别发生公共车爆炸案。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "",
+          "trigger": "发生",
+          "trigger_object": "爆炸案",
+          "agent_attri": "公交车",
+          "object_attri": "",
+          "time": "2008年7月21日上午7时10分",
+          "time_align": "2008-07-21-07-10",
+          "location": "云南昆明市人民西路云大医院侧门/昌源路与人民西路交叉口",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "上午8时许，在昆明市眠山地段、金碧路地段也发生公交车爆炸事件。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger_agent": "",
+          "trigger": "发生",
+          "trigger_object": "爆炸事件",
+          "agent_attri": "公交车",
+          "object_attri": "",
+          "time": "上午8时",
+          "time_align": "2008-07-21-08-00",
+          "location": "昆明市眠山地段/金碧路地段",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "昆明公安局召开媒体发布会，在发布会上通报爆炸伤亡情况，爆炸原因正在调查中。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger_agent": "公安局",
+          "trigger": "召开",
+          "trigger_object": "发布会",
+          "agent_attri": "昆明",
+          "object_attri": "新闻",
+          "time": "",
+          "time_align": "",
+          "location": "昆明",
+          "organization": "昆明公安局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger_agent": "公安局",
+          "trigger": "通报",
+          "trigger_object": "伤亡情况",
+          "agent_attri": "",
+          "object_attri": "爆炸",
+          "time": "",
+          "time_align": "",
+          "location": "昆明",
+          "organization": "昆明公安局",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截至21日11时，云南省昆明市发生的两起公共汽车爆炸案件死者身份已初步确定，爆炸事件初步判断是人为破坏案件。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger_agent": "死者身份",
+          "trigger": "确认",
+          "trigger_object": "",
+          "agent_attri": "两起公共汽车爆炸案件",
+          "object_attri": "",
+          "time": "21日11时",
+          "time_align": "2008-07-21-11-XX",
+          "location": "云南省昆明市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger_agent": "事件",
+          "trigger": "被-判断",
+          "trigger_object": "人为破坏",
+          "agent_attri": "爆炸",
+          "object_attri": "",
+          "time": "21日11时",
+          "time_align": "2008-07-21-11-XX",
+          "location": "云南省昆明市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，昆明公交车爆炸事件的2名主要涉嫌组织者已被警方依法控制。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger_agent": "组织者",
+          "trigger": "被-控制",
+          "trigger_object": "警方",
+          "agent_attri": "昆明公交车爆炸事件的2名主要涉嫌",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "昆明",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "并列关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "并列关系",
+      "e07": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

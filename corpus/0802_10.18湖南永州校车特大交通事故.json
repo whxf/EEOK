@@ -1,0 +1,191 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年10月18日下午17时10分左右，湖南省永州市永连公路双牌茶林路段发生了一起惨烈的交通事故，一辆载有48人（多数乘客为学生）的大巴车翻下三四十米深的山崖，目前已造成4人死亡、44人受伤，受伤的司机曾辉及所属的客运公司相关责任人员已被警方控制。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "路段",
+          "trigger_object": "交通事故",
+          "agent_attri": "永连公路双牌茶林",
+          "object_attri": "惨烈",
+          "time": "2012年10月18日下午17时10分",
+          "time_align": "2012-10-18-17-10",
+          "location": "湖南省永州市永连公路双牌茶林路段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "翻下",
+          "trigger_agent": "大巴车",
+          "trigger_object": "山崖",
+          "agent_attri": "一辆载有48人（多数乘客为学生）",
+          "object_attri": "三四十米深",
+          "time": "2012年10月18日下午17时10分",
+          "time_align": "2012-10-18-17-10",
+          "location": "湖南省永州市永连公路双牌茶林路段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "4人",
+          "time": "2012年10月18日下午17时10分",
+          "time_align": "2012-10-18-17-10",
+          "location": "湖南省永州市永连公路双牌茶林路段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "44人",
+          "time": "2012年10月18日下午17时10分",
+          "time_align": "2012-10-18-17-10",
+          "location": "湖南省永州市永连公路双牌茶林路段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "被-控制",
+          "trigger_agent": "司机/责任人员",
+          "trigger_object": "警方",
+          "agent_attri": "",
+          "object_attri": "受伤的/所属的客运公司相关",
+          "time": "2012年10月18日下午17时10分",
+          "time_align": "2012-10-18-17-10",
+          "location": "湖南省永州市永连公路双牌茶林路段",
+          "organization": "",
+          "person": "曾辉"
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前永州市正在对全部伤员全力救治，要求对一般伤员确定一对一的主治医师和护理人员，对重伤员要确定专家组，负责组织救治，全力确保伤员生命安全。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "救治",
+          "trigger_agent": "永州市",
+          "trigger_object": "伤员",
+          "agent_attri": "",
+          "object_attri": "全部伤员",
+          "time": "目前",
+          "time_align": "",
+          "location": "永州市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "要求",
+          "trigger_agent": "永州市",
+          "trigger_object": "主治医师和护理人员",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "永州市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "确定",
+          "trigger_agent": "伤员",
+          "trigger_object": "主治医师和护理人员",
+          "agent_attri": "一般",
+          "object_attri": "一对一",
+          "time": "目前",
+          "time_align": "",
+          "location": "永州市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "确定",
+          "trigger_agent": "伤员",
+          "trigger_object": "专家组",
+          "agent_attri": "重",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "永州市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e10",
+          "trigger": "组织",
+          "trigger_agent": "永州市",
+          "trigger_object": "救治",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "永州市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e11",
+          "trigger": "确保",
+          "trigger_agent": "永州市",
+          "trigger_object": "生命安全",
+          "agent_attri": "",
+          "object_attri": "伤员",
+          "time": "目前",
+          "time_align": "",
+          "location": "永州市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "因果关系",
+      "e04": "因果关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    },
+    "e10": {
+      "e11": "顺承关系"
+    }
+  }
+}

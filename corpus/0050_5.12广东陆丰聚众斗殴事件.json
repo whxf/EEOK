@@ -1,0 +1,93 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年5月12日上午，广东陆丰市桥冲镇东竹村委会松竹村民小组发生一起聚众斗殴案件，致10余人伤",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2013年5月12日上午",
+          "time_align": "2013-05-12-XX-XX",
+          "trigger_agent": "组",
+          "agent_attri": "松竹村民小",
+          "trigger": "发生",
+          "trigger_object": "斗殴案件",
+          "object_attri": "一起聚众",
+          "location": "广东陆丰市桥冲镇东竹村",
+          "organization": "东竹村委会",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2013年5月12日上午",
+          "time_align": "2013-05-12-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "致",
+          "trigger_object": "伤",
+          "object_attri": "10余人",
+          "location": "广东陆丰市桥冲镇东竹村",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "经公安机关初步侦查，犯罪嫌疑人刘某茂、刘某怀、刘某维、陈某珠已被刑事拘留，案件及发案原因正在进一步侦查中。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "公安机关",
+          "agent_attri": "",
+          "trigger": "初步侦查",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "广东陆丰市桥冲镇东竹村",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "刘某茂/刘某怀/刘某维/陈某珠",
+          "agent_attri": "犯罪嫌疑人",
+          "trigger": "被-刑事拘留",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": "刘某茂、刘某怀、刘某维、陈某珠"
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "原因",
+          "agent_attri": "案件及发案",
+          "trigger": "进一步侦查",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

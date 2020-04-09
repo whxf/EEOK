@@ -1,0 +1,98 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年12月22日晚上，两名登山爱好者在河北省涿鹿县灵山景区登山时失踪。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2012年12月22日晚上",
+          "time_align": "2012-12-22-XX-XX",
+          "trigger_agent": "登山爱好者",
+          "agent_attri": "两名",
+          "trigger": "失踪",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "河北省涿鹿县灵山景区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "经北京、河北消防、公安和多支民间救援队搜救，23日中午12点26分，两人在山间树林被发现，但均无生命迹象。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "23日中午12点26分",
+          "time_align": "2012-12-23-12-26",
+          "trigger_agent": "救援队",
+          "agent_attri": "北京/河北消防/公安和多支民间",
+          "trigger": "搜救",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "河北省涿鹿县灵山景区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "23日中午12点26分",
+          "time_align": "2012-12-23-12-26",
+          "trigger_agent": "人",
+          "agent_attri": "两",
+          "trigger": "被-发现",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "河北省涿鹿县灵山景区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "23日中午12点26分",
+          "time_align": "2012-12-23-12-26",
+          "trigger_agent": "人",
+          "agent_attri": "两",
+          "trigger": "无",
+          "trigger_object": "生命迹象",
+          "object_attri": "",
+          "location": "河北省涿鹿县灵山景区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "初步判断两人死因系冻死。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "判断",
+          "trigger_object": "死因",
+          "object_attri": "两人/系冻死",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

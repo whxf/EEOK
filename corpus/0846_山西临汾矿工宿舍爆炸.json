@@ -1,0 +1,120 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年7月31日2时44分，山西省临汾市冀城县山西阳泉煤业集团柳沟煤业有限公司地面发生炸药爆炸，造成该矿10余间职工宿舍被毁。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "地面",
+          "trigger_object": "爆炸",
+          "agent_attri": "山西省临汾市冀城县山西阳泉煤业集团柳沟煤业有限公司",
+          "object_attri": "炸药",
+          "time": "2010年7月31日2时44分",
+          "time_align": "2010-07-31-02-44",
+          "location": "山西省临汾市冀城县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "被毁",
+          "agent_attri": "",
+          "object_attri": "该矿10余间职工宿舍",
+          "time": "2010年7月31日2时44分",
+          "time_align": "2010-07-31-02-44",
+          "location": "山西省临汾市冀城县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，已造成17人死亡、7人重伤、68人轻伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "17人",
+          "time": "",
+          "time_align": "2010-07-31-02-44",
+          "location": "山西省临汾市冀城县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "重伤",
+          "agent_attri": "",
+          "object_attri": "7人",
+          "time": "",
+          "time_align": "2010-07-31-02-44",
+          "location": "山西省临汾市冀城县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "轻伤",
+          "agent_attri": "",
+          "object_attri": "68人",
+          "time": "",
+          "time_align": "2010-07-31-02-44",
+          "location": "山西省临汾市冀城县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "现场清理搜救工作仍在进行中。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "进行",
+          "trigger_agent": "工作",
+          "trigger_object": "",
+          "agent_attri": "现场清理搜救",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "山西省临汾市冀城县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系",
+      "e04": "因果关系",
+      "e05": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

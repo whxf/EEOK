@@ -1,0 +1,99 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年7月12日凌晨近5时许，北京丰台区宋家庄地铁站附近，融家快捷连锁酒店发生塌陷。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2012年7月12日凌晨近5时",
+          "time_align": "2012-07-12-05-00",
+          "trigger_agent": "酒店",
+          "agent_attri": "融家快捷连锁",
+          "trigger": "发生",
+          "trigger_object": "塌陷",
+          "object_attri": "",
+          "location": "北京丰台区宋家庄地铁站附近",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": " 该酒店内140余名房客紧急逃生，未致人员伤亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "房客",
+          "agent_attri": "140余名",
+          "trigger": "逃生",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "北京丰台区宋家庄地铁站附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "未-致",
+          "trigger_object": "伤亡",
+          "object_attri": "人员",
+          "location": "北京丰台区宋家庄地铁站附近",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "丰台区相关部门成立调查组，调查此事。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "相关部门",
+          "agent_attri": "",
+          "trigger": "成立",
+          "trigger_object": "调查组",
+          "object_attri": "",
+          "location": "丰台区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "相关部门",
+          "agent_attri": "",
+          "trigger": "调查",
+          "trigger_object": "此事",
+          "object_attri": "",
+          "location": "丰台区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

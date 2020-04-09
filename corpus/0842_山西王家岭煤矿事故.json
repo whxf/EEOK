@@ -1,0 +1,96 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年3月28日13时40分，山西省临汾碟子沟华晋焦煤有限责任公司63工程处承建的王家岭煤矿发生了一起煤矿透水事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "煤矿",
+          "trigger_object": "透水事故",
+          "agent_attri": "山西省临汾碟子沟华晋焦煤有限责任公司63工程处承建的王家岭",
+          "object_attri": "一起煤矿",
+          "time": "2010年3月28日13时40分",
+          "time_align": "2010-03-28-13-40",
+          "location": "山西省临汾碟子沟",
+          "organization": "华晋焦煤有限责任公司",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截止4月6日12点30分，115名矿工成功获救升井，5名矿工不幸遇难，尚有38名矿工等待救援。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "获救",
+          "trigger_agent": "矿工",
+          "trigger_object": "",
+          "agent_attri": "115名",
+          "object_attri": "",
+          "time": "4月6日12点30分",
+          "time_align": "2010-04-06-12-30",
+          "location": "山西省临汾碟子沟",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "升井",
+          "trigger_agent": "矿工",
+          "trigger_object": "",
+          "agent_attri": "115名",
+          "object_attri": "",
+          "time": "4月6日12点30分",
+          "time_align": "2010-04-06-12-30",
+          "location": "山西省临汾碟子沟",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "遇难",
+          "trigger_agent": "矿工",
+          "trigger_object": "",
+          "agent_attri": "5名",
+          "object_attri": "",
+          "time": "4月6日12点30分",
+          "time_align": "2010-04-06-12-30",
+          "location": "山西省临汾碟子沟",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "等待",
+          "trigger_agent": "矿工",
+          "trigger_object": "救援",
+          "agent_attri": "38名",
+          "object_attri": "",
+          "time": "4月6日12点30分",
+          "time_align": "2010-04-06-12-30",
+          "location": "山西省临汾碟子沟",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系",
+      "e05": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年10月11日18时，雷某、廖某等数十名某劳务公司人员到四川都江堰市胥家镇某项目工地向项目承包方讨薪未果，双方发生纠纷，继而发生打斗，致雷某和廖某受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "公司人员",
+          "trigger": "向-讨薪未果",
+          "trigger_object": "承包方",
+          "agent_attri": "雷某/廖某等数十名某劳务",
+          "object_attri": "项目",
+          "time": "2010年10月11日18时",
+          "time_align": "2010-10-11-18-XX",
+          "location": "四川都江堰市胥家镇",
+          "organization": "",
+          "person": "雷某/廖某"
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "发生",
+          "trigger_agent": "双方",
+          "trigger_object": "纠纷",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2010年10月11日18时",
+          "time_align": "2010-10-11-18-XX",
+          "location": "四川都江堰市胥家镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "打斗",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2010年10月11日18时",
+          "time_align": "2010-10-11-18-XX",
+          "location": "四川都江堰市胥家镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "致",
+          "trigger_agent": "",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "雷某和廖某",
+          "time": "2010年10月11日18时",
+          "time_align": "2010-10-11-18-XX",
+          "location": "四川都江堰市胥家镇",
+          "organization": "",
+          "person": "雷某、廖某"
+        }
+      ]
+    },
+    {
+      "event_sentence": "伤者被及时送至都江堰市医疗中心救治，雷某经抢救无效死亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "被-送至",
+          "trigger_agent": "伤者",
+          "trigger_object": "医疗中心",
+          "agent_attri": "",
+          "object_attri": "都江堰市",
+          "time": "",
+          "time_align": "",
+          "location": "都江堰市",
+          "organization": "都江堰市医疗中心",
+          "person": "雷某"
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "救治",
+          "trigger_agent": "医疗中心",
+          "trigger_object": "伤者",
+          "agent_attri": "都江堰市",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "都江堰市",
+          "organization": "都江堰市医疗中心",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "抢救",
+          "trigger_agent": "雷某",
+          "trigger_object": "无效",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "都江堰市",
+          "organization": "都江堰市医疗中心",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "死亡",
+          "trigger_agent": "雷某",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "都江堰市",
+          "organization": "都江堰市医疗中心",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "因果关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    }
+  }
+}

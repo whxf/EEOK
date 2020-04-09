@@ -1,0 +1,103 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年1月7日17时30分，兰州石化公司石油化工厂发生爆炸着火事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2010年1月7日17时30分",
+          "time_align": "2010-01-07-17-30",
+          "trigger_agent": "化工厂",
+          "agent_attri": "石化公司石油",
+          "trigger": "发生",
+          "trigger_object": "着火事故",
+          "object_attri": "爆炸",
+          "location": "兰州",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "18时许，甘肃省委书记陆浩、甘肃省省长徐守盛赶赴现场。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "time": "18时",
+          "time_align": "2010-01-07-18-00",
+          "trigger_agent": "省委书记/省长",
+          "agent_attri": "甘肃/甘肃",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "兰州",
+          "organization": "",
+          "person": "陆浩、徐守盛"
+        }
+      ]
+    },
+    {
+      "event_sentence": "18时50分许，甘肃省委书记陆浩等进入事故现场，详细询问人员伤亡、事故原因、处置等情况。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "18时50分",
+          "time_align": "2010-01-07-18-50",
+          "trigger_agent": "省委书记",
+          "agent_attri": "甘肃",
+          "trigger": "进入",
+          "trigger_object": "现场",
+          "object_attri": "事故",
+          "location": "兰州",
+          "organization": "",
+          "person": "陆浩"
+        },
+        {
+          "child_event_id": "e04",
+          "time": "18时50分",
+          "time_align": "2010-01-07-18-50",
+          "trigger_agent": "省委书记",
+          "agent_attri": "甘肃",
+          "trigger": "询问",
+          "trigger_object": "情况",
+          "object_attri": "人员伤亡/事故原因/处置",
+          "location": "兰州",
+          "organization": "",
+          "person": "陆浩"
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，火势已被控制。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "目前",
+          "time_align": "",
+          "trigger_agent": "火势",
+          "agent_attri": "",
+          "trigger": "被-控制",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "兰州",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年1月4日4时40分，山东寿光市广场街百货大楼购物中心一楼24小时营业的中式快餐连锁店“禾和豆浆”发生火灾，引发百货大楼购物中心二楼服装仓库着火。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "店",
+          "trigger_object": "火灾",
+          "agent_attri": "山东寿光市广场街百货大楼购物中心一楼24小时营业的中式快餐连锁店“禾和豆浆”",
+          "object_attri": "",
+          "time": "2013年1月4日4时40分",
+          "time_align": "2013-01-04-04-40",
+          "location": "山东寿光市广场街百货大楼购物中心",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "引发",
+          "trigger_agent": "",
+          "trigger_object": "着火",
+          "agent_attri": "百货大楼购物中心二楼服装仓库",
+          "object_attri": "",
+          "time": "2013年1月4日4时40分",
+          "time_align": "2013-01-04-04-40",
+          "location": "山东寿光市广场街百货大楼购物中心",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "火灾发生后，50余辆消防车赶赴现场。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "赶赴",
+          "trigger_agent": "消防车",
+          "trigger_object": "现场",
+          "agent_attri": "50余辆",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "山东寿光市广场街百货大楼购物中心",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，现场明火已全部扑灭，火灾未造成人员伤亡。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "扑灭",
+          "trigger_agent": "明火",
+          "trigger_object": "",
+          "agent_attri": "现场",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "山东寿光市广场街百货大楼购物中心",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "未-造成",
+          "trigger_agent": "火灾",
+          "trigger_object": "伤亡",
+          "agent_attri": "",
+          "object_attri": "人员",
+          "time": "目前",
+          "time_align": "",
+          "location": "山东寿光市广场街百货大楼购物中心",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，火灾原因未详。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "未详",
+          "trigger_agent": "原因",
+          "trigger_object": "",
+          "agent_attri": "火灾",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "山东寿光市广场街百货大楼购物中心",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系",
+      "e04": "因果关系",
+      "e05": "因果关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

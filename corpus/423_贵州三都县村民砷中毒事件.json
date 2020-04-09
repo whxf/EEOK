@@ -1,0 +1,119 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年9月21日，贵州三都县发生村民误饮废弃矿洞水引发的砷中毒事件。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "砷中毒事件",
+          "agent_attri": "",
+          "object_attri": "村民误饮废弃矿洞水引发的",
+          "time": "2013年9月21日",
+          "time_align": "2013-09-21-XX-XX",
+          "location": "贵州三都县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，救治等相关工作仍正在进行中。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "进行",
+          "trigger_agent": "工作",
+          "trigger_object": "",
+          "agent_attri": "救治等相关",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "事发后，贵州省立即成立现场应急处置指挥部，全力组织开展人员救治、饮用水保障、污染面排查等工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "成立",
+          "trigger_agent": "",
+          "trigger_object": "指挥部",
+          "agent_attri": "",
+          "object_attri": "现场应急处置",
+          "time": "",
+          "time_align": "",
+          "location": "贵州省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "组织开展",
+          "trigger_agent": "",
+          "trigger_object": "工作",
+          "agent_attri": "",
+          "object_attri": "人员救治、饮用水保障、污染面排查等",
+          "time": "",
+          "time_align": "",
+          "location": "贵州省",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "设立救治中心，调配医务人员、设备和药品",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "设立",
+          "trigger_agent": "",
+          "trigger_object": "救治中心",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "贵州省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "调配",
+          "trigger_agent": "",
+          "trigger_object": "医务人员/设备/药品",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "贵州省",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "8月13日6时许，吉盛矿业有限公司一井发生一起瓦斯事故，当班入井116人，其中95人安全升井，21人被困井下。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "井",
+          "trigger_object": "瓦斯事故",
+          "agent_attri": "吉盛矿业有限公司一",
+          "object_attri": "一起",
+          "time": "8月13日6时",
+          "time_align": "XXXX-08-13-06-00",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "入井",
+          "trigger_agent": "当班",
+          "trigger_object": "人",
+          "agent_attri": "",
+          "object_attri": "116",
+          "time": "8月13日6时",
+          "time_align": "XXXX-08-13-06-00",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "升井",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "95",
+          "object_attri": "",
+          "time": "8月13日6时",
+          "time_align": "XXXX-08-13-06-00",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "被-困",
+          "trigger_agent": "人",
+          "trigger_object": "井下",
+          "agent_attri": "21",
+          "object_attri": "",
+          "time": "8月13日6时",
+          "time_align": "XXXX-08-13-06-00",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "白山市矿山救护队、通化矿业集团救护队70人分批入井全力施救，当日中午，搜救人员发现4名遇难者。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "入井",
+          "trigger_agent": "救护队",
+          "trigger_object": "施救",
+          "agent_attri": "白山市矿山救护队、通化矿业集团救护队70人",
+          "object_attri": "",
+          "time": "当日中午",
+          "time_align": "XXXX-08-13-XX-XX",
+          "location": "白山市",
+          "organization": "白山市矿山救护队、通化矿业集团救护队",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "发现",
+          "trigger_agent": "搜救人员",
+          "trigger_object": "遇难者",
+          "agent_attri": "白山市矿山救护队、通化矿业集团救护队70人",
+          "object_attri": "4名",
+          "time": "当日中午",
+          "time_align": "XXXX-08-13-XX-XX",
+          "location": "白山市",
+          "organization": "白山市矿山救护队、通化矿业集团救护队",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "后经全力抢救，至13日14时许，有4人获救，并送往医院进行救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "抢救",
+          "trigger_agent": "搜救人员",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "13日14时",
+          "time_align": "XXXX-08-13-14-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "获救",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "4",
+          "object_attri": "",
+          "time": "13日14时",
+          "time_align": "XXXX-08-13-14-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "trigger": "被-送往",
+          "trigger_agent": "人",
+          "trigger_object": "医院",
+          "agent_attri": "4",
+          "object_attri": "",
+          "time": "13日14时",
+          "time_align": "XXXX-08-13-14-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e10",
+          "trigger": "救治",
+          "trigger_agent": "医院",
+          "trigger_object": "人",
+          "agent_attri": "",
+          "object_attri": "4",
+          "time": "13日14时",
+          "time_align": "XXXX-08-13-14-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "其中，3名矿工因伤势较重相继不幸去世，1人伤势平稳。",
+      "event_graph": [
+        {
+          "child_event_id": "e11",
+          "trigger": "去世",
+          "trigger_agent": "矿工",
+          "trigger_object": "",
+          "agent_attri": "3名伤势较重",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e12",
+          "trigger": "平稳",
+          "trigger_agent": "伤势",
+          "trigger_object": "",
+          "agent_attri": "1人",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "并列关系",
+      "e10": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    },
+    "e10": {
+      "e11": "顺承关系"
+    },
+    "e11": {
+      "e12": "并列关系"
+    }
+  }
+}

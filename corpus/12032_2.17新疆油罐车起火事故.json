@@ -1,0 +1,121 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年2月17日晚上10点50分左右，国道314线新疆阿克苏新和县境内一辆装载有30吨汽油的油罐车突然起火，大火夹着浓烟腾空而起。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger_agent": "油罐车",
+          "trigger": "起火",
+          "trigger_object": "",
+          "agent_attri": "一辆装载有30吨汽油的",
+          "object_attri": "突然",
+          "time": "2012年2月17日晚上10点50分",
+          "time_align": "2012-02-17-22-50",
+          "location": "国道314线新疆阿克苏新和县境内",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "阿克苏消防官兵经过2个多小时奋战，事故现场罐体明火被扑灭。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "经过",
+          "trigger_agent": "消防官兵",
+          "trigger_object": "奋战",
+          "agent_attri": "阿克苏",
+          "object_attri": "2个多小时",
+          "time": "",
+          "time_align": "",
+          "location": "国道314线新疆阿克苏新和县境内",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "被-扑灭",
+          "trigger_agent": "明火",
+          "trigger_object": "",
+          "agent_attri": "罐体",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "国道314线新疆阿克苏新和县境内",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "截止到18日中午1点10分，起火油罐车倒罐工作结束。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "结束",
+          "trigger_agent": "工作",
+          "trigger_object": "",
+          "agent_attri": "起火油罐车倒罐",
+          "object_attri": "",
+          "time": "18日中午1点10分",
+          "time_align": "2012-02-18-13-10",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "此次事故造成国道314线新和县路段封闭达14小时之久，800多辆各类车辆被堵塞。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "造成",
+          "trigger_agent": "事故",
+          "trigger_object": "路段封闭",
+          "agent_attri": "此次",
+          "object_attri": "国道314线新和县",
+          "time": "",
+          "time_align": "",
+          "location": "国道314线新和县路段",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "被-堵塞",
+          "trigger_agent": "车辆",
+          "trigger_object": "",
+          "agent_attri": "800多辆",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "国道314线新和县路段",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系",
+      "e05": "因果关系",
+      "e06": "因果关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "并列关系"
+    }
+  }
+}

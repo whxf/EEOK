@@ -1,0 +1,111 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年10月15日凌晨3时宿州市埇桥区埇桥杨庄乡苏湖村委会正在调解一起民事纠纷，其中有人引爆炸药发生爆炸，此案造成包括犯罪嫌疑人在内6人死亡、1人重伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2010年10月15日凌晨3时",
+          "time_align": "2010-10-15-03-XX",
+          "trigger_agent": "村委会",
+          "agent_attri": "苏湖",
+          "trigger": "调解",
+          "trigger_object": "民事纠纷",
+          "object_attri": "一起",
+          "location": "宿州市埇桥区埇桥杨庄乡苏湖村",
+          "organization": "宿州市埇桥区埇桥杨庄乡苏湖村委会",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2010年10月15日凌晨3时",
+          "time_align": "2010-10-15-03-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "引爆",
+          "trigger_object": "炸药",
+          "object_attri": "",
+          "location": "宿州市埇桥区埇桥杨庄乡苏湖村",
+          "organization": "宿州市埇桥区埇桥杨庄乡苏湖村委会",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2010年10月15日凌晨3时",
+          "time_align": "2010-10-15-03-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发生",
+          "trigger_object": "爆炸",
+          "object_attri": "",
+          "location": "宿州市埇桥区埇桥杨庄乡苏湖村",
+          "organization": "宿州市埇桥区埇桥杨庄乡苏湖村委会",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "2010年10月15日凌晨3时",
+          "time_align": "2010-10-15-03-XX",
+          "trigger_agent": "此案",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "object_attri": "6人",
+          "location": "宿州市埇桥区埇桥杨庄乡苏湖村",
+          "organization": "宿州市埇桥区埇桥杨庄乡苏湖村委会",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "2010年10月15日凌晨3时",
+          "time_align": "2010-10-15-03-XX",
+          "trigger_agent": "此案",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "重伤",
+          "object_attri": "1人",
+          "location": "宿州市埇桥区埇桥杨庄乡苏湖村",
+          "organization": "宿州市埇桥区埇桥杨庄乡苏湖村委会",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "现已查明这是一起因婚恋纠纷引起的以爆炸为手段的报复杀人案件。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "查明",
+          "trigger_object": "杀人案件",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "因果关系",
+      "e05": "因果关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

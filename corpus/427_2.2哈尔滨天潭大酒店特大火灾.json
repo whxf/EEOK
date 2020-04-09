@@ -1,0 +1,150 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2003年2月2日17时58分，黑龙江省哈尔滨市天潭大酒店工作人员在取暖煤油炉未熄火的状态下，加注溶剂油，引起爆燃导致火灾，造成33人死亡，10人受伤，直接财产损失158393元。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "加注",
+          "trigger_agent": "人员",
+          "trigger_object": "油",
+          "agent_attri": "天潭大酒店工作",
+          "object_attri": "溶剂",
+          "time": "2003年2月2日17时58分",
+          "time_align": "2003-02-02-17-58",
+          "location": "黑龙江省哈尔滨市天潭大酒店",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "引起",
+          "trigger_agent": "",
+          "trigger_object": "爆燃",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2003年2月2日17时58分",
+          "time_align": "2003-02-02-17-58",
+          "location": "黑龙江省哈尔滨市天潭大酒店",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "导致",
+          "trigger_agent": "火灾",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2003年2月2日17时58分",
+          "time_align": "2003-02-02-17-58",
+          "location": "黑龙江省哈尔滨市天潭大酒店",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "33人",
+          "object_attri": "",
+          "time": "2003年2月2日17时58分",
+          "time_align": "2003-02-02-17-58",
+          "location": "黑龙江省哈尔滨市天潭大酒店",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "10人",
+          "time": "2003年2月2日17时58分",
+          "time_align": "2003-02-02-17-58",
+          "location": "黑龙江省哈尔滨市天潭大酒店",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "损失",
+          "trigger_agent": "财产",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "158393元",
+          "time": "2003年2月2日17时58分",
+          "time_align": "2003-02-02-17-58",
+          "location": "黑龙江省哈尔滨市天潭大酒店",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "哈尔滨市消防支队于当天18时22分将火扑灭，并先后抢救、疏散100余人",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "trigger": "扑灭",
+          "trigger_agent": "消防支队",
+          "trigger_object": "火",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "18时22分",
+          "time_align": "2003-02-02-18-22",
+          "location": "哈尔滨市",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "抢救/疏散",
+          "trigger_agent": "消防支队",
+          "trigger_object": "人",
+          "agent_attri": "",
+          "object_attri": "100余",
+          "time": "18时22分",
+          "time_align": "2003-02-02-18-22",
+          "location": "哈尔滨市",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系"
+    },
+    "e02": {
+      "e03": "因果关系",
+      "e04": "因果关系",
+      "e05": "因果关系",
+      "e06": "因果关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "并列关系",
+      "e06": "并列关系",
+      "e07": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "并列关系",
+      "e07": "顺承关系"
+    },
+    "e05": {
+      "e06": "并列关系",
+      "e07": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    }
+  }
+}

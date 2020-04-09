@@ -1,0 +1,210 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2018年7月15日，国家药品监督管理局发布通告指出，长春长生生物科技有限公司用狂犬病疫苗生产存在记录造假等行为。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2018年7月15日",
+          "time_align": "2018-07-15-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "发布",
+          "trigger_object": "通告",
+          "object_attri": "",
+          "location": "",
+          "organization": "国家药品监督管理局",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2018年7月15日",
+          "time_align": "2018-07-15-XX-XX",
+          "trigger_agent": "公司",
+          "agent_attri": "长春长生生物科技有限",
+          "trigger": "造假",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "长春",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2018年7月20日，中央第十一巡视组向市场监管总局党组反馈了巡视意见。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "2018年7月20日",
+          "time_align": "2018-07-20-XX-XX",
+          "trigger_agent": "巡视组",
+          "agent_attri": "",
+          "trigger": "反馈",
+          "trigger_object": "意见",
+          "object_attri": "巡视",
+          "location": "",
+          "organization": "中央第十一巡视组",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "8月3日，深交所发布多个公告，经查明，高俊芳、张晶在作为长生生物科技股份有限公司董事、高级管理人员期间，以及蒋强华、刘景晔、张友奎、赵志伟在作为长生生物科技股份有限公司高级管理人员期间，存在违规行为，深圳证券交易所拟给予公开谴责的处分。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "8月3日",
+          "time_align": "2018-08-03-XX-XX",
+          "trigger_agent": "深交所",
+          "agent_attri": "",
+          "trigger": "发布",
+          "trigger_object": "公告",
+          "object_attri": "多个",
+          "location": "",
+          "organization": "深交所",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "8月3日",
+          "time_align": "2018-08-03-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "查明",
+          "trigger_object": "行为",
+          "object_attri": "违规",
+          "location": "",
+          "organization": "",
+          "person": "高俊芳、张晶、蒋强华、刘景晔、张友奎、赵志伟"
+        },
+        {
+          "child_event_id": "e06",
+          "time": "8月3日",
+          "time_align": "2018-08-03-XX-XX",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "给予",
+          "trigger_object": "处分",
+          "object_attri": "公开谴责的",
+          "location": "",
+          "organization": "深圳证券交易所",
+          "person": "高俊芳、张晶、蒋强华、刘景晔、张友奎、赵志伟"
+        }
+      ]
+    },
+    {
+      "event_sentence": "8月7日，国家卫生健康委员会、国家药品监督管理局联合印发《接种长春长生公司狂犬病疫苗续种补种方案》。",
+      "event_graph": [
+        {
+          "child_event_id": "e07",
+          "time": "8月7日",
+          "time_align": "2018-08-07-XX-XX",
+          "trigger_agent": "委员会/管理局",
+          "agent_attri": "国家卫生健康/国家药品监督",
+          "trigger": "联合-印发",
+          "trigger_object": "方案",
+          "object_attri": "接种长春长生公司狂犬病疫苗续种补种",
+          "location": "",
+          "organization": "国家卫生健康委员会、国家药品监督管理局",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "8月16日，中共中央政治局常务委员会召开会议，中共中央总书记习近平主持会议并发表重要讲话。",
+      "event_graph": [
+        {
+          "child_event_id": "e08",
+          "time": "8月16日",
+          "time_align": "2018-08-16-XX-XX",
+          "trigger_agent": "委员会",
+          "agent_attri": "中共中央政治局常务",
+          "trigger": "召开",
+          "trigger_object": "会议",
+          "object_attri": "",
+          "location": "",
+          "organization": "中共中央政治局常务委员会",
+          "person": ""
+        },
+        {
+          "child_event_id": "e09",
+          "time": "",
+          "time_align": "2018-08-16-XX-XX",
+          "trigger_agent": "书记",
+          "agent_attri": "中共中央总",
+          "trigger": "主持",
+          "trigger_object": "会议",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": "习近平"
+        },
+        {
+          "child_event_id": "e10",
+          "time": "",
+          "time_align": "2018-08-16-XX-XX",
+          "trigger_agent": "书记",
+          "agent_attri": "中共中央总",
+          "trigger": "发表",
+          "trigger_object": "讲话",
+          "object_attri": "重要",
+          "location": "",
+          "organization": "",
+          "person": "习近平"
+        }
+      ]
+    },
+    {
+      "event_sentence": "2019年2月，吉林长春长生公司问题疫苗案件相关责任人被严肃处理。",
+      "event_graph": [
+        {
+          "child_event_id": "e11",
+          "time": "2019年2月",
+          "time_align": "2019-02-XX-XX-XX",
+          "trigger_agent": "责任人",
+          "agent_attri": "吉林长春长生公司问题疫苗案件相关",
+          "trigger": "被-处理",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "吉利长春",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "并列关系",
+      "e07": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    },
+    "e08": {
+      "e09": "顺承关系"
+    },
+    "e09": {
+      "e10": "顺承关系"
+    },
+    "e10": {
+      "e11": "顺承关系"
+    }
+  }
+}

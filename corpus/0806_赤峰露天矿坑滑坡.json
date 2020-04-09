@@ -1,0 +1,132 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2015年8月3日，内蒙古赤峰市敖汉旗宝塔油页岩有限公司发生一起露天矿坑滑坡事故，现场施工的6名工人被埋。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "公司",
+          "trigger_object": "滑坡事故",
+          "agent_attri": "宝塔油页岩有限",
+          "object_attri": "露天矿坑",
+          "time": "2015年8月3日",
+          "time_align": "2015-08-03-XX-XX",
+          "location": "内蒙古赤峰市敖汉旗",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "被-埋",
+          "trigger_agent": "工人",
+          "trigger_object": "",
+          "agent_attri": "现场施工的6名",
+          "object_attri": "",
+          "time": "2015年8月3日",
+          "time_align": "2015-08-03-XX-XX",
+          "location": "内蒙古赤峰市敖汉旗",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "此次事故已造成2人遇难，其他4人仍在搜救中。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "遇难",
+          "agent_attri": "",
+          "object_attri": "2人",
+          "time": "",
+          "time_align": "2015-08-03-XX-XX",
+          "location": "内蒙古赤峰市敖汉旗",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "被-搜救",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "其他4",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2015-08-03-XX-XX",
+          "location": "内蒙古赤峰市敖汉旗",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "企业及地方政府尽全力全面保障救援工作，敖汉旗司法、劳动人事等相关部门已到位，及时处理善后工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "保障",
+          "trigger_agent": "企业及地方政府",
+          "trigger_object": "工作",
+          "agent_attri": "",
+          "object_attri": "救援",
+          "time": "",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "到位",
+          "trigger_agent": "相关部门",
+          "trigger_object": "",
+          "agent_attri": "敖汉旗司法、劳动人事等",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "敖汉旗",
+          "organization": "敖汉旗司法、劳动人事",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "处理",
+          "trigger_agent": "",
+          "trigger_object": "工作",
+          "agent_attri": "",
+          "object_attri": "善后",
+          "time": "",
+          "time_align": "",
+          "location": "敖汉旗",
+          "organization": "敖汉旗司法、劳动人事",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "因果关系",
+      "e04": "因果关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

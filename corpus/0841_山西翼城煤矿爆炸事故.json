@@ -1,0 +1,127 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2010年7月31日凌晨2时40分许，坐落在山西临汾翼城县的阳泉煤业集团刘沟煤矿发生炸药爆炸事故，最终造成17人死亡、104人受伤住院，事故共计104名受伤人员全部脱离生命危险。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "煤矿",
+          "trigger_object": "爆炸事故",
+          "agent_attri": "阳泉煤业集团刘沟",
+          "object_attri": "炸药",
+          "time": "2010年7月31日凌晨2时40分",
+          "time_align": "2010-07-31-02-40",
+          "location": "山西临汾翼城县",
+          "organization": "阳泉煤业集团",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "agent_attri": "",
+          "object_attri": "17人",
+          "time": "2010年7月31日凌晨2时40分",
+          "time_align": "2010-07-31-02-40",
+          "location": "山西临汾翼城县",
+          "organization": "阳泉煤业集团",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "104人",
+          "time": "2010年7月31日凌晨2时40分",
+          "time_align": "2010-07-31-02-40",
+          "location": "山西临汾翼城县",
+          "organization": "阳泉煤业集团",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "住院",
+          "agent_attri": "",
+          "object_attri": "104人",
+          "time": "2010年7月31日凌晨2时40分",
+          "time_align": "2010-07-31-02-40",
+          "location": "山西临汾翼城县",
+          "organization": "阳泉煤业集团",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "山西省将此次爆炸事件初步定性为“不法分子非法藏匿炸药”的刑事案件，公安部门已经刑拘了6名嫌疑人，对事件发生的原因正在调查。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "定性",
+          "trigger_agent": "爆炸事件",
+          "trigger_object": "案件",
+          "agent_attri": "此次",
+          "object_attri": "“不法分子非法藏匿炸药”的刑事",
+          "time": "",
+          "time_align": "",
+          "location": "山西省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "刑拘",
+          "trigger_agent": "公安部门",
+          "trigger_object": "嫌疑人",
+          "agent_attri": "",
+          "object_attri": "6名",
+          "time": "",
+          "time_align": "",
+          "location": "山西省",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "被-调查",
+          "trigger_agent": "原因",
+          "trigger_object": "",
+          "agent_attri": "事故",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "山西临汾翼城县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年3月22日中午12时左右，辽宁省辽阳市灯塔市西大窑镇大黄二矿井下发生瓦斯爆炸事故。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "矿井",
+          "trigger_object": "爆炸事故",
+          "agent_attri": "辽宁省辽阳市灯塔市西大窑镇大黄",
+          "object_attri": "瓦斯",
+          "time": "2012年3月22日中午12时",
+          "time_align": "2013-03-22-12-XX",
+          "location": "辽宁省辽阳市灯塔市西大窑镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "初步核实，井下有23人作业，经救援，其中1人生还，5人死亡，尚有17人下落不明。",
+      "event_graph": [
+        {
+          "child_event_id": "e02",
+          "trigger": "核实",
+          "trigger_agent": "",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2013-03-22-12-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "救援",
+          "trigger_agent": "",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2013-03-22-12-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "生还",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "1",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2013-03-22-12-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "死亡",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "5",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2013-03-22-12-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "下落不明",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "17",
+          "object_attri": "",
+          "time": "",
+          "time_align": "2013-03-22-12-XX",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "并列关系",
+      "e06": "并列关系"
+    },
+    "e05": {
+      "e06": "并列关系"
+    }
+  }
+}

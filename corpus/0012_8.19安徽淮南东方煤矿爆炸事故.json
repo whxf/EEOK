@@ -1,0 +1,115 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年8月19日凌晨3时58分，安徽省淮南市谢家集区东方煤矿发生一起井下爆炸事故，其中12人安全升井，27人被困井下。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2014年8月19日凌晨3时58分",
+          "time_align": "2014-08-19-03-58",
+          "trigger_agent": "煤矿",
+          "agent_attri": "东方",
+          "trigger": "发生",
+          "trigger_object": "爆炸事故",
+          "object_attri": "一起井下",
+          "location": "安徽省淮南市谢家集区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2014年8月19日凌晨3时58分",
+          "time_align": "2014-08-19-03-58",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "升井",
+          "trigger_object": "人",
+          "object_attri": "12",
+          "location": "安徽省淮南市谢家集区",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2014年8月19日凌晨3时58分",
+          "time_align": "2014-08-19-03-58",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "被-困",
+          "trigger_object": "人",
+          "object_attri": "27",
+          "location": "安徽省淮南市谢家集区",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "安徽煤矿安监局和安徽省政府有关部门依法成立了事故调查组，全面开展事故调查工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "部门",
+          "agent_attri": "有关",
+          "trigger": "成立",
+          "trigger_object": "调查组",
+          "object_attri": "事故",
+          "location": "安徽",
+          "organization": "安徽煤矿安监局/安徽省政府",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "部门",
+          "agent_attri": "有关",
+          "trigger": "开展",
+          "trigger_object": "调查工作",
+          "object_attri": "事故",
+          "location": "安徽",
+          "organization": "安徽煤矿安监局/安徽省政府",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "按照批复，共处理共处理事故42个责任人。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "处理",
+          "trigger_object": "责任人",
+          "object_attri": "事故42个",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年8月27日14时30分左右，英德龙山水泥有限责任公司一矿山上发生一起炸药配送车爆炸事故，造成10人死亡、18人受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2012年8月27日14时30分",
+          "time_align": "2012-08-27-14-30",
+          "trigger_agent": "矿山",
+          "agent_attri": "英德龙山水泥有限责任公司一",
+          "trigger": "发生",
+          "trigger_object": "爆炸事故",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2012年8月27日14时30分",
+          "time_align": "2012-08-27-14-30",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "死亡",
+          "object_attri": "10人",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "time": "2012年8月27日14时30分",
+          "time_align": "2012-08-27-14-30",
+          "trigger_agent": "",
+          "agent_attri": "",
+          "trigger": "造成",
+          "trigger_object": "受伤",
+          "object_attri": "18人",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "当地政府部门有关负责人已赶到龙山公司，并成立事故处理领导小组，同时已请省排爆专家对未爆炸药进行安全处理。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "负责人",
+          "agent_attri": "当地政府部门有关",
+          "trigger": "赶到",
+          "trigger_object": "龙山公司",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "负责人",
+          "agent_attri": "当地政府部门有关",
+          "trigger": "成立",
+          "trigger_object": "领导小组",
+          "object_attri": "事故处理",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "专家",
+          "agent_attri": "排爆",
+          "trigger": "进行",
+          "trigger_object": "安全处理",
+          "object_attri": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "因果关系",
+      "e03": "因果关系"
+    },
+    "e02": {
+      "e03": "并列关系",
+      "e04": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

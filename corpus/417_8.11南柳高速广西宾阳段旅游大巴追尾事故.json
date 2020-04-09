@@ -1,0 +1,115 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年8月11日凌晨，一辆载有44名游客的旅游大巴在南柳高速广西宾阳段宾阳县出口附近发生追尾事故，人员受伤程度有待进一步观察",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "大巴",
+          "trigger_object": "事故",
+          "agent_attri": "一辆载有44名游客的旅游",
+          "object_attri": "追尾",
+          "time": "2012年8月11日凌晨",
+          "time_align": "2012-08-11-XX-XX",
+          "location": "南柳高速广西宾阳段宾阳县出口附近",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "有待",
+          "trigger_agent": "程度",
+          "trigger_object": "观察",
+          "agent_attri": "人员受伤",
+          "object_attri": "进一步",
+          "time": "2012年8月11日凌晨",
+          "time_align": "2012-08-11-XX-XX",
+          "location": "南柳高速广西宾阳段宾阳县出口附近",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "目前，共有38人不同程度受伤，其中9名伤势较重游客已到当地医院接受救治。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "受伤",
+          "trigger_agent": "人",
+          "trigger_object": "",
+          "agent_attri": "38",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "接受",
+          "trigger_agent": "游客",
+          "trigger_object": "救治",
+          "agent_attri": "9名伤势较重",
+          "object_attri": "",
+          "time": "目前",
+          "time_align": "",
+          "location": "",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "接报后，宾阳县消防、黎塘镇相关部门等立即赶赴现场开展救援和处置工作。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "赶赴",
+          "trigger_agent": "部门",
+          "trigger_object": "现场",
+          "agent_attri": "宾阳县消防/黎塘镇相关",
+          "object_attri": "",
+          "time": "",
+          "time_align": "",
+          "location": "宾阳县/黎塘镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "开展",
+          "trigger_agent": "部门",
+          "trigger_object": "工作",
+          "agent_attri": "宾阳县消防/黎塘镇相关",
+          "object_attri": "救援和处置",
+          "time": "",
+          "time_align": "",
+          "location": "南柳高速广西宾阳段宾阳县出口附近",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

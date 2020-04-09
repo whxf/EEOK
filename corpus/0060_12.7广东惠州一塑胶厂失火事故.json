@@ -1,0 +1,98 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2012年12月7日下午17时许，广东惠州市惠阳区永湖镇一名为志晟再生塑料加工厂发生火灾事故，4000多平方米的简易厂房和塑料堆放物全部焚毁。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "time": "2012年12月7日下午17时",
+          "time_align": "2012-12-07-17-00",
+          "trigger_agent": "加工厂",
+          "agent_attri": "志晟再生塑料",
+          "trigger": "发生",
+          "trigger_object": "火灾事故",
+          "object_attri": "",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "time": "2012年12月7日下午17时",
+          "time_align": "2012-12-07-17-00",
+          "trigger_agent": "厂房/堆放物",
+          "agent_attri": "4000多平方米的简易/塑料",
+          "trigger": "焚毁",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "惠州惠城区、仲恺区、惠阳区、大亚湾区四个消防大队的几十名消防官兵赶赴现场，当前消防官兵仍在现场扑救。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "官兵",
+          "agent_attri": "几十名消防",
+          "trigger": "赶赴",
+          "trigger_object": "现场",
+          "object_attri": "",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "time": "当前",
+          "time_align": "",
+          "trigger_agent": "官兵",
+          "agent_attri": "消防",
+          "trigger": "扑救",
+          "trigger_object": "",
+          "object_attri": "",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "此次火灾事故初步损失达上百万元人民币",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "time": "",
+          "time_align": "",
+          "trigger_agent": "火灾事故",
+          "agent_attri": "",
+          "trigger": "损失",
+          "trigger_object": "人民币",
+          "object_attri": "上百万元",
+          "location": "广东惠州市惠阳区永湖镇",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    }
+  }
+}

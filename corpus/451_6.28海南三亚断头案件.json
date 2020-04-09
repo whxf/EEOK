@@ -1,0 +1,111 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2013年6月28日10时10分许，一名年轻女子在三亚解放路旺毫超市旁被人砍断头，当场死亡，犯罪嫌疑人董小新被当场抓获。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "被-砍断头",
+          "trigger_agent": "女子",
+          "trigger_object": "",
+          "agent_attri": "一名年轻",
+          "object_attri": "",
+          "time": "2013年6月28日10时10分",
+          "time_align": "2013-06-28-10-10",
+          "location": "三亚解放路旺毫超市旁",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "死亡",
+          "trigger_agent": "女子",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2013年6月28日10时10分",
+          "time_align": "2013-06-28-10-10",
+          "location": "三亚解放路旺毫超市旁",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "被-抓获",
+          "trigger_agent": "犯罪嫌疑人",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2013年6月28日10时10分",
+          "time_align": "2013-06-28-10-10",
+          "location": "三亚解放路旺毫超市旁",
+          "organization": "",
+          "person": "董小新"
+        }
+      ]
+    },
+    {
+      "event_sentence": "28日下午，三亚警方发布消息，警方已迅速侦破此案。",
+      "event_graph": [
+        {
+          "child_event_id": "e04",
+          "trigger": "发布",
+          "trigger_agent": "警方",
+          "trigger_object": "消息",
+          "agent_attri": "三亚",
+          "object_attri": "",
+          "time": "28日下午",
+          "time_align": "2013-06-28-XX-XX",
+          "location": "三亚",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "侦破",
+          "trigger_agent": "警方",
+          "trigger_object": "此案",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "28日下午",
+          "time_align": "2013-06-28-XX-XX",
+          "location": "三亚",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "罪犯董小新于2015年6月12日被执行死刑。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "被-执行",
+          "trigger_agent": "罪犯",
+          "trigger_object": "死刑",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2015年6月12日",
+          "time_align": "2015-06-12-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "董小新"
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "顺承关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    }
+  }
+}

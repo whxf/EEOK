@@ -1,0 +1,141 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "2014年5月20日中午，一名男子闯入麻城市南湖办事处五里墩小学，手持菜刀对正在玩耍的学生砍去，造成8名小学生受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "闯入",
+          "trigger_agent": "男子",
+          "trigger_object": "小学",
+          "agent_attri": "一名",
+          "object_attri": "五里墩",
+          "time": "2014年5月20日中午",
+          "time_align": "2014-05-20-XX-XX",
+          "location": "麻城市南湖办事处五里墩小学",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "手持",
+          "trigger_agent": "男子",
+          "trigger_object": "菜刀",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2014年5月20日中午",
+          "time_align": "2014-05-20-XX-XX",
+          "location": "麻城市南湖办事处五里墩小学",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e03",
+          "trigger": "砍",
+          "trigger_agent": "",
+          "trigger_object": "学生",
+          "agent_attri": "",
+          "object_attri": "正在玩耍的",
+          "time": "2014年5月20日中午",
+          "time_align": "2014-05-20-XX-XX",
+          "location": "麻城市南湖办事处五里墩小学",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "受伤",
+          "agent_attri": "",
+          "object_attri": "8名小学生",
+          "time": "2014年5月20日中午",
+          "time_align": "2014-05-20-XX-XX",
+          "location": "麻城市南湖办事处五里墩小学",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "闻讯赶来的学校老师手持铁锹、锄头等工具，迅速围上将歹徒打倒在地，警方很快赶到将其控制。",
+      "event_graph": [
+        {
+          "child_event_id": "e05",
+          "trigger": "手持",
+          "trigger_agent": "老师",
+          "trigger_object": "工具",
+          "agent_attri": "闻讯赶来的学校",
+          "object_attri": "铁锹、锄头等",
+          "time": "2014年5月20日中午",
+          "time_align": "2014-05-20-XX-XX",
+          "location": "麻城市南湖办事处五里墩小学",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e06",
+          "trigger": "打倒",
+          "trigger_agent": "老师",
+          "trigger_object": "歹徒",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2014年5月20日中午",
+          "time_align": "2014-05-20-XX-XX",
+          "location": "麻城市南湖办事处五里墩小学",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e07",
+          "trigger": "赶到",
+          "trigger_agent": "警方",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2014年5月20日中午",
+          "time_align": "2014-05-20-XX-XX",
+          "location": "麻城市南湖办事处五里墩小学",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e08",
+          "trigger": "控制",
+          "trigger_agent": "警方",
+          "trigger_object": "",
+          "agent_attri": "",
+          "object_attri": "",
+          "time": "2014年5月20日中午",
+          "time_align": "2014-05-20-XX-XX",
+          "location": "麻城市南湖办事处五里墩小学",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "顺承关系"
+    },
+    "e02": {
+      "e03": "顺承关系"
+    },
+    "e03": {
+      "e04": "因果关系"
+    },
+    "e04": {
+      "e05": "顺承关系"
+    },
+    "e05": {
+      "e06": "顺承关系"
+    },
+    "e06": {
+      "e07": "顺承关系"
+    },
+    "e07": {
+      "e08": "顺承关系"
+    }
+  }
+}

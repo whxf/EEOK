@@ -1,0 +1,114 @@
+{
+  "event_element": [
+    {
+      "event_sentence": "9月30日下午，广西柳州市柳城县发生连环爆炸案，半径20公里范围内连续发生17起爆炸。",
+      "event_graph": [
+        {
+          "child_event_id": "e01",
+          "trigger": "发生",
+          "trigger_agent": "",
+          "trigger_object": "爆炸案",
+          "agent_attri": "",
+          "object_attri": "连环",
+          "time": "9月30日下午",
+          "time_align": "XXXX-09-30-XX-XX",
+          "location": "广西柳州市柳城县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e02",
+          "trigger": "发生",
+          "trigger_object": "爆炸",
+          "agent_attri": "",
+          "object_attri": "17起",
+          "time": "9月30日下午",
+          "time_align": "XXXX-09-30-XX-XX",
+          "location": "广西柳州市柳城县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "共造成7人死亡，2人失联，51人不同程度受伤。",
+      "event_graph": [
+        {
+          "child_event_id": "e03",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "死亡",
+          "object_attri": "7人",
+          "time": "9月30日下午",
+          "time_align": "XXXX-09-30-XX-XX",
+          "location": "广西柳州市柳城县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e04",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "失联",
+          "object_attri": "2人",
+          "time": "9月30日下午",
+          "time_align": "XXXX-09-30-XX-XX",
+          "location": "广西柳州市柳城县",
+          "organization": "",
+          "person": ""
+        },
+        {
+          "child_event_id": "e05",
+          "trigger": "造成",
+          "trigger_agent": "",
+          "trigger_object": "受伤",
+          "object_attri": "51人不同程度",
+          "time": "9月30日下午",
+          "time_align": "XXXX-09-30-XX-XX",
+          "location": "广西柳州市柳城县",
+          "organization": "",
+          "person": ""
+        }
+      ]
+    },
+    {
+      "event_sentence": "2015年10月1日犯罪嫌疑人韦银勇已经被警方抓获。",
+      "event_graph": [
+        {
+          "child_event_id": "e06",
+          "trigger": "被-抓获",
+          "trigger_agent": "犯罪嫌疑人",
+          "trigger_object": "警方",
+          "object_attri": "",
+          "agent_attri": "",
+          "time": "2015年10月1日",
+          "time_align": "2015-10-01-XX-XX",
+          "location": "",
+          "organization": "",
+          "person": "韦银勇"
+        }
+      ]
+    }
+  ],
+  "event_relation": {
+    "e01": {
+      "e02": "并列关系"
+    },
+    "e02": {
+      "e03": "因果关系",
+      "e04": "因果关系",
+      "e05": "因果关系",
+      "e06": "因果关系"
+    },
+    "e03": {
+      "e04": "并列关系",
+      "e05": "并列关系"
+    },
+    "e04": {
+      "e05": "并列关系"
+    },
+    "e05": {
+      "e06": "并列关系"
+    }
+  }
+}
