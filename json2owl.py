@@ -292,45 +292,18 @@ def get_sub_event_individual(sub_events, sub_event_relations):
     return ret
 
 
-def get_event_relations_individual(event_relations):
+def get_relations_individual(relations):
     """
-    输出event_relations_individual信息
+    输出relations_individual信息：
+    event relations，sub event relations，is sub event relations
     :param event_relations:
     :return: a list of command
     """
     ret = []
-    for k in event_relations:
+    for k in relations:
         ret.append(add_class_assertion("relation", k))
-        for item_k in event_relations[k]:
-            ret.append(add_object_property_assertion(item_k, k, event_relations[k][item_k]))
-    return ret
-
-
-def get_sub_event_relations_individual(sub_event_relations):
-    """
-    输出sub_event_relations_individual信息
-    :param sub_event_relations:
-    :return: a list of command
-    """
-    ret = []
-    for k in sub_event_relations:
-        ret.append(add_class_assertion("relation", k))
-        for item_k in sub_event_relations[k]:
-            ret.append(add_object_property_assertion(item_k, k, sub_event_relations[k][item_k]))
-    return ret
-
-
-def get_is_sub_relations_individual(is_sub_relations):
-    """
-    输出is_sub_relations_individual信息
-    :param is_sub_relations:
-    :return: a list of command
-    """
-    ret = []
-    for k in is_sub_relations:
-        ret.append(add_class_assertion('relation', k))
-        for item_k in is_sub_relations[k]:
-            ret.append(add_object_property_assertion(item_k, k, is_sub_relations[k][item_k]))
+        for item_k in relations[k]:
+            ret.append(add_object_property_assertion(item_k, k, relations[k][item_k]))
     return ret
 
 
@@ -360,9 +333,9 @@ def solve(json_file_path):
 
     event_individual = "\n".join(get_event_individual(events, event_relations_for_event, is_sub_relations_for_event))
     sub_event_individual = "\n".join(get_sub_event_individual(sub_events, sub_event_relation_for_event))
-    event_relations_individual = "\n".join(get_event_relations_individual(event_relations))
-    sub_event_relations_individual = "\n".join(get_sub_event_relations_individual(sub_event_relations))
-    is_sub_relations_individual = "\n".join(get_is_sub_relations_individual(is_sub_relations))
+    event_relations_individual = "\n".join(get_relations_individual(event_relations))
+    sub_event_relations_individual = "\n".join(get_relations_individual(sub_event_relations))
+    is_sub_relations_individual = "\n".join(get_relations_individual(is_sub_relations))
     event_info_individual = "\n".join([add_class_assertion('event_info', item) for item in event_info])
     relation_info_individual = "\n".join([add_class_assertion('relation_info', item) for item in relation_info])
 
