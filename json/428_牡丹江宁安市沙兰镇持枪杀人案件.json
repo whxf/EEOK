@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "杀人案件",
-          "agent_attri": "",
           "object_attri": "一起持枪",
           "time": "2015年4月21日",
           "time_align": "2015-04-21-XX-XX",
           "location": "黑龙江牡丹江宁安市沙兰镇二道沟村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "trigger": "致",
-          "trigger_agent": "",
           "trigger_object": "死/伤",
-          "agent_attri": "",
           "object_attri": "1/1",
           "time": "2015年4月21日",
           "time_align": "2015-04-21-XX-XX",
           "location": "黑龙江牡丹江宁安市沙兰镇二道沟村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,28 +37,28 @@
         {
           "child_event_id": "e03",
           "trigger": "潜逃",
-          "trigger_agent": "犯罪嫌疑人",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": "孙振艳"
+          "person": "孙振艳",
+          "subject_attri": "",
+          "trigger_subject": "犯罪嫌疑人"
         },
         {
           "child_event_id": "e04",
           "trigger": "缉捕",
-          "trigger_agent": "公安机关",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安机关"
         }
       ]
     },
@@ -68,28 +68,28 @@
         {
           "child_event_id": "e05",
           "trigger": "悬赏",
-          "trigger_agent": "警方",
           "trigger_object": "2万",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         },
         {
           "child_event_id": "e06",
           "trigger": "自首",
-          "trigger_agent": "嫌犯",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "4月25日22时",
           "time_align": "2015-04-25-22-XX",
           "location": "黑龙江牡丹江宁安市沙兰镇桦树村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "嫌犯"
         }
       ]
     }

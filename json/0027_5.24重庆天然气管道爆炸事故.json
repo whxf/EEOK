@@ -7,53 +7,53 @@
           "child_event_id": "e01",
           "time": "5月24日上午8点多",
           "time_align": "XXXX-05-24-08-XX",
-          "trigger_agent": "工地",
-          "agent_attri": "弹子石一",
           "trigger": "发生",
           "trigger_object": "垮塌",
           "object_attri": "",
           "location": "重庆南岸",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "弹子石一",
+          "trigger_subject": "工地"
         },
         {
           "child_event_id": "e02",
           "time": "5月24日上午8点多",
           "time_align": "XXXX-05-24-08-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "导致",
           "trigger_object": "破裂",
           "object_attri": "天然气管道",
           "location": "重庆南岸",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "time": "5月24日上午8点多",
           "time_align": "XXXX-05-24-08-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "导致",
           "trigger_object": "爆炸",
           "object_attri": "",
           "location": "重庆南岸",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "time": "5月24日上午8点多",
           "time_align": "XXXX-05-24-08-XX",
-          "trigger_agent": "路人",
-          "agent_attri": "一名",
           "trigger": "受伤",
           "trigger_object": "",
           "object_attri": "",
           "location": "重庆南岸",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一名",
+          "trigger_subject": "路人"
         }
       ]
     },
@@ -64,14 +64,14 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "片区",
-          "agent_attri": "南岸其他",
           "trigger": "停气",
           "trigger_object": "",
           "object_attri": "",
           "location": "南岸",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "南岸其他",
+          "trigger_subject": "片区"
         }
       ]
     }

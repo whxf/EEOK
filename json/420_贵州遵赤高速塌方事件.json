@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "塌方地质灾害",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2015年1月4日15时30分",
           "time_align": "2015-01-04-15-30",
           "location": "贵州省遵赤高速习水境内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "塌方",
           "trigger_object": "中断",
-          "agent_attri": "",
           "object_attri": "交通双向",
           "time": "2015年1月4日15时30分",
           "time_align": "2015-01-04-15-30",
           "location": "贵州省遵赤高速习水境内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "塌方"
         }
       ]
     },
@@ -37,28 +37,28 @@
         {
           "child_event_id": "e03",
           "trigger": "造成",
-          "trigger_agent": "事件",
           "trigger_object": "遇难",
-          "agent_attri": "",
           "object_attri": "三人",
           "time": "目前",
           "time_align": "",
           "location": "贵州省遵赤高速习水境内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事件"
         },
         {
           "child_event_id": "e04",
           "trigger": "造成",
-          "trigger_agent": "事件",
           "trigger_object": "受伤",
-          "agent_attri": "1人",
           "object_attri": "",
           "time": "目前",
           "time_align": "",
           "location": "贵州省遵赤高速习水境内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "1人",
+          "trigger_subject": "事件"
         }
       ]
     },
@@ -68,15 +68,15 @@
         {
           "child_event_id": "e05",
           "trigger": "开展",
-          "trigger_agent": "救援力量",
           "trigger_object": "抢险救援",
-          "agent_attri": "省国土、交通、公安、卫生以及遵义市、习水县等有关方面的",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "贵州省遵赤高速习水境内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "省国土、交通、公安、卫生以及遵义市、习水县等有关方面的",
+          "trigger_subject": "救援力量"
         }
       ]
     }

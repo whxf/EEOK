@@ -5,68 +5,68 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "中巴车",
           "trigger": "行驶",
           "trigger_object": "",
-          "agent_attri": "一辆车牌为川AU1341的19座华西牌",
           "object_attri": "",
           "time": "2010年8月7日下午15时15分",
           "time_align": "2010-08-07-15-15",
           "location": "眉山市洪雅县洪(雅)瓦(瓦屋山镇)路赵河段",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆车牌为川AU1341的19座华西牌",
+          "trigger_subject": "中巴车"
         },
         {
           "child_event_id": "e02",
           "trigger": "冲破",
-          "trigger_agent": "中巴车",
           "trigger_object": "自然山体",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2010年8月7日下午15时15分",
           "time_align": "2010-08-07-15-15",
           "location": "眉山市洪雅县洪(雅)瓦(瓦屋山镇)路赵河段",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "中巴车"
         },
         {
           "child_event_id": "e03",
           "trigger": "坠下",
-          "trigger_agent": "",
           "trigger_object": "悬崖",
-          "agent_attri": "",
           "object_attri": "百米",
           "time": "2010年8月7日下午15时15分",
           "time_align": "2010-08-07-15-15",
           "location": "眉山市洪雅县洪(雅)瓦(瓦屋山镇)路赵河段",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "15人",
           "time": "2010年8月7日下午15时15分",
           "time_align": "2010-08-07-15-15",
           "location": "眉山市洪雅县洪(雅)瓦(瓦屋山镇)路赵河段",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "1人",
           "time": "2010年8月7日下午15时15分",
           "time_align": "2010-08-07-15-15",
           "location": "眉山市洪雅县洪(雅)瓦(瓦屋山镇)路赵河段",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -76,41 +76,41 @@
         {
           "child_event_id": "e06",
           "trigger": "通报",
-          "trigger_agent": "政府新闻办公室",
           "trigger_object": "",
-          "agent_attri": "眉山市洪雅县",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "眉山市洪雅县",
           "organization": "眉山市洪雅县政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "眉山市洪雅县",
+          "trigger_subject": "政府新闻办公室"
         },
         {
           "child_event_id": "e07",
           "trigger": "属于",
-          "trigger_agent": "中巴车",
           "trigger_object": "城市管理局",
-          "agent_attri": "坠崖",
           "object_attri": "成都市金牛区",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "坠崖",
+          "trigger_subject": "中巴车"
         },
         {
           "child_event_id": "e08",
           "trigger": "查明",
-          "trigger_agent": "遇难者身份",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "眉山市洪雅县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "遇难者身份"
         }
       ]
     }

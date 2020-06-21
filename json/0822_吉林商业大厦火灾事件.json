@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "大厦",
           "trigger_object": "火灾",
-          "agent_attri": "吉林商业",
           "object_attri": "",
           "time": "2010年11月5日9时17分",
           "time_align": "2010-11-05-09-17",
           "location": "吉林",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "吉林商业",
+          "trigger_subject": "大厦"
         }
       ]
     },
@@ -24,41 +24,41 @@
         {
           "child_event_id": "e02",
           "trigger": "被-控制",
-          "trigger_agent": "大火",
           "trigger_object": "",
-          "agent_attri": "此次",
           "object_attri": "",
           "time": "当日17时30分",
           "time_align": "2010-11-05-17-30",
           "location": "吉林",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "此次",
+          "trigger_subject": "大火"
         },
         {
           "child_event_id": "e03",
           "trigger": "被-扑灭",
-          "trigger_agent": "大火",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "21时30分",
           "time_align": "2010-11-05-21-30",
           "location": "吉林",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "大火"
         },
         {
           "child_event_id": "e04",
           "trigger": "造成",
-          "trigger_agent": "火灾",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "19人",
           "time": "",
           "time_align": "",
           "location": "吉林",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "火灾"
         }
       ]
     },
@@ -68,41 +68,41 @@
         {
           "child_event_id": "e05",
           "trigger": "住院",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "24",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "24",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e06",
           "trigger": "留院观察",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "3",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "3",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e07",
           "trigger": "自行离院",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "5",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "5",
+          "trigger_subject": "人"
         }
       ]
     }

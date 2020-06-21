@@ -5,16 +5,16 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "有限公司",
           "trigger": "发生",
           "trigger_object": "火灾",
-          "agent_attri": "北辰区双海道大丰橡胶工业",
           "object_attri": "",
           "time": "2014年1月3日晨5时17分",
           "time_align": "2014-01-03-05-17",
           "location": "北辰区双海道",
           "organization": "大丰橡胶工业有限公司",
-          "person": ""
+          "person": "",
+          "subject_attri": "北辰区双海道大丰橡胶工业",
+          "trigger_subject": "有限公司"
         }
       ]
     },
@@ -24,54 +24,54 @@
         {
           "child_event_id": "e02",
           "trigger": "接到",
-          "trigger_agent": "指挥中心",
           "trigger_object": "报警",
-          "agent_attri": "天津消防总队作战",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "天津",
           "organization": "天津消防总队作战指挥中心",
-          "person": ""
+          "person": "",
+          "subject_attri": "天津消防总队作战",
+          "trigger_subject": "指挥中心"
         },
         {
           "child_event_id": "e03",
           "trigger": "调派",
-          "trigger_agent": "作战指挥中心",
           "trigger_object": "警力",
-          "agent_attri": "天津消防总队",
           "object_attri": "充足",
           "time": "",
           "time_align": "",
           "location": "天津",
           "organization": "天津消防总队作战指挥中心",
-          "person": ""
+          "person": "",
+          "subject_attri": "天津消防总队",
+          "trigger_subject": "作战指挥中心"
         },
         {
           "child_event_id": "e04",
           "trigger": "赶赴",
-          "trigger_agent": "",
           "trigger_object": "现场",
-          "agent_attri": "天津消防总队",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "北辰区双海道",
           "organization": "天津消防总队作战指挥中心",
-          "person": ""
+          "person": "",
+          "subject_attri": "天津消防总队",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
           "trigger": "处置",
-          "trigger_agent": "",
           "trigger_object": "",
-          "agent_attri": "天津消防总队作战",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "北辰区双海道",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "天津消防总队作战",
+          "trigger_subject": ""
         }
       ]
     },
@@ -81,28 +81,28 @@
         {
           "child_event_id": "e06",
           "trigger": "已-控制",
-          "trigger_agent": "",
           "trigger_object": "火势",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e07",
           "trigger": "未-发现",
-          "trigger_agent": "",
           "trigger_object": "伤亡",
-          "agent_attri": "",
           "object_attri": "人员",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

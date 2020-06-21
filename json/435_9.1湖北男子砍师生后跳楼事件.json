@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "伤人事件",
-          "agent_attri": "",
           "object_attri": "恶性",
           "time": "9月1日上午约10点40分",
           "time_align": "XXXX-09-01-10-40",
           "location": "东方小学",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "3名学生",
           "time": "9月1日上午约10点40分",
           "time_align": "XXXX-09-01-10-40",
           "location": "东方小学",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "受伤",
-          "trigger_agent": "学生/老师",
           "trigger_object": "",
-          "agent_attri": "5名/1名",
           "object_attri": "",
           "time": "9月1日上午约10点40分",
           "time_align": "XXXX-09-01-10-40",
           "location": "东方小学",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "5名/1名",
+          "trigger_subject": "学生/老师"
         }
       ]
     },
@@ -50,41 +50,41 @@
         {
           "child_event_id": "e04",
           "trigger": "跳楼",
-          "trigger_agent": "犯罪嫌疑人",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "9月1日上午约10点40分",
           "time_align": "XXXX-09-01-10-40",
           "location": "东方小学",
           "organization": "",
-          "person": "陈某"
+          "person": "陈某",
+          "subject_attri": "",
+          "trigger_subject": "犯罪嫌疑人"
         },
         {
           "child_event_id": "e05",
           "trigger": "自杀",
-          "trigger_agent": "犯罪嫌疑人",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "9月1日上午约10点40分",
           "time_align": "XXXX-09-01-10-40",
           "location": "东方小学",
           "organization": "",
-          "person": "陈某"
+          "person": "陈某",
+          "subject_attri": "",
+          "trigger_subject": "犯罪嫌疑人"
         },
         {
           "child_event_id": "e06",
           "trigger": "身亡",
-          "trigger_agent": "犯罪嫌疑人",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "9月1日上午约10点40分",
           "time_align": "XXXX-09-01-10-40",
           "location": "东方小学",
           "organization": "",
-          "person": "陈某"
+          "person": "陈某",
+          "subject_attri": "",
+          "trigger_subject": "犯罪嫌疑人"
         }
       ]
     }

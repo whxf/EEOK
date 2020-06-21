@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2012年11月17日晚上",
           "time_align": "2012-11-17-XX-XX",
-          "trigger_agent": "门口",
-          "agent_attri": "韩阳酒店",
           "trigger": "发生",
           "trigger_object": "交通事故",
           "object_attri": "一起",
           "location": "福建省宁德福安市城区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "韩阳酒店",
+          "trigger_subject": "门口"
         },
         {
           "child_event_id": "e02",
           "time": "2012年11月17日晚上",
           "time_align": "2012-11-17-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "受伤",
           "object_attri": "5人",
           "location": "福建省宁德福安市城区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -38,40 +38,40 @@
           "child_event_id": "e03",
           "time": "",
           "time_align": "",
-          "trigger_agent": "事故",
-          "agent_attri": "",
           "trigger": "引发",
           "trigger_object": "不满",
           "object_attri": "现场少数群众",
           "location": "福建省宁德福安市城区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         },
         {
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "进行",
           "trigger_object": "打砸",
           "object_attri": "",
           "location": "福建省宁德福安市城区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "车",
-          "agent_attri": "三辆警",
           "trigger": "被-掀翻",
           "trigger_object": "",
           "object_attri": "",
           "location": "福建省宁德福安市城区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "三辆警",
+          "trigger_subject": "车"
         }
       ]
     },
@@ -82,14 +82,14 @@
           "child_event_id": "e06",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "事件",
-          "agent_attri": "",
           "trigger": "被-调查",
           "trigger_object": "",
           "object_attri": "",
           "location": "福建省宁德福安市城区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事件"
         }
       ]
     }

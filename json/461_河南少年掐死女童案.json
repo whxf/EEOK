@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "失踪",
-          "trigger_agent": "女童",
           "trigger_object": "",
-          "agent_attri": "两名活泼可爱、正上幼儿园的5岁",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "两名活泼可爱、正上幼儿园的5岁",
+          "trigger_subject": "女童"
         }
       ]
     },
@@ -24,41 +24,41 @@
         {
           "child_event_id": "e02",
           "trigger": "接到",
-          "trigger_agent": "警方",
           "trigger_object": "报警",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         },
         {
           "child_event_id": "e03",
           "trigger": "展开",
-          "trigger_agent": "警方",
           "trigger_object": "搜查",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         },
         {
           "child_event_id": "e04",
           "trigger": "发现",
-          "trigger_agent": "警方",
           "trigger_object": "尸骨",
-          "agent_attri": "",
           "object_attri": "两名失踪女童未被焚烧完的",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         }
       ]
     },
@@ -68,41 +68,41 @@
         {
           "child_event_id": "e05",
           "trigger": "获悉",
-          "trigger_agent": "记者",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "6月2日",
           "time_align": "",
           "location": "郏县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "记者"
         },
         {
           "child_event_id": "e06",
           "trigger": "被-抓获归案",
-          "trigger_agent": "吕某",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "6月2日",
           "time_align": "",
           "location": "郏县",
           "organization": "",
-          "person": "吕某"
+          "person": "吕某",
+          "subject_attri": "",
+          "trigger_subject": "吕某"
         },
         {
           "child_event_id": "e07",
           "trigger": "承认",
-          "trigger_agent": "吕某",
           "trigger_object": "事实",
-          "agent_attri": "",
           "object_attri": "作案",
           "time": "6月2日",
           "time_align": "",
           "location": "郏县",
           "organization": "",
-          "person": "吕某"
+          "person": "吕某",
+          "subject_attri": "",
+          "trigger_subject": "吕某"
         }
       ]
     }

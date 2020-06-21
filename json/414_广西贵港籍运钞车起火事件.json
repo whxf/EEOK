@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "起火",
-          "trigger_agent": "运钞车",
           "trigger_object": "",
-          "agent_attri": "一辆广西贵港籍",
           "object_attri": "",
           "time": "2015年4月15日中午11时",
           "time_align": "2015-04-15-11-XX",
           "location": "六（景）钦（州）高速距金桔收费站1公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆广西贵港籍",
+          "trigger_subject": "运钞车"
         }
       ]
     },
@@ -24,41 +24,41 @@
         {
           "child_event_id": "e02",
           "trigger": "进行",
-          "trigger_agent": "调查",
           "trigger_object": "",
-          "agent_attri": "运钞车起火事件",
           "object_attri": "",
           "time": "4月17日",
           "time_align": "2015-04-17-XX-XX",
           "location": "广西钦州市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "运钞车起火事件",
+          "trigger_subject": "调查"
         },
         {
           "child_event_id": "e03",
           "trigger": "并未-立案",
-          "trigger_agent": "",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "4月17日",
           "time_align": "2015-04-17-XX-XX",
           "location": "广西钦州市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "尚未-有",
-          "trigger_agent": "",
           "trigger_object": "结论",
-          "agent_attri": "",
           "object_attri": "",
           "time": "4月17日",
           "time_align": "2015-04-17-XX-XX",
           "location": "广西钦州市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

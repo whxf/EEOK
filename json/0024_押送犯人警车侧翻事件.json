@@ -7,79 +7,79 @@
           "child_event_id": "e01",
           "time": "8月3日上午9时59分",
           "time_align": "XXXX-08-03-09-59",
-          "trigger_agent": "警车",
-          "agent_attri": "一辆押送犯人的法院",
           "trigger": "避让",
           "trigger_object": "客车",
           "object_attri": "一辆小型",
           "location": "安徽芜湖市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆押送犯人的法院",
+          "trigger_subject": "警车"
         },
         {
           "child_event_id": "e02",
           "time": "8月3日上午9时59分",
           "time_align": "XXXX-08-03-09-59",
-          "trigger_agent": "警车",
-          "agent_attri": "一辆押送犯人的法院",
           "trigger": "倒地",
           "trigger_object": "",
           "object_attri": "",
           "location": "安徽芜湖市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆押送犯人的法院",
+          "trigger_subject": "警车"
         },
         {
           "child_event_id": "e03",
           "time": "8月3日上午9时59分",
           "time_align": "XXXX-08-03-09-59",
-          "trigger_agent": "警车",
-          "agent_attri": "一辆押送犯人的法院",
           "trigger": "侧翻",
           "trigger_object": "",
           "object_attri": "",
           "location": "安徽芜湖市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆押送犯人的法院",
+          "trigger_subject": "警车"
         },
         {
           "child_event_id": "e04",
           "time": "8月3日上午9时59分",
           "time_align": "XXXX-08-03-09-59",
-          "trigger_agent": "警车",
-          "agent_attri": "一辆押送犯人的法院",
           "trigger": "撞",
           "trigger_object": "围墙",
           "object_attri": "路边的一堵",
           "location": "安徽芜湖市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆押送犯人的法院",
+          "trigger_subject": "警车"
         },
         {
           "child_event_id": "e05",
           "time": "8月3日上午9时59分",
           "time_align": "XXXX-08-03-09-59",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "死亡",
           "object_attri": "2人",
           "location": "安徽芜湖市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e06",
           "time": "8月3日上午9时59分",
           "time_align": "XXXX-08-03-09-59",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "受伤",
           "object_attri": "3人",
           "location": "安徽芜湖市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

@@ -7,14 +7,14 @@
           "child_event_id": "e01",
           "time": "2012年12月22日晚上",
           "time_align": "2012-12-22-XX-XX",
-          "trigger_agent": "登山爱好者",
-          "agent_attri": "两名",
           "trigger": "失踪",
           "trigger_object": "",
           "object_attri": "",
           "location": "河北省涿鹿县灵山景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "两名",
+          "trigger_subject": "登山爱好者"
         }
       ]
     },
@@ -25,40 +25,40 @@
           "child_event_id": "e02",
           "time": "23日中午12点26分",
           "time_align": "2012-12-23-12-26",
-          "trigger_agent": "救援队",
-          "agent_attri": "北京/河北消防/公安和多支民间",
           "trigger": "搜救",
           "trigger_object": "",
           "object_attri": "",
           "location": "河北省涿鹿县灵山景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "北京/河北消防/公安和多支民间",
+          "trigger_subject": "救援队"
         },
         {
           "child_event_id": "e03",
           "time": "23日中午12点26分",
           "time_align": "2012-12-23-12-26",
-          "trigger_agent": "人",
-          "agent_attri": "两",
           "trigger": "被-发现",
           "trigger_object": "",
           "object_attri": "",
           "location": "河北省涿鹿县灵山景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "两",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e04",
           "time": "23日中午12点26分",
           "time_align": "2012-12-23-12-26",
-          "trigger_agent": "人",
-          "agent_attri": "两",
           "trigger": "无",
           "trigger_object": "生命迹象",
           "object_attri": "",
           "location": "河北省涿鹿县灵山景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "两",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -69,14 +69,14 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "判断",
           "trigger_object": "死因",
           "object_attri": "两人/系冻死",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

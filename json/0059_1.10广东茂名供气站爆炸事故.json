@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2015年1月10日中午12时40分",
           "time_align": "2015-01-20-12-40",
-          "trigger_agent": "车",
-          "agent_attri": "两辆槽罐",
           "trigger": "起火",
           "trigger_object": "",
           "object_attri": "",
           "location": "茂名市油城二路文冲口二路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "两辆槽罐",
+          "trigger_subject": "车"
         },
         {
           "child_event_id": "e02",
           "time": "2015年1月10日中午12时40分",
           "time_align": "2015-01-20-12-40",
-          "trigger_agent": "车",
-          "agent_attri": "两辆槽罐",
           "trigger": "发生",
           "trigger_object": "爆燃",
           "object_attri": "",
           "location": "茂名市油城二路文冲口二路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "两辆槽罐",
+          "trigger_subject": "车"
         }
       ]
     },
@@ -38,27 +38,27 @@
           "child_event_id": "e03",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "扑救",
           "trigger_object": "",
           "object_attri": "",
           "location": "茂名市油城二路文冲口二路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "大火",
-          "agent_attri": "现场",
           "trigger": "被-扑灭",
           "trigger_object": "",
           "object_attri": "",
           "location": "茂名市油城二路文冲口二路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "现场",
+          "trigger_subject": "大火"
         }
       ]
     },
@@ -69,27 +69,27 @@
           "child_event_id": "e05",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "涉事人员",
-          "agent_attri": "相关",
           "trigger": "被-控制",
           "trigger_object": "",
           "object_attri": "",
           "location": "茂名市油城二路文冲口二路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "相关",
+          "trigger_subject": "涉事人员"
         },
         {
           "child_event_id": "e06",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "事故原因",
-          "agent_attri": "",
           "trigger": "在-调查",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故原因"
         }
       ]
     }

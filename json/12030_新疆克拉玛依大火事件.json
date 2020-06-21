@@ -5,16 +5,16 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "",
           "trigger": "举办",
           "trigger_object": "活动",
-          "agent_attri": "",
           "object_attri": "文艺演出",
           "time": "1994年12月8日",
           "time_align": "1994-12-08-XX-XX",
           "location": "克拉玛依市友谊馆",
           "organization": "克拉玛依市教委/新疆石油管理局教育培训中心",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -24,15 +24,15 @@
         {
           "child_event_id": "e02",
           "trigger": "参加",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "全市7所中学/8所小学的学生/教师及有关领导共796",
           "object_attri": "",
           "time": "1994年12月8日",
           "time_align": "1994-12-08-XX-XX",
           "location": "克拉玛依市友谊馆",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "全市7所中学/8所小学的学生/教师及有关领导共796",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -42,54 +42,54 @@
         {
           "child_event_id": "e03",
           "trigger": "被-烤燃",
-          "trigger_agent": "舞台纱幕",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "18时20分左右",
           "time_align": "1994-12-18-20-XX",
           "location": "克拉玛依市友谊馆",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "舞台纱幕"
         },
         {
           "child_event_id": "e04",
           "trigger": "产生",
-          "trigger_agent": "易燃材料",
           "trigger_object": "有害气体",
-          "agent_attri": "",
           "object_attri": "大量",
           "time": "18时20分左右",
           "time_align": "1994-12-18-20-XX",
           "location": "克拉玛依市友谊馆",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "易燃材料"
         },
         {
           "child_event_id": "e05",
           "trigger": "蔓延",
-          "trigger_agent": "火势",
           "trigger_object": "剧厅",
-          "agent_attri": "",
           "object_attri": "",
           "time": "18时20分左右",
           "time_align": "1994-12-18-20-XX",
           "location": "克拉玛依市友谊馆",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "火势"
         },
         {
           "child_event_id": "e06",
           "trigger": "酿成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "325人",
           "time": "18时20分左右",
           "time_align": "1994-12-18-20-XX",
           "location": "克拉玛依市友谊馆",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -99,15 +99,15 @@
         {
           "child_event_id": "e07",
           "trigger": "引起",
-          "trigger_agent": "该事件",
           "trigger_object": "普遍关注",
-          "agent_attri": "",
           "object_attri": "社会大众的",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "该事件"
         }
       ]
     }

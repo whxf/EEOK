@@ -6,54 +6,54 @@
         {
           "child_event_id": "e01",
           "trigger": "突发",
-          "trigger_agent": "草原",
           "trigger_object": "降雨/冰雹",
-          "agent_attri": "青海省海西州乌兰县茶卡镇乌兰哈达",
           "object_attri": "强/强",
           "time": "2013年8月20日19时50分",
           "time_align": "2013-08-20-19-50",
           "location": "青海省海西州乌兰县茶卡镇乌兰哈达草原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "青海省海西州乌兰县茶卡镇乌兰哈达",
+          "trigger_subject": "草原"
         },
         {
           "child_event_id": "e02",
           "trigger": "引发",
-          "trigger_agent": "降雨/冰雹",
           "trigger_object": "山洪",
-          "agent_attri": "强/强",
           "object_attri": "",
           "time": "2013年8月20日19时50分",
           "time_align": "2013-08-20-19-50",
           "location": "青海省海西州乌兰县茶卡镇乌兰哈达草原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "强/强",
+          "trigger_subject": "降雨/冰雹"
         },
         {
           "child_event_id": "e03",
           "trigger": "致",
-          "trigger_agent": "",
           "trigger_object": "遇难",
-          "agent_attri": "",
           "object_attri": "24人",
           "time": "2013年8月20日19时50分",
           "time_align": "2013-08-20-19-50",
           "location": "青海省海西州乌兰县茶卡镇乌兰哈达草原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "致",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "7人",
           "time": "2013年8月20日19时50分",
           "time_align": "2013-08-20-19-50",
           "location": "青海省海西州乌兰县茶卡镇乌兰哈达草原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -63,15 +63,15 @@
         {
           "child_event_id": "e05",
           "trigger": "造成",
-          "trigger_agent": "洪灾",
           "trigger_object": "损毁",
-          "agent_attri": "",
           "object_attri": "茶汗诺至茶卡制盐分公司约100米铁路专用线和茶卡至德令哈高速公路茶察段部分路基",
           "time": "",
           "time_align": "2013-08-20-19-50",
           "location": "茶卡至德令哈高速公路茶察段",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "洪灾"
         }
       ]
     },
@@ -81,28 +81,28 @@
         {
           "child_event_id": "e06",
           "trigger": "出动",
-          "trigger_agent": "救援部门",
           "trigger_object": "救援人员",
-          "agent_attri": "海西州",
           "object_attri": "500名",
           "time": "",
           "time_align": "",
           "location": "海西州",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "海西州",
+          "trigger_subject": "救援部门"
         },
         {
           "child_event_id": "e07",
           "trigger": "进行",
-          "trigger_agent": "救援人员",
           "trigger_object": "搜救",
-          "agent_attri": "500名",
           "object_attri": "拉网式",
           "time": "",
           "time_align": "",
           "location": "青海省海西州乌兰县茶卡镇乌兰哈达草原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "500名",
+          "trigger_subject": "救援人员"
         }
       ]
     }

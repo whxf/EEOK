@@ -5,42 +5,42 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "中学",
           "trigger": "发生",
           "trigger_object": "暴力事件",
-          "agent_attri": "彭州市隆丰",
           "object_attri": "校园",
           "time": "2017年3月30日下午",
           "time_align": "2017-03-30-XX-XX",
           "location": "彭州市隆丰中学",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "彭州市隆丰",
+          "trigger_subject": "中学"
         },
         {
           "child_event_id": "e02",
           "trigger": "被-拦住",
-          "trigger_agent": "学生",
           "trigger_object": "未成年人",
-          "agent_attri": "2名",
           "object_attri": "外校4名",
           "time": "2017年3月30日下午",
           "time_align": "2017-03-30-XX-XX",
           "location": "学校附近一个小巷子",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "2名",
+          "trigger_subject": "学生"
         },
         {
           "child_event_id": "e03",
           "trigger": "进行",
-          "trigger_agent": "",
           "trigger_object": "辱骂殴打",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2017年3月30日下午",
           "time_align": "2017-03-30-XX-XX",
           "location": "学校附近一个小巷子",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -50,41 +50,41 @@
         {
           "child_event_id": "e04",
           "trigger": "调查",
-          "trigger_agent": "公安局",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "彭州市",
           "organization": "彭州市公安局",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安局"
         },
         {
           "child_event_id": "e05",
           "trigger": "被-抓获",
-          "trigger_agent": "4人",
           "trigger_object": "",
-          "agent_attri": "涉案",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "彭州市",
           "organization": "彭州市公安局",
-          "person": ""
+          "person": "",
+          "subject_attri": "涉案",
+          "trigger_subject": "4人"
         },
         {
           "child_event_id": "e06",
           "trigger": "对-作出",
-          "trigger_agent": "4名违法行为人",
           "trigger_object": "处理",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "彭州市",
           "organization": "彭州市公安局",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "4名违法行为人"
         }
       ]
     }

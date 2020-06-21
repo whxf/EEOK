@@ -1,0 +1,438 @@
+Prefix(:=<http://www.eeok.com#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.eeok.com>
+
+Declaration(Class(:event))
+Declaration(Class(:event_info))
+Declaration(Class(:relation))
+Declaration(Class(:relation_info))
+Declaration(Class(:sub_event))
+Declaration(ObjectProperty(:has_agent_attri))
+Declaration(ObjectProperty(:has_from))
+Declaration(ObjectProperty(:has_label))
+Declaration(ObjectProperty(:has_location))
+Declaration(ObjectProperty(:has_object_attri))
+Declaration(ObjectProperty(:has_organization))
+Declaration(ObjectProperty(:has_person))
+Declaration(ObjectProperty(:has_time))
+Declaration(ObjectProperty(:has_time_align))
+Declaration(ObjectProperty(:has_to))
+Declaration(ObjectProperty(:has_trigger))
+Declaration(ObjectProperty(:has_trigger_agent))
+Declaration(ObjectProperty(:has_trigger_object))
+Declaration(ObjectProperty(:is_from_of))
+Declaration(ObjectProperty(:is_to_of))
+Declaration(DataProperty(:event_info))
+Declaration(DataProperty(:event_info_agent_attri))
+Declaration(DataProperty(:event_info_location))
+Declaration(DataProperty(:event_info_object_attri))
+Declaration(DataProperty(:event_info_person))
+Declaration(DataProperty(:event_info_time))
+Declaration(DataProperty(:event_info_time_align))
+Declaration(DataProperty(:event_info_trigger))
+Declaration(DataProperty(:event_info_trigger_agent))
+Declaration(DataProperty(:event_info_trigger_object))
+Declaration(DataProperty(:evnt_info_organization))
+Declaration(DataProperty(:relation_info))
+Declaration(DataProperty(:relation_info_from))
+Declaration(DataProperty(:relation_info_to))
+Declaration(DataProperty(:relation_label))
+
+
+
+
+Declaration(NamedIndividual(:E01))
+Declaration(NamedIndividual(:E02))
+Declaration(NamedIndividual(:E03))
+Declaration(NamedIndividual(:E04))
+
+
+Declaration(NamedIndividual(:e01))
+Declaration(NamedIndividual(:e02))
+Declaration(NamedIndividual(:e03))
+Declaration(NamedIndividual(:e04))
+Declaration(NamedIndividual(:e05))
+
+
+Declaration(NamedIndividual(:R-01-02))
+Declaration(NamedIndividual(:R-02-03))
+Declaration(NamedIndividual(:R-03-04))
+
+
+Declaration(NamedIndividual(:r-01-02))
+Declaration(NamedIndividual(:r-01-03))
+Declaration(NamedIndividual(:r-02-04))
+Declaration(NamedIndividual(:r-03-04))
+Declaration(NamedIndividual(:r-04-05))
+
+
+Declaration(NamedIndividual(:s-01-01))
+Declaration(NamedIndividual(:s-02-02))
+Declaration(NamedIndividual(:s-02-03))
+Declaration(NamedIndividual(:s-03-04))
+Declaration(NamedIndividual(:s-04-05))
+
+
+Declaration(NamedIndividual(:告破))
+Declaration(NamedIndividual(:张云良))
+Declaration(NamedIndividual(:公交车))
+Declaration(NamedIndividual(:74人))
+Declaration(NamedIndividual(:发生))
+Declaration(NamedIndividual(:案))
+Declaration(NamedIndividual(:张玉良))
+Declaration(NamedIndividual(:该))
+Declaration(NamedIndividual(:受伤))
+Declaration(NamedIndividual(:27人))
+Declaration(NamedIndividual(:遇难))
+Declaration(NamedIndividual(:2009-06-05-08-02))
+Declaration(NamedIndividual(:死亡))
+Declaration(NamedIndividual(:2009年06月05日上午8点02分))
+Declaration(NamedIndividual(:犯罪嫌疑人))
+Declaration(NamedIndividual(:2009-07-02-XX-XX))
+Declaration(NamedIndividual(:事件))
+Declaration(NamedIndividual(:造成))
+Declaration(NamedIndividual(:燃烧))
+Declaration(NamedIndividual(:成都市公共交通集团北星公司的一辆牌号为川A49567的、满载乘客的9路))
+Declaration(NamedIndividual(:2009-07-07-XX-XX))
+Declaration(NamedIndividual(:成都动物园附近、市北三环川陕立交桥下桥处))
+Declaration(NamedIndividual(:2009年7月2日))
+
+
+Declaration(NamedIndividual(:时序关系))
+Declaration(NamedIndividual(:子事件关系))
+Declaration(NamedIndividual(:因果关系))
+
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :has_agent_attri (:has_agent_attri)
+
+ObjectPropertyDomain(:has_agent_attri :event_info)
+ObjectPropertyRange(:has_agent_attri :sub_event)
+
+# Object Property: :has_from (:has_from)
+
+InverseObjectProperties(:has_from :is_from_of)
+ObjectPropertyDomain(:has_from :relation_info)
+ObjectPropertyRange(:has_from :relation)
+
+# Object Property: :has_label (:has_label)
+
+ObjectPropertyDomain(:has_label :relation_info)
+ObjectPropertyRange(:has_label :relation)
+
+# Object Property: :has_location (:has_location)
+
+ObjectPropertyDomain(:has_location :event_info)
+ObjectPropertyRange(:has_location :event)
+
+# Object Property: :has_object_attri (:has_object_attri)
+
+ObjectPropertyDomain(:has_object_attri :event_info)
+ObjectPropertyRange(:has_object_attri :sub_event)
+
+# Object Property: :has_organization (:has_organization)
+
+ObjectPropertyDomain(:has_organization :event_info)
+ObjectPropertyRange(:has_organization :sub_event)
+
+# Object Property: :has_person (:has_person)
+
+ObjectPropertyDomain(:has_person :event_info)
+ObjectPropertyRange(:has_person :sub_event)
+
+# Object Property: :has_time (:has_time)
+
+ObjectPropertyDomain(:has_time :event_info)
+ObjectPropertyRange(:has_time :sub_event)
+
+# Object Property: :has_time_align (:has_time_align)
+
+ObjectPropertyDomain(:has_time_align :event_info)
+ObjectPropertyRange(:has_time_align :sub_event)
+
+# Object Property: :has_to (:has_to)
+
+InverseObjectProperties(:has_to :is_to_of)
+ObjectPropertyDomain(:has_to :relation_info)
+ObjectPropertyRange(:has_to :relation)
+
+# Object Property: :has_trigger (:has_trigger)
+
+ObjectPropertyDomain(:has_trigger :event_info)
+ObjectPropertyRange(:has_trigger :event)
+
+# Object Property: :has_trigger_agent (:has_trigger_agent)
+
+ObjectPropertyDomain(:has_trigger_agent :event_info)
+ObjectPropertyRange(:has_trigger_agent :event)
+
+# Object Property: :has_trigger_object (:has_trigger_object)
+
+ObjectPropertyDomain(:has_trigger_object :event_info)
+ObjectPropertyRange(:has_trigger_object :event)
+
+# Object Property: :is_from_of (:is_from_of)
+
+ObjectPropertyDomain(:is_from_of :relation_info)
+ObjectPropertyRange(:is_from_of :relation)
+
+# Object Property: :is_to_of (:is_to_of)
+
+ObjectPropertyDomain(:is_to_of :relation_info)
+ObjectPropertyRange(:is_to_of :relation)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :event_info_agent_attri (:event_info_agent_attri)
+
+SubDataPropertyOf(:event_info_agent_attri :event_info)
+DataPropertyDomain(:event_info_agent_attri :event_info)
+DataPropertyRange(:event_info_agent_attri xsd:string)
+
+# Data Property: :event_info_location (:event_info_location)
+
+SubDataPropertyOf(:event_info_location :event_info)
+DataPropertyDomain(:event_info_location :event_info)
+DataPropertyRange(:event_info_location xsd:string)
+
+# Data Property: :event_info_object_attri (:event_info_object_attri)
+
+SubDataPropertyOf(:event_info_object_attri :event_info)
+DataPropertyDomain(:event_info_object_attri :event_info)
+DataPropertyRange(:event_info_object_attri xsd:string)
+
+# Data Property: :event_info_person (:event_info_person)
+
+SubDataPropertyOf(:event_info_person :event_info)
+DataPropertyDomain(:event_info_person :event_info)
+DataPropertyRange(:event_info_person xsd:string)
+
+# Data Property: :event_info_time (:event_info_time)
+
+SubDataPropertyOf(:event_info_time :event_info)
+DataPropertyDomain(:event_info_time :event_info)
+DataPropertyRange(:event_info_time xsd:string)
+
+# Data Property: :event_info_time_align (:event_info_time_align)
+
+SubDataPropertyOf(:event_info_time_align :event_info)
+DataPropertyDomain(:event_info_time_align :event_info)
+DataPropertyRange(:event_info_time_align xsd:string)
+
+# Data Property: :event_info_trigger (:event_info_trigger)
+
+SubDataPropertyOf(:event_info_trigger :event_info)
+DataPropertyDomain(:event_info_trigger :event_info)
+DataPropertyRange(:event_info_trigger xsd:string)
+
+# Data Property: :event_info_trigger_agent (:event_info_trigger_agent)
+
+SubDataPropertyOf(:event_info_trigger_agent :event_info)
+DataPropertyDomain(:event_info_trigger_agent :event_info)
+DataPropertyRange(:event_info_trigger_agent xsd:string)
+
+# Data Property: :event_info_trigger_object (:event_info_trigger_object)
+
+SubDataPropertyOf(:event_info_trigger_object :event_info)
+DataPropertyDomain(:event_info_trigger_object :event_info)
+DataPropertyRange(:event_info_trigger_object xsd:string)
+
+# Data Property: :evnt_info_organization (:evnt_info_organization)
+
+SubDataPropertyOf(:evnt_info_organization :event_info)
+DataPropertyDomain(:evnt_info_organization :event_info)
+DataPropertyRange(:evnt_info_organization xsd:string)
+
+# Data Property: :relation_info_from (:relation_info_from)
+
+SubDataPropertyOf(:relation_info_from :relation_info)
+DataPropertyDomain(:relation_info_from :relation_info)
+DataPropertyRange(:relation_info_from xsd:string)
+
+# Data Property: :relation_info_to (:relation_info_to)
+
+SubDataPropertyOf(:relation_info_to :relation_info)
+DataPropertyDomain(:relation_info_to :relation_info)
+DataPropertyRange(:relation_info_to xsd:string)
+
+# Data Property: :relation_label (:relation_label)
+
+SubDataPropertyOf(:relation_label :relation_info)
+DataPropertyDomain(:relation_label :relation_info)
+DataPropertyRange(:relation_label xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :sub_event (:sub_event)
+
+SubClassOf(:sub_event :event)
+
+
+############################
+#   Named Individuals
+############################
+
+
+ClassAssertion(:event :E01)
+ObjectPropertyAssertion(:has_trigger :E01 :发生)
+ObjectPropertyAssertion(:has_trigger_object :E01 :燃烧)
+ObjectPropertyAssertion(:has_trigger_subject :E01 :公交车)
+ObjectPropertyAssertion(:is_from_of :E01 :R-01-02)
+ObjectPropertyAssertion(:is_from_of :E01 :s-01-01)
+ClassAssertion(:event :E02)
+ObjectPropertyAssertion(:has_trigger :E02 :造成)
+ObjectPropertyAssertion(:has_trigger_object :E02 :遇难)
+ObjectPropertyAssertion(:has_trigger_subject :E02 :事件)
+ObjectPropertyAssertion(:is_from_of :E02 :R-02-03)
+ObjectPropertyAssertion(:is_from_of :E02 :s-02-02)
+ObjectPropertyAssertion(:is_from_of :E02 :s-02-03)
+ClassAssertion(:event :E03)
+ObjectPropertyAssertion(:has_trigger :E03 :告破)
+ObjectPropertyAssertion(:has_trigger_subject :E03 :案)
+ObjectPropertyAssertion(:is_from_of :E03 :R-03-04)
+ObjectPropertyAssertion(:is_from_of :E03 :s-03-04)
+ClassAssertion(:event :E04)
+ObjectPropertyAssertion(:has_trigger :E04 :死亡)
+ObjectPropertyAssertion(:has_trigger_subject :E04 :张玉良)
+ObjectPropertyAssertion(:is_from_of :E04 :s-04-05)
+
+
+ClassAssertion(:sub_event :e01)
+ObjectPropertyAssertion(:has_trigger :e01 :发生)
+ObjectPropertyAssertion(:has_trigger_object :e01 :燃烧)
+ObjectPropertyAssertion(:has_time :e01 :2009年06月05日上午8点02分)
+ObjectPropertyAssertion(:has_time_align :e01 :2009-06-05-08-02)
+ObjectPropertyAssertion(:has_location :e01 :成都动物园附近、市北三环川陕立交桥下桥处)
+ObjectPropertyAssertion(:has_subject_attri :e01 :成都市公共交通集团北星公司的一辆牌号为川A49567的、满载乘客的9路)
+ObjectPropertyAssertion(:has_trigger_subject :e01 :公交车)
+ObjectPropertyAssertion(:is_from_of :e01 :r-01-02)
+ObjectPropertyAssertion(:is_from_of :e01 :r-01-03)
+ClassAssertion(:sub_event :e02)
+ObjectPropertyAssertion(:has_trigger :e02 :造成)
+ObjectPropertyAssertion(:has_trigger_object :e02 :遇难)
+ObjectPropertyAssertion(:has_object_attri :e02 :27人)
+ObjectPropertyAssertion(:has_time_align :e02 :2009-06-05-08-02)
+ObjectPropertyAssertion(:has_location :e02 :成都动物园附近、市北三环川陕立交桥下桥处)
+ObjectPropertyAssertion(:has_subject_attri :e02 :该)
+ObjectPropertyAssertion(:has_trigger_subject :e02 :事件)
+ObjectPropertyAssertion(:is_from_of :e02 :r-02-04)
+ClassAssertion(:sub_event :e03)
+ObjectPropertyAssertion(:has_trigger :e03 :造成)
+ObjectPropertyAssertion(:has_trigger_object :e03 :受伤)
+ObjectPropertyAssertion(:has_object_attri :e03 :74人)
+ObjectPropertyAssertion(:has_time_align :e03 :2009-06-05-08-02)
+ObjectPropertyAssertion(:has_location :e03 :成都动物园附近、市北三环川陕立交桥下桥处)
+ObjectPropertyAssertion(:has_subject_attri :e03 :该)
+ObjectPropertyAssertion(:has_trigger_subject :e03 :事件)
+ObjectPropertyAssertion(:is_from_of :e03 :r-03-04)
+ClassAssertion(:sub_event :e04)
+ObjectPropertyAssertion(:has_trigger :e04 :告破)
+ObjectPropertyAssertion(:has_time :e04 :2009年7月2日)
+ObjectPropertyAssertion(:has_time_align :e04 :2009-07-02-XX-XX)
+ObjectPropertyAssertion(:has_subject_attri :e04 :该)
+ObjectPropertyAssertion(:has_trigger_subject :e04 :案)
+ObjectPropertyAssertion(:is_from_of :e04 :r-04-05)
+ClassAssertion(:sub_event :e05)
+ObjectPropertyAssertion(:has_trigger :e05 :死亡)
+ObjectPropertyAssertion(:has_time :e05 :2009年7月2日)
+ObjectPropertyAssertion(:has_time_align :e05 :2009-07-07-XX-XX)
+ObjectPropertyAssertion(:has_location :e05 :成都动物园附近、市北三环川陕立交桥下桥处)
+ObjectPropertyAssertion(:has_person :e05 :张云良)
+ObjectPropertyAssertion(:has_subject_attri :e05 :犯罪嫌疑人)
+ObjectPropertyAssertion(:has_trigger_subject :e05 :张玉良)
+
+
+ClassAssertion(:relation :R-01-02)
+ObjectPropertyAssertion(:has_label :R-01-02 :因果关系)
+ObjectPropertyAssertion(:has_to :R-01-02 :E02)
+ClassAssertion(:relation :R-02-03)
+ObjectPropertyAssertion(:has_label :R-02-03 :时序关系)
+ObjectPropertyAssertion(:has_to :R-02-03 :E03)
+ClassAssertion(:relation :R-03-04)
+ObjectPropertyAssertion(:has_label :R-03-04 :时序关系)
+ObjectPropertyAssertion(:has_to :R-03-04 :E04)
+
+
+ClassAssertion(:relation :r-01-02)
+ObjectPropertyAssertion(:has_label :r-01-02 :因果关系)
+ObjectPropertyAssertion(:has_to :r-01-02 :e02)
+ClassAssertion(:relation :r-01-03)
+ObjectPropertyAssertion(:has_label :r-01-03 :因果关系)
+ObjectPropertyAssertion(:has_to :r-01-03 :e03)
+ClassAssertion(:relation :r-02-04)
+ObjectPropertyAssertion(:has_label :r-02-04 :时序关系)
+ObjectPropertyAssertion(:has_to :r-02-04 :e04)
+ClassAssertion(:relation :r-03-04)
+ObjectPropertyAssertion(:has_label :r-03-04 :时序关系)
+ObjectPropertyAssertion(:has_to :r-03-04 :e04)
+ClassAssertion(:relation :r-04-05)
+ObjectPropertyAssertion(:has_label :r-04-05 :时序关系)
+ObjectPropertyAssertion(:has_to :r-04-05 :e05)
+
+
+ClassAssertion(:relation :s-01-01)
+ObjectPropertyAssertion(:has_label :s-01-01 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-01-01 :e01)
+ClassAssertion(:relation :s-02-02)
+ObjectPropertyAssertion(:has_label :s-02-02 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-02-02 :e02)
+ClassAssertion(:relation :s-02-03)
+ObjectPropertyAssertion(:has_label :s-02-03 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-02-03 :e03)
+ClassAssertion(:relation :s-03-04)
+ObjectPropertyAssertion(:has_label :s-03-04 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-03-04 :e04)
+ClassAssertion(:relation :s-04-05)
+ObjectPropertyAssertion(:has_label :s-04-05 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-04-05 :e05)
+
+
+ClassAssertion(:event_info :告破)
+ClassAssertion(:event_info :张云良)
+ClassAssertion(:event_info :公交车)
+ClassAssertion(:event_info :74人)
+ClassAssertion(:event_info :发生)
+ClassAssertion(:event_info :案)
+ClassAssertion(:event_info :张玉良)
+ClassAssertion(:event_info :该)
+ClassAssertion(:event_info :受伤)
+ClassAssertion(:event_info :27人)
+ClassAssertion(:event_info :遇难)
+ClassAssertion(:event_info :2009-06-05-08-02)
+ClassAssertion(:event_info :死亡)
+ClassAssertion(:event_info :2009年06月05日上午8点02分)
+ClassAssertion(:event_info :犯罪嫌疑人)
+ClassAssertion(:event_info :2009-07-02-XX-XX)
+ClassAssertion(:event_info :事件)
+ClassAssertion(:event_info :造成)
+ClassAssertion(:event_info :燃烧)
+ClassAssertion(:event_info :成都市公共交通集团北星公司的一辆牌号为川A49567的、满载乘客的9路)
+ClassAssertion(:event_info :2009-07-07-XX-XX)
+ClassAssertion(:event_info :成都动物园附近、市北三环川陕立交桥下桥处)
+ClassAssertion(:event_info :2009年7月2日)
+
+
+ClassAssertion(:relation_info :时序关系)
+ClassAssertion(:relation_info :子事件关系)
+ClassAssertion(:relation_info :因果关系)
+
+
+
+)

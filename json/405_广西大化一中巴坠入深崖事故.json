@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "坠入",
-          "trigger_agent": "大巴",
           "trigger_object": "深崖",
-          "agent_attri": "广西大化一",
           "object_attri": "数十米",
           "time": "2014年2月4日",
           "time_align": "2014-02-04-XX-XX",
           "location": "广西大化",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "广西大化一",
+          "trigger_subject": "大巴"
         },
         {
           "child_event_id": "e02",
           "trigger": "致",
-          "trigger_agent": "",
           "trigger_object": "死",
-          "agent_attri": "",
           "object_attri": "2",
           "time": "2014年2月4日",
           "time_align": "2014-02-04-XX-XX",
           "location": "广西大化",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "致",
-          "trigger_agent": "",
           "trigger_object": "伤",
-          "agent_attri": "",
           "object_attri": "11",
           "time": "2014年2月4日",
           "time_align": "2014-02-04-XX-XX",
           "location": "广西大化",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -50,15 +50,15 @@
         {
           "child_event_id": "e04",
           "trigger": "赶赴",
-          "trigger_agent": "救援力量",
           "trigger_object": "现场",
-          "agent_attri": "大化瑶族自治县公安、消防、卫生等多部门",
           "object_attri": "",
           "time": "目前",
           "time_align": "",
           "location": "广西大化瑶族自治县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "大化瑶族自治县公安、消防、卫生等多部门",
+          "trigger_subject": "救援力量"
         }
       ]
     },
@@ -68,15 +68,15 @@
         {
           "child_event_id": "e05",
           "trigger": "进行",
-          "trigger_agent": "救援",
           "trigger_object": "",
-          "agent_attri": "相关",
           "object_attri": "",
           "time": "目前",
           "time_align": "",
           "location": "广西大化瑶族自治县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "相关",
+          "trigger_subject": "救援"
         }
       ]
     }

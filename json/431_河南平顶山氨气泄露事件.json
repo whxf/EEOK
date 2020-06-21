@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "合成氨泄漏",
-          "agent_attri": "",
           "object_attri": "",
           "time": "9月18日早上6:30",
           "time_align": "XXXX-09-18-06-30",
           "location": "河南平顶山",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "中毒",
-          "agent_attri": "",
           "object_attri": "20人",
           "time": "9月18日早上6:30",
           "time_align": "XXXX-09-18-06-30",
           "location": "河南平顶山",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,41 +37,41 @@
         {
           "child_event_id": "e03",
           "trigger": "被-送往",
-          "trigger_agent": "人员",
           "trigger_object": "医院",
-          "agent_attri": "中毒症状",
           "object_attri": "附近",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "中毒症状",
+          "trigger_subject": "人员"
         },
         {
           "child_event_id": "e05",
           "trigger": "进行",
-          "trigger_agent": "医院",
           "trigger_object": "抢救",
-          "agent_attri": "",
           "object_attri": "生命",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "医院"
         },
         {
           "child_event_id": "e05",
           "trigger": "无",
-          "trigger_agent": "人员",
           "trigger_object": "生命危险",
-          "agent_attri": "中毒症状",
           "object_attri": "",
           "time": "目前",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "中毒症状",
+          "trigger_subject": "人员"
         }
       ]
     },
@@ -81,28 +81,28 @@
         {
           "child_event_id": "e06",
           "trigger": "进行",
-          "trigger_agent": "各部门",
           "trigger_object": "抢救",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "河南平顶山",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "各部门"
         },
         {
           "child_event_id": "e07",
           "trigger": "得到",
-          "trigger_agent": "险情",
           "trigger_object": "控制",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "河南平顶山",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "险情"
         }
       ]
     }

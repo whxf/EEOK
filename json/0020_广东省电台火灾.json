@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "6月1日上午",
           "time_align": "XXXX-06-01-XX-XX",
-          "trigger_agent": "顶楼",
-          "agent_attri": "广州市人民北路的广东省电台",
           "trigger": "发生",
           "trigger_object": "大火",
           "object_attri": "",
           "location": "广州市人民北路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "广州市人民北路的广东省电台",
+          "trigger_subject": "顶楼"
         },
         {
           "child_event_id": "e02",
           "time": "6月1日上午",
           "time_align": "XXXX-06-01-XX-XX",
-          "trigger_agent": "烟雾",
-          "agent_attri": "整个大楼",
           "trigger": "弥漫",
           "trigger_object": "",
           "object_attri": "",
           "location": "广州市人民北路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "整个大楼",
+          "trigger_subject": "烟雾"
         }
       ]
     },
@@ -38,40 +38,40 @@
           "child_event_id": "e03",
           "time": "",
           "time_align": "",
-          "trigger_agent": "消防车",
-          "agent_attri": "多台",
           "trigger": "到达",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "广州市人民北路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "多台",
+          "trigger_subject": "消防车"
         },
         {
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "消防车",
-          "agent_attri": "多台",
           "trigger": "救火",
           "trigger_object": "",
           "object_attri": "",
           "location": "广州市人民北路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "多台",
+          "trigger_subject": "消防车"
         },
         {
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "大火",
-          "agent_attri": "",
           "trigger": "被-扑灭",
           "trigger_object": "",
           "object_attri": "",
           "location": "广州市人民北路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "大火"
         }
       ]
     },
@@ -82,14 +82,14 @@
           "child_event_id": "e06",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "情况",
-          "agent_attri": "伤亡",
           "trigger": "不明",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "伤亡",
+          "trigger_subject": "情况"
         }
       ]
     }

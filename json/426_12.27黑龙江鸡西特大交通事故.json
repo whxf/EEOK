@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "交通事故",
-          "agent_attri": "",
           "object_attri": "一起重大",
           "time": "2011年12月27日",
           "time_align": "2011-12-27-XX-XX",
           "location": "鸡西市麻山区境内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "7人",
           "time": "2011年12月27日",
           "time_align": "2011-12-27-XX-XX",
           "location": "鸡西市麻山区境内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "13人",
           "time": "2011年12月27日",
           "time_align": "2011-12-27-XX-XX",
           "location": "鸡西市麻山区境内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -50,15 +50,15 @@
         {
           "child_event_id": "e04",
           "trigger": "被-调查",
-          "trigger_agent": "",
           "trigger_object": "原因",
-          "agent_attri": "",
           "object_attri": "事故",
           "time": "",
           "time_align": "",
           "location": "鸡西市麻山区境内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

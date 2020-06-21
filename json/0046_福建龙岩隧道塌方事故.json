@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2014年12月5日零时三十分",
           "time_align": "2014-12-05-00-30",
-          "trigger_agent": "出口段",
-          "agent_attri": "A3合同段后祠隧道",
           "trigger": "发生",
           "trigger_object": "塌方",
           "object_attri": "",
           "location": "福建省龙岩市新罗区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "A3合同段后祠隧道",
+          "trigger_subject": "出口段"
         },
         {
           "child_event_id": "e02",
           "time": "2014年12月5日零时三十分",
           "time_align": "2014-12-05-00-30",
-          "trigger_agent": "人",
-          "agent_attri": "21",
           "trigger": "被-困",
           "trigger_object": "洞内",
           "object_attri": "",
           "location": "福建省龙岩市新罗区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "21",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -38,14 +38,14 @@
           "child_event_id": "e03",
           "time": "2014年12月6日11点30分",
           "time_align": "2014-12-06-11-30",
-          "trigger_agent": "人员",
-          "agent_attri": "塌方事故21名被困",
           "trigger": "获救",
           "trigger_object": "",
           "object_attri": "",
           "location": "福建省龙岩市新罗区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "塌方事故21名被困",
+          "trigger_subject": "人员"
         }
       ]
     },
@@ -56,27 +56,27 @@
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "单位",
-          "agent_attri": "",
           "trigger": "成立",
           "trigger_object": "调查组",
           "object_attri": "事故",
           "location": "福建省龙岩市",
           "organization": "福建省公安厅、福建省总工会、龙岩市政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "单位"
         },
         {
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "单位",
-          "agent_attri": "",
           "trigger": "开展",
           "trigger_object": "调查工作",
           "object_attri": "",
           "location": "福建省龙岩市",
           "organization": "福建省公安厅、福建省总工会、龙岩市政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "单位"
         }
       ]
     }

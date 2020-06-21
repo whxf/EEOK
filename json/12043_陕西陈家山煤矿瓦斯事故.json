@@ -5,29 +5,29 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "煤矿",
           "trigger": "发生",
           "trigger_object": "爆炸",
-          "agent_attri": "铜川矿务局陈家山",
           "object_attri": "重特大瓦斯",
           "time": "2004年11月28日早晨7时20分",
           "time_align": "2004-11-28-07-20",
           "location": "陕西省铜川市耀州区庙湾镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "铜川矿务局陈家山",
+          "trigger_subject": "煤矿"
         },
         {
           "child_event_id": "e02",
-          "trigger_agent": "人",
           "trigger": "被-困",
           "trigger_object": "",
-          "agent_attri": "166",
           "object_attri": "",
           "time": "2004年11月28日早晨7时20分",
           "time_align": "2004-11-28-07-20",
           "location": "陕西省铜川市耀州区庙湾镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "166",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -37,28 +37,28 @@
         {
           "child_event_id": "e03",
           "trigger": "赶赴",
-          "trigger_agent": "领导",
           "trigger_object": "现场",
-          "agent_attri": "铜川市矿物局",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "铜川市",
           "organization": "铜川市矿物局",
-          "person": ""
+          "person": "",
+          "subject_attri": "铜川市矿物局",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e04",
           "trigger": "组织",
-          "trigger_agent": "领导",
           "trigger_object": "抢救",
-          "agent_attri": "铜川市矿物局",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "陕西省铜川市耀州区庙湾镇",
           "organization": "铜川市矿物局",
-          "person": ""
+          "person": "",
+          "subject_attri": "铜川市矿物局",
+          "trigger_subject": "领导"
         }
       ]
     },
@@ -68,15 +68,15 @@
         {
           "child_event_id": "e05",
           "trigger": "被-运出",
-          "trigger_agent": "遇难矿工",
           "trigger_object": "井外",
-          "agent_attri": "14名",
           "object_attri": "",
           "time": "2004年12月2日凌晨2点50分",
           "time_align": "2004-12-02-02-50",
           "location": "陕西省铜川市耀州区庙湾镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "14名",
+          "trigger_subject": "遇难矿工"
         }
       ]
     },
@@ -86,28 +86,28 @@
         {
           "child_event_id": "e06",
           "trigger": "发生",
-          "trigger_agent": "煤矿",
           "trigger_object": "爆炸",
-          "agent_attri": "陕西省铜川矿务局陈家山",
           "object_attri": "二次",
           "time": "2004年12月2日凌晨3时25分",
           "time_align": "2004-12-02-03-25",
           "location": "陕西省铜川市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "陕西省铜川矿务局陈家山",
+          "trigger_subject": "煤矿"
         },
         {
           "child_event_id": "e07",
           "trigger": "升井",
-          "trigger_agent": "人员",
           "trigger_object": "",
-          "agent_attri": "在井下的61名",
           "object_attri": "",
           "time": "2004年12月2日凌晨3时25分",
           "time_align": "2004-12-02-03-25",
           "location": "陕西省铜川市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "在井下的61名",
+          "trigger_subject": "人员"
         }
       ]
     },
@@ -117,28 +117,28 @@
         {
           "child_event_id": "e08",
           "trigger": "被-确认",
-          "trigger_agent": "身份",
           "trigger_object": "",
-          "agent_attri": "20名遇难者",
           "object_attri": "",
           "time": "2日凌晨",
           "time_align": "2010-12-02-XX-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "20名遇难者",
+          "trigger_subject": "身份"
         },
         {
           "child_event_id": "e09",
           "trigger": "分送",
-          "trigger_agent": "",
           "trigger_object": "安置站点",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2日凌晨",
           "time_align": "2010年12月02日",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -148,15 +148,15 @@
         {
           "child_event_id": "e10",
           "trigger": "受到",
-          "trigger_agent": "爆炸事件",
           "trigger_object": "关注",
-          "agent_attri": "陕西铜川陈家山煤矿的特大瓦斯",
           "object_attri": "社会各界的",
           "time": "",
           "time_align": "",
           "location": "陕西铜川",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "陕西铜川陈家山煤矿的特大瓦斯",
+          "trigger_subject": "爆炸事件"
         }
       ]
     },
@@ -166,41 +166,41 @@
         {
           "child_event_id": "e11",
           "trigger": "组织",
-          "trigger_agent": "工会",
           "trigger_object": "募捐",
-          "agent_attri": "各级",
           "object_attri": "积极",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "全国总工会/陕西省总工会",
-          "person": ""
+          "person": "",
+          "subject_attri": "各级",
+          "trigger_subject": "工会"
         },
         {
           "child_event_id": "e12",
           "trigger": "设立",
-          "trigger_agent": "民政厅",
           "trigger_object": "募捐中心",
-          "agent_attri": "陕西省",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "陕西省",
           "organization": "陕西省民政厅",
-          "person": ""
+          "person": "",
+          "subject_attri": "陕西省",
+          "trigger_subject": "民政厅"
         },
         {
           "child_event_id": "e13",
           "trigger": "公布",
-          "trigger_agent": "民政厅",
           "trigger_object": "捐款账号",
-          "agent_attri": "陕西省",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "陕西省",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "陕西省",
+          "trigger_subject": "民政厅"
         }
       ]
     }

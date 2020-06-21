@@ -1,0 +1,274 @@
+Prefix(:=<http://www.eeok.com#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.eeok.com>
+
+Declaration(Class(:event))
+Declaration(Class(:event_info))
+Declaration(Class(:relation))
+Declaration(Class(:relation_info))
+Declaration(Class(:sub_event))
+Declaration(ObjectProperty(:has_agent_attri))
+Declaration(ObjectProperty(:has_from))
+Declaration(ObjectProperty(:has_label))
+Declaration(ObjectProperty(:has_location))
+Declaration(ObjectProperty(:has_object_attri))
+Declaration(ObjectProperty(:has_organization))
+Declaration(ObjectProperty(:has_person))
+Declaration(ObjectProperty(:has_time))
+Declaration(ObjectProperty(:has_time_align))
+Declaration(ObjectProperty(:has_to))
+Declaration(ObjectProperty(:has_trigger))
+Declaration(ObjectProperty(:has_trigger_agent))
+Declaration(ObjectProperty(:has_trigger_object))
+Declaration(ObjectProperty(:is_from_of))
+Declaration(ObjectProperty(:is_to_of))
+Declaration(DataProperty(:event_info))
+Declaration(DataProperty(:event_info_agent_attri))
+Declaration(DataProperty(:event_info_location))
+Declaration(DataProperty(:event_info_object_attri))
+Declaration(DataProperty(:event_info_person))
+Declaration(DataProperty(:event_info_time))
+Declaration(DataProperty(:event_info_time_align))
+Declaration(DataProperty(:event_info_trigger))
+Declaration(DataProperty(:event_info_trigger_agent))
+Declaration(DataProperty(:event_info_trigger_object))
+Declaration(DataProperty(:evnt_info_organization))
+Declaration(DataProperty(:relation_info))
+Declaration(DataProperty(:relation_info_from))
+Declaration(DataProperty(:relation_info_to))
+Declaration(DataProperty(:relation_label))
+
+
+
+
+{declaration_events}
+
+
+{declaration_sub_events}
+
+
+{declaration_event_relations}
+
+
+{declaration_sub_event_relations}
+
+
+{declaration_is_sub_relations}
+
+
+{declaration_event_info}
+
+
+{declaration_relation_info}
+
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :has_agent_attri (:has_agent_attri)
+
+ObjectPropertyDomain(:has_agent_attri :event_info)
+ObjectPropertyRange(:has_agent_attri :sub_event)
+
+# Object Property: :has_from (:has_from)
+
+InverseObjectProperties(:has_from :is_from_of)
+ObjectPropertyDomain(:has_from :relation_info)
+ObjectPropertyRange(:has_from :relation)
+
+# Object Property: :has_label (:has_label)
+
+ObjectPropertyDomain(:has_label :relation_info)
+ObjectPropertyRange(:has_label :relation)
+
+# Object Property: :has_location (:has_location)
+
+ObjectPropertyDomain(:has_location :event_info)
+ObjectPropertyRange(:has_location :event)
+
+# Object Property: :has_object_attri (:has_object_attri)
+
+ObjectPropertyDomain(:has_object_attri :event_info)
+ObjectPropertyRange(:has_object_attri :sub_event)
+
+# Object Property: :has_organization (:has_organization)
+
+ObjectPropertyDomain(:has_organization :event_info)
+ObjectPropertyRange(:has_organization :sub_event)
+
+# Object Property: :has_person (:has_person)
+
+ObjectPropertyDomain(:has_person :event_info)
+ObjectPropertyRange(:has_person :sub_event)
+
+# Object Property: :has_time (:has_time)
+
+ObjectPropertyDomain(:has_time :event_info)
+ObjectPropertyRange(:has_time :sub_event)
+
+# Object Property: :has_time_align (:has_time_align)
+
+ObjectPropertyDomain(:has_time_align :event_info)
+ObjectPropertyRange(:has_time_align :sub_event)
+
+# Object Property: :has_to (:has_to)
+
+InverseObjectProperties(:has_to :is_to_of)
+ObjectPropertyDomain(:has_to :relation_info)
+ObjectPropertyRange(:has_to :relation)
+
+# Object Property: :has_trigger (:has_trigger)
+
+ObjectPropertyDomain(:has_trigger :event_info)
+ObjectPropertyRange(:has_trigger :event)
+
+# Object Property: :has_trigger_agent (:has_trigger_agent)
+
+ObjectPropertyDomain(:has_trigger_agent :event_info)
+ObjectPropertyRange(:has_trigger_agent :event)
+
+# Object Property: :has_trigger_object (:has_trigger_object)
+
+ObjectPropertyDomain(:has_trigger_object :event_info)
+ObjectPropertyRange(:has_trigger_object :event)
+
+# Object Property: :is_from_of (:is_from_of)
+
+ObjectPropertyDomain(:is_from_of :relation_info)
+ObjectPropertyRange(:is_from_of :relation)
+
+# Object Property: :is_to_of (:is_to_of)
+
+ObjectPropertyDomain(:is_to_of :relation_info)
+ObjectPropertyRange(:is_to_of :relation)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :event_info_agent_attri (:event_info_agent_attri)
+
+SubDataPropertyOf(:event_info_agent_attri :event_info)
+DataPropertyDomain(:event_info_agent_attri :event_info)
+DataPropertyRange(:event_info_agent_attri xsd:string)
+
+# Data Property: :event_info_location (:event_info_location)
+
+SubDataPropertyOf(:event_info_location :event_info)
+DataPropertyDomain(:event_info_location :event_info)
+DataPropertyRange(:event_info_location xsd:string)
+
+# Data Property: :event_info_object_attri (:event_info_object_attri)
+
+SubDataPropertyOf(:event_info_object_attri :event_info)
+DataPropertyDomain(:event_info_object_attri :event_info)
+DataPropertyRange(:event_info_object_attri xsd:string)
+
+# Data Property: :event_info_person (:event_info_person)
+
+SubDataPropertyOf(:event_info_person :event_info)
+DataPropertyDomain(:event_info_person :event_info)
+DataPropertyRange(:event_info_person xsd:string)
+
+# Data Property: :event_info_time (:event_info_time)
+
+SubDataPropertyOf(:event_info_time :event_info)
+DataPropertyDomain(:event_info_time :event_info)
+DataPropertyRange(:event_info_time xsd:string)
+
+# Data Property: :event_info_time_align (:event_info_time_align)
+
+SubDataPropertyOf(:event_info_time_align :event_info)
+DataPropertyDomain(:event_info_time_align :event_info)
+DataPropertyRange(:event_info_time_align xsd:string)
+
+# Data Property: :event_info_trigger (:event_info_trigger)
+
+SubDataPropertyOf(:event_info_trigger :event_info)
+DataPropertyDomain(:event_info_trigger :event_info)
+DataPropertyRange(:event_info_trigger xsd:string)
+
+# Data Property: :event_info_trigger_agent (:event_info_trigger_agent)
+
+SubDataPropertyOf(:event_info_trigger_agent :event_info)
+DataPropertyDomain(:event_info_trigger_agent :event_info)
+DataPropertyRange(:event_info_trigger_agent xsd:string)
+
+# Data Property: :event_info_trigger_object (:event_info_trigger_object)
+
+SubDataPropertyOf(:event_info_trigger_object :event_info)
+DataPropertyDomain(:event_info_trigger_object :event_info)
+DataPropertyRange(:event_info_trigger_object xsd:string)
+
+# Data Property: :evnt_info_organization (:evnt_info_organization)
+
+SubDataPropertyOf(:evnt_info_organization :event_info)
+DataPropertyDomain(:evnt_info_organization :event_info)
+DataPropertyRange(:evnt_info_organization xsd:string)
+
+# Data Property: :relation_info_from (:relation_info_from)
+
+SubDataPropertyOf(:relation_info_from :relation_info)
+DataPropertyDomain(:relation_info_from :relation_info)
+DataPropertyRange(:relation_info_from xsd:string)
+
+# Data Property: :relation_info_to (:relation_info_to)
+
+SubDataPropertyOf(:relation_info_to :relation_info)
+DataPropertyDomain(:relation_info_to :relation_info)
+DataPropertyRange(:relation_info_to xsd:string)
+
+# Data Property: :relation_label (:relation_label)
+
+SubDataPropertyOf(:relation_label :relation_info)
+DataPropertyDomain(:relation_label :relation_info)
+DataPropertyRange(:relation_label xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :sub_event (:sub_event)
+
+SubClassOf(:sub_event :event)
+
+
+############################
+#   Named Individuals
+############################
+
+
+{event_individual}
+
+
+{sub_event_individual}
+
+
+{event_relations_individual}
+
+
+{sub_event_relations_individual}
+
+
+{is_sub_relations_individual}
+
+
+{event_info_individual}
+
+
+{relation_info_individual}
+
+
+
+)

@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "相撞",
-          "trigger_agent": "大客车与一辆小车",
           "trigger_object": "",
-          "agent_attri": "一辆挂辽宁牌照的",
           "object_attri": "",
           "time": "2013年12月10日晚",
           "time_align": "2013-12-10-XX-XX",
           "location": "广西百色市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆挂辽宁牌照的",
+          "trigger_subject": "大客车与一辆小车"
         },
         {
           "child_event_id": "e02",
           "trigger": "越过",
-          "trigger_agent": "大客车",
           "trigger_object": "隔离带",
-          "agent_attri": "",
           "object_attri": "高速路上的",
           "time": "2013年12月10日晚",
           "time_align": "2013-12-10-XX-XX",
           "location": "广西百色市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "大客车"
         },
         {
           "child_event_id": "e03",
           "trigger": "相撞",
-          "trigger_agent": "小车",
           "trigger_object": "",
-          "agent_attri": "与另外一辆对向行驶的",
           "object_attri": "",
           "time": "2013年12月10日晚",
           "time_align": "2013-12-10-XX-XX",
           "location": "广西百色市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "与另外一辆对向行驶的",
+          "trigger_subject": "小车"
         }
       ]
     },
@@ -50,28 +50,28 @@
         {
           "child_event_id": "e04",
           "trigger": "造成",
-          "trigger_agent": "事故",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "7人",
           "time": "2013年12月10日晚",
           "time_align": "2013-12-10-XX-XX",
           "location": "广西百色市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         },
         {
           "child_event_id": "e05",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "2人",
           "time": "2013年12月10日晚",
           "time_align": "2013-12-10-XX-XX",
           "location": "广西百色市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -81,15 +81,15 @@
         {
           "child_event_id": "e06",
           "trigger": "确认",
-          "trigger_agent": "相关部门",
           "trigger_object": "事故",
-          "agent_attri": "",
           "object_attri": "此次",
           "time": "目前",
           "time_align": "",
           "location": "百色市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "相关部门"
         }
       ]
     }

@@ -5,16 +5,16 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "水库",
           "trigger": "发生",
           "trigger_object": "跨坝",
-          "agent_attri": "沈家坑",
           "object_attri": "",
           "time": "2012年8月10日凌晨5时",
           "time_align": "2012-08-10-05-00",
           "location": "浙江舟山市岱山县沈家坑水库",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "沈家坑",
+          "trigger_subject": "水库"
         }
       ]
     },
@@ -24,28 +24,28 @@
         {
           "child_event_id": "e02",
           "trigger": "前往",
-          "trigger_agent": "消防车/消防官兵",
           "trigger_object": "处置",
-          "agent_attri": "岱山消防3部/10多名",
           "object_attri": "",
           "time": "2012年8月10日上午9时",
           "time_align": "2012-09-10-09-XX",
           "location": "岱山",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "岱山消防3部/10多名",
+          "trigger_subject": "消防车/消防官兵"
         },
         {
           "child_event_id": "e03",
           "trigger": "进行",
-          "trigger_agent": "消防车/消防官兵",
           "trigger_object": "搜救",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2012年8月10日上午9时",
           "time_align": "2012-09-10-09-XX",
           "location": "浙江舟山市岱山县沈家坑水库",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "消防车/消防官兵"
         }
       ]
     },
@@ -55,15 +55,15 @@
         {
           "child_event_id": "e04",
           "trigger": "展开",
-          "trigger_agent": "政府",
           "trigger_object": "调查",
-          "agent_attri": "浙江舟山市岱山县",
           "object_attri": "事故原因",
           "time": "",
           "time_align": "",
           "location": "浙江舟山市岱山县",
           "organization": "浙江舟山市岱山县政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "浙江舟山市岱山县",
+          "trigger_subject": "政府"
         }
       ]
     },
@@ -73,28 +73,28 @@
         {
           "child_event_id": "e05",
           "trigger": "开展",
-          "trigger_agent": "政府",
           "trigger_object": "加固建设",
-          "agent_attri": "浙江舟山市岱山县",
           "object_attri": "岱山水库",
           "time": "",
           "time_align": "",
           "location": "浙江舟山市岱山县",
           "organization": "浙江舟山市岱山县政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "浙江舟山市岱山县",
+          "trigger_subject": "政府"
         },
         {
           "child_event_id": "e06",
           "trigger": "开展",
-          "trigger_agent": "政府",
           "trigger_object": "防渗建设",
-          "agent_attri": "浙江舟山市岱山县",
           "object_attri": "岱山水库",
           "time": "",
           "time_align": "",
           "location": "浙江舟山市岱山县",
           "organization": "浙江舟山市岱山县政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "浙江舟山市岱山县",
+          "trigger_subject": "政府"
         }
       ]
     }

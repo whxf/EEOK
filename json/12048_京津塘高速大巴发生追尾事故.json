@@ -5,55 +5,55 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "旅行车与货车",
           "trigger": "发生",
           "trigger_object": "追尾事故",
-          "agent_attri": "一辆由北京中国青年年旅行社组织/载有德籍旅客的北京牌照中型",
           "object_attri": "特大",
           "time": "2012年10月1日上午8时30分",
           "time_align": "2015-10-01-08-30",
           "location": "京津塘高速公路下行54公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆由北京中国青年年旅行社组织/载有德籍旅客的北京牌照中型",
+          "trigger_subject": "旅行车与货车"
         },
         {
           "child_event_id": "e02",
-          "trigger_agent": "",
           "trigger": "致使",
           "trigger_object": "起火",
-          "agent_attri": "",
           "object_attri": "中巴车",
           "time": "2012年10月1日上午8时30分",
           "time_align": "2015-10-01-08-30",
           "location": "京津塘高速公路下行54公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
-          "trigger_agent": "",
           "trigger": "造成",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "6人",
           "time": "2012年10月1日上午8时30分",
           "time_align": "2015-10-01-08-30",
           "location": "京津塘高速公路下行54公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
-          "trigger_agent": "",
           "trigger": "造成",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "14人",
           "time": "2012年10月1日上午8时30分",
           "time_align": "2015-10-01-08-30",
           "location": "京津塘高速公路下行54公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -62,68 +62,68 @@
       "event_graph": [
         {
           "child_event_id": "e05",
-          "trigger_agent": "医院",
           "trigger": "接到",
           "trigger_object": "电话",
-          "agent_attri": "天津市武清区人民",
           "object_attri": "120指挥中心",
           "time": "上午9点10分",
           "time_align": "2015-10-01-09-10",
           "location": "天津市武清区",
           "organization": "天津市武清区人民医院",
-          "person": ""
+          "person": "",
+          "subject_attri": "天津市武清区人民",
+          "trigger_subject": "医院"
         },
         {
           "child_event_id": "e06",
-          "trigger_agent": "医院",
           "trigger": "启动",
           "trigger_object": "预案",
-          "agent_attri": "天津市武清区人民",
           "object_attri": "紧急",
           "time": "上午9点10分",
           "time_align": "2015-10-01-09-10",
           "location": "天津市武清区",
           "organization": "天津市武清区人民医院",
-          "person": ""
+          "person": "",
+          "subject_attri": "天津市武清区人民",
+          "trigger_subject": "医院"
         },
         {
           "child_event_id": "e07",
-          "trigger_agent": "院长/副院长",
           "trigger": "召集",
           "trigger_object": "医务人员",
-          "agent_attri": "",
           "object_attri": "各科室50余名",
           "time": "上午9点10分",
           "time_align": "2015-10-01-09-10",
           "location": "天津市武清区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "院长/副院长"
         },
         {
           "child_event_id": "e08",
-          "trigger_agent": "医务人员",
           "trigger": "待命",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "各科室50余名",
           "time": "上午9点10分",
           "time_align": "2015-10-01-09-10",
           "location": "天津市武清区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "医务人员"
         },
         {
           "child_event_id": "e09",
-          "trigger_agent": "",
           "trigger": "开辟",
           "trigger_object": "绿色通道",
-          "agent_attri": "",
           "object_attri": "伤员救治",
           "time": "上午9点10分",
           "time_align": "2015-10-01-09-10",
           "location": "天津市武清区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -132,42 +132,42 @@
       "event_graph": [
         {
           "child_event_id": "e10",
-          "trigger_agent": "驻华使馆",
           "trigger": "得知",
           "trigger_object": "消息",
-          "agent_attri": "德国",
           "object_attri": "旅游中巴高速遇车祸的",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "德国驻华使馆",
-          "person": ""
+          "person": "",
+          "subject_attri": "德国",
+          "trigger_subject": "驻华使馆"
         },
         {
           "child_event_id": "e12",
           "trigger": "派遣",
-          "trigger_agent": "工作人员",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "工作人员"
         },
         {
           "child_event_id": "e12",
           "trigger": "处理",
-          "trigger_agent": "",
           "trigger_object": "现场情况",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "天津市武清区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -177,28 +177,28 @@
         {
           "child_event_id": "e13",
           "trigger": "呼吁",
-          "trigger_agent": "专家",
           "trigger_object": "",
-          "agent_attri": "北京市减灾协会",
           "object_attri": "",
           "time": "10月1日",
           "time_align": "2015-10-01-XX-XX",
           "location": "北京市",
           "organization": "北京市减灾协会",
-          "person": ""
+          "person": "",
+          "subject_attri": "北京市减灾协会",
+          "trigger_subject": "专家"
         },
         {
           "child_event_id": "e14",
           "trigger": "提升",
-          "trigger_agent": "",
           "trigger_object": "标准",
-          "agent_attri": "",
           "object_attri": "防火阻燃",
           "time": "10月1日",
           "time_align": "2015-10-01-XX-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }
@@ -221,7 +221,8 @@
       "e05": "顺承关系"
     },
     "e05": {
-      "e06": "顺承关系"
+      "e06": "顺承关系",
+      "e07": "顺承关系"
     },
     "e06": {
       "e07": "并列关系",
@@ -231,8 +232,7 @@
       "e08": "顺承关系"
     },
     "e08": {
-      "e09": "顺承关系",
-      "e08": "并列关系"
+      "e09": "顺承关系"
     },
     "e09": {
       "e10": "顺承关系"
@@ -241,7 +241,8 @@
       "e12": "顺承关系"
     },
     "e12": {
-      "e13": "顺承关系"
+      "e13": "顺承关系",
+      "e14": "顺承关系"
     },
     "e13": {
       "e14": "并列关系"

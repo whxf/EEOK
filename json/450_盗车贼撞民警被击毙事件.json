@@ -6,67 +6,67 @@
         {
           "child_event_id": "e01",
           "trigger": "受伤",
-          "trigger_agent": "警员",
           "trigger_object": "",
-          "agent_attri": "2名",
           "object_attri": "",
           "time": "2014年4月21日凌晨3时",
           "time_align": "2014-04-21-03-00",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "2名",
+          "trigger_subject": "警员"
         },
         {
           "child_event_id": "e02",
           "trigger": "损坏",
-          "trigger_agent": "汽车",
           "trigger_object": "",
-          "agent_attri": "3辆",
           "object_attri": "",
           "time": "2014年4月21日凌晨3时",
           "time_align": "2014-04-21-03-00",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "3辆",
+          "trigger_subject": "汽车"
         },
         {
           "child_event_id": "e03",
           "trigger": "拒捕",
-          "trigger_agent": "贼",
           "trigger_object": "",
-          "agent_attri": "事件盗车",
           "object_attri": "",
           "time": "2014年4月21日凌晨3时",
           "time_align": "2014-04-21-03-00",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "事件盗车",
+          "trigger_subject": "贼"
         },
         {
           "child_event_id": "e04",
           "trigger": "驾车冲撞",
-          "trigger_agent": "贼",
           "trigger_object": "民警",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2014年4月21日凌晨3时",
           "time_align": "2014-04-21-03-00",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "贼"
         },
         {
           "child_event_id": "e05",
           "trigger": "冲撞",
-          "trigger_agent": "贼",
           "trigger_object": "民警",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2014年4月21日凌晨3时",
           "time_align": "2014-04-21-03-00",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "贼"
         }
       ]
     },
@@ -76,54 +76,54 @@
         {
           "child_event_id": "e06",
           "trigger": "开枪击伤",
-          "trigger_agent": "民警",
           "trigger_object": "谭某",
-          "agent_attri": "便衣",
           "object_attri": "嫌疑人",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "便衣",
+          "trigger_subject": "民警"
         },
         {
           "child_event_id": "e07",
           "trigger": "击伤",
-          "trigger_agent": "民警",
           "trigger_object": "谭某",
-          "agent_attri": "便衣",
           "object_attri": "嫌疑人",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "便衣",
+          "trigger_subject": "民警"
         },
         {
           "child_event_id": "e08",
           "trigger": "抢救无效",
-          "trigger_agent": "谭某",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "谭某"
         },
         {
           "child_event_id": "e09",
           "trigger": "死亡",
-          "trigger_agent": "谭某",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "谭某"
         }
       ]
     }

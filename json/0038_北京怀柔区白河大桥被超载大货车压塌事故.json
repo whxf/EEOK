@@ -7,14 +7,14 @@
           "child_event_id": "e01",
           "time": "2011年7月19日",
           "time_align": "2011-07-19-XX-XX",
-          "trigger_agent": "桥",
-          "agent_attri": "白河大",
           "trigger": "被-压塌",
           "trigger_object": "车",
           "object_attri": "超载大货",
           "location": "北京怀柔区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "白河大",
+          "trigger_subject": "桥"
         }
       ]
     },
@@ -25,14 +25,14 @@
           "child_event_id": "e02",
           "time": "2011年7月19日",
           "time_align": "2011-07-19-XX-XX",
-          "trigger_agent": "有关部门",
-          "agent_attri": "",
           "trigger": "铺设",
           "trigger_object": "便道",
           "object_attri": "紧急",
           "location": "北京怀柔区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "有关部门"
         }
       ]
     },
@@ -43,27 +43,27 @@
           "child_event_id": "e03",
           "time": "2011年7月19日",
           "time_align": "2011-07-19-XX-XX",
-          "trigger_agent": "事故",
-          "agent_attri": "",
           "trigger": "未-造成",
           "trigger_object": "伤亡",
           "object_attri": "人员",
           "location": "北京怀柔区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         },
         {
           "child_event_id": "e04",
           "time": "2011年7月19日",
           "time_align": "2011-07-19-XX-XX",
-          "trigger_agent": "司机",
-          "agent_attri": "货车",
           "trigger": "被-控制",
           "trigger_object": "警方",
           "object_attri": "",
           "location": "北京怀柔区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "货车",
+          "trigger_subject": "司机"
         }
       ]
     },
@@ -74,14 +74,14 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "司机",
-          "agent_attri": "肇事",
           "trigger": "被-追责",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "肇事",
+          "trigger_subject": "司机"
         }
       ]
     }

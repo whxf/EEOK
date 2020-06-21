@@ -6,54 +6,54 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "银行",
           "trigger_object": "爆炸事件",
-          "agent_attri": "一商业",
           "object_attri": "特大",
           "time": "1月18日傍晚",
           "time_align": "XXXX-01-18-XX-XX",
           "location": "沈阳市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一商业",
+          "trigger_subject": "银行"
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "三人",
           "time": "1月18日傍晚",
           "time_align": "XXXX-01-18-XX-XX",
           "location": "沈阳市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "多人",
           "time": "1月18日傍晚",
           "time_align": "XXXX-01-18-XX-XX",
           "location": "沈阳市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "抢走",
-          "trigger_agent": "男子",
           "trigger_object": "袋子",
-          "agent_attri": "几名蒙面",
           "object_attri": "装有197万元现金",
           "time": "1月18日傍晚",
           "time_align": "XXXX-01-18-XX-XX",
           "location": "沈阳市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "几名蒙面",
+          "trigger_subject": "男子"
         }
       ]
     },
@@ -63,28 +63,28 @@
         {
           "child_event_id": "e05",
           "trigger": "出资",
-          "trigger_agent": "警方",
           "trigger_object": "重金",
-          "agent_attri": "",
           "object_attri": "30万元",
           "time": "1月19日",
           "time_align": "XXXX-01-19-XX-XX",
           "location": "沈阳",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         },
         {
           "child_event_id": "e06",
           "trigger": "悬赏",
-          "trigger_agent": "警方",
           "trigger_object": "破案",
-          "agent_attri": "",
           "object_attri": "",
           "time": "1月19日",
           "time_align": "XXXX-01-19-XX-XX",
           "location": "沈阳",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         }
       ]
     }

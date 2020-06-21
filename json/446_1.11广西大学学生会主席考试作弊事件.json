@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "作弊",
-          "trigger_agent": "主席",
           "trigger_object": "",
-          "agent_attri": "广西大学学生会",
           "object_attri": "",
           "time": "2012年1月11日",
           "time_align": "2012-01-11-XX-XX",
           "location": "广西",
           "organization": "",
-          "person": "孙某"
+          "person": "孙某",
+          "subject_attri": "广西大学学生会",
+          "trigger_subject": "主席"
         },
         {
           "child_event_id": "e02",
           "trigger": "发现",
-          "trigger_agent": "监考人员",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2012年1月11日",
           "time_align": "2012-01-11-XX-XX",
           "location": "广西",
           "organization": "",
-          "person": "孙某"
+          "person": "孙某",
+          "subject_attri": "",
+          "trigger_subject": "监考人员"
         }
       ]
     },
@@ -37,15 +37,15 @@
         {
           "child_event_id": "e03",
           "trigger": "罢免",
-          "trigger_agent": "学生会",
           "trigger_object": "职务",
-          "agent_attri": "广西大学",
           "object_attri": "其",
           "time": "2012年1月13日",
           "time_align": "2012-01-13-XX-XX",
           "location": "",
           "organization": "",
-          "person": "孙某"
+          "person": "孙某",
+          "subject_attri": "广西大学",
+          "trigger_subject": "学生会"
         }
       ]
     },
@@ -55,54 +55,54 @@
         {
           "child_event_id": "e04",
           "trigger": "发布",
-          "trigger_agent": "学联",
           "trigger_object": "声明",
-          "agent_attri": "全国",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "全国学联",
-          "person": ""
+          "person": "",
+          "subject_attri": "全国",
+          "trigger_subject": "学联"
         },
         {
           "child_event_id": "e05",
           "trigger": "按照",
-          "trigger_agent": "学联",
           "trigger_object": "程序",
-          "agent_attri": "全国",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "全国学联",
-          "person": "孙某"
+          "person": "孙某",
+          "subject_attri": "全国",
+          "trigger_subject": "学联"
         },
         {
           "child_event_id": "e07",
           "trigger": "免去",
-          "trigger_agent": "学联",
           "trigger_object": "职务",
-          "agent_attri": "全国",
           "object_attri": "孙某的全国学联驻会执行主席",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "全国学联",
-          "person": "孙某"
+          "person": "孙某",
+          "subject_attri": "全国",
+          "trigger_subject": "学联"
         },
         {
           "child_event_id": "e07",
           "trigger": "处理",
-          "trigger_agent": "学联",
           "trigger_object": "作弊行为",
-          "agent_attri": "全国",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "全国学联",
-          "person": "孙某"
+          "person": "孙某",
+          "subject_attri": "全国",
+          "trigger_subject": "学联"
         }
       ]
     }

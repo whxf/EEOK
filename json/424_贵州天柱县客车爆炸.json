@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "客运车辆",
           "trigger_object": "爆炸",
-          "agent_attri": "一",
           "object_attri": "",
           "time": "2006年8月3日上午7时5分",
           "time_align": "2006-08-03-07-05",
           "location": "贵州省黔东南苗族侗族自治州天柱县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一",
+          "trigger_subject": "客运车辆"
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "事件",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "11人",
           "time": "2006年8月3日上午7时5分",
           "time_align": "2006-08-03-07-05",
           "location": "贵州省黔东南苗族侗族自治州天柱县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事件"
         },
         {
           "child_event_id": "e03",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "多人",
           "time": "2006年8月3日上午7时5分",
           "time_align": "2006-08-03-07-05",
           "location": "贵州省黔东南苗族侗族自治州天柱县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -50,28 +50,28 @@
         {
           "child_event_id": "e04",
           "trigger": "赶到",
-          "trigger_agent": "县委/领导/有关部门",
           "trigger_object": "现场",
-          "agent_attri": "天柱/县政府/当地",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "天柱县",
           "organization": "天柱县委",
-          "person": ""
+          "person": "",
+          "subject_attri": "天柱/县政府/当地",
+          "trigger_subject": "县委/领导/有关部门"
         },
         {
           "child_event_id": "e05",
           "trigger": "实施",
-          "trigger_agent": "县委/领导/有关部门",
           "trigger_object": "抢救",
-          "agent_attri": "天柱/县政府/当地",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "贵州省黔东南苗族侗族自治州天柱县",
           "organization": "天柱县委",
-          "person": ""
+          "person": "",
+          "subject_attri": "天柱/县政府/当地",
+          "trigger_subject": "县委/领导/有关部门"
         }
       ]
     },
@@ -81,15 +81,15 @@
         {
           "child_event_id": "e06",
           "trigger": "被-调查",
-          "trigger_agent": "原因",
           "trigger_object": "",
-          "agent_attri": "事件",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "事件",
+          "trigger_subject": "原因"
         }
       ]
     }

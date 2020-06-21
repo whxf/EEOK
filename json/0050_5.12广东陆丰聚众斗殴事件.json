@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2013年5月12日上午",
           "time_align": "2013-05-12-XX-XX",
-          "trigger_agent": "组",
-          "agent_attri": "松竹村民小",
           "trigger": "发生",
           "trigger_object": "斗殴案件",
           "object_attri": "一起聚众",
           "location": "广东陆丰市桥冲镇东竹村",
           "organization": "东竹村委会",
-          "person": ""
+          "person": "",
+          "subject_attri": "松竹村民小",
+          "trigger_subject": "组"
         },
         {
           "child_event_id": "e02",
           "time": "2013年5月12日上午",
           "time_align": "2013-05-12-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "致",
           "trigger_object": "伤",
           "object_attri": "10余人",
           "location": "广东陆丰市桥冲镇东竹村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -38,40 +38,40 @@
           "child_event_id": "e03",
           "time": "",
           "time_align": "",
-          "trigger_agent": "公安机关",
-          "agent_attri": "",
           "trigger": "初步侦查",
           "trigger_object": "",
           "object_attri": "",
           "location": "广东陆丰市桥冲镇东竹村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安机关"
         },
         {
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "刘某茂/刘某怀/刘某维/陈某珠",
-          "agent_attri": "犯罪嫌疑人",
           "trigger": "被-刑事拘留",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": "刘某茂、刘某怀、刘某维、陈某珠"
+          "person": "刘某茂、刘某怀、刘某维、陈某珠",
+          "subject_attri": "犯罪嫌疑人",
+          "trigger_subject": "刘某茂/刘某怀/刘某维/陈某珠"
         },
         {
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "原因",
-          "agent_attri": "案件及发案",
           "trigger": "进一步侦查",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "案件及发案",
+          "trigger_subject": "原因"
         }
       ]
     }

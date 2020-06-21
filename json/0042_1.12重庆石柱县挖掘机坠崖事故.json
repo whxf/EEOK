@@ -7,53 +7,53 @@
           "child_event_id": "e01",
           "time": "2015年1月12日14时",
           "time_align": "2015-01-12-14-00",
-          "trigger_agent": "山体",
-          "agent_attri": "大堡梁风电场一在建道路旁",
           "trigger": "发生",
           "trigger_object": "垮塌",
           "object_attri": "",
           "location": "重庆石柱县六塘乡",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "大堡梁风电场一在建道路旁",
+          "trigger_subject": "山体"
         },
         {
           "child_event_id": "e02",
           "time": "2015年1月12日14时",
           "time_align": "2015-01-12-14-00",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "致",
           "trigger_object": "坠入",
           "object_attri": "一辆挖机/百米悬崖",
           "location": "重庆石柱县六塘乡",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "time": "2015年1月12日14时",
           "time_align": "2015-01-12-14-00",
-          "trigger_agent": "驾驶员",
-          "agent_attri": "车内",
           "trigger": "受",
           "trigger_object": "伤",
           "object_attri": "重",
           "location": "重庆石柱县六塘乡",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "车内",
+          "trigger_subject": "驾驶员"
         },
         {
           "child_event_id": "e04",
           "time": "2015年1月12日14时",
           "time_align": "2015-01-12-14-00",
-          "trigger_agent": "情况",
-          "agent_attri": "",
           "trigger": "危急",
           "trigger_object": "",
           "object_attri": "",
           "location": "重庆石柱县六塘乡",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "情况"
         }
       ]
     },
@@ -64,40 +64,40 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "指挥部",
-          "agent_attri": "大队全勤",
           "trigger": "出动",
           "trigger_object": "",
           "object_attri": "",
           "location": "重庆石柱县六塘乡",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "大队全勤",
+          "trigger_subject": "指挥部"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "指挥部",
-          "agent_attri": "大队全勤",
           "trigger": "赶赴",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "重庆石柱县六塘乡",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "大队全勤",
+          "trigger_subject": "指挥部"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "指挥部",
-          "agent_attri": "大队全勤",
           "trigger": "指挥",
           "trigger_object": "救援工作",
           "object_attri": "",
           "location": "重庆石柱县六塘乡",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "大队全勤",
+          "trigger_subject": "指挥部"
         }
       ]
     }

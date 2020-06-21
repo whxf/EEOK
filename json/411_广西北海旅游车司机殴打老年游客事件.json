@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "谩骂殴打",
-          "trigger_agent": "王某",
           "trigger_object": "人",
-          "agent_attri": "旅游大巴司机",
           "object_attri": "某旅游团一行1",
           "time": "2013年10月5日中午",
           "time_align": "2013-10-05-XX-XX",
           "location": "广西北海",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "旅游大巴司机",
+          "trigger_subject": "王某"
         },
         {
           "child_event_id": "e02",
@@ -25,7 +25,9 @@
           "time_align": "2013-10-05-XX-XX",
           "location": "广西北海",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
@@ -36,20 +38,22 @@
           "time_align": "2013-10-05-XX-XX",
           "location": "广西北海",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "行政拘留",
-          "trigger_agent": "警方",
           "trigger_object": "当事人",
-          "agent_attri": "北海·",
           "object_attri": "一名",
           "time": "2013年10月5日中午",
           "time_align": "2013-10-05-XX-XX",
           "location": "广西北海",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "北海·",
+          "trigger_subject": "警方"
         }
       ]
     },
@@ -59,15 +63,15 @@
         {
           "child_event_id": "e05",
           "trigger": "搜集",
-          "trigger_agent": "警方",
           "trigger_object": "证据",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         },
         {
           "child_event_id": "e06",
@@ -78,7 +82,9 @@
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

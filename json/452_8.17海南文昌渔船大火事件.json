@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "突发",
-          "trigger_agent": "渔船",
           "trigger_object": "大火",
-          "agent_attri": "一艘",
           "object_attri": "",
           "time": "2015年8月17日",
           "time_align": "2015-08-17-XX-XX",
           "location": "海南省文昌市清澜港外约6海里海域",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一艘",
+          "trigger_subject": "渔船"
         },
         {
           "child_event_id": "e02",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "爆炸",
-          "agent_attri": "",
           "object_attri": "二次",
           "time": "2015年8月17日",
           "time_align": "2015-08-17-XX-XX",
           "location": "海南省文昌市清澜港外约6海里海域",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,15 +37,15 @@
         {
           "child_event_id": "e03",
           "trigger": "导致",
-          "trigger_agent": "事故",
           "trigger_object": "遇难",
-          "agent_attri": "",
           "object_attri": "一名船员",
           "time": "2015年8月17日",
           "time_align": "2015-08-17-XX-XX",
           "location": "海南省文昌市清澜港外约6海里海域",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         }
       ]
     },
@@ -55,28 +55,28 @@
         {
           "child_event_id": "e04",
           "trigger": "请示",
-          "trigger_agent": "官兵",
           "trigger_object": "支队领导",
-          "agent_attri": "",
           "object_attri": "",
           "time": "8月17日下午3点20分",
           "time_align": "2015-08-17-15-20",
           "location": "海南市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "官兵"
         },
         {
           "child_event_id": "e05",
           "trigger": "联系",
-          "trigger_agent": "官兵",
           "trigger_object": "应急救援部门",
-          "agent_attri": "",
           "object_attri": "",
           "time": "8月17日下午3点20分",
           "time_align": "2015-08-17-15-20",
           "location": "海南市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "官兵"
         }
       ]
     }

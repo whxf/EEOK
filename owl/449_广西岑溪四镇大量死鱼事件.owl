@@ -1,0 +1,505 @@
+Prefix(:=<http://www.eeok.com#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.eeok.com>
+
+Declaration(Class(:event))
+Declaration(Class(:event_info))
+Declaration(Class(:relation))
+Declaration(Class(:relation_info))
+Declaration(Class(:sub_event))
+Declaration(ObjectProperty(:has_agent_attri))
+Declaration(ObjectProperty(:has_from))
+Declaration(ObjectProperty(:has_label))
+Declaration(ObjectProperty(:has_location))
+Declaration(ObjectProperty(:has_object_attri))
+Declaration(ObjectProperty(:has_organization))
+Declaration(ObjectProperty(:has_person))
+Declaration(ObjectProperty(:has_time))
+Declaration(ObjectProperty(:has_time_align))
+Declaration(ObjectProperty(:has_to))
+Declaration(ObjectProperty(:has_trigger))
+Declaration(ObjectProperty(:has_trigger_agent))
+Declaration(ObjectProperty(:has_trigger_object))
+Declaration(ObjectProperty(:is_from_of))
+Declaration(ObjectProperty(:is_to_of))
+Declaration(DataProperty(:event_info))
+Declaration(DataProperty(:event_info_agent_attri))
+Declaration(DataProperty(:event_info_location))
+Declaration(DataProperty(:event_info_object_attri))
+Declaration(DataProperty(:event_info_person))
+Declaration(DataProperty(:event_info_time))
+Declaration(DataProperty(:event_info_time_align))
+Declaration(DataProperty(:event_info_trigger))
+Declaration(DataProperty(:event_info_trigger_agent))
+Declaration(DataProperty(:event_info_trigger_object))
+Declaration(DataProperty(:evnt_info_organization))
+Declaration(DataProperty(:relation_info))
+Declaration(DataProperty(:relation_info_from))
+Declaration(DataProperty(:relation_info_to))
+Declaration(DataProperty(:relation_label))
+
+
+
+
+Declaration(NamedIndividual(:E01))
+Declaration(NamedIndividual(:E02))
+Declaration(NamedIndividual(:E03))
+Declaration(NamedIndividual(:E04))
+Declaration(NamedIndividual(:E05))
+Declaration(NamedIndividual(:E06))
+Declaration(NamedIndividual(:E07))
+Declaration(NamedIndividual(:E08))
+
+
+Declaration(NamedIndividual(:e01))
+Declaration(NamedIndividual(:e03))
+Declaration(NamedIndividual(:e04))
+Declaration(NamedIndividual(:e06))
+Declaration(NamedIndividual(:e07))
+Declaration(NamedIndividual(:e08))
+Declaration(NamedIndividual(:e09))
+Declaration(NamedIndividual(:e10))
+
+
+Declaration(NamedIndividual(:R-01-02))
+Declaration(NamedIndividual(:R-02-03))
+Declaration(NamedIndividual(:R-03-04))
+Declaration(NamedIndividual(:R-04-05))
+Declaration(NamedIndividual(:R-05-06))
+Declaration(NamedIndividual(:R-06-07))
+Declaration(NamedIndividual(:R-07-08))
+
+
+Declaration(NamedIndividual(:r-01-03))
+Declaration(NamedIndividual(:r-03-04))
+Declaration(NamedIndividual(:r-04-06))
+Declaration(NamedIndividual(:r-06-07))
+Declaration(NamedIndividual(:r-07-08))
+Declaration(NamedIndividual(:r-08-09))
+Declaration(NamedIndividual(:r-09-10))
+
+
+Declaration(NamedIndividual(:s-01-01))
+Declaration(NamedIndividual(:s-02-03))
+Declaration(NamedIndividual(:s-03-04))
+Declaration(NamedIndividual(:s-04-06))
+Declaration(NamedIndividual(:s-05-07))
+Declaration(NamedIndividual(:s-06-08))
+Declaration(NamedIndividual(:s-07-09))
+Declaration(NamedIndividual(:s-08-10))
+
+
+Declaration(NamedIndividual(:垮塌))
+Declaration(NamedIndividual(:加工))
+Declaration(NamedIndividual(:出售))
+Declaration(NamedIndividual(:9月22日至25日))
+Declaration(NamedIndividual(:出现))
+Declaration(NamedIndividual(:居民))
+Declaration(NamedIndividual(:深埋))
+Declaration(NamedIndividual(:污染))
+Declaration(NamedIndividual(:要求))
+Declaration(NamedIndividual(:被-打捞))
+Declaration(NamedIndividual(:XXXX-09-22-XX-XX))
+Declaration(NamedIndividual(:食用))
+Declaration(NamedIndividual(:岑溪镇))
+Declaration(NamedIndividual(:上游广东信宜紫金尾))
+Declaration(NamedIndividual(:不能))
+Declaration(NamedIndividual(:大量网箱养鱼))
+Declaration(NamedIndividual(:垮坝))
+Declaration(NamedIndividual(:死亡))
+Declaration(NamedIndividual(:死鱼))
+Declaration(NamedIndividual(:水体))
+Declaration(NamedIndividual(:进行))
+Declaration(NamedIndividual(:造成))
+Declaration(NamedIndividual(:担心))
+Declaration(NamedIndividual(:水产部门))
+Declaration(NamedIndividual(:上游广东信宜紫金尾矿库))
+Declaration(NamedIndividual(:当地))
+Declaration(NamedIndividual(:矿库))
+
+
+Declaration(NamedIndividual(:时序关系))
+Declaration(NamedIndividual(:子事件关系))
+Declaration(NamedIndividual(:因果关系))
+
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :has_agent_attri (:has_agent_attri)
+
+ObjectPropertyDomain(:has_agent_attri :event_info)
+ObjectPropertyRange(:has_agent_attri :sub_event)
+
+# Object Property: :has_from (:has_from)
+
+InverseObjectProperties(:has_from :is_from_of)
+ObjectPropertyDomain(:has_from :relation_info)
+ObjectPropertyRange(:has_from :relation)
+
+# Object Property: :has_label (:has_label)
+
+ObjectPropertyDomain(:has_label :relation_info)
+ObjectPropertyRange(:has_label :relation)
+
+# Object Property: :has_location (:has_location)
+
+ObjectPropertyDomain(:has_location :event_info)
+ObjectPropertyRange(:has_location :event)
+
+# Object Property: :has_object_attri (:has_object_attri)
+
+ObjectPropertyDomain(:has_object_attri :event_info)
+ObjectPropertyRange(:has_object_attri :sub_event)
+
+# Object Property: :has_organization (:has_organization)
+
+ObjectPropertyDomain(:has_organization :event_info)
+ObjectPropertyRange(:has_organization :sub_event)
+
+# Object Property: :has_person (:has_person)
+
+ObjectPropertyDomain(:has_person :event_info)
+ObjectPropertyRange(:has_person :sub_event)
+
+# Object Property: :has_time (:has_time)
+
+ObjectPropertyDomain(:has_time :event_info)
+ObjectPropertyRange(:has_time :sub_event)
+
+# Object Property: :has_time_align (:has_time_align)
+
+ObjectPropertyDomain(:has_time_align :event_info)
+ObjectPropertyRange(:has_time_align :sub_event)
+
+# Object Property: :has_to (:has_to)
+
+InverseObjectProperties(:has_to :is_to_of)
+ObjectPropertyDomain(:has_to :relation_info)
+ObjectPropertyRange(:has_to :relation)
+
+# Object Property: :has_trigger (:has_trigger)
+
+ObjectPropertyDomain(:has_trigger :event_info)
+ObjectPropertyRange(:has_trigger :event)
+
+# Object Property: :has_trigger_agent (:has_trigger_agent)
+
+ObjectPropertyDomain(:has_trigger_agent :event_info)
+ObjectPropertyRange(:has_trigger_agent :event)
+
+# Object Property: :has_trigger_object (:has_trigger_object)
+
+ObjectPropertyDomain(:has_trigger_object :event_info)
+ObjectPropertyRange(:has_trigger_object :event)
+
+# Object Property: :is_from_of (:is_from_of)
+
+ObjectPropertyDomain(:is_from_of :relation_info)
+ObjectPropertyRange(:is_from_of :relation)
+
+# Object Property: :is_to_of (:is_to_of)
+
+ObjectPropertyDomain(:is_to_of :relation_info)
+ObjectPropertyRange(:is_to_of :relation)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :event_info_agent_attri (:event_info_agent_attri)
+
+SubDataPropertyOf(:event_info_agent_attri :event_info)
+DataPropertyDomain(:event_info_agent_attri :event_info)
+DataPropertyRange(:event_info_agent_attri xsd:string)
+
+# Data Property: :event_info_location (:event_info_location)
+
+SubDataPropertyOf(:event_info_location :event_info)
+DataPropertyDomain(:event_info_location :event_info)
+DataPropertyRange(:event_info_location xsd:string)
+
+# Data Property: :event_info_object_attri (:event_info_object_attri)
+
+SubDataPropertyOf(:event_info_object_attri :event_info)
+DataPropertyDomain(:event_info_object_attri :event_info)
+DataPropertyRange(:event_info_object_attri xsd:string)
+
+# Data Property: :event_info_person (:event_info_person)
+
+SubDataPropertyOf(:event_info_person :event_info)
+DataPropertyDomain(:event_info_person :event_info)
+DataPropertyRange(:event_info_person xsd:string)
+
+# Data Property: :event_info_time (:event_info_time)
+
+SubDataPropertyOf(:event_info_time :event_info)
+DataPropertyDomain(:event_info_time :event_info)
+DataPropertyRange(:event_info_time xsd:string)
+
+# Data Property: :event_info_time_align (:event_info_time_align)
+
+SubDataPropertyOf(:event_info_time_align :event_info)
+DataPropertyDomain(:event_info_time_align :event_info)
+DataPropertyRange(:event_info_time_align xsd:string)
+
+# Data Property: :event_info_trigger (:event_info_trigger)
+
+SubDataPropertyOf(:event_info_trigger :event_info)
+DataPropertyDomain(:event_info_trigger :event_info)
+DataPropertyRange(:event_info_trigger xsd:string)
+
+# Data Property: :event_info_trigger_agent (:event_info_trigger_agent)
+
+SubDataPropertyOf(:event_info_trigger_agent :event_info)
+DataPropertyDomain(:event_info_trigger_agent :event_info)
+DataPropertyRange(:event_info_trigger_agent xsd:string)
+
+# Data Property: :event_info_trigger_object (:event_info_trigger_object)
+
+SubDataPropertyOf(:event_info_trigger_object :event_info)
+DataPropertyDomain(:event_info_trigger_object :event_info)
+DataPropertyRange(:event_info_trigger_object xsd:string)
+
+# Data Property: :evnt_info_organization (:evnt_info_organization)
+
+SubDataPropertyOf(:evnt_info_organization :event_info)
+DataPropertyDomain(:evnt_info_organization :event_info)
+DataPropertyRange(:evnt_info_organization xsd:string)
+
+# Data Property: :relation_info_from (:relation_info_from)
+
+SubDataPropertyOf(:relation_info_from :relation_info)
+DataPropertyDomain(:relation_info_from :relation_info)
+DataPropertyRange(:relation_info_from xsd:string)
+
+# Data Property: :relation_info_to (:relation_info_to)
+
+SubDataPropertyOf(:relation_info_to :relation_info)
+DataPropertyDomain(:relation_info_to :relation_info)
+DataPropertyRange(:relation_info_to xsd:string)
+
+# Data Property: :relation_label (:relation_label)
+
+SubDataPropertyOf(:relation_label :relation_info)
+DataPropertyDomain(:relation_label :relation_info)
+DataPropertyRange(:relation_label xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :sub_event (:sub_event)
+
+SubClassOf(:sub_event :event)
+
+
+############################
+#   Named Individuals
+############################
+
+
+ClassAssertion(:event :E01)
+ObjectPropertyAssertion(:has_trigger :E01 :出现)
+ObjectPropertyAssertion(:has_trigger_object :E01 :死亡)
+ObjectPropertyAssertion(:is_from_of :E01 :R-01-02)
+ObjectPropertyAssertion(:is_from_of :E01 :s-01-01)
+ClassAssertion(:event :E02)
+ObjectPropertyAssertion(:has_trigger :E02 :垮塌)
+ObjectPropertyAssertion(:has_trigger_subject :E02 :矿库)
+ObjectPropertyAssertion(:is_from_of :E02 :R-02-03)
+ObjectPropertyAssertion(:is_from_of :E02 :s-02-03)
+ClassAssertion(:event :E03)
+ObjectPropertyAssertion(:has_trigger :E03 :造成)
+ObjectPropertyAssertion(:has_trigger_object :E03 :污染)
+ObjectPropertyAssertion(:is_from_of :E03 :R-03-04)
+ObjectPropertyAssertion(:is_from_of :E03 :s-03-04)
+ClassAssertion(:event :E04)
+ObjectPropertyAssertion(:has_trigger :E04 :被-打捞)
+ObjectPropertyAssertion(:has_trigger_subject :E04 :死鱼)
+ObjectPropertyAssertion(:is_from_of :E04 :R-04-05)
+ObjectPropertyAssertion(:is_from_of :E04 :s-04-06)
+ClassAssertion(:event :E05)
+ObjectPropertyAssertion(:has_trigger :E05 :进行)
+ObjectPropertyAssertion(:has_trigger_object :E05 :深埋)
+ObjectPropertyAssertion(:is_from_of :E05 :R-05-06)
+ObjectPropertyAssertion(:is_from_of :E05 :s-05-07)
+ClassAssertion(:event :E06)
+ObjectPropertyAssertion(:has_trigger :E06 :不能)
+ObjectPropertyAssertion(:has_trigger_object :E06 :加工)
+ObjectPropertyAssertion(:is_from_of :E06 :R-06-07)
+ObjectPropertyAssertion(:is_from_of :E06 :s-06-08)
+ClassAssertion(:event :E07)
+ObjectPropertyAssertion(:has_trigger :E07 :不能)
+ObjectPropertyAssertion(:has_trigger_object :E07 :出售)
+ObjectPropertyAssertion(:is_from_of :E07 :R-07-08)
+ObjectPropertyAssertion(:is_from_of :E07 :s-07-09)
+ClassAssertion(:event :E08)
+ObjectPropertyAssertion(:has_trigger :E08 :不能)
+ObjectPropertyAssertion(:has_trigger_object :E08 :食用)
+ObjectPropertyAssertion(:is_from_of :E08 :s-08-10)
+
+
+ClassAssertion(:sub_event :e01)
+ObjectPropertyAssertion(:has_trigger :e01 :出现)
+ObjectPropertyAssertion(:has_trigger_object :e01 :死亡)
+ObjectPropertyAssertion(:has_object_attri :e01 :大量网箱养鱼)
+ObjectPropertyAssertion(:has_time :e01 :9月22日至25日)
+ObjectPropertyAssertion(:has_time_align :e01 :XXXX-09-22-XX-XX)
+ObjectPropertyAssertion(:has_location :e01 :岑溪镇)
+ObjectPropertyAssertion(:is_from_of :e01 :r-01-03)
+ClassAssertion(:sub_event :e03)
+ObjectPropertyAssertion(:has_trigger :e03 :垮塌)
+ObjectPropertyAssertion(:has_location :e03 :岑溪镇)
+ObjectPropertyAssertion(:has_subject_attri :e03 :上游广东信宜紫金尾)
+ObjectPropertyAssertion(:has_trigger_subject :e03 :矿库)
+ObjectPropertyAssertion(:is_from_of :e03 :r-03-04)
+ClassAssertion(:sub_event :e04)
+ObjectPropertyAssertion(:has_trigger :e04 :造成)
+ObjectPropertyAssertion(:has_trigger_object :e04 :污染)
+ObjectPropertyAssertion(:has_object_attri :e04 :水体)
+ObjectPropertyAssertion(:has_location :e04 :岑溪镇)
+ObjectPropertyAssertion(:is_from_of :e04 :r-04-06)
+ClassAssertion(:sub_event :e06)
+ObjectPropertyAssertion(:has_trigger :e06 :被-打捞)
+ObjectPropertyAssertion(:has_location :e06 :岑溪镇)
+ObjectPropertyAssertion(:has_trigger_subject :e06 :死鱼)
+ObjectPropertyAssertion(:is_from_of :e06 :r-06-07)
+ClassAssertion(:sub_event :e07)
+ObjectPropertyAssertion(:has_trigger :e07 :进行)
+ObjectPropertyAssertion(:has_trigger_object :e07 :深埋)
+ObjectPropertyAssertion(:is_from_of :e07 :r-07-08)
+ClassAssertion(:sub_event :e08)
+ObjectPropertyAssertion(:has_trigger :e08 :不能)
+ObjectPropertyAssertion(:has_trigger_object :e08 :加工)
+ObjectPropertyAssertion(:has_location :e08 :岑溪镇)
+ObjectPropertyAssertion(:is_from_of :e08 :r-08-09)
+ClassAssertion(:sub_event :e09)
+ObjectPropertyAssertion(:has_trigger :e09 :不能)
+ObjectPropertyAssertion(:has_trigger_object :e09 :出售)
+ObjectPropertyAssertion(:has_location :e09 :岑溪镇)
+ObjectPropertyAssertion(:is_from_of :e09 :r-09-10)
+ClassAssertion(:sub_event :e10)
+ObjectPropertyAssertion(:has_trigger :e10 :不能)
+ObjectPropertyAssertion(:has_trigger_object :e10 :食用)
+
+
+ClassAssertion(:relation :R-01-02)
+ObjectPropertyAssertion(:has_label :R-01-02 :时序关系)
+ObjectPropertyAssertion(:has_to :R-01-02 :E02)
+ClassAssertion(:relation :R-02-03)
+ObjectPropertyAssertion(:has_label :R-02-03 :因果关系)
+ObjectPropertyAssertion(:has_to :R-02-03 :E03)
+ClassAssertion(:relation :R-03-04)
+ObjectPropertyAssertion(:has_label :R-03-04 :时序关系)
+ObjectPropertyAssertion(:has_to :R-03-04 :E04)
+ClassAssertion(:relation :R-04-05)
+ObjectPropertyAssertion(:has_label :R-04-05 :时序关系)
+ObjectPropertyAssertion(:has_to :R-04-05 :E05)
+ClassAssertion(:relation :R-05-06)
+ObjectPropertyAssertion(:has_label :R-05-06 :时序关系)
+ObjectPropertyAssertion(:has_to :R-05-06 :E06)
+ClassAssertion(:relation :R-06-07)
+ObjectPropertyAssertion(:has_label :R-06-07 :时序关系)
+ObjectPropertyAssertion(:has_to :R-06-07 :E07)
+ClassAssertion(:relation :R-07-08)
+ObjectPropertyAssertion(:has_label :R-07-08 :时序关系)
+ObjectPropertyAssertion(:has_to :R-07-08 :E08)
+
+
+ClassAssertion(:relation :r-01-03)
+ObjectPropertyAssertion(:has_label :r-01-03 :时序关系)
+ObjectPropertyAssertion(:has_to :r-01-03 :e03)
+ClassAssertion(:relation :r-03-04)
+ObjectPropertyAssertion(:has_label :r-03-04 :因果关系)
+ObjectPropertyAssertion(:has_to :r-03-04 :e04)
+ClassAssertion(:relation :r-04-06)
+ObjectPropertyAssertion(:has_label :r-04-06 :时序关系)
+ObjectPropertyAssertion(:has_to :r-04-06 :e06)
+ClassAssertion(:relation :r-06-07)
+ObjectPropertyAssertion(:has_label :r-06-07 :时序关系)
+ObjectPropertyAssertion(:has_to :r-06-07 :e07)
+ClassAssertion(:relation :r-07-08)
+ObjectPropertyAssertion(:has_label :r-07-08 :时序关系)
+ObjectPropertyAssertion(:has_to :r-07-08 :e08)
+ClassAssertion(:relation :r-08-09)
+ObjectPropertyAssertion(:has_label :r-08-09 :时序关系)
+ObjectPropertyAssertion(:has_to :r-08-09 :e09)
+ClassAssertion(:relation :r-09-10)
+ObjectPropertyAssertion(:has_label :r-09-10 :时序关系)
+ObjectPropertyAssertion(:has_to :r-09-10 :e10)
+
+
+ClassAssertion(:relation :s-01-01)
+ObjectPropertyAssertion(:has_label :s-01-01 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-01-01 :e01)
+ClassAssertion(:relation :s-02-03)
+ObjectPropertyAssertion(:has_label :s-02-03 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-02-03 :e03)
+ClassAssertion(:relation :s-03-04)
+ObjectPropertyAssertion(:has_label :s-03-04 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-03-04 :e04)
+ClassAssertion(:relation :s-04-06)
+ObjectPropertyAssertion(:has_label :s-04-06 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-04-06 :e06)
+ClassAssertion(:relation :s-05-07)
+ObjectPropertyAssertion(:has_label :s-05-07 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-05-07 :e07)
+ClassAssertion(:relation :s-06-08)
+ObjectPropertyAssertion(:has_label :s-06-08 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-06-08 :e08)
+ClassAssertion(:relation :s-07-09)
+ObjectPropertyAssertion(:has_label :s-07-09 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-07-09 :e09)
+ClassAssertion(:relation :s-08-10)
+ObjectPropertyAssertion(:has_label :s-08-10 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-08-10 :e10)
+
+
+ClassAssertion(:event_info :垮塌)
+ClassAssertion(:event_info :加工)
+ClassAssertion(:event_info :出售)
+ClassAssertion(:event_info :9月22日至25日)
+ClassAssertion(:event_info :出现)
+ClassAssertion(:event_info :居民)
+ClassAssertion(:event_info :深埋)
+ClassAssertion(:event_info :污染)
+ClassAssertion(:event_info :要求)
+ClassAssertion(:event_info :被-打捞)
+ClassAssertion(:event_info :XXXX-09-22-XX-XX)
+ClassAssertion(:event_info :食用)
+ClassAssertion(:event_info :岑溪镇)
+ClassAssertion(:event_info :上游广东信宜紫金尾)
+ClassAssertion(:event_info :不能)
+ClassAssertion(:event_info :大量网箱养鱼)
+ClassAssertion(:event_info :垮坝)
+ClassAssertion(:event_info :死亡)
+ClassAssertion(:event_info :死鱼)
+ClassAssertion(:event_info :水体)
+ClassAssertion(:event_info :进行)
+ClassAssertion(:event_info :造成)
+ClassAssertion(:event_info :担心)
+ClassAssertion(:event_info :水产部门)
+ClassAssertion(:event_info :上游广东信宜紫金尾矿库)
+ClassAssertion(:event_info :当地)
+ClassAssertion(:event_info :矿库)
+
+
+ClassAssertion(:relation_info :时序关系)
+ClassAssertion(:relation_info :子事件关系)
+ClassAssertion(:relation_info :因果关系)
+
+
+
+)

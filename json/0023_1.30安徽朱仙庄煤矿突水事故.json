@@ -7,14 +7,14 @@
           "child_event_id": "e01",
           "time": "2015年1月30日18时55分",
           "time_align": "2015-01-30-18-55",
-          "trigger_agent": "工作面",
-          "agent_attri": "淮北矿业集团公司朱仙庄煤矿866-1采煤",
           "trigger": "发生",
           "trigger_object": "突水事故",
           "object_attri": "",
           "location": "安徽",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "淮北矿业集团公司朱仙庄煤矿866-1采煤",
+          "trigger_subject": "工作面"
         }
       ]
     },
@@ -25,14 +25,14 @@
           "child_event_id": "e02",
           "time": "",
           "time_align": "",
-          "trigger_agent": "人员",
-          "agent_attri": "此次突水事故中被困7名",
           "trigger": "遇难",
           "trigger_object": "",
           "object_attri": "",
           "location": "安徽",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "此次突水事故中被困7名",
+          "trigger_subject": "人员"
         }
       ]
     },
@@ -43,40 +43,40 @@
           "child_event_id": "e03",
           "time": "",
           "time_align": "",
-          "trigger_agent": "矿业集团",
-          "agent_attri": "",
           "trigger": "启动",
           "trigger_object": "救援预案",
           "object_attri": "抢险",
           "location": "淮北",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "矿业集团"
         },
         {
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "主要",
           "trigger": "赶赴",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "淮北",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "主要",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "主要",
           "trigger": "组织",
           "trigger_object": "救援工作",
           "object_attri": "",
           "location": "安徽",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "主要",
+          "trigger_subject": "领导"
         }
       ]
     },
@@ -87,27 +87,27 @@
           "child_event_id": "e06",
           "time": "2015年3月",
           "time_align": "2015-03-XX-XX-XX",
-          "trigger_agent": "调查报告",
-          "agent_attri": "事故",
           "trigger": "公布",
           "trigger_object": "",
           "object_attri": "",
           "location": "安徽",
           "organization": "安徽煤矿安全监察局",
-          "person": ""
+          "person": "",
+          "subject_attri": "事故",
+          "trigger_subject": "调查报告"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "处理",
           "trigger_object": "事故责任人",
           "object_attri": "13名",
           "location": "安徽",
           "organization": "安徽煤矿安全监察局",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

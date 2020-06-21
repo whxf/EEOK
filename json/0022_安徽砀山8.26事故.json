@@ -7,14 +7,14 @@
           "child_event_id": "e01",
           "time": "8月26日下午16:47",
           "time_align": "XXXX-08-26-16-47",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "交通事故",
           "object_attri": "一起严重",
           "location": "310国道砀山文庄段毛堂村附近",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -25,40 +25,40 @@
           "child_event_id": "e02",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "死亡",
           "trigger_object": "人",
           "object_attri": "10",
           "location": "310国道砀山文庄段毛堂村附近",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "重伤",
           "trigger_object": "人",
           "object_attri": "3",
           "location": "310国道砀山文庄段毛堂村附近",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "轻伤",
           "trigger_object": "人",
           "object_attri": "2",
           "location": "310国道砀山文庄段毛堂村附近",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -69,27 +69,27 @@
           "child_event_id": "e05",
           "time": "8月26日晚9时",
           "time_align": "XXX-08-26-21-00",
-          "trigger_agent": "现场",
-          "agent_attri": "事故",
           "trigger": "清理完毕",
           "trigger_object": "",
           "object_attri": "",
           "location": "310国道砀山文庄段毛堂村附近",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "事故",
+          "trigger_subject": "现场"
         },
         {
           "child_event_id": "e06",
           "time": "8月26日晚9时",
           "time_align": "XXX-08-26-21-00",
-          "trigger_agent": "道路",
-          "agent_attri": "",
           "trigger": "疏通",
           "trigger_object": "",
           "object_attri": "",
           "location": "310国道砀山文庄段毛堂村附近",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "道路"
         }
       ]
     }

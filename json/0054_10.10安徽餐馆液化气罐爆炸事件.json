@@ -7,40 +7,40 @@
           "child_event_id": "e01",
           "time": "2015年10月10日中午11:57分",
           "time_align": "2015-10-10-11-57",
-          "trigger_agent": "餐馆",
-          "agent_attri": "一私人小",
           "trigger": "发生",
           "trigger_object": "爆炸",
           "object_attri": "液化气罐",
           "location": "安徽芜湖镜湖区杨家巷",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一私人小",
+          "trigger_subject": "餐馆"
         },
         {
           "child_event_id": "e02",
           "time": "2015年10月10日中午11:57分",
           "time_align": "2015-10-10-11-57",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "引发",
           "trigger_object": "大火",
           "object_attri": "",
           "location": "安徽芜湖镜湖区杨家巷",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "time": "2015年10月10日中午11:57分",
           "time_align": "2015-10-10-11-57",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "死亡",
           "object_attri": "17人",
           "location": "安徽芜湖镜湖区杨家巷",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -51,27 +51,27 @@
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "部门",
-          "agent_attri": "相关",
           "trigger": "赶到",
           "trigger_object": "现场",
           "object_attri": "事故",
           "location": "芜湖市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "相关",
+          "trigger_subject": "部门"
         },
         {
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "调查",
           "trigger_object": " 原因",
           "object_attri": "事故",
           "location": "安徽芜湖镜湖区杨家巷",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

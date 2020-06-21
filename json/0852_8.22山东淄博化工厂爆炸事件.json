@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "着火",
-          "trigger_agent": "分离器",
           "trigger_object": "",
-          "agent_attri": "山东润兴化工有限公司",
           "object_attri": "",
           "time": "2015年8月22日20时56分",
           "time_align": "2015-08-22-20-56",
           "location": "山东",
           "organization": "润兴化工有限公司",
-          "person": ""
+          "person": "",
+          "subject_attri": "山东润兴化工有限公司",
+          "trigger_subject": "分离器"
         },
         {
           "child_event_id": "e02",
           "trigger": "得到",
-          "trigger_agent": "火势",
           "trigger_object": "控制",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2015年8月22日20时56分",
           "time_align": "2015-08-22-20-56",
           "location": "山东",
           "organization": "润兴化工有限公司",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "火势"
         }
       ]
     },
@@ -37,15 +37,15 @@
         {
           "child_event_id": "e03",
           "trigger": "造成",
-          "trigger_agent": "事故",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "8人",
           "time": "",
           "time_align": "2015-08-22-20-56",
           "location": "山东",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         }
       ]
     },
@@ -55,15 +55,15 @@
         {
           "child_event_id": "e04",
           "trigger": "接受",
-          "trigger_agent": "人员",
           "trigger_object": "治疗",
-          "agent_attri": "受伤",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "山东",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "受伤",
+          "trigger_subject": "人员"
         }
       ]
     }

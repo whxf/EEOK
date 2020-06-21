@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2018年7月15日",
           "time_align": "2018-07-15-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发布",
           "trigger_object": "通告",
           "object_attri": "",
           "location": "",
           "organization": "国家药品监督管理局",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "time": "2018年7月15日",
           "time_align": "2018-07-15-XX-XX",
-          "trigger_agent": "公司",
-          "agent_attri": "长春长生生物科技有限",
           "trigger": "造假",
           "trigger_object": "",
           "object_attri": "",
           "location": "长春",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "长春长生生物科技有限",
+          "trigger_subject": "公司"
         }
       ]
     },
@@ -38,14 +38,14 @@
           "child_event_id": "e03",
           "time": "2018年7月20日",
           "time_align": "2018-07-20-XX-XX",
-          "trigger_agent": "巡视组",
-          "agent_attri": "",
           "trigger": "反馈",
           "trigger_object": "意见",
           "object_attri": "巡视",
           "location": "",
           "organization": "中央第十一巡视组",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "巡视组"
         }
       ]
     },
@@ -56,40 +56,40 @@
           "child_event_id": "e04",
           "time": "8月3日",
           "time_align": "2018-08-03-XX-XX",
-          "trigger_agent": "深交所",
-          "agent_attri": "",
           "trigger": "发布",
           "trigger_object": "公告",
           "object_attri": "多个",
           "location": "",
           "organization": "深交所",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "深交所"
         },
         {
           "child_event_id": "e05",
           "time": "8月3日",
           "time_align": "2018-08-03-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "查明",
           "trigger_object": "行为",
           "object_attri": "违规",
           "location": "",
           "organization": "",
-          "person": "高俊芳、张晶、蒋强华、刘景晔、张友奎、赵志伟"
+          "person": "高俊芳、张晶、蒋强华、刘景晔、张友奎、赵志伟",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e06",
           "time": "8月3日",
           "time_align": "2018-08-03-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "给予",
           "trigger_object": "处分",
           "object_attri": "公开谴责的",
           "location": "",
           "organization": "深圳证券交易所",
-          "person": "高俊芳、张晶、蒋强华、刘景晔、张友奎、赵志伟"
+          "person": "高俊芳、张晶、蒋强华、刘景晔、张友奎、赵志伟",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -100,14 +100,14 @@
           "child_event_id": "e07",
           "time": "8月7日",
           "time_align": "2018-08-07-XX-XX",
-          "trigger_agent": "委员会/管理局",
-          "agent_attri": "国家卫生健康/国家药品监督",
           "trigger": "联合-印发",
           "trigger_object": "方案",
           "object_attri": "接种长春长生公司狂犬病疫苗续种补种",
           "location": "",
           "organization": "国家卫生健康委员会、国家药品监督管理局",
-          "person": ""
+          "person": "",
+          "subject_attri": "国家卫生健康/国家药品监督",
+          "trigger_subject": "委员会/管理局"
         }
       ]
     },
@@ -118,40 +118,40 @@
           "child_event_id": "e08",
           "time": "8月16日",
           "time_align": "2018-08-16-XX-XX",
-          "trigger_agent": "委员会",
-          "agent_attri": "中共中央政治局常务",
           "trigger": "召开",
           "trigger_object": "会议",
           "object_attri": "",
           "location": "",
           "organization": "中共中央政治局常务委员会",
-          "person": ""
+          "person": "",
+          "subject_attri": "中共中央政治局常务",
+          "trigger_subject": "委员会"
         },
         {
           "child_event_id": "e09",
           "time": "",
           "time_align": "2018-08-16-XX-XX",
-          "trigger_agent": "书记",
-          "agent_attri": "中共中央总",
           "trigger": "主持",
           "trigger_object": "会议",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": "习近平"
+          "person": "习近平",
+          "subject_attri": "中共中央总",
+          "trigger_subject": "书记"
         },
         {
           "child_event_id": "e10",
           "time": "",
           "time_align": "2018-08-16-XX-XX",
-          "trigger_agent": "书记",
-          "agent_attri": "中共中央总",
           "trigger": "发表",
           "trigger_object": "讲话",
           "object_attri": "重要",
           "location": "",
           "organization": "",
-          "person": "习近平"
+          "person": "习近平",
+          "subject_attri": "中共中央总",
+          "trigger_subject": "书记"
         }
       ]
     },
@@ -162,14 +162,14 @@
           "child_event_id": "e11",
           "time": "2019年2月",
           "time_align": "2019-02-XX-XX-XX",
-          "trigger_agent": "责任人",
-          "agent_attri": "吉林长春长生公司问题疫苗案件相关",
           "trigger": "被-处理",
           "trigger_object": "",
           "object_attri": "",
           "location": "吉利长春",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "吉林长春长生公司问题疫苗案件相关",
+          "trigger_subject": "责任人"
         }
       ]
     }

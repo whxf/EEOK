@@ -6,54 +6,54 @@
         {
           "child_event_id": "e01",
           "trigger": "突发",
-          "trigger_agent": "地坪",
           "trigger_object": "塌陷",
-          "agent_attri": "第三中学综合楼外廊",
           "object_attri": "局部",
           "time": "2013年3月4日7时50分",
           "time_align": "2013-03-04-07-50",
           "location": "贵州省黔东南苗族侗族自治州凯里市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "第三中学综合楼外廊",
+          "trigger_subject": "地坪"
         },
         {
           "child_event_id": "e02",
           "trigger": "跌入",
-          "trigger_agent": "学生",
           "trigger_object": "地下停车场",
-          "agent_attri": "40余名",
           "object_attri": "10米深的",
           "time": "2013年3月4日7时50分",
           "time_align": "2013-03-04-07-50",
           "location": "贵州省黔东南苗族侗族自治州凯里市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "40余名",
+          "trigger_subject": "学生"
         },
         {
           "child_event_id": "e03",
           "trigger": "致",
-          "trigger_agent": "",
           "trigger_object": "受伤住院",
-          "agent_attri": "",
           "object_attri": "7名学生",
           "time": "2013年3月4日7时50分",
           "time_align": "2013-03-04-07-50",
           "location": "贵州省黔东南苗族侗族自治州凯里市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "留院观察",
-          "trigger_agent": "",
           "trigger_object": "学生",
-          "agent_attri": "",
           "object_attri": "30余名",
           "time": "",
           "time_align": "",
           "location": "贵州省黔东南苗族侗族自治州凯里市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -63,15 +63,15 @@
         {
           "child_event_id": "e05",
           "trigger": "被-调查",
-          "trigger_agent": "原因",
           "trigger_object": "",
-          "agent_attri": "塌陷具体",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "贵州省黔东南苗族侗族自治州凯里市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "塌陷具体",
+          "trigger_subject": "原因"
         }
       ]
     }

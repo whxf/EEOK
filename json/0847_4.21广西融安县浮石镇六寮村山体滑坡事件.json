@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "小学旁边",
           "trigger_object": "山体滑坡灾害",
-          "agent_attri": "广西省融安县浮石镇六寮村",
           "object_attri": "",
           "time": "2016年4月21日中午11：30",
           "time_align": "2016-04-21-11-30",
           "location": "广西省融安县浮石镇六寮村小学",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "广西省融安县浮石镇六寮村",
+          "trigger_subject": "小学旁边"
         }
       ]
     },
@@ -24,28 +24,28 @@
         {
           "child_event_id": "e02",
           "trigger": "冲入",
-          "trigger_agent": "巨石",
           "trigger_object": "教室",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "2016-04-21-11-30",
           "location": "广西省融安县浮石镇六寮村小学",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "巨石"
         },
         {
           "child_event_id": "e03",
           "trigger": "导致",
-          "trigger_agent": "",
           "trigger_object": "倒塌",
-          "agent_attri": "",
           "object_attri": "该学校的小学一年级和小学二年级的教室墙体",
           "time": "",
           "time_align": "2016-04-21-11-30",
           "location": "广西省融安县浮石镇六寮村小学",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -55,15 +55,15 @@
         {
           "child_event_id": "e04",
           "trigger": "导致",
-          "trigger_agent": "灾难",
           "trigger_object": "受伤",
-          "agent_attri": "此次",
           "object_attri": "21个小学生不同程度",
           "time": "",
           "time_align": "2016-04-21-11-30",
           "location": "广西省融安县浮石镇六寮村小学",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "此次",
+          "trigger_subject": "灾难"
         }
       ]
     },
@@ -73,15 +73,15 @@
         {
           "child_event_id": "e05",
           "trigger": "接受",
-          "trigger_agent": "孩子们",
           "trigger_object": "治疗",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "融安县",
           "organization": "融安县中医院以及融安县人民医院",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "孩子们"
         }
       ]
     },
@@ -91,15 +91,15 @@
         {
           "child_event_id": "e06",
           "trigger": "开展",
-          "trigger_agent": "领导/部门",
           "trigger_object": "工作",
-          "agent_attri": "当地主要/主要",
           "object_attri": "各项",
           "time": "",
           "time_align": "",
           "location": "广西省融安县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "当地主要/主要",
+          "trigger_subject": "领导/部门"
         }
       ]
     },
@@ -109,41 +109,41 @@
         {
           "child_event_id": "e07",
           "trigger": "带领",
-          "trigger_agent": "领导",
           "trigger_object": "干部",
-          "agent_attri": "县的主要",
           "object_attri": "融安县卫计、公安、安监、国土、教育等部门以及镇村",
           "time": "",
           "time_align": "",
           "location": "广西省融安县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "县的主要",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e08",
           "trigger": "赶往",
-          "trigger_agent": "领导、干部",
           "trigger_object": "现场",
-          "agent_attri": "县的主要、融安县卫计、公安、安监、国土、教育等部门以及镇村",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "广西省融安县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "县的主要、融安县卫计、公安、安监、国土、教育等部门以及镇村",
+          "trigger_subject": "领导、干部"
         },
         {
           "child_event_id": "e09",
           "trigger": "进行",
-          "trigger_agent": "他们",
           "trigger_object": "工作",
-          "agent_attri": "",
           "object_attri": "原因调查和援救伤员",
           "time": "",
           "time_align": "",
           "location": "广西省融安县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "他们"
         }
       ]
     }

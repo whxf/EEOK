@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "公司",
           "trigger_object": "爆炸",
-          "agent_attri": "青岛海怡精细化工有限",
           "object_attri": "",
           "time": "2010年3月26日14点40",
           "time_align": "2010-03-26-14-40",
           "location": "青岛",
           "organization": "海怡精细化工有限公司",
-          "person": ""
+          "person": "",
+          "subject_attri": "青岛海怡精细化工有限",
+          "trigger_subject": "公司"
         },
         {
           "child_event_id": "e02",
           "trigger": "引发",
-          "trigger_agent": "爆炸",
           "trigger_object": "火灾",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2010年3月26日14点40",
           "time_align": "2010-03-26-14-40",
           "location": "青岛",
           "organization": "海怡精细化工有限公司",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "爆炸"
         }
       ]
     },
@@ -37,67 +37,67 @@
         {
           "child_event_id": "e03",
           "trigger": "接警",
-          "trigger_agent": "部门",
           "trigger_object": "",
-          "agent_attri": "青岛市公安/安监/消防等",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "青岛市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "青岛市公安/安监/消防等",
+          "trigger_subject": "部门"
         },
         {
           "child_event_id": "e04",
           "trigger": "赶赴",
-          "trigger_agent": "部门",
           "trigger_object": "现场",
-          "agent_attri": "青岛市公安/安监/消防等",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "青岛",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "青岛市公安/安监/消防等",
+          "trigger_subject": "部门"
         },
         {
           "child_event_id": "e05",
           "trigger": "组织",
-          "trigger_agent": "部门",
           "trigger_object": "灭火",
-          "agent_attri": "青岛市公安/安监/消防等",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "青岛市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "青岛市公安/安监/消防等",
+          "trigger_subject": "部门"
         },
         {
           "child_event_id": "e06",
           "trigger": "到达",
-          "trigger_agent": "领导",
           "trigger_object": "现场",
-          "agent_attri": "青岛市政府有关",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "青岛市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "青岛市政府有关",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e07",
           "trigger": "指挥",
-          "trigger_agent": "领导",
           "trigger_object": "工作",
-          "agent_attri": "青岛市政府有关",
           "object_attri": "灭火和救援",
           "time": "",
           "time_align": "",
           "location": "青岛市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "青岛市政府有关",
+          "trigger_subject": "领导"
         }
       ]
     },
@@ -107,28 +107,28 @@
         {
           "child_event_id": "e08",
           "trigger": "扑救",
-          "trigger_agent": "",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "晚7时30分",
           "time_align": "2010-03-26-19-40",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e09",
           "trigger": "被-扑灭",
-          "trigger_agent": "火灾",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "晚7时30分",
           "time_align": "2010-03-26-19-40",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "火灾"
         }
       ]
     },
@@ -138,15 +138,15 @@
         {
           "child_event_id": "e10",
           "trigger": "被-调查",
-          "trigger_agent": "原因",
           "trigger_object": "",
-          "agent_attri": "事故",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "事故",
+          "trigger_subject": "原因"
         }
       ]
     },
@@ -156,15 +156,15 @@
         {
           "child_event_id": "e11",
           "trigger": "看望",
-          "trigger_agent": "领导",
           "trigger_object": "伤员",
-          "agent_attri": "青岛市、区",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "青岛市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "青岛市、区",
+          "trigger_subject": "领导"
         }
       ]
     }

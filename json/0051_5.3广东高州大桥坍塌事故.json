@@ -7,14 +7,14 @@
           "child_event_id": "e01",
           "time": "2014年5月3日下午13时",
           "time_align": "2014-05-03-13-00",
-          "trigger_agent": "桥",
-          "agent_attri": "一座在建石拱",
           "trigger": "坍塌",
           "trigger_object": "",
           "object_attri": "",
           "location": "高州深镇镇良坪村委会良坑口村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一座在建石拱",
+          "trigger_subject": "桥"
         }
       ]
     },
@@ -25,27 +25,27 @@
           "child_event_id": "e02",
           "time": "5月4日",
           "time_align": "2014-05-04-XX-XX",
-          "trigger_agent": "警方",
-          "agent_attri": "",
           "trigger": "控制",
           "trigger_object": "人",
           "object_attri": "3名施工责任",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         },
         {
           "child_event_id": "e03",
           "time": "5月4日",
           "time_align": "2014-05-04-XX-XX",
-          "trigger_agent": "警方",
-          "agent_attri": "",
           "trigger": "调查",
           "trigger_object": "原因",
           "object_attri": "事故",
           "location": "高州深镇镇良坪村委会良坑口村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         }
       ]
     },
@@ -56,53 +56,53 @@
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "市委书记",
-          "agent_attri": "中共茂名",
           "trigger": "指挥",
           "trigger_object": "救援工作",
           "object_attri": "",
           "location": "茂名市",
           "organization": "茂名市委",
-          "person": "梁毅民"
+          "person": "梁毅民",
+          "subject_attri": "中共茂名",
+          "trigger_subject": "市委书记"
         },
         {
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "市长/负责人",
-          "agent_attri": "茂名/有关",
           "trigger": "赶赴",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "茂名市",
           "organization": "",
-          "person": "李红军"
+          "person": "李红军",
+          "subject_attri": "茂名/有关",
+          "trigger_subject": "市长/负责人"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "市长/负责人",
-          "agent_attri": "茂名/有关",
           "trigger": "协调",
           "trigger_object": "",
           "object_attri": "",
           "location": "茂名市",
           "organization": "",
-          "person": "李红军"
+          "person": "李红军",
+          "subject_attri": "茂名/有关",
+          "trigger_subject": "市长/负责人"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "市长/负责人",
-          "agent_attri": "茂名/有关",
           "trigger": "处置",
           "trigger_object": "",
           "object_attri": "",
           "location": "茂名市",
           "organization": "",
-          "person": "李红军"
+          "person": "李红军",
+          "subject_attri": "茂名/有关",
+          "trigger_subject": "市长/负责人"
         }
       ]
     }

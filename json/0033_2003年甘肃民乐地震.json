@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2003年10月25日20时41分36.3秒",
           "time_align": "2003-10-25-20-41",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "地震",
           "object_attri": "一次MS6.1级",
           "location": "甘肃民乐至山丹交界地区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "time": "20时48分零2.6秒",
           "time_align": "2003-10-25-20-48",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "再次-发生",
           "trigger_object": "地震",
           "object_attri": "一次MS5.8级",
           "location": "甘肃民乐至山丹交界地区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -38,14 +38,14 @@
           "child_event_id": "e03",
           "time": "26日13时",
           "time_align": "2003-10-26-13-00",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "余震",
           "object_attri": "大于MS1.0级/181次",
           "location": "甘肃民乐至山丹交界地区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -56,14 +56,14 @@
           "child_event_id": "e04",
           "time": "15时",
           "time_align": "2003-10-26-15-00",
-          "trigger_agent": "地震",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "受灾",
           "object_attri": "3县22个乡镇",
           "location": "民乐/山丹/肃南",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "地震"
         }
       ]
     },
@@ -74,40 +74,40 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "地震",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "倒塌",
           "object_attri": "1万多户居民房屋",
           "location": "民乐/山丹/肃南",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "地震"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "地震",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "受损",
           "object_attri": "大量房屋",
           "location": "民乐/山丹/肃南",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "地震"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "地震",
-          "agent_attri": "",
           "trigger": "导致",
           "trigger_object": "损毁",
           "object_attri": "基础设施严重",
           "location": "民乐/山丹/肃南",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "地震"
         }
       ]
     }

@@ -5,29 +5,29 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "农民工",
           "trigger": "因",
           "trigger_object": "急需用钱",
-          "agent_attri": "",
           "object_attri": "父亲腿被砸断",
           "time": "2005年5月11日",
           "time_align": "2005-05-11-XX-XX",
           "location": "",
           "organization": "",
-          "person": "王斌"
+          "person": "王斌",
+          "subject_attri": "",
+          "trigger_subject": "农民工"
         },
         {
           "child_event_id": "e02",
           "trigger": "讨要",
-          "trigger_agent": "",
           "trigger_object": "工钱",
-          "agent_attri": "",
           "object_attri": "多次未果",
           "time": "2005年5月11日",
           "time_align": "2005-05-11-XX-XX",
           "location": "",
           "organization": "",
-          "person": "王斌"
+          "person": "王斌",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,67 +37,67 @@
         {
           "child_event_id": "e03",
           "trigger": "找-讨薪",
-          "trigger_agent": "",
           "trigger_object": "包工头",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2005年5月11日",
           "time_align": "2005-05-11-XX-XX",
           "location": "",
           "organization": "",
-          "person": "王斌"
+          "person": "王斌",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "被-辱骂",
-          "trigger_agent": "",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2005年5月11日",
           "time_align": "2005-05-11-XX-XX",
           "location": "",
           "organization": "",
-          "person": "王斌"
+          "person": "王斌",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
           "trigger": "遭",
-          "trigger_agent": "",
           "trigger_object": "拳打脚踢",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2005年5月11日",
           "time_align": "2005-05-11-XX-XX",
           "location": "",
           "organization": "",
-          "person": "王斌"
+          "person": "王斌",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e06",
           "trigger": "杀",
-          "trigger_agent": "",
           "trigger_object": "4人",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2005年5月11日",
           "time_align": "2005-05-11-XX-XX",
           "location": "",
           "organization": "",
-          "person": "王斌"
+          "person": "王斌",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e07",
           "trigger": "自首",
-          "trigger_agent": "",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2005年5月11日",
           "time_align": "2005-05-11-XX-XX",
           "location": "",
           "organization": "",
-          "person": "王斌"
+          "person": "王斌",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -107,28 +107,28 @@
         {
           "child_event_id": "e08",
           "trigger": "判处",
-          "trigger_agent": "中级人民法院",
           "trigger_object": "被告人",
-          "agent_attri": "",
           "object_attri": "死刑",
           "time": "同年6月16日",
           "time_align": "2005-06-16-XX-XX",
           "location": "宁夏石嘴山市",
           "organization": "宁夏石嘴山市中级人民法院",
-          "person": "王斌"
+          "person": "王斌",
+          "subject_attri": "",
+          "trigger_subject": "中级人民法院"
         },
         {
           "child_event_id": "e09",
           "trigger": "剥夺",
-          "trigger_agent": "中级人民法院",
           "trigger_object": "被告人",
-          "agent_attri": "",
           "object_attri": "政治权利终身",
           "time": "同年6月16日",
           "time_align": "2005-06-16-XX-XX",
           "location": "宁夏石嘴山市",
           "organization": "宁夏石嘴山市中级人民法院",
-          "person": "王斌"
+          "person": "王斌",
+          "subject_attri": "",
+          "trigger_subject": "中级人民法院"
         }
       ]
     },
@@ -138,28 +138,28 @@
         {
           "child_event_id": "e10",
           "trigger": "报道",
-          "trigger_agent": "媒体",
           "trigger_object": "该事件",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "媒体"
         },
         {
           "child_event_id": "e11",
           "trigger": "引起",
-          "trigger_agent": "该案件",
           "trigger_object": "关注",
-          "agent_attri": "",
           "object_attri": "社会对弱势群体权益保障的",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "该案件"
         }
       ]
     }

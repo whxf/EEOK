@@ -7,66 +7,66 @@
           "child_event_id": "e01",
           "time": "2012年12月4日上午9时",
           "time_align": "2012-12-04-09-XX",
-          "trigger_agent": "空军某部",
-          "agent_attri": "",
           "trigger": "组织",
           "trigger_object": "飞行训练",
           "object_attri": "",
           "location": "广州",
           "organization": "广州军区",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "空军某部"
         },
         {
           "child_event_id": "e02",
           "time": "2012年12月4日上午9时",
           "time_align": "2012-12-04-09-XX",
-          "trigger_agent": "战斗机",
-          "agent_attri": "一架歼7",
           "trigger": "突发",
           "trigger_object": "机械故障",
           "object_attri": "",
           "location": "广州",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一架歼7",
+          "trigger_subject": "战斗机"
         },
         {
           "child_event_id": "e03",
           "time": "2012年12月4日上午9时",
           "time_align": "2012-12-04-09-XX",
-          "trigger_agent": "状态",
-          "agent_attri": "飞机",
           "trigger": "无法控制",
           "trigger_object": "",
           "object_attri": "",
           "location": "广州",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "飞机",
+          "trigger_subject": "状态"
         },
         {
           "child_event_id": "e04",
           "time": "2012年12月4日上午9时",
           "time_align": "2012-12-04-09-XX",
-          "trigger_agent": "飞机",
-          "agent_attri": "",
           "trigger": "坠落",
           "trigger_object": "",
           "object_attri": "",
           "location": "广东省汕头市郊区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "飞机"
         },
         {
           "child_event_id": "e05",
           "time": "2012年12月4日上午9时",
           "time_align": "2012-12-04-09-XX",
-          "trigger_agent": "飞行员",
-          "agent_attri": "",
           "trigger": "跳伞",
           "trigger_object": "",
           "object_attri": "",
           "location": "广东省汕头市郊区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "飞行员"
         }
       ]
     },
@@ -77,27 +77,27 @@
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "群众",
-          "agent_attri": "受伤",
           "trigger": "被-送到",
           "trigger_object": "医院",
           "object_attri": "",
           "location": "广东省汕头市郊区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "受伤",
+          "trigger_subject": "群众"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "医院",
-          "agent_attri": "",
           "trigger": "治疗",
           "trigger_object": "",
           "object_attri": "",
           "location": "广东省汕头市郊区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "医院"
         }
       ]
     },
@@ -108,27 +108,27 @@
           "child_event_id": "e08",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "军地有关",
           "trigger": "关切",
           "trigger_object": "受伤人员",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "军地有关",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e09",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "军地有关",
           "trigger": "组织",
           "trigger_object": "治疗",
           "object_attri": "医疗机构给予及时有效",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "军地有关",
+          "trigger_subject": "领导"
         }
       ]
     }

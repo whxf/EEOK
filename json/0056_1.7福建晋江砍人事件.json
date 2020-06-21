@@ -7,14 +7,14 @@
           "child_event_id": "e01",
           "time": "2015年1月7日晚九点",
           "time_align": "2015-01-07-21-00",
-          "trigger_agent": "男子",
-          "agent_attri": "一",
           "trigger": "砍伤",
           "trigger_object": "人",
           "object_attri": "数",
           "location": "晋江大剧院附近",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一",
+          "trigger_subject": "男子"
         }
       ]
     },
@@ -25,40 +25,40 @@
           "child_event_id": "e02",
           "time": "2015年1月7日晚九点",
           "time_align": "2015-01-07-21-00",
-          "trigger_agent": "人",
-          "agent_attri": "9",
           "trigger": "受伤",
           "trigger_object": "",
           "object_attri": "",
           "location": "晋江大剧院附近",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "9",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e03",
           "time": "",
           "time_align": "",
-          "trigger_agent": "医院",
-          "agent_attri": "",
           "trigger": "救治",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "医院"
         },
         {
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "凶手",
-          "agent_attri": "",
           "trigger": "落网",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "凶手"
         }
       ]
     },
@@ -69,14 +69,14 @@
           "child_event_id": "e05",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "人员",
-          "agent_attri": "6名伤情较轻",
           "trigger": "接受",
           "trigger_object": "询问",
           "object_attri": "警方",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "6名伤情较轻",
+          "trigger_subject": "人员"
         }
       ]
     }

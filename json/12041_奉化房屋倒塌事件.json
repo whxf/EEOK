@@ -5,29 +5,29 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "居民房",
           "trigger": "发生",
           "trigger_object": "坍塌",
-          "agent_attri": "小区一幢5层",
           "object_attri": "",
           "time": "2014年4月4日上午8点45分",
           "time_align": "2014-04-04-08-45",
           "location": "浙江省宁波奉化市大成路居敬小区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "小区一幢5层",
+          "trigger_subject": "居民房"
         },
         {
           "child_event_id": "e02",
-          "trigger_agent": "人",
           "trigger": "被-送往",
           "trigger_object": "医院",
-          "agent_attri": "受伤严重的6",
           "object_attri": "",
           "time": "2014年4月4日上午8点45分",
           "time_align": "2014-04-04-08-45",
           "location": "浙江省宁波奉化市大成路居敬小区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "受伤严重的6",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -37,28 +37,28 @@
         {
           "child_event_id": "e03",
           "trigger": "举行",
-          "trigger_agent": "政府",
           "trigger_object": "发布会",
-          "agent_attri": "奉化市",
           "object_attri": "新闻",
           "time": "4日下午18点",
           "time_align": "2014-04-04-18-00",
           "location": "奉化市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "奉化市",
+          "trigger_subject": "政府"
         },
         {
           "child_event_id": "e04",
           "trigger": "公布",
-          "trigger_agent": "政府",
           "trigger_object": "伤亡情况",
-          "agent_attri": "奉化市",
           "object_attri": "",
           "time": "4日下午18点",
           "time_align": "2014-04-04-18-XX",
           "location": "奉化市",
           "organization": "奉化市政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "奉化市",
+          "trigger_subject": "政府"
         }
       ]
     },
@@ -68,28 +68,28 @@
         {
           "child_event_id": "e05",
           "trigger": "取得",
-          "trigger_agent": "人员",
           "trigger_object": "联系",
-          "agent_attri": "坍塌楼房住户中其他",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "浙江省宁波奉化市大成路居敬小区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "坍塌楼房住户中其他",
+          "trigger_subject": "人员"
         },
         {
           "child_event_id": "e06",
           "trigger": "确认",
-          "trigger_agent": "",
           "trigger_object": "安全",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "浙江省宁波奉化市大成路居敬小区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -99,28 +99,28 @@
         {
           "child_event_id": "e07",
           "trigger": "召开",
-          "trigger_agent": "",
           "trigger_object": "会议",
-          "agent_attri": "浙江奉化市政府和锦屏街道办事处同居民",
           "object_attri": "协商",
           "time": "2014年4月7日",
           "time_align": "2014-04-07-XX-XX",
           "location": "浙江奉化市",
           "organization": "浙江奉化市政府和锦屏街道办事处",
-          "person": ""
+          "person": "",
+          "subject_attri": "浙江奉化市政府和锦屏街道办事处同居民",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e08",
           "trigger": "提出",
-          "trigger_agent": "",
           "trigger_object": "方案",
-          "agent_attri": "",
           "object_attri": "安置",
           "time": "2014年4月7日",
           "time_align": "2014-04-07-XX-XX",
           "location": "浙江奉化市",
           "organization": "浙江奉化市政府和锦屏街道办事处",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -130,15 +130,15 @@
         {
           "child_event_id": "e09",
           "trigger": "发放",
-          "trigger_agent": "办事处",
           "trigger_object": "慰问金/补助费",
-          "agent_attri": "锦屏街道",
           "object_attri": "3000元/150元",
           "time": "2014年4月7日",
           "time_align": "",
           "location": "锦屏",
           "organization": "锦屏街道办事处",
-          "person": ""
+          "person": "",
+          "subject_attri": "锦屏街道",
+          "trigger_subject": "办事处"
         }
       ]
     }

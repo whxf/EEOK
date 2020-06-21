@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "驾驶",
-          "trigger_agent": "男子",
           "trigger_object": "摩托车",
-          "agent_attri": "一",
           "object_attri": "一辆",
           "time": "2015年2月12日下午",
           "time_align": "2015-02-12-XX-XX",
           "location": "广西鹿寨县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一",
+          "trigger_subject": "男子"
         },
         {
           "child_event_id": "e02",
@@ -25,7 +25,9 @@
           "time_align": "2015-02-12-XX-XX",
           "location": "广西鹿寨县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
@@ -36,20 +38,22 @@
           "time_align": "2015-02-12-XX-XX",
           "location": "广西鹿寨县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "驾驶人",
           "object_attri": "",
           "time": "2015年2月12日下午",
           "time_align": "2015-02-12-XX-XX",
           "location": "广西鹿寨县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "驾驶人",
+          "trigger_subject": ""
         }
       ]
     },
@@ -59,28 +63,28 @@
         {
           "child_event_id": "e05",
           "trigger": "未确定",
-          "trigger_agent": "身份",
           "trigger_object": "",
-          "agent_attri": "男子",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "男子",
+          "trigger_subject": "身份"
         },
         {
           "child_event_id": "e06",
           "trigger": "调查",
-          "trigger_agent": "",
           "trigger_object": "原因",
-          "agent_attri": "",
           "object_attri": "事故",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

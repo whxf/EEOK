@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2009年11月23日",
           "time_align": "2009-11-23-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "灭门案",
           "object_attri": "一起",
           "location": "北京市大兴区黄村镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "time": "2009年11月23日",
           "time_align": "2009-11-23-XX-XX",
-          "trigger_agent": "一家",
-          "agent_attri": "",
           "trigger": "被-害",
           "trigger_object": "",
           "object_attri": "",
           "location": "北京市大兴区黄村镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "一家"
         }
       ]
     },
@@ -38,14 +38,14 @@
           "child_event_id": "e03",
           "time": "11月28日",
           "time_align": "2009-11-28-XX-XX",
-          "trigger_agent": "嫌疑人",
-          "agent_attri": "犯罪",
           "trigger": "被-抓获",
           "trigger_object": "",
           "object_attri": "",
           "location": "三亚",
           "organization": "",
-          "person": "李磊"
+          "person": "李磊",
+          "subject_attri": "犯罪",
+          "trigger_subject": "嫌疑人"
         }
       ]
     },
@@ -56,40 +56,40 @@
           "child_event_id": "e04",
           "time": "2010年10月",
           "time_align": "2010-10-XX-XX-XX",
-          "trigger_agent": "北京一中院",
-          "agent_attri": "",
           "trigger": "作出",
           "trigger_object": "判决",
           "object_attri": "一审",
           "location": "北京",
           "organization": "北京一中院",
-          "person": "李磊"
+          "person": "李磊",
+          "subject_attri": "",
+          "trigger_subject": "北京一中院"
         },
         {
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "北京一中院",
-          "agent_attri": "",
           "trigger": "判处",
           "trigger_object": "死刑",
           "object_attri": "李磊",
           "location": "北京",
           "organization": "北京一中院",
-          "person": "李磊"
+          "person": "李磊",
+          "subject_attri": "",
+          "trigger_subject": "北京一中院"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "赔偿",
           "trigger_object": "受害人",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": "李磊"
+          "person": "李磊",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -100,14 +100,14 @@
           "child_event_id": "e07",
           "time": "2011年9月16日",
           "time_align": "2011-09-16-XX-XX",
-          "trigger_agent": "罪犯",
-          "agent_attri": "",
           "trigger": "被-执行",
           "trigger_object": "死刑",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": "李磊"
+          "person": "李磊",
+          "subject_attri": "",
+          "trigger_subject": "罪犯"
         }
       ]
     }

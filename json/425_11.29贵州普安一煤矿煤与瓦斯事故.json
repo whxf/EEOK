@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "巷道",
           "trigger_object": "突出事故",
-          "agent_attri": "能通煤矿11175运输",
           "object_attri": "一起煤与瓦斯",
           "time": "2012年11月29日4时",
           "time_align": "2012-11-29-04-XX",
           "location": "贵州省黔西南布依族苗族自治州普安县楼下镇泥堡村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "能通煤矿11175运输",
+          "trigger_subject": "巷道"
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "事故",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "5人",
           "time": "2012年11月29日4时",
           "time_align": "2012-11-29-04-XX",
           "location": "贵州省黔西南布依族苗族自治州普安县楼下镇泥堡村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         },
         {
           "child_event_id": "e04",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "2人",
           "time": "2012年11月29日4时",
           "time_align": "2012-11-29-04-XX",
           "location": "贵州省黔西南布依族苗族自治州普安县楼下镇泥堡村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -50,41 +50,41 @@
         {
           "child_event_id": "e04",
           "trigger": "开展",
-          "trigger_agent": "工作",
           "trigger_object": "",
-          "agent_attri": "事故调查/善后处理等",
           "object_attri": "",
           "time": "目前",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "事故调查/善后处理等",
+          "trigger_subject": "工作"
         },
         {
           "child_event_id": "e05",
           "trigger": "得到",
-          "trigger_agent": "生命",
           "trigger_object": "救治",
-          "agent_attri": "2名受伤矿工",
           "object_attri": "有效",
           "time": "目前",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "2名受伤矿工",
+          "trigger_subject": "生命"
         },
         {
           "child_event_id": "e06",
           "trigger": "平稳",
-          "trigger_agent": "生命体征",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "2",
           "time": "目前",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "生命体征"
         }
       ]
     }

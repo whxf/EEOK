@@ -1,0 +1,589 @@
+Prefix(:=<http://www.eeok.com#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.eeok.com>
+
+Declaration(Class(:event))
+Declaration(Class(:event_info))
+Declaration(Class(:relation))
+Declaration(Class(:relation_info))
+Declaration(Class(:sub_event))
+Declaration(ObjectProperty(:has_agent_attri))
+Declaration(ObjectProperty(:has_from))
+Declaration(ObjectProperty(:has_label))
+Declaration(ObjectProperty(:has_location))
+Declaration(ObjectProperty(:has_object_attri))
+Declaration(ObjectProperty(:has_organization))
+Declaration(ObjectProperty(:has_person))
+Declaration(ObjectProperty(:has_time))
+Declaration(ObjectProperty(:has_time_align))
+Declaration(ObjectProperty(:has_to))
+Declaration(ObjectProperty(:has_trigger))
+Declaration(ObjectProperty(:has_trigger_agent))
+Declaration(ObjectProperty(:has_trigger_object))
+Declaration(ObjectProperty(:is_from_of))
+Declaration(ObjectProperty(:is_to_of))
+Declaration(DataProperty(:event_info))
+Declaration(DataProperty(:event_info_agent_attri))
+Declaration(DataProperty(:event_info_location))
+Declaration(DataProperty(:event_info_object_attri))
+Declaration(DataProperty(:event_info_person))
+Declaration(DataProperty(:event_info_time))
+Declaration(DataProperty(:event_info_time_align))
+Declaration(DataProperty(:event_info_trigger))
+Declaration(DataProperty(:event_info_trigger_agent))
+Declaration(DataProperty(:event_info_trigger_object))
+Declaration(DataProperty(:evnt_info_organization))
+Declaration(DataProperty(:relation_info))
+Declaration(DataProperty(:relation_info_from))
+Declaration(DataProperty(:relation_info_to))
+Declaration(DataProperty(:relation_label))
+
+
+
+
+Declaration(NamedIndividual(:E01))
+Declaration(NamedIndividual(:E02))
+Declaration(NamedIndividual(:E03))
+Declaration(NamedIndividual(:E04))
+Declaration(NamedIndividual(:E05))
+Declaration(NamedIndividual(:E06))
+Declaration(NamedIndividual(:E07))
+Declaration(NamedIndividual(:E08))
+Declaration(NamedIndividual(:E09))
+
+
+Declaration(NamedIndividual(:e01))
+Declaration(NamedIndividual(:e02))
+Declaration(NamedIndividual(:e03))
+Declaration(NamedIndividual(:e04))
+Declaration(NamedIndividual(:e05))
+Declaration(NamedIndividual(:e06))
+Declaration(NamedIndividual(:e07))
+Declaration(NamedIndividual(:e08))
+Declaration(NamedIndividual(:e09))
+
+
+Declaration(NamedIndividual(:R-01-02))
+Declaration(NamedIndividual(:R-02-03))
+Declaration(NamedIndividual(:R-03-04))
+Declaration(NamedIndividual(:R-04-05))
+Declaration(NamedIndividual(:R-05-06))
+Declaration(NamedIndividual(:R-06-07))
+Declaration(NamedIndividual(:R-07-08))
+Declaration(NamedIndividual(:R-08-09))
+
+
+Declaration(NamedIndividual(:r-01-02))
+Declaration(NamedIndividual(:r-02-03))
+Declaration(NamedIndividual(:r-03-04))
+Declaration(NamedIndividual(:r-04-05))
+Declaration(NamedIndividual(:r-05-06))
+Declaration(NamedIndividual(:r-06-07))
+Declaration(NamedIndividual(:r-07-08))
+Declaration(NamedIndividual(:r-08-09))
+
+
+Declaration(NamedIndividual(:s-01-01))
+Declaration(NamedIndividual(:s-02-02))
+Declaration(NamedIndividual(:s-03-03))
+Declaration(NamedIndividual(:s-04-04))
+Declaration(NamedIndividual(:s-05-05))
+Declaration(NamedIndividual(:s-06-06))
+Declaration(NamedIndividual(:s-07-07))
+Declaration(NamedIndividual(:s-08-08))
+Declaration(NamedIndividual(:s-09-09))
+
+
+Declaration(NamedIndividual(:理财协议))
+Declaration(NamedIndividual(:2013-08-19-XX-XX))
+Declaration(NamedIndividual(:2013年8月15日))
+Declaration(NamedIndividual(:保险业))
+Declaration(NamedIndividual(:公司))
+Declaration(NamedIndividual(:涉嫌经济))
+Declaration(NamedIndividual(:上海泛鑫保险代理有限公司))
+Declaration(NamedIndividual(:中国))
+Declaration(NamedIndividual(:警方))
+Declaration(NamedIndividual(:回国))
+Declaration(NamedIndividual(:外逃))
+Declaration(NamedIndividual(:合作))
+Declaration(NamedIndividual(:海保监局))
+Declaration(NamedIndividual(:抓获))
+Declaration(NamedIndividual(:固定收益))
+Declaration(NamedIndividual(:高管))
+Declaration(NamedIndividual(:公告))
+Declaration(NamedIndividual(:发布))
+Declaration(NamedIndividual(:2013年8月19日))
+Declaration(NamedIndividual(:犯罪人))
+Declaration(NamedIndividual(:2013-08-15-XX-XX))
+Declaration(NamedIndividual(:国内整个))
+Declaration(NamedIndividual(:8月19日晚))
+Declaration(NamedIndividual(:加拿大))
+Declaration(NamedIndividual(:上海泛鑫保险代理有限))
+Declaration(NamedIndividual(:押解))
+Declaration(NamedIndividual(:上海市公安机关))
+Declaration(NamedIndividual(:震惊))
+Declaration(NamedIndividual(:泛鑫保险公司))
+Declaration(NamedIndividual(:侦查))
+Declaration(NamedIndividual(:公安机关))
+Declaration(NamedIndividual(:中国警方))
+Declaration(NamedIndividual(:事件))
+Declaration(NamedIndividual(:销售))
+Declaration(NamedIndividual(:上海))
+Declaration(NamedIndividual(:陈怡))
+Declaration(NamedIndividual(:上海最大保险中介机构——泛鑫保险公司的美女))
+Declaration(NamedIndividual(:斐济执法部门))
+Declaration(NamedIndividual(:立案))
+Declaration(NamedIndividual(:斐济))
+Declaration(NamedIndividual(:上海市))
+
+
+Declaration(NamedIndividual(:时序关系))
+Declaration(NamedIndividual(:子事件关系))
+Declaration(NamedIndividual(:因果关系))
+
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :has_agent_attri (:has_agent_attri)
+
+ObjectPropertyDomain(:has_agent_attri :event_info)
+ObjectPropertyRange(:has_agent_attri :sub_event)
+
+# Object Property: :has_from (:has_from)
+
+InverseObjectProperties(:has_from :is_from_of)
+ObjectPropertyDomain(:has_from :relation_info)
+ObjectPropertyRange(:has_from :relation)
+
+# Object Property: :has_label (:has_label)
+
+ObjectPropertyDomain(:has_label :relation_info)
+ObjectPropertyRange(:has_label :relation)
+
+# Object Property: :has_location (:has_location)
+
+ObjectPropertyDomain(:has_location :event_info)
+ObjectPropertyRange(:has_location :event)
+
+# Object Property: :has_object_attri (:has_object_attri)
+
+ObjectPropertyDomain(:has_object_attri :event_info)
+ObjectPropertyRange(:has_object_attri :sub_event)
+
+# Object Property: :has_organization (:has_organization)
+
+ObjectPropertyDomain(:has_organization :event_info)
+ObjectPropertyRange(:has_organization :sub_event)
+
+# Object Property: :has_person (:has_person)
+
+ObjectPropertyDomain(:has_person :event_info)
+ObjectPropertyRange(:has_person :sub_event)
+
+# Object Property: :has_time (:has_time)
+
+ObjectPropertyDomain(:has_time :event_info)
+ObjectPropertyRange(:has_time :sub_event)
+
+# Object Property: :has_time_align (:has_time_align)
+
+ObjectPropertyDomain(:has_time_align :event_info)
+ObjectPropertyRange(:has_time_align :sub_event)
+
+# Object Property: :has_to (:has_to)
+
+InverseObjectProperties(:has_to :is_to_of)
+ObjectPropertyDomain(:has_to :relation_info)
+ObjectPropertyRange(:has_to :relation)
+
+# Object Property: :has_trigger (:has_trigger)
+
+ObjectPropertyDomain(:has_trigger :event_info)
+ObjectPropertyRange(:has_trigger :event)
+
+# Object Property: :has_trigger_agent (:has_trigger_agent)
+
+ObjectPropertyDomain(:has_trigger_agent :event_info)
+ObjectPropertyRange(:has_trigger_agent :event)
+
+# Object Property: :has_trigger_object (:has_trigger_object)
+
+ObjectPropertyDomain(:has_trigger_object :event_info)
+ObjectPropertyRange(:has_trigger_object :event)
+
+# Object Property: :is_from_of (:is_from_of)
+
+ObjectPropertyDomain(:is_from_of :relation_info)
+ObjectPropertyRange(:is_from_of :relation)
+
+# Object Property: :is_to_of (:is_to_of)
+
+ObjectPropertyDomain(:is_to_of :relation_info)
+ObjectPropertyRange(:is_to_of :relation)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :event_info_agent_attri (:event_info_agent_attri)
+
+SubDataPropertyOf(:event_info_agent_attri :event_info)
+DataPropertyDomain(:event_info_agent_attri :event_info)
+DataPropertyRange(:event_info_agent_attri xsd:string)
+
+# Data Property: :event_info_location (:event_info_location)
+
+SubDataPropertyOf(:event_info_location :event_info)
+DataPropertyDomain(:event_info_location :event_info)
+DataPropertyRange(:event_info_location xsd:string)
+
+# Data Property: :event_info_object_attri (:event_info_object_attri)
+
+SubDataPropertyOf(:event_info_object_attri :event_info)
+DataPropertyDomain(:event_info_object_attri :event_info)
+DataPropertyRange(:event_info_object_attri xsd:string)
+
+# Data Property: :event_info_person (:event_info_person)
+
+SubDataPropertyOf(:event_info_person :event_info)
+DataPropertyDomain(:event_info_person :event_info)
+DataPropertyRange(:event_info_person xsd:string)
+
+# Data Property: :event_info_time (:event_info_time)
+
+SubDataPropertyOf(:event_info_time :event_info)
+DataPropertyDomain(:event_info_time :event_info)
+DataPropertyRange(:event_info_time xsd:string)
+
+# Data Property: :event_info_time_align (:event_info_time_align)
+
+SubDataPropertyOf(:event_info_time_align :event_info)
+DataPropertyDomain(:event_info_time_align :event_info)
+DataPropertyRange(:event_info_time_align xsd:string)
+
+# Data Property: :event_info_trigger (:event_info_trigger)
+
+SubDataPropertyOf(:event_info_trigger :event_info)
+DataPropertyDomain(:event_info_trigger :event_info)
+DataPropertyRange(:event_info_trigger xsd:string)
+
+# Data Property: :event_info_trigger_agent (:event_info_trigger_agent)
+
+SubDataPropertyOf(:event_info_trigger_agent :event_info)
+DataPropertyDomain(:event_info_trigger_agent :event_info)
+DataPropertyRange(:event_info_trigger_agent xsd:string)
+
+# Data Property: :event_info_trigger_object (:event_info_trigger_object)
+
+SubDataPropertyOf(:event_info_trigger_object :event_info)
+DataPropertyDomain(:event_info_trigger_object :event_info)
+DataPropertyRange(:event_info_trigger_object xsd:string)
+
+# Data Property: :evnt_info_organization (:evnt_info_organization)
+
+SubDataPropertyOf(:evnt_info_organization :event_info)
+DataPropertyDomain(:evnt_info_organization :event_info)
+DataPropertyRange(:evnt_info_organization xsd:string)
+
+# Data Property: :relation_info_from (:relation_info_from)
+
+SubDataPropertyOf(:relation_info_from :relation_info)
+DataPropertyDomain(:relation_info_from :relation_info)
+DataPropertyRange(:relation_info_from xsd:string)
+
+# Data Property: :relation_info_to (:relation_info_to)
+
+SubDataPropertyOf(:relation_info_to :relation_info)
+DataPropertyDomain(:relation_info_to :relation_info)
+DataPropertyRange(:relation_info_to xsd:string)
+
+# Data Property: :relation_label (:relation_label)
+
+SubDataPropertyOf(:relation_label :relation_info)
+DataPropertyDomain(:relation_label :relation_info)
+DataPropertyRange(:relation_label xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :sub_event (:sub_event)
+
+SubClassOf(:sub_event :event)
+
+
+############################
+#   Named Individuals
+############################
+
+
+ClassAssertion(:event :E01)
+ObjectPropertyAssertion(:has_trigger :E01 :高管)
+ObjectPropertyAssertion(:has_trigger_object :E01 :加拿大)
+ObjectPropertyAssertion(:has_trigger_subject :E01 :外逃)
+ObjectPropertyAssertion(:is_from_of :E01 :R-01-02)
+ObjectPropertyAssertion(:is_from_of :E01 :s-01-01)
+ClassAssertion(:event :E02)
+ObjectPropertyAssertion(:has_trigger :E02 :震惊)
+ObjectPropertyAssertion(:has_trigger_object :E02 :保险业)
+ObjectPropertyAssertion(:has_trigger_subject :E02 :事件)
+ObjectPropertyAssertion(:is_from_of :E02 :R-02-03)
+ObjectPropertyAssertion(:is_from_of :E02 :s-02-02)
+ClassAssertion(:event :E03)
+ObjectPropertyAssertion(:has_trigger :E03 :发布)
+ObjectPropertyAssertion(:has_trigger_object :E03 :公告)
+ObjectPropertyAssertion(:has_trigger_subject :E03 :海保监局)
+ObjectPropertyAssertion(:is_from_of :E03 :R-03-04)
+ObjectPropertyAssertion(:is_from_of :E03 :s-03-03)
+ClassAssertion(:event :E04)
+ObjectPropertyAssertion(:has_trigger :E04 :销售)
+ObjectPropertyAssertion(:has_trigger_object :E04 :理财协议)
+ObjectPropertyAssertion(:has_trigger_subject :E04 :公司)
+ObjectPropertyAssertion(:is_from_of :E04 :R-04-05)
+ObjectPropertyAssertion(:is_from_of :E04 :s-04-04)
+ClassAssertion(:event :E05)
+ObjectPropertyAssertion(:has_trigger :E05 :立案)
+ObjectPropertyAssertion(:has_trigger_subject :E05 :公安机关)
+ObjectPropertyAssertion(:is_from_of :E05 :R-05-06)
+ObjectPropertyAssertion(:is_from_of :E05 :s-05-05)
+ClassAssertion(:event :E06)
+ObjectPropertyAssertion(:has_trigger :E06 :侦查)
+ObjectPropertyAssertion(:has_trigger_subject :E06 :公安机关)
+ObjectPropertyAssertion(:is_from_of :E06 :R-06-07)
+ObjectPropertyAssertion(:is_from_of :E06 :s-06-06)
+ClassAssertion(:event :E07)
+ObjectPropertyAssertion(:has_trigger :E07 :合作)
+ObjectPropertyAssertion(:has_trigger_object :E07 :斐济执法部门)
+ObjectPropertyAssertion(:has_trigger_subject :E07 :中国警方)
+ObjectPropertyAssertion(:is_from_of :E07 :R-07-08)
+ObjectPropertyAssertion(:is_from_of :E07 :s-07-07)
+ClassAssertion(:event :E08)
+ObjectPropertyAssertion(:has_trigger :E08 :抓获)
+ObjectPropertyAssertion(:has_trigger_object :E08 :犯罪人)
+ObjectPropertyAssertion(:has_trigger_subject :E08 :警方)
+ObjectPropertyAssertion(:is_from_of :E08 :R-08-09)
+ObjectPropertyAssertion(:is_from_of :E08 :s-08-08)
+ClassAssertion(:event :E09)
+ObjectPropertyAssertion(:has_trigger :E09 :押解)
+ObjectPropertyAssertion(:has_trigger_object :E09 :回国)
+ObjectPropertyAssertion(:has_trigger_subject :E09 :中国警方)
+ObjectPropertyAssertion(:is_from_of :E09 :s-09-09)
+
+
+ClassAssertion(:sub_event :e01)
+ObjectPropertyAssertion(:has_trigger :e01 :高管)
+ObjectPropertyAssertion(:has_trigger_object :e01 :加拿大)
+ObjectPropertyAssertion(:has_time :e01 :2013年8月15日)
+ObjectPropertyAssertion(:has_time_align :e01 :2013-08-15-XX-XX)
+ObjectPropertyAssertion(:has_organization :e01 :泛鑫保险公司)
+ObjectPropertyAssertion(:has_person :e01 :陈怡)
+ObjectPropertyAssertion(:has_subject_attri :e01 :上海最大保险中介机构——泛鑫保险公司的美女)
+ObjectPropertyAssertion(:has_trigger_subject :e01 :外逃)
+ObjectPropertyAssertion(:is_from_of :e01 :r-01-02)
+ClassAssertion(:sub_event :e02)
+ObjectPropertyAssertion(:has_trigger :e02 :震惊)
+ObjectPropertyAssertion(:has_trigger_object :e02 :保险业)
+ObjectPropertyAssertion(:has_object_attri :e02 :国内整个)
+ObjectPropertyAssertion(:has_time :e02 :2013年8月15日)
+ObjectPropertyAssertion(:has_time_align :e02 :2013-08-15-XX-XX)
+ObjectPropertyAssertion(:has_location :e02 :上海)
+ObjectPropertyAssertion(:has_person :e02 :陈怡)
+ObjectPropertyAssertion(:has_trigger_subject :e02 :事件)
+ObjectPropertyAssertion(:is_from_of :e02 :r-02-03)
+ClassAssertion(:sub_event :e03)
+ObjectPropertyAssertion(:has_trigger :e03 :发布)
+ObjectPropertyAssertion(:has_trigger_object :e03 :公告)
+ObjectPropertyAssertion(:has_organization :e03 :海保监局)
+ObjectPropertyAssertion(:has_trigger_subject :e03 :海保监局)
+ObjectPropertyAssertion(:is_from_of :e03 :r-03-04)
+ClassAssertion(:sub_event :e04)
+ObjectPropertyAssertion(:has_trigger :e04 :销售)
+ObjectPropertyAssertion(:has_trigger_object :e04 :理财协议)
+ObjectPropertyAssertion(:has_object_attri :e04 :固定收益)
+ObjectPropertyAssertion(:has_organization :e04 :上海泛鑫保险代理有限公司)
+ObjectPropertyAssertion(:has_subject_attri :e04 :上海泛鑫保险代理有限)
+ObjectPropertyAssertion(:has_trigger_subject :e04 :公司)
+ObjectPropertyAssertion(:is_from_of :e04 :r-04-05)
+ClassAssertion(:sub_event :e05)
+ObjectPropertyAssertion(:has_trigger :e05 :立案)
+ObjectPropertyAssertion(:has_location :e05 :上海市)
+ObjectPropertyAssertion(:has_organization :e05 :上海市公安机关)
+ObjectPropertyAssertion(:has_trigger_subject :e05 :公安机关)
+ObjectPropertyAssertion(:is_from_of :e05 :r-05-06)
+ClassAssertion(:sub_event :e06)
+ObjectPropertyAssertion(:has_trigger :e06 :侦查)
+ObjectPropertyAssertion(:has_location :e06 :上海市)
+ObjectPropertyAssertion(:has_organization :e06 :上海市公安机关)
+ObjectPropertyAssertion(:has_trigger_subject :e06 :公安机关)
+ObjectPropertyAssertion(:is_from_of :e06 :r-06-07)
+ClassAssertion(:sub_event :e07)
+ObjectPropertyAssertion(:has_trigger :e07 :合作)
+ObjectPropertyAssertion(:has_trigger_object :e07 :斐济执法部门)
+ObjectPropertyAssertion(:has_time :e07 :2013年8月19日)
+ObjectPropertyAssertion(:has_time_align :e07 :2013-08-19-XX-XX)
+ObjectPropertyAssertion(:has_person :e07 :陈怡)
+ObjectPropertyAssertion(:has_trigger_subject :e07 :中国警方)
+ObjectPropertyAssertion(:is_from_of :e07 :r-07-08)
+ClassAssertion(:sub_event :e08)
+ObjectPropertyAssertion(:has_trigger :e08 :抓获)
+ObjectPropertyAssertion(:has_trigger_object :e08 :犯罪人)
+ObjectPropertyAssertion(:has_object_attri :e08 :涉嫌经济)
+ObjectPropertyAssertion(:has_time :e08 :2013年8月19日)
+ObjectPropertyAssertion(:has_time_align :e08 :2013-08-19-XX-XX)
+ObjectPropertyAssertion(:has_location :e08 :斐济)
+ObjectPropertyAssertion(:has_person :e08 :陈怡)
+ObjectPropertyAssertion(:has_subject_attri :e08 :中国)
+ObjectPropertyAssertion(:has_trigger_subject :e08 :警方)
+ObjectPropertyAssertion(:is_from_of :e08 :r-08-09)
+ClassAssertion(:sub_event :e09)
+ObjectPropertyAssertion(:has_trigger :e09 :押解)
+ObjectPropertyAssertion(:has_trigger_object :e09 :回国)
+ObjectPropertyAssertion(:has_time :e09 :8月19日晚)
+ObjectPropertyAssertion(:has_time_align :e09 :2013-08-19-XX-XX)
+ObjectPropertyAssertion(:has_person :e09 :陈怡)
+ObjectPropertyAssertion(:has_trigger_subject :e09 :中国警方)
+
+
+ClassAssertion(:relation :R-01-02)
+ObjectPropertyAssertion(:has_label :R-01-02 :时序关系)
+ObjectPropertyAssertion(:has_to :R-01-02 :E02)
+ClassAssertion(:relation :R-02-03)
+ObjectPropertyAssertion(:has_label :R-02-03 :时序关系)
+ObjectPropertyAssertion(:has_to :R-02-03 :E03)
+ClassAssertion(:relation :R-03-04)
+ObjectPropertyAssertion(:has_label :R-03-04 :时序关系)
+ObjectPropertyAssertion(:has_to :R-03-04 :E04)
+ClassAssertion(:relation :R-04-05)
+ObjectPropertyAssertion(:has_label :R-04-05 :时序关系)
+ObjectPropertyAssertion(:has_to :R-04-05 :E05)
+ClassAssertion(:relation :R-05-06)
+ObjectPropertyAssertion(:has_label :R-05-06 :时序关系)
+ObjectPropertyAssertion(:has_to :R-05-06 :E06)
+ClassAssertion(:relation :R-06-07)
+ObjectPropertyAssertion(:has_label :R-06-07 :时序关系)
+ObjectPropertyAssertion(:has_to :R-06-07 :E07)
+ClassAssertion(:relation :R-07-08)
+ObjectPropertyAssertion(:has_label :R-07-08 :时序关系)
+ObjectPropertyAssertion(:has_to :R-07-08 :E08)
+ClassAssertion(:relation :R-08-09)
+ObjectPropertyAssertion(:has_label :R-08-09 :时序关系)
+ObjectPropertyAssertion(:has_to :R-08-09 :E09)
+
+
+ClassAssertion(:relation :r-01-02)
+ObjectPropertyAssertion(:has_label :r-01-02 :时序关系)
+ObjectPropertyAssertion(:has_to :r-01-02 :e02)
+ClassAssertion(:relation :r-02-03)
+ObjectPropertyAssertion(:has_label :r-02-03 :时序关系)
+ObjectPropertyAssertion(:has_to :r-02-03 :e03)
+ClassAssertion(:relation :r-03-04)
+ObjectPropertyAssertion(:has_label :r-03-04 :时序关系)
+ObjectPropertyAssertion(:has_to :r-03-04 :e04)
+ClassAssertion(:relation :r-04-05)
+ObjectPropertyAssertion(:has_label :r-04-05 :时序关系)
+ObjectPropertyAssertion(:has_to :r-04-05 :e05)
+ClassAssertion(:relation :r-05-06)
+ObjectPropertyAssertion(:has_label :r-05-06 :时序关系)
+ObjectPropertyAssertion(:has_to :r-05-06 :e06)
+ClassAssertion(:relation :r-06-07)
+ObjectPropertyAssertion(:has_label :r-06-07 :时序关系)
+ObjectPropertyAssertion(:has_to :r-06-07 :e07)
+ClassAssertion(:relation :r-07-08)
+ObjectPropertyAssertion(:has_label :r-07-08 :时序关系)
+ObjectPropertyAssertion(:has_to :r-07-08 :e08)
+ClassAssertion(:relation :r-08-09)
+ObjectPropertyAssertion(:has_label :r-08-09 :时序关系)
+ObjectPropertyAssertion(:has_to :r-08-09 :e09)
+
+
+ClassAssertion(:relation :s-01-01)
+ObjectPropertyAssertion(:has_label :s-01-01 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-01-01 :e01)
+ClassAssertion(:relation :s-02-02)
+ObjectPropertyAssertion(:has_label :s-02-02 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-02-02 :e02)
+ClassAssertion(:relation :s-03-03)
+ObjectPropertyAssertion(:has_label :s-03-03 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-03-03 :e03)
+ClassAssertion(:relation :s-04-04)
+ObjectPropertyAssertion(:has_label :s-04-04 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-04-04 :e04)
+ClassAssertion(:relation :s-05-05)
+ObjectPropertyAssertion(:has_label :s-05-05 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-05-05 :e05)
+ClassAssertion(:relation :s-06-06)
+ObjectPropertyAssertion(:has_label :s-06-06 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-06-06 :e06)
+ClassAssertion(:relation :s-07-07)
+ObjectPropertyAssertion(:has_label :s-07-07 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-07-07 :e07)
+ClassAssertion(:relation :s-08-08)
+ObjectPropertyAssertion(:has_label :s-08-08 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-08-08 :e08)
+ClassAssertion(:relation :s-09-09)
+ObjectPropertyAssertion(:has_label :s-09-09 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-09-09 :e09)
+
+
+ClassAssertion(:event_info :理财协议)
+ClassAssertion(:event_info :2013-08-19-XX-XX)
+ClassAssertion(:event_info :2013年8月15日)
+ClassAssertion(:event_info :保险业)
+ClassAssertion(:event_info :公司)
+ClassAssertion(:event_info :涉嫌经济)
+ClassAssertion(:event_info :上海泛鑫保险代理有限公司)
+ClassAssertion(:event_info :中国)
+ClassAssertion(:event_info :警方)
+ClassAssertion(:event_info :回国)
+ClassAssertion(:event_info :外逃)
+ClassAssertion(:event_info :合作)
+ClassAssertion(:event_info :海保监局)
+ClassAssertion(:event_info :抓获)
+ClassAssertion(:event_info :固定收益)
+ClassAssertion(:event_info :高管)
+ClassAssertion(:event_info :公告)
+ClassAssertion(:event_info :发布)
+ClassAssertion(:event_info :2013年8月19日)
+ClassAssertion(:event_info :犯罪人)
+ClassAssertion(:event_info :2013-08-15-XX-XX)
+ClassAssertion(:event_info :国内整个)
+ClassAssertion(:event_info :8月19日晚)
+ClassAssertion(:event_info :加拿大)
+ClassAssertion(:event_info :上海泛鑫保险代理有限)
+ClassAssertion(:event_info :押解)
+ClassAssertion(:event_info :上海市公安机关)
+ClassAssertion(:event_info :震惊)
+ClassAssertion(:event_info :泛鑫保险公司)
+ClassAssertion(:event_info :侦查)
+ClassAssertion(:event_info :公安机关)
+ClassAssertion(:event_info :中国警方)
+ClassAssertion(:event_info :事件)
+ClassAssertion(:event_info :销售)
+ClassAssertion(:event_info :上海)
+ClassAssertion(:event_info :陈怡)
+ClassAssertion(:event_info :上海最大保险中介机构——泛鑫保险公司的美女)
+ClassAssertion(:event_info :斐济执法部门)
+ClassAssertion(:event_info :立案)
+ClassAssertion(:event_info :斐济)
+ClassAssertion(:event_info :上海市)
+
+
+ClassAssertion(:relation_info :时序关系)
+ClassAssertion(:relation_info :子事件关系)
+ClassAssertion(:relation_info :因果关系)
+
+
+
+)

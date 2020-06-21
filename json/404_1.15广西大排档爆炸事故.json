@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "夜宵摊",
           "trigger_object": "事故",
-          "agent_attri": "一",
           "object_attri": "一起疑似煤气爆炸",
           "time": "2015年1月15日21时30分",
           "time_align": "2015-01-15-21-30",
           "location": "广西崇左市宁明县中镇德华街新宁超市旁",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一",
+          "trigger_subject": "夜宵摊"
         }
       ]
     },
@@ -24,41 +24,41 @@
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "爆炸事件",
           "trigger_object": "伤亡",
-          "agent_attri": "",
           "object_attri": "25人",
           "time": "1月15日23时37分",
           "time_align": "2015-01-15-23-37",
           "location": "广西崇左市宁明县中镇德华街新宁超市旁",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "爆炸事件"
         },
         {
           "child_event_id": "e03",
           "trigger": "造成",
-          "trigger_agent": "爆炸事件",
           "trigger_object": "遇难",
-          "agent_attri": "",
           "object_attri": "6人",
           "time": "1月15日23时37分",
           "time_align": "2015-01-15-23-37",
           "location": "广西崇左市宁明县中镇德华街新宁超市旁",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "爆炸事件"
         },
         {
           "child_event_id": "e04",
           "trigger": "造成",
-          "trigger_agent": "爆炸事件",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "19人",
           "time": "1月15日23时37分",
           "time_align": "2015-01-15-23-37",
           "location": "广西崇左市宁明县中镇德华街新宁超市旁",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "爆炸事件"
         }
       ]
     },
@@ -68,15 +68,15 @@
         {
           "child_event_id": "e05",
           "trigger": "被控制",
-          "trigger_agent": "责任人",
           "trigger_object": "警方",
-          "agent_attri": "相关",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "相关",
+          "trigger_subject": "责任人"
         }
       ]
     }

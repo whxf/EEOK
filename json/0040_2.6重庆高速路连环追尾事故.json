@@ -7,53 +7,53 @@
           "child_event_id": "e01",
           "time": "2015年2月6日",
           "time_align": "2015-02-06-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "追尾事故",
           "object_attri": "一起3辆轿车连环",
           "location": "重庆武隆前往水江方向的高速路上",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "time": "2015年2月6日",
           "time_align": "2015-02-06-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "死亡",
           "object_attri": "3人",
           "location": "重庆武隆前往水江方向的高速路上",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "time": "2015年2月6日",
           "time_align": "2015-02-06-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "重伤",
           "object_attri": "3人",
           "location": "重庆武隆前往水江方向的高速路上",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "time": "2015年2月6日",
           "time_align": "2015-02-06-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "轻伤",
           "object_attri": "1人",
           "location": "重庆武隆前往水江方向的高速路上",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -64,40 +64,40 @@
           "child_event_id": "e05",
           "time": "2015年2月6日凌晨1时",
           "time_align": "2015-02-06-01-00",
-          "trigger_agent": "中队",
-          "agent_attri": "",
           "trigger": "接到",
           "trigger_object": "报警",
           "object_attri": "",
           "location": "水江",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "中队"
         },
         {
           "child_event_id": "e06",
           "time": "2015年2月6日凌晨1时",
           "time_align": "2015-02-06-01-00",
-          "trigger_agent": "中队",
-          "agent_attri": "",
           "trigger": "出动",
           "trigger_object": "消防车/官兵",
           "object_attri": "2台/14名",
           "location": "水江",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "中队"
         },
         {
           "child_event_id": "e07",
           "time": "2015年2月6日凌晨1时",
           "time_align": "2015-02-06-01-00",
-          "trigger_agent": "消防车/官兵",
-          "agent_attri": "2台/14名",
           "trigger": "前往",
           "trigger_object": "救援",
           "object_attri": "",
           "location": "水江",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "2台/14名",
+          "trigger_subject": "消防车/官兵"
         }
       ]
     },
@@ -108,27 +108,27 @@
           "child_event_id": "e09",
           "time": "",
           "time_align": "",
-          "trigger_agent": "伤者",
-          "agent_attri": "",
           "trigger": "送往",
           "trigger_object": "医院",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "伤者"
         },
         {
           "child_event_id": "e09",
           "time": "",
           "time_align": "",
-          "trigger_agent": "伤者",
-          "agent_attri": "",
           "trigger": "获得",
           "trigger_object": "救治",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "伤者"
         }
       ]
     }

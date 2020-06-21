@@ -7,66 +7,66 @@
           "child_event_id": "e01",
           "time": "2010年10月15日凌晨3时",
           "time_align": "2010-10-15-03-XX",
-          "trigger_agent": "村委会",
-          "agent_attri": "苏湖",
           "trigger": "调解",
           "trigger_object": "民事纠纷",
           "object_attri": "一起",
           "location": "宿州市埇桥区埇桥杨庄乡苏湖村",
           "organization": "宿州市埇桥区埇桥杨庄乡苏湖村委会",
-          "person": ""
+          "person": "",
+          "subject_attri": "苏湖",
+          "trigger_subject": "村委会"
         },
         {
           "child_event_id": "e02",
           "time": "2010年10月15日凌晨3时",
           "time_align": "2010-10-15-03-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "引爆",
           "trigger_object": "炸药",
           "object_attri": "",
           "location": "宿州市埇桥区埇桥杨庄乡苏湖村",
           "organization": "宿州市埇桥区埇桥杨庄乡苏湖村委会",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "time": "2010年10月15日凌晨3时",
           "time_align": "2010-10-15-03-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "爆炸",
           "object_attri": "",
           "location": "宿州市埇桥区埇桥杨庄乡苏湖村",
           "organization": "宿州市埇桥区埇桥杨庄乡苏湖村委会",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "time": "2010年10月15日凌晨3时",
           "time_align": "2010-10-15-03-XX",
-          "trigger_agent": "此案",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "死亡",
           "object_attri": "6人",
           "location": "宿州市埇桥区埇桥杨庄乡苏湖村",
           "organization": "宿州市埇桥区埇桥杨庄乡苏湖村委会",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "此案"
         },
         {
           "child_event_id": "e05",
           "time": "2010年10月15日凌晨3时",
           "time_align": "2010-10-15-03-XX",
-          "trigger_agent": "此案",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "重伤",
           "object_attri": "1人",
           "location": "宿州市埇桥区埇桥杨庄乡苏湖村",
           "organization": "宿州市埇桥区埇桥杨庄乡苏湖村委会",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "此案"
         }
       ]
     },
@@ -77,14 +77,14 @@
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "查明",
           "trigger_object": "杀人案件",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

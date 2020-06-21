@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "突发",
-          "trigger_agent": "工厂",
           "trigger_object": "爆炸",
-          "agent_attri": "江西省南昌市高新技术开发区一家",
           "object_attri": "",
           "time": "2009年12月15日20:30",
           "time_align": "2009-12-15-20-30",
           "location": "江西省南昌市高新技术开发区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "江西省南昌市高新技术开发区一家",
+          "trigger_subject": "工厂"
         },
         {
           "child_event_id": "e02",
           "trigger": "引起",
-          "trigger_agent": "爆炸",
           "trigger_object": "火灾",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2009年12月15日20:30",
           "time_align": "2009-12-15-20-30",
           "location": "江西省南昌市高新技术开发区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "爆炸"
         },
         {
           "child_event_id": "e03",
           "trigger": "被-震碎",
-          "trigger_agent": "玻璃窗",
           "trigger_object": "",
-          "agent_attri": "数百米之外",
           "object_attri": "",
           "time": "2009年12月15日20:30",
           "time_align": "2009-12-15-20-30",
           "location": "江西省南昌市高新技术开发区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "数百米之外",
+          "trigger_subject": "玻璃窗"
         }
       ]
     },
@@ -50,15 +50,15 @@
         {
           "child_event_id": "e04",
           "trigger": "塌",
-          "trigger_agent": "房子",
           "trigger_object": "",
-          "agent_attri": "发生爆炸的厂房整栋",
           "object_attri": "",
           "time": "",
           "time_align": "2009-12-15-20-30",
           "location": "江西省南昌市高新技术开发区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "发生爆炸的厂房整栋",
+          "trigger_subject": "房子"
         }
       ]
     }

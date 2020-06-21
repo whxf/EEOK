@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2016年12月20日1时12分",
           "time_align": "2016-12-20-01-15",
-          "trigger_agent": "船/船",
-          "agent_attri": "一艘挂香港旗商/一艘泉州籍渔",
           "trigger": "发生",
           "trigger_object": "碰撞",
           "object_attri": "",
           "location": "漳州海域(23-42N/117-46E)",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一艘挂香港旗商/一艘泉州籍渔",
+          "trigger_subject": "船/船"
         },
         {
           "child_event_id": "e02",
           "time": "2016年12月20日1时12分",
           "time_align": "2016-12-20-01-15",
-          "trigger_agent": "事故",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "沉没",
           "object_attri": "渔船",
           "location": "漳州海域(23-42N/117-46E)",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         }
       ]
     },
@@ -38,27 +38,27 @@
           "child_event_id": "e03",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "渔民",
-          "agent_attri": "3名落水",
           "trigger": "获救",
           "trigger_object": "",
           "object_attri": "",
           "location": "漳州海域(23-42N/117-46E)",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "3名落水",
+          "trigger_subject": "渔民"
         },
         {
           "child_event_id": "e04",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "人",
-          "agent_attri": "11",
           "trigger": "失踪",
           "trigger_object": "",
           "object_attri": "",
           "location": "漳州海域(23-42N/117-46E)",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "11",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -69,40 +69,40 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "",
           "trigger": "赶到",
           "trigger_object": "搜救中心",
           "object_attri": "海上",
           "location": "漳州市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "",
           "trigger": "了解",
           "trigger_object": "搜救情况",
           "object_attri": "海上",
           "location": "漳州市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "",
           "trigger": "组织",
           "trigger_object": "善后工作",
           "object_attri": "",
           "location": "漳州市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "领导"
         }
       ]
     }

@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "百业商贸城内",
           "trigger_object": "火灾",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2015年1月30日16时16分",
           "time_align": "2015-01-30-16-16",
           "location": "广西桂林市叠彩区百业商贸城内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "百业商贸城内"
         },
         {
           "child_event_id": "e02",
           "trigger": "被烧",
-          "trigger_agent": "商铺",
           "trigger_object": "",
-          "agent_attri": "多家",
           "object_attri": "",
           "time": "2015年1月30日16时16分",
           "time_align": "2015-01-30-16-16",
           "location": "广西桂林市叠彩区百业商贸城内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "多家",
+          "trigger_subject": "商铺"
         }
       ]
     },
@@ -37,41 +37,41 @@
         {
           "child_event_id": "e03",
           "trigger": "被扑灭",
-          "trigger_agent": "大火",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "18时",
           "time_align": "2015-01-30-18-XX",
           "location": "广西桂林市叠彩区百业商贸城内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "大火"
         },
         {
           "child_event_id": "e04",
           "trigger": "排查",
-          "trigger_agent": "官兵",
           "trigger_object": "余火",
-          "agent_attri": "消防",
           "object_attri": "",
           "time": "18时",
           "time_align": "2015-01-30-18-XX",
           "location": "广西桂林市叠彩区百业商贸城内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "消防",
+          "trigger_subject": "官兵"
         },
         {
           "child_event_id": "e05",
           "trigger": "未造成",
-          "trigger_agent": "",
           "trigger_object": "伤亡",
-          "agent_attri": "",
           "object_attri": "人员",
           "time": "18时",
           "time_align": "2015-01-30-18-XX",
           "location": "广西桂林市叠彩区百业商贸城内",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

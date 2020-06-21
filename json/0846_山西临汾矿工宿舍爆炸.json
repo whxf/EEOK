@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "地面",
           "trigger_object": "爆炸",
-          "agent_attri": "山西省临汾市冀城县山西阳泉煤业集团柳沟煤业有限公司",
           "object_attri": "炸药",
           "time": "2010年7月31日2时44分",
           "time_align": "2010-07-31-02-44",
           "location": "山西省临汾市冀城县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "山西省临汾市冀城县山西阳泉煤业集团柳沟煤业有限公司",
+          "trigger_subject": "地面"
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "被毁",
-          "agent_attri": "",
           "object_attri": "该矿10余间职工宿舍",
           "time": "2010年7月31日2时44分",
           "time_align": "2010-07-31-02-44",
           "location": "山西省临汾市冀城县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,41 +37,41 @@
         {
           "child_event_id": "e03",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "17人",
           "time": "",
           "time_align": "2010-07-31-02-44",
           "location": "山西省临汾市冀城县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "重伤",
-          "agent_attri": "",
           "object_attri": "7人",
           "time": "",
           "time_align": "2010-07-31-02-44",
           "location": "山西省临汾市冀城县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "轻伤",
-          "agent_attri": "",
           "object_attri": "68人",
           "time": "",
           "time_align": "2010-07-31-02-44",
           "location": "山西省临汾市冀城县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -81,15 +81,15 @@
         {
           "child_event_id": "e06",
           "trigger": "进行",
-          "trigger_agent": "工作",
           "trigger_object": "",
-          "agent_attri": "现场清理搜救",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "山西省临汾市冀城县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "现场清理搜救",
+          "trigger_subject": "工作"
         }
       ]
     }

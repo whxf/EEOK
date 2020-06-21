@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "命案",
-          "agent_attri": "",
           "object_attri": "重大",
           "time": "2014年5月9日凌晨0时5分",
           "time_align": "2014-05-09-00-05",
           "location": "曲阳县灵山镇东庞家洼村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "trigger": "被-杀",
-          "trigger_agent": "被害人",
           "trigger_object": "",
-          "agent_attri": "七名",
           "object_attri": "",
           "time": "2014年5月9日凌晨0时5分",
           "time_align": "2014-05-09-00-05",
           "location": "曲阳县灵山镇东庞家洼村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "七名",
+          "trigger_subject": "被害人"
         }
       ]
     },
@@ -37,28 +37,28 @@
         {
           "child_event_id": "e03",
           "trigger": "撞车",
-          "trigger_agent": "犯罪嫌疑人",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "犯罪嫌疑人"
         },
         {
           "child_event_id": "e04",
           "trigger": "身亡",
-          "trigger_agent": "犯罪嫌疑人",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "犯罪嫌疑人"
         }
       ]
     },
@@ -68,15 +68,15 @@
         {
           "child_event_id": "e05",
           "trigger": "进行",
-          "trigger_agent": "工作",
           "trigger_object": "",
-          "agent_attri": "案件侦查和善后",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "案件侦查和善后",
+          "trigger_subject": "工作"
         }
       ]
     }

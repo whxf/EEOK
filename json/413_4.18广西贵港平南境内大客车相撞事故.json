@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "造成",
-          "trigger_agent": "交通事故",
           "trigger_object": "受伤",
-          "agent_attri": "一起",
           "object_attri": "34人",
           "time": "2013年4月18日晚",
           "time_align": "2013-04-18-XX-XX",
           "location": "211省道平南城区至镇隆镇路段",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一起",
+          "trigger_subject": "交通事故"
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "3人",
           "object_attri": "",
           "time": "2013年4月18日晚",
           "time_align": "2013-04-18-XX-XX",
           "location": "211省道平南城区至镇隆镇路段",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "3人",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,41 +37,41 @@
         {
           "child_event_id": "e03",
           "trigger": "启动",
-          "trigger_agent": "县委/县政府",
           "trigger_object": "应急预案",
-          "agent_attri": "",
           "object_attri": "突发事件",
           "time": "",
           "time_align": "",
           "location": "平南县",
           "organization": "县委/县政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "县委/县政府"
         },
         {
           "child_event_id": "e04",
           "trigger": "指示",
-          "trigger_agent": "县委/县政府",
           "trigger_object": "部门",
-          "agent_attri": "",
           "object_attri": "县公安/消防/安监/卫生等",
           "time": "",
           "time_align": "",
           "location": "平南县",
           "organization": "县委/县政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "县委/县政府"
         },
         {
           "child_event_id": "e05",
           "trigger": "抢救",
-          "trigger_agent": "部门",
           "trigger_object": "伤员",
-          "agent_attri": "县公安/消防/安监/卫生等",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "平南县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "县公安/消防/安监/卫生等",
+          "trigger_subject": "部门"
         }
       ]
     },
@@ -81,15 +81,15 @@
         {
           "child_event_id": "e06",
           "trigger": "进行",
-          "trigger_agent": "工作",
           "trigger_object": "",
-          "agent_attri": "伤员治疗/事故调查和处置等相关",
           "object_attri": "",
           "time": "目前",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "伤员治疗/事故调查和处置等相关",
+          "trigger_subject": "工作"
         }
       ]
     }

@@ -7,53 +7,53 @@
           "child_event_id": "e01",
           "time": "8月24日晨5点30分",
           "time_align": "XXXX-08-24-05-30",
-          "trigger_agent": "引桥",
-          "agent_attri": "阳明滩大桥",
           "trigger": "发生",
           "trigger_object": "坍塌",
           "object_attri": "",
           "location": "哈尔滨阳明滩大桥",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "阳明滩大桥",
+          "trigger_subject": "引桥"
         },
         {
           "child_event_id": "e02",
           "time": "8月24日晨5点30分",
           "time_align": "XXXX-08-24-05-30",
-          "trigger_agent": "货车",
-          "agent_attri": "四辆大型",
           "trigger": "坠桥",
           "trigger_object": "",
           "object_attri": "",
           "location": "哈尔滨阳明滩大桥",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "四辆大型",
+          "trigger_subject": "货车"
         },
         {
           "child_event_id": "e03",
           "time": "8月24日晨5点30分",
           "time_align": "XXXX-08-24-05-30",
-          "trigger_agent": "人",
-          "agent_attri": "3",
           "trigger": "遇难",
           "trigger_object": "",
           "object_attri": "",
           "location": "哈尔滨阳明滩大桥",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "3",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e04",
           "time": "8月24日晨5点30分",
           "time_align": "XXXX-08-24-05-30",
-          "trigger_agent": "人",
-          "agent_attri": "5",
           "trigger": "受伤",
           "trigger_object": "",
           "object_attri": "",
           "location": "哈尔滨阳明滩大桥",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "5",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -64,27 +64,27 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "120急救/消防/交警/工作人员",
-          "agent_attri": "*/*/*/相关部门",
           "trigger": "赶赴",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "哈尔滨阳明滩大桥",
           "organization": "哈尔滨120急救",
-          "person": ""
+          "person": "",
+          "subject_attri": "*/*/*/相关部门",
+          "trigger_subject": "120急救/消防/交警/工作人员"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "参与",
           "trigger_object": "救援",
           "object_attri": "",
           "location": "哈尔滨阳明滩大桥",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

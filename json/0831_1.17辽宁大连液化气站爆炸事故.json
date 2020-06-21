@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "液化气站",
           "trigger_object": "爆炸",
-          "agent_attri": "大连金州桃园小区",
           "object_attri": "",
           "time": "2015年1月17日18时50分",
           "time_align": "2015-01-17-18-50",
           "location": "大连金州桃园小区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "大连金州桃园小区",
+          "trigger_subject": "液化气站"
         }
       ]
     },
@@ -24,28 +24,28 @@
         {
           "child_event_id": "e02",
           "trigger": "被-疏散",
-          "trigger_agent": "居民",
           "trigger_object": "",
-          "agent_attri": "附近",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "大连金州桃园小区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "附近",
+          "trigger_subject": "居民"
         },
         {
           "child_event_id": "e03",
           "trigger": "赶到",
-          "trigger_agent": "公安、消防车、120",
           "trigger_object": "现场",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "大连金州桃园小区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安、消防车、120"
         }
       ]
     },
@@ -55,28 +55,28 @@
         {
           "child_event_id": "e04",
           "trigger": "处于",
-          "trigger_agent": "",
           "trigger_object": "状态",
-          "agent_attri": "",
           "object_attri": "警戒",
           "time": "目前",
           "time_align": "",
           "location": "大连金州桃园小区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
           "trigger": "待命",
-          "trigger_agent": "消防车",
           "trigger_object": "",
-          "agent_attri": "四五十辆",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "大连金州桃园小区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "四五十辆",
+          "trigger_subject": "消防车"
         }
       ]
     }

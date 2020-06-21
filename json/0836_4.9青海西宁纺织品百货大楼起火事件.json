@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "楼",
           "trigger_object": "火灾",
-          "agent_attri": "西宁纺织品大",
           "object_attri": "重大",
           "time": "4月9日15时",
           "time_align": "XXXX-04-09-15-00",
           "location": "西宁",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "西宁纺织品大",
+          "trigger_subject": "楼"
         }
       ]
     },
@@ -24,28 +24,28 @@
         {
           "child_event_id": "e02",
           "trigger": "扑救",
-          "trigger_agent": "官兵",
           "trigger_object": "",
-          "agent_attri": "消防",
           "object_attri": "",
           "time": "8个小时",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "消防",
+          "trigger_subject": "官兵"
         },
         {
           "child_event_id": "e03",
           "trigger": "扑灭",
-          "trigger_agent": "明火",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "11时30分",
           "time_align": "XXXX-04-10-11-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "明火"
         }
       ]
     },
@@ -55,28 +55,28 @@
         {
           "child_event_id": "e04",
           "trigger": "进行",
-          "trigger_agent": "官兵",
           "trigger_object": "排查",
-          "agent_attri": "消防",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "西宁",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "消防",
+          "trigger_subject": "官兵"
         },
         {
           "child_event_id": "e05",
           "trigger": "防止",
-          "trigger_agent": "",
           "trigger_object": "复燃",
-          "agent_attri": "",
           "object_attri": "死火",
           "time": "",
           "time_align": "",
           "location": "西宁",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "下坠",
-          "trigger_agent": "升降台",
           "trigger_object": "",
-          "agent_attri": "正在进行职工歌咏比赛彩排的毕节大剧院舞台主",
           "object_attri": "",
           "time": "5月9日下午3时",
           "time_align": "XXXX-05-09-03-XX",
           "location": "毕节大剧院",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "正在进行职工歌咏比赛彩排的毕节大剧院舞台主",
+          "trigger_subject": "升降台"
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "参加彩排的8名职工",
           "time": "5月9日下午3时",
           "time_align": "XXXX-05-09-03-XX",
           "location": "毕节大剧院",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,15 +37,15 @@
         {
           "child_event_id": "e03",
           "trigger": "赶赴",
-          "trigger_agent": "相关单位",
           "trigger_object": "现场",
-          "agent_attri": "",
           "object_attri": "",
           "time": "5月9日下午3时",
           "time_align": "XXXX-05-09-03-XX",
           "location": "毕节大剧院",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "相关单位"
         }
       ]
     },
@@ -55,28 +55,28 @@
         {
           "child_event_id": "e04",
           "trigger": "送到",
-          "trigger_agent": "伤者",
           "trigger_object": "医院",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "伤者"
         },
         {
           "child_event_id": "e05",
           "trigger": "被-调查",
-          "trigger_agent": "原因",
           "trigger_object": "",
-          "agent_attri": "事件",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "事件",
+          "trigger_subject": "原因"
         }
       ]
     }

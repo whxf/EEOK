@@ -5,42 +5,42 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "",
           "trigger": "突发",
           "trigger_object": "山体滑坡事故",
-          "agent_attri": "",
           "object_attri": "特大",
           "time": "2015年8月12日0时30分",
           "time_align": "2015-08-12-00-30",
           "location": "陕西省商洛市山阳县中村镇烟家沟村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
-          "trigger_agent": "",
           "trigger": "造成",
           "trigger_object": "被埋",
-          "agent_attri": "",
           "object_attri": "15间职工宿舍",
           "time": "2015年8月12日0时30分左右",
           "time_align": "2015-08-12-00-30",
           "location": "陕西省商洛市山阳县中村镇烟家沟村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
-          "trigger_agent": "",
           "trigger": "造成",
           "trigger_object": "被埋",
-          "agent_attri": "",
           "object_attri": "3间民房",
           "time": "2015年8月12日0时30分左右",
           "time_align": "2015-08-12-00-30",
           "location": "陕西省商洛市山阳县中村镇烟家沟村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -50,28 +50,28 @@
         {
           "child_event_id": "e04",
           "trigger": "遭遇",
-          "trigger_agent": "当地",
           "trigger_object": "降雨天气",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "陕西省商洛市山阳县中村镇烟家沟村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "当地"
         },
         {
           "child_event_id": "e05",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "塌方",
-          "agent_attri": "",
           "object_attri": "二次",
           "time": "",
           "time_align": "",
           "location": "陕西省商洛市山阳县中村镇烟家沟村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -81,28 +81,28 @@
         {
           "child_event_id": "e06",
           "trigger": "启动",
-          "trigger_agent": "",
           "trigger_object": "应急响应",
-          "agent_attri": "",
           "object_attri": "",
           "time": "12日上午10点",
           "time_align": "2015-08-12-10-XX",
           "location": "",
           "organization": "国土资源部",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e07",
           "trigger": "赶赴",
-          "trigger_agent": "专家",
           "trigger_object": "现场",
-          "agent_attri": "部门应急中心",
           "object_attri": "",
           "time": "12日中午10点",
           "time_align": "2015-08-12-XX-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "部门应急中心",
+          "trigger_subject": "专家"
         }
       ]
     },
@@ -112,41 +112,41 @@
         {
           "child_event_id": "e08",
           "trigger": "到达",
-          "trigger_agent": "部队",
           "trigger_object": "现场",
-          "agent_attri": "专家组及武警",
           "object_attri": "",
           "time": "2015年8月12日上午11时25分",
           "time_align": "2015-08-12-11-25",
           "location": "陕西省商洛市山阳县中村镇烟家沟村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "专家组及武警",
+          "trigger_subject": "部队"
         },
         {
           "child_event_id": "e09",
           "trigger": "配合",
-          "trigger_agent": "部队",
           "trigger_object": "指挥部",
-          "agent_attri": "前方应急",
           "object_attri": "",
           "time": "12日中午",
           "time_align": "2015-08-12-XX-XX",
           "location": "陕西省商洛市山阳县中村镇烟家沟村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "前方应急",
+          "trigger_subject": "部队"
         },
         {
           "child_event_id": "e10",
           "trigger": "开展",
-          "trigger_agent": "部队",
           "trigger_object": "抢险救灾工作",
-          "agent_attri": "各项",
           "object_attri": "",
           "time": "12日中午",
           "time_align": "2015-08-12-XX-XX",
           "location": "陕西省商洛市山阳县中村镇烟家沟村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "各项",
+          "trigger_subject": "部队"
         }
       ]
     },
@@ -156,28 +156,28 @@
         {
           "child_event_id": "e11",
           "trigger": "签定",
-          "trigger_agent": "家属",
           "trigger_object": "补偿救助协议",
-          "agent_attri": "山阳籍17户28名遇难及失踪人员",
           "object_attri": "",
           "time": "8月19日19时",
           "time_align": "2015-08-19-19-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "山阳籍17户28名遇难及失踪人员",
+          "trigger_subject": "家属"
         },
         {
           "child_event_id": "e12",
           "trigger": "完成",
-          "trigger_agent": "",
           "trigger_object": "兑付",
-          "agent_attri": "",
           "object_attri": "补偿资金",
           "time": "8月19日19时",
           "time_align": "2015-08-19-19-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

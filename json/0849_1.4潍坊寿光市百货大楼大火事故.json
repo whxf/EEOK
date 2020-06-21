@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "店",
           "trigger_object": "火灾",
-          "agent_attri": "山东寿光市广场街百货大楼购物中心一楼24小时营业的中式快餐连锁店“禾和豆浆”",
           "object_attri": "",
           "time": "2013年1月4日4时40分",
           "time_align": "2013-01-04-04-40",
           "location": "山东寿光市广场街百货大楼购物中心",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "山东寿光市广场街百货大楼购物中心一楼24小时营业的中式快餐连锁店“禾和豆浆”",
+          "trigger_subject": "店"
         },
         {
           "child_event_id": "e02",
           "trigger": "引发",
-          "trigger_agent": "",
           "trigger_object": "着火",
-          "agent_attri": "百货大楼购物中心二楼服装仓库",
           "object_attri": "",
           "time": "2013年1月4日4时40分",
           "time_align": "2013-01-04-04-40",
           "location": "山东寿光市广场街百货大楼购物中心",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "百货大楼购物中心二楼服装仓库",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,15 +37,15 @@
         {
           "child_event_id": "e03",
           "trigger": "赶赴",
-          "trigger_agent": "消防车",
           "trigger_object": "现场",
-          "agent_attri": "50余辆",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "山东寿光市广场街百货大楼购物中心",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "50余辆",
+          "trigger_subject": "消防车"
         }
       ]
     },
@@ -55,28 +55,28 @@
         {
           "child_event_id": "e04",
           "trigger": "扑灭",
-          "trigger_agent": "明火",
           "trigger_object": "",
-          "agent_attri": "现场",
           "object_attri": "",
           "time": "目前",
           "time_align": "",
           "location": "山东寿光市广场街百货大楼购物中心",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "现场",
+          "trigger_subject": "明火"
         },
         {
           "child_event_id": "e05",
           "trigger": "未-造成",
-          "trigger_agent": "火灾",
           "trigger_object": "伤亡",
-          "agent_attri": "",
           "object_attri": "人员",
           "time": "目前",
           "time_align": "",
           "location": "山东寿光市广场街百货大楼购物中心",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "火灾"
         }
       ]
     },
@@ -86,15 +86,15 @@
         {
           "child_event_id": "e06",
           "trigger": "未详",
-          "trigger_agent": "原因",
           "trigger_object": "",
-          "agent_attri": "火灾",
           "object_attri": "",
           "time": "目前",
           "time_align": "",
           "location": "山东寿光市广场街百货大楼购物中心",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "火灾",
+          "trigger_subject": "原因"
         }
       ]
     }

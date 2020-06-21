@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "矿井",
           "trigger_object": "爆炸事故",
-          "agent_attri": "辽宁省辽阳市灯塔市西大窑镇大黄",
           "object_attri": "瓦斯",
           "time": "2012年3月22日中午12时",
           "time_align": "2013-03-22-12-XX",
           "location": "辽宁省辽阳市灯塔市西大窑镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "辽宁省辽阳市灯塔市西大窑镇大黄",
+          "trigger_subject": "矿井"
         }
       ]
     },
@@ -24,67 +24,67 @@
         {
           "child_event_id": "e02",
           "trigger": "核实",
-          "trigger_agent": "",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "2013-03-22-12-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "救援",
-          "trigger_agent": "",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "2013-03-22-12-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "生还",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "1",
           "object_attri": "",
           "time": "",
           "time_align": "2013-03-22-12-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "1",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e05",
           "trigger": "死亡",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "5",
           "object_attri": "",
           "time": "",
           "time_align": "2013-03-22-12-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "5",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e06",
           "trigger": "下落不明",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "17",
           "object_attri": "",
           "time": "",
           "time_align": "2013-03-22-12-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "17",
+          "trigger_subject": "人"
         }
       ]
     }

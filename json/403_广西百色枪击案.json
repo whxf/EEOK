@@ -6,37 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "枪击案",
           "object_attri": "一起",
-          "agent_attri": "",
           "time": "2014年9月26日7时",
           "time_align": "2014-09-26-07-XX",
           "location": "百色市右江区东合一路龙船巷",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "trigger": "手持",
-          "trigger_agent": "男子",
           "trigger_object": "枪支",
-          "agent_attri": "大约20名",
           "time": "2014年9月26日7时",
           "time_align": "2014-09-26-07-XX",
           "location": "百色市右江区东合一路龙船巷",
           "organization": "",
-          "person": ""
+          "person": "",
+          "object_attri": "",
+          "subject_attri": "大约20名",
+          "trigger_subject": "男子"
         },
         {
           "child_event_id": "e03",
           "trigger": "开枪互射",
-          "trigger_agent": "男子",
           "time": "2014年9月26日7时",
           "time_align": "2014-09-26-07-XX",
           "location": "百色市右江区东合一路龙船巷",
           "organization": "",
-          "person": ""
+          "person": "",
+          "trigger_object": "",
+          "object_attri": "",
+          "subject_attri": "",
+          "trigger_subject": "男子"
         }
       ]
     },
@@ -52,19 +56,22 @@
           "time_align": "2014-09-26-07-XX",
           "location": "百色市右江区东合一路龙船巷",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
           "trigger": "未-造成",
-          "trigger_agent": "事件",
           "trigger_object": "伤亡",
           "object_attri": "人员",
           "time": "2014年9月26日7时",
           "time_align": "2014-09-26-07-XX",
           "location": "百色市右江区东合一路龙船巷",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事件"
         }
       ]
     },
@@ -74,26 +81,28 @@
         {
           "child_event_id": "e06",
           "trigger": "成立",
-          "trigger_agent": "警方",
           "trigger_object": "专案组",
-          "agent_attri": "百色",
           "time": "目前",
           "time_align": "",
           "location": "百色",
           "organization": "",
-          "person": ""
+          "person": "",
+          "object_attri": "",
+          "subject_attri": "百色",
+          "trigger_subject": "警方"
         },
         {
           "child_event_id": "e07",
           "trigger": "自首",
-          "trigger_agent": "犯罪嫌疑人",
           "trigger_object": "",
-          "agent_attri": "一名",
           "time": "目前",
           "time_align": "",
           "location": "百色",
           "organization": "",
-          "person": ""
+          "person": "",
+          "object_attri": "",
+          "subject_attri": "一名",
+          "trigger_subject": "犯罪嫌疑人"
         }
       ]
     }

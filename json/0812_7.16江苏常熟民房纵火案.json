@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "幢",
           "trigger_object": "火灾",
-          "agent_attri": "江苏常熟虞山镇",
           "object_attri": "",
           "time": "2017年7月16日凌晨4时",
           "time_align": "2017-07-16-04-00",
           "location": "江苏常熟虞山镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "江苏常熟虞山镇",
+          "trigger_subject": "幢"
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死",
-          "agent_attri": "",
           "object_attri": "22",
           "time": "2017年7月16日凌晨4时",
           "time_align": "2017-07-16-04-00",
           "location": "江苏常熟虞山镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "伤",
-          "agent_attri": "",
           "object_attri": "3",
           "time": "2017年7月16日凌晨4时",
           "time_align": "2017-07-16-04-00",
           "location": "江苏常熟虞山镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -50,67 +50,67 @@
         {
           "child_event_id": "e04",
           "trigger": "调查",
-          "trigger_agent": "公安部门",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安部门"
         },
         {
           "child_event_id": "e05",
           "trigger": "取证",
-          "trigger_agent": "公安部门",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安部门"
         },
         {
           "child_event_id": "e06",
           "trigger": "立案",
-          "trigger_agent": "公安部门",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安部门"
         },
         {
           "child_event_id": "e07",
           "trigger": "侦查",
-          "trigger_agent": "公安部门",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安部门"
         },
         {
           "child_event_id": "e08",
           "trigger": "被-抓获",
-          "trigger_agent": "嫌疑人",
           "trigger_object": "公安部门",
-          "agent_attri": "姜某某",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": "姜某某"
+          "person": "姜某某",
+          "subject_attri": "姜某某",
+          "trigger_subject": "嫌疑人"
         }
       ]
     }

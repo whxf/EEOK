@@ -7,79 +7,79 @@
           "child_event_id": "e01",
           "time": "2011年1月4日11时20分",
           "time_align": "2011-01-04-11-20",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "杀人案件",
           "object_attri": "一起持枪",
           "location": "泰安市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "time": "2011年1月4日11时20分",
           "time_align": "2011-01-04-11-20",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "导致",
           "trigger_object": "受伤",
           "object_attri": "民警和群众9人",
           "location": "泰安市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "time": "2011年1月4日11时20分",
           "time_align": "2011-01-04-11-20",
-          "trigger_agent": "民警/协警",
-          "agent_attri": "2位/1位",
           "trigger": "殉职",
           "trigger_object": "",
           "object_attri": "",
           "location": "泰安市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "2位/1位",
+          "trigger_subject": "民警/协警"
         },
         {
           "child_event_id": "e04",
           "time": "2011年1月4日11时20分",
           "time_align": "2011-01-04-11-20",
-          "trigger_agent": "嫌疑人",
-          "agent_attri": "两名犯罪",
           "trigger": "被-抓获",
           "trigger_object": "",
           "object_attri": "",
           "location": "泰安市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "两名犯罪",
+          "trigger_subject": "嫌疑人"
         },
         {
           "child_event_id": "e05",
           "time": "2011年1月4日11时20分",
           "time_align": "2011-01-04-11-20",
-          "trigger_agent": "人",
-          "agent_attri": "一",
           "trigger": "开枪",
           "trigger_object": "",
           "object_attri": "",
           "location": "泰安市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e06",
           "time": "2011年1月4日11时20分",
           "time_align": "2011-01-04-11-20",
-          "trigger_agent": "人",
-          "agent_attri": "另一",
           "trigger": "自杀",
           "trigger_object": "",
           "object_attri": "",
           "location": "泰安市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "另一",
+          "trigger_subject": "人"
         }
       ]
     }

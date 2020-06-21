@@ -7,14 +7,14 @@
           "child_event_id": "e01",
           "time": "2013年7月4日",
           "time_align": "2013-07-04-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "燃烧事件",
           "object_attri": "四车",
           "location": "重庆主城南岸区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -25,40 +25,40 @@
           "child_event_id": "e02",
           "time": "4日下午",
           "time_align": "2013-07-04-XX-XX",
-          "trigger_agent": "公安分局",
-          "agent_attri": "",
           "trigger": "通报",
           "trigger_object": "",
           "object_attri": "",
           "location": "重庆市南岸区",
           "organization": "重庆市南岸区公安分局",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安分局"
         },
         {
           "child_event_id": "e03",
           "time": "当日凌晨4时40分",
           "time_align": "2013-07-04-04-40",
-          "trigger_agent": "公安分局",
-          "agent_attri": "",
           "trigger": "接到",
           "trigger_object": "报警",
           "object_attri": "群众",
           "location": "南岸区",
           "organization": "南岸区公安分局",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安分局"
         },
         {
           "child_event_id": "e04",
           "time": "当日凌晨4时40分",
           "time_align": "2013-07-04-04-40",
-          "trigger_agent": "小车",
-          "agent_attri": "",
           "trigger": "失火",
           "trigger_object": "",
           "object_attri": "",
           "location": "丹龙路骏逸天下小区旁人行道上",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "小车"
         }
       ]
     },
@@ -69,66 +69,66 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "派出所/交巡警/消防",
-          "agent_attri": "辖区",
           "trigger": "赶到",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "重庆市南岸区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "辖区",
+          "trigger_subject": "派出所/交巡警/消防"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "派出所/交巡警/消防",
-          "agent_attri": "辖区",
           "trigger": "通知",
           "trigger_object": "车辆",
           "object_attri": "未着火的",
           "location": "重庆市南岸区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "辖区",
+          "trigger_subject": "派出所/交巡警/消防"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "车辆",
-          "agent_attri": "",
           "trigger": "驶离",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "重庆市南岸区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "车辆"
         },
         {
           "child_event_id": "e08",
           "time": "",
           "time_align": "",
-          "trigger_agent": "派出所/交巡警/消防",
-          "agent_attri": "辖区",
           "trigger": "维持",
           "trigger_object": "秩序",
           "object_attri": "",
           "location": "重庆市南岸区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "辖区",
+          "trigger_subject": "派出所/交巡警/消防"
         },
         {
           "child_event_id": "e09",
           "time": "",
           "time_align": "",
-          "trigger_agent": "派出所/交巡警/消防",
-          "agent_attri": "辖区",
           "trigger": "扑灭",
           "trigger_object": "火",
           "object_attri": "大",
           "location": "重庆市南岸区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "辖区",
+          "trigger_subject": "派出所/交巡警/消防"
         }
       ]
     }

@@ -7,53 +7,53 @@
           "child_event_id": "e01",
           "time": "2014年3月17日上午10点左右",
           "time_align": "2014-03-17-10-00",
-          "trigger_agent": "车",
-          "agent_attri": "一辆44路公交",
           "trigger": "自燃",
           "trigger_object": "",
           "object_attri": "",
           "location": "前门东大街南侧",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆44路公交",
+          "trigger_subject": "车"
         },
         {
           "child_event_id": "e02",
           "time": "2014年3月17日上午10点左右",
           "time_align": "2014-03-17-10-00",
-          "trigger_agent": "消防员",
-          "agent_attri": "",
           "trigger": "赶到",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "前门东大街南侧",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "消防员"
         },
         {
           "child_event_id": "e03",
           "time": "2014年3月17日上午10点左右",
           "time_align": "2014-03-17-10-00",
-          "trigger_agent": "消防员",
-          "agent_attri": "",
           "trigger": "灭火",
           "trigger_object": "",
           "object_attri": "",
           "location": "前门东大街南侧",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "消防员"
         },
         {
           "child_event_id": "e04",
           "time": "2014年3月17日上午10点左右",
           "time_align": "2014-03-17-10-00",
-          "trigger_agent": "交警",
-          "agent_attri": "",
           "trigger": "采取",
           "trigger_object": "管制",
           "object_attri": "临时交通",
           "location": "前门东大街南侧",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "交警"
         }
       ]
     },
@@ -64,14 +64,14 @@
           "child_event_id": "e05",
           "time": "2014年3月17日上午10点左右",
           "time_align": "2014-03-17-10-00",
-          "trigger_agent": "火灾",
-          "agent_attri": "",
           "trigger": "没有-造成",
           "trigger_object": "伤亡",
           "object_attri": "人员",
           "location": "前门东大街南侧",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "火灾"
         }
       ]
     }

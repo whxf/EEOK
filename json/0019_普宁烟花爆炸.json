@@ -7,53 +7,53 @@
           "child_event_id": "e01",
           "time": "2010年2月26日晚",
           "time_align": "2010-02-26-XX-XX",
-          "trigger_agent": "村民",
-          "agent_attri": "广东揭阳普宁市军埠镇石桥头村",
           "trigger": "燃放",
           "trigger_object": "烟花",
           "object_attri": "",
           "location": "广东揭阳普宁市军埠镇石桥头村",
           "organization": "",
-          "person": "杨俊树"
+          "person": "杨俊树",
+          "subject_attri": "广东揭阳普宁市军埠镇石桥头村",
+          "trigger_subject": "村民"
         },
         {
           "child_event_id": "e02",
           "time": "2010年2月26日晚",
           "time_align": "2010-02-26-XX-XX",
-          "trigger_agent": "烟花",
-          "agent_attri": "",
           "trigger": "引起",
           "trigger_object": "爆炸",
           "object_attri": "",
           "location": "广东揭阳普宁市军埠镇石桥头村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "烟花"
         },
         {
           "child_event_id": "e03",
           "time": "2010年2月26日晚",
           "time_align": "2010-02-26-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "导致",
           "trigger_object": "被-震碎",
           "object_attri": "附近民宅玻璃",
           "location": "广东揭阳普宁市军埠镇石桥头村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "time": "2010年2月26日晚",
           "time_align": "2010-02-26-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "导致",
           "trigger_object": "起火",
           "object_attri": "一户民宅",
           "location": "广东揭阳普宁市军埠镇石桥头村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -64,79 +64,79 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "公安/消防/交警/120急救中心",
-          "agent_attri": "当地///",
           "trigger": "赶赴",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "广东揭阳普宁市军埠镇石桥头村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "当地///",
+          "trigger_subject": "公安/消防/交警/120急救中心"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "公安/消防/交警/120急救中心",
-          "agent_attri": "当地///",
           "trigger": "进行",
           "trigger_object": "抢救",
           "object_attri": "",
           "location": "广东揭阳普宁市军埠镇石桥头村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "当地///",
+          "trigger_subject": "公安/消防/交警/120急救中心"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "公安/消防/交警/120急救中心",
-          "agent_attri": "当地///",
           "trigger": "进行",
           "trigger_object": "处理",
           "object_attri": "",
           "location": "广东揭阳普宁市军埠镇石桥头村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "当地///",
+          "trigger_subject": "公安/消防/交警/120急救中心"
         },
         {
           "child_event_id": "e08",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "清理",
           "trigger_object": "尸体",
           "object_attri": "13具",
           "location": "广东揭阳普宁市军埠镇石桥头村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e09",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "伤员",
           "trigger": "被-救治",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "伤员",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e10",
           "time": "",
           "time_align": "",
-          "trigger_agent": "伤员",
-          "agent_attri": "7名重",
           "trigger": "死亡",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "7名重",
+          "trigger_subject": "伤员"
         }
       ]
     }

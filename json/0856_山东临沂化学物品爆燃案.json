@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "爆燃事故",
-          "agent_attri": "山东省临沂市兰山区金兰物流城F3区",
           "object_attri": "一起由装载化学物品的货车在卸车过程中引发的意外",
           "time": "2009年9月2日下午",
           "time_align": "2009-09-02-XX-XX",
           "location": "山东省临沂市兰山区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "山东省临沂市兰山区金兰物流城F3区",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "18人",
           "time": "2009年9月2日下午",
           "time_align": "2009-09-02-XX-XX",
           "location": "山东省临沂市兰山区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "10人",
           "object_attri": "",
           "time": "2009年9月2日下午",
           "time_align": "2009-09-02-XX-XX",
           "location": "山东省临沂市兰山区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "10人",
+          "trigger_subject": ""
         }
       ]
     },
@@ -50,41 +50,41 @@
         {
           "child_event_id": "e04",
           "trigger": "调集",
-          "trigger_agent": "公安消防部门",
           "trigger_object": "消防车、消防官兵",
-          "agent_attri": "临沂",
           "object_attri": "26部、91名",
           "time": "",
           "time_align": "",
           "location": "临沂",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "临沂",
+          "trigger_subject": "公安消防部门"
         },
         {
           "child_event_id": "e05",
           "trigger": "赶赴",
-          "trigger_agent": "消防车、消防官兵",
           "trigger_object": "现场",
-          "agent_attri": "26部、91名",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "临沂",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "26部、91名",
+          "trigger_subject": "消防车、消防官兵"
         },
         {
           "child_event_id": "e06",
           "trigger": "实施",
-          "trigger_agent": "消防车、消防官兵",
           "trigger_object": "救援",
-          "agent_attri": "26部、91名",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "临沂",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "26部、91名",
+          "trigger_subject": "消防车、消防官兵"
         }
       ]
     },
@@ -94,41 +94,41 @@
         {
           "child_event_id": "e07",
           "trigger": "重视",
-          "trigger_agent": "领导",
           "trigger_object": "",
-          "agent_attri": "临沂市委、市政府",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "临沂市",
           "organization": "临沂市委、市政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "临沂市委、市政府",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e08",
           "trigger": "组织",
-          "trigger_agent": "领导",
           "trigger_object": "部门",
-          "agent_attri": "临沂市委、市政府",
           "object_attri": "公安、安监、环保、卫生等",
           "time": "",
           "time_align": "",
           "location": "临沂市",
           "organization": "临沂市委、市政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "临沂市委、市政府",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e09",
           "trigger": "进行",
-          "trigger_agent": "部门",
           "trigger_object": "救援",
-          "agent_attri": "公安、安监、环保、卫生等",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "临沂市",
           "organization": "临沂市委、市政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "公安、安监、环保、卫生等",
+          "trigger_subject": "部门"
         }
       ]
     },
@@ -138,54 +138,54 @@
         {
           "child_event_id": "e10",
           "trigger": "赶到",
-          "trigger_agent": "领导",
           "trigger_object": "现场",
-          "agent_attri": "临沂市兰山区有关",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "临沂市兰山区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "临沂市兰山区有关",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e11",
           "trigger": "指挥",
-          "trigger_agent": "领导",
           "trigger_object": "救援",
-          "agent_attri": "临沂市兰山区有关",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "临沂市兰山区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "临沂市兰山区有关",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e12",
           "trigger": "成立",
-          "trigger_agent": "领导",
           "trigger_object": "调查组、处理组",
-          "agent_attri": "临沂市兰山区有关",
           "object_attri": "事故、善后",
           "time": "",
           "time_align": "",
           "location": "临沂市兰山区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "临沂市兰山区有关",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e13",
           "trigger": "得到",
-          "trigger_agent": "人员",
           "trigger_object": "救治",
-          "agent_attri": "受伤",
           "object_attri": "积极",
           "time": "",
           "time_align": "",
           "location": "临沂市兰山区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "受伤",
+          "trigger_subject": "人员"
         }
       ]
     },
@@ -195,15 +195,15 @@
         {
           "child_event_id": "e14",
           "trigger": "被-扑灭",
-          "trigger_agent": "火势",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "至2日16时30分",
           "time_align": "2009-09-02-16-30",
           "location": "山东省临沂市兰山区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "火势"
         }
       ]
     },
@@ -213,15 +213,15 @@
         {
           "child_event_id": "e15",
           "trigger": "被-调查",
-          "trigger_agent": "原因",
           "trigger_object": "",
-          "agent_attri": "事故",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "事故",
+          "trigger_subject": "原因"
         }
       ]
     }

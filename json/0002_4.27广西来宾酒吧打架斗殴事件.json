@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2017年4月27日凌晨",
           "time_align": "2017-04-27-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "打架斗殴事件",
           "object_attri": "",
           "location": "广西来宾市祥和路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "time": "2017年4月27日凌晨",
           "time_align": "2017-04-27-XX-XX",
-          "trigger_agent": "事件",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "死亡",
           "object_attri": "一名20多岁男子当场",
           "location": "广西来宾市祥和路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事件"
         }
       ]
     },
@@ -38,27 +38,27 @@
           "child_event_id": "e03",
           "time": "当日凌晨",
           "time_align": "2017-04-27-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "赶赴",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "来宾市",
           "organization": "来宾市公安局兴宾分局",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "time": "当日凌晨",
           "time_align": "2017-04-27-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "开展",
           "trigger_object": "工作",
           "object_attri": "处置",
           "location": "来宾市",
           "organization": "来宾市公安局兴宾分局",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -69,14 +69,14 @@
           "child_event_id": "e05",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "警方",
-          "agent_attri": "",
           "trigger": "展开",
           "trigger_object": "追捕",
           "object_attri": "",
           "location": "来宾市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         }
       ]
     }

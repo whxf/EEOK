@@ -6,28 +6,28 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "居民楼",
           "trigger_object": "爆炸事故",
-          "agent_attri": "辽宁省葫芦岛市龙港区一",
           "object_attri": "",
           "time": "6月12日5时10分",
           "time_align": "XXXX-06-12-05-10",
           "location": "辽宁省葫芦岛市龙港区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "辽宁省葫芦岛市龙港区一",
+          "trigger_subject": "居民楼"
         },
         {
           "child_event_id": "e02",
           "trigger": "发现",
-          "trigger_agent": "",
           "trigger_object": "人",
-          "agent_attri": "",
           "object_attri": "伤者10",
           "time": "6月12日5时10分",
           "time_align": "XXXX-06-12-05-10",
           "location": "辽宁省葫芦岛市龙港区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,15 +37,15 @@
         {
           "child_event_id": "e03",
           "trigger": "疑似",
-          "trigger_agent": "",
           "trigger_object": "爆炸",
-          "agent_attri": "",
           "object_attri": "液化气钢瓶",
           "time": "",
           "time_align": "",
           "location": "龙港区东街道岭东社区4号楼2单元",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -55,67 +55,67 @@
         {
           "child_event_id": "e04",
           "trigger": "确认",
-          "trigger_agent": "",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "辽宁省葫芦岛市龙港区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
           "trigger": "倒塌",
-          "trigger_agent": "楼体",
           "trigger_object": "",
-          "agent_attri": "爆炸现场的4号楼2单元西侧",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "辽宁省葫芦岛市龙港区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "爆炸现场的4号楼2单元西侧",
+          "trigger_subject": "楼体"
         },
         {
           "child_event_id": "e06",
           "trigger": "抢救",
-          "trigger_agent": "",
           "trigger_object": "人",
-          "agent_attri": "",
           "object_attri": "伤者10",
           "time": "",
           "time_align": "",
           "location": "辽宁省葫芦岛市龙港区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e07",
           "trigger": "送往",
-          "trigger_agent": "",
           "trigger_object": "医院",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e08",
           "trigger": "救治",
-          "trigger_agent": "",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -125,15 +125,15 @@
         {
           "child_event_id": "e09",
           "trigger": "组织",
-          "trigger_agent": "现场",
           "trigger_object": "救援",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "辽宁省葫芦岛市龙港区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "现场"
         }
       ]
     }

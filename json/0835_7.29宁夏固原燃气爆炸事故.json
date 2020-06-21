@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "公司",
           "trigger_object": "爆炸事故",
-          "agent_attri": "宁夏固原华帝燃气有限",
           "object_attri": "加气罐",
           "time": "2012年7月29日下午17时50分",
           "time_align": "2012-07-29-17-50",
           "location": "宁夏固原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "宁夏固原华帝燃气有限",
+          "trigger_subject": "公司"
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "重伤",
-          "agent_attri": "",
           "object_attri": "两名工作人员",
           "time": "2012年7月29日下午17时50分",
           "time_align": "2012-07-29-17-50",
           "location": "宁夏固原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "被-紧急疏散",
-          "trigger_agent": "群众",
           "trigger_object": "",
-          "agent_attri": "周边一百余名",
           "object_attri": "",
           "time": "2012年7月29日下午17时50分",
           "time_align": "2012-07-29-17-50",
           "location": "宁夏固原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "周边一百余名",
+          "trigger_subject": "群众"
         }
       ]
     },
@@ -50,54 +50,54 @@
         {
           "child_event_id": "e04",
           "trigger": "接到",
-          "trigger_agent": "消防支队",
           "trigger_object": "报警",
-          "agent_attri": "宁夏固原",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "宁夏固原",
           "organization": "宁夏固原消防支队",
-          "person": ""
+          "person": "",
+          "subject_attri": "宁夏固原",
+          "trigger_subject": "消防支队"
         },
         {
           "child_event_id": "e05",
           "trigger": "出动",
-          "trigger_agent": "消防支队",
           "trigger_object": "中队",
-          "agent_attri": "宁夏固原",
           "object_attri": "原州区消防中队和特勤",
           "time": "",
           "time_align": "",
           "location": "宁夏固原",
           "organization": "宁夏固原消防支队和特勤中队",
-          "person": ""
+          "person": "",
+          "subject_attri": "宁夏固原",
+          "trigger_subject": "消防支队"
         },
         {
           "child_event_id": "e06",
           "trigger": "赶赴",
-          "trigger_agent": "官兵、消防车",
           "trigger_object": "现场",
-          "agent_attri": "50余名、8辆",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "宁夏固原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "50余名、8辆",
+          "trigger_subject": "官兵、消防车"
         },
         {
           "child_event_id": "e07",
           "trigger": "展开",
-          "trigger_agent": "官兵、消防车",
           "trigger_object": "救援",
-          "agent_attri": "50余名、8辆",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "宁夏固原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "50余名、8辆",
+          "trigger_subject": "官兵、消防车"
         }
       ]
     },
@@ -107,15 +107,15 @@
         {
           "child_event_id": "e08",
           "trigger": "得到",
-          "trigger_agent": "起火",
           "trigger_object": "控制",
-          "agent_attri": "爆炸引起",
           "object_attri": "有效",
           "time": "",
           "time_align": "",
           "location": "宁夏固原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "爆炸引起",
+          "trigger_subject": "起火"
         }
       ]
     },
@@ -125,54 +125,54 @@
         {
           "child_event_id": "e09",
           "trigger": "进行",
-          "trigger_agent": "消防官兵",
           "trigger_object": "处理",
-          "agent_attri": "",
           "object_attri": "冷却",
           "time": "",
           "time_align": "",
           "location": "宁夏固原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "消防官兵"
         },
         {
           "child_event_id": "e10",
           "trigger": "防",
-          "trigger_agent": "",
           "trigger_object": "爆炸",
-          "agent_attri": "",
           "object_attri": "再次",
           "time": "",
           "time_align": "",
           "location": "宁夏固原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e11",
           "trigger": "进行",
-          "trigger_agent": "",
           "trigger_object": "警戒",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "宁夏固原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e12",
           "trigger": "确保",
-          "trigger_agent": "",
           "trigger_object": "安全",
-          "agent_attri": "",
           "object_attri": "周边群众生命财产",
           "time": "",
           "time_align": "",
           "location": "宁夏固原",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -182,15 +182,15 @@
         {
           "child_event_id": "e13",
           "trigger": "被-调查",
-          "trigger_agent": "原因",
           "trigger_object": "",
-          "agent_attri": "事故",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "事故",
+          "trigger_subject": "原因"
         }
       ]
     }

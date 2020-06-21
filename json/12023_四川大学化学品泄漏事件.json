@@ -5,29 +5,29 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "楼",
           "trigger": "弥漫",
           "trigger_object": "气体",
-          "agent_attri": "四川大学第一理科",
           "object_attri": "大片呛人的白雾状",
           "time": "2014年4月9日上午9点20分",
           "time_align": "2014-04-09-09-20",
           "location": "四川",
           "organization": "四川大学",
-          "person": ""
+          "person": "",
+          "subject_attri": "四川大学第一理科",
+          "trigger_subject": "楼"
         },
         {
           "child_event_id": "e02",
           "trigger": "引发",
-          "trigger_agent": "",
           "trigger_object": "紧急疏散",
-          "agent_attri": "",
           "object_attri": "校内师生",
           "time": "2014年4月9日上午9点20分左右",
           "time_align": "2014-04-09-09-20",
           "location": "四川",
           "organization": "四川大学",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,41 +37,41 @@
         {
           "child_event_id": "e03",
           "trigger": "据",
-          "trigger_agent": "",
           "trigger_object": "测试",
-          "agent_attri": "",
           "object_attri": "一名学霸",
           "time": "",
           "time_align": "",
           "location": "四川",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "处置",
-          "trigger_agent": "事故",
           "trigger_object": "完毕",
-          "agent_attri": "泄露",
           "object_attri": "",
           "time": "事发30分钟后",
           "time_align": "2014-04-09-09-50",
           "location": "四川",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "泄露",
+          "trigger_subject": "事故"
         },
         {
           "child_event_id": "e05",
           "trigger": "恢复",
-          "trigger_agent": "师生",
           "trigger_object": "上课",
-          "agent_attri": "全校",
           "object_attri": "正常",
           "time": "目前",
           "time_align": "",
           "location": "四川",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "全校",
+          "trigger_subject": "师生"
         }
       ]
     },
@@ -81,15 +81,15 @@
         {
           "child_event_id": "e06",
           "trigger": "受到",
-          "trigger_agent": "事件",
           "trigger_object": "关注",
-          "agent_attri": "四川大学化学品泄露",
           "object_attri": "四川各个高校的",
           "time": "",
           "time_align": "",
           "location": "四川",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "四川大学化学品泄露",
+          "trigger_subject": "事件"
         }
       ]
     }

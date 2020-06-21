@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "公司",
           "trigger_object": "爆燃事故",
-          "agent_attri": "山东新泰的山东联合化工股份有限",
           "object_attri": "一起",
           "time": "2011年11月19日14时",
           "time_align": "2011-11-19-14-00",
           "location": "山东新泰",
           "organization": "山东联合化工股份有限公司",
-          "person": ""
+          "person": "",
+          "subject_attri": "山东新泰的山东联合化工股份有限",
+          "trigger_subject": "公司"
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "4人",
           "time": "2011年11月19日14时",
           "time_align": "2011-11-19-14-00",
           "location": "山东新泰",
           "organization": "山东联合化工股份有限公司",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "15人",
           "time": "2011年11月19日14时",
           "time_align": "2011-11-19-14-00",
           "location": "山东新泰",
           "organization": "山东联合化工股份有限公司",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -50,41 +50,41 @@
         {
           "child_event_id": "e04",
           "trigger": "抢救",
-          "trigger_agent": "医院",
           "trigger_object": "无效",
-          "agent_attri": "",
           "object_attri": "",
           "time": "19日23时",
           "time_align": "2011-11-19-23-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "医院"
         },
         {
           "child_event_id": "e05",
           "trigger": "死亡",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "10",
           "object_attri": "",
           "time": "19日23时",
           "time_align": "2011-11-19-23-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "10",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e06",
           "trigger": "增至",
-          "trigger_agent": "人数",
           "trigger_object": "人",
-          "agent_attri": "死亡",
           "object_attri": "14",
           "time": "19日23时",
           "time_align": "2011-11-19-23-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "死亡",
+          "trigger_subject": "人数"
         }
       ]
     }

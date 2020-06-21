@@ -5,16 +5,16 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "煤矿",
           "trigger": "发生",
           "trigger_object": "爆炸事故",
-          "agent_attri": "白杨沟",
           "object_attri": "瓦斯",
           "time": "2013年12月13日凌晨1时26分",
           "time_align": "2013-12-13-01-26",
           "location": "新疆昌吉回族自治州呼图壁县雀尔沟镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "白杨沟",
+          "trigger_subject": "煤矿"
         }
       ]
     },
@@ -24,28 +24,28 @@
         {
           "child_event_id": "e02",
           "trigger": "出井",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "12",
           "object_attri": "",
           "time": "",
           "time_align": "2013-12-13-01-26",
           "location": "新疆昌吉回族自治州呼图壁县雀尔沟镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "12",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e03",
           "trigger": "被-困",
-          "trigger_agent": "人",
           "trigger_object": "井下",
-          "agent_attri": "22",
           "object_attri": "",
           "time": "",
           "time_align": "2013-12-13-01-26",
           "location": "新疆昌吉回族自治州呼图壁县雀尔沟镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "22",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -55,28 +55,28 @@
         {
           "child_event_id": "e04",
           "trigger": "获救",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "1",
           "object_attri": "",
           "time": "15时30分",
           "time_align": "2013-12-13-15-30",
           "location": "新疆昌吉回族自治州呼图壁县雀尔沟镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "1",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e05",
           "trigger": "确定",
-          "trigger_agent": "人",
           "trigger_object": "遇难",
-          "agent_attri": "21",
           "object_attri": "",
           "time": "15时30分",
           "time_align": "2013-12-13-15-30",
           "location": "新疆昌吉回族自治州呼图壁县雀尔沟镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "21",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -86,28 +86,28 @@
         {
           "child_event_id": "e06",
           "trigger": "开展",
-          "trigger_agent": "应急办",
           "trigger_object": "善后处置",
-          "agent_attri": "新疆维吾尔自治区",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "新疆维吾尔自治区",
           "organization": "新疆维吾尔自治区应急办",
-          "person": ""
+          "person": "",
+          "subject_attri": "新疆维吾尔自治区",
+          "trigger_subject": "应急办"
         },
         {
           "child_event_id": "e07",
           "trigger": "开展",
-          "trigger_agent": "应急办",
           "trigger_object": "事故调查工作",
-          "agent_attri": "新疆维吾尔自治区",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "新疆维吾尔自治区",
           "organization": "新疆维吾尔自治区应急办",
-          "person": ""
+          "person": "",
+          "subject_attri": "新疆维吾尔自治区",
+          "trigger_subject": "应急办"
         }
       ]
     }

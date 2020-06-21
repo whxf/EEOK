@@ -5,55 +5,55 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "",
           "trigger": "发生",
           "trigger_object": "事件",
-          "agent_attri": "",
           "object_attri": "一起持刀伤人",
           "time": "2014年5月12日中午",
           "time_align": "2014-05-12-XX-XX",
           "location": "云南大学滇池学院",
           "organization": "云南大学",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
-          "trigger_agent": "男子",
           "trigger": "爬进",
           "trigger_object": "宿舍",
-          "agent_attri": "一名校外持刀",
           "object_attri": "女生",
           "time": "2014年5月12日中午",
           "time_align": "2014-05-12-XX-XX",
           "location": "云南大学滇池学院",
           "organization": "云南大学",
-          "person": ""
+          "person": "",
+          "subject_attri": "一名校外持刀",
+          "trigger_subject": "男子"
         },
         {
           "child_event_id": "e03",
-          "trigger_agent": "男子",
           "trigger": "捅翻",
           "trigger_object": "女生",
-          "agent_attri": "一名校外持刀",
           "object_attri": "",
           "time": "2014年5月12日中午",
           "time_align": "2014-05-12-XX-XX",
           "location": "云南大学滇池学院",
           "organization": "云南大学",
-          "person": ""
+          "person": "",
+          "subject_attri": "一名校外持刀",
+          "trigger_subject": "男子"
         },
         {
           "child_event_id": "e04",
-          "trigger_agent": "",
           "trigger": "造成",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "2名女生",
           "time": "2014年5月12日中午",
           "time_align": "2014-05-12-XX-XX",
           "location": "云南大学滇池学院",
           "organization": "云南大学",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -63,15 +63,15 @@
         {
           "child_event_id": "e05",
           "trigger": "控制",
-          "trigger_agent": "警方",
           "trigger_object": "男子",
-          "agent_attri": "",
           "object_attri": "该",
           "time": "目前",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         }
       ]
     },
@@ -81,15 +81,15 @@
         {
           "child_event_id": "e06",
           "trigger": "回应",
-          "trigger_agent": "工作人员",
           "trigger_object": "记者",
-          "agent_attri": "云南大学滇池学院办公室",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "云南大学滇池学院",
           "organization": "云南大学",
-          "person": ""
+          "person": "",
+          "subject_attri": "云南大学滇池学院办公室",
+          "trigger_subject": "工作人员"
         }
       ]
     },
@@ -99,15 +99,15 @@
         {
           "child_event_id": "e07",
           "trigger": "接受",
-          "trigger_agent": "受伤者",
           "trigger_object": "治疗",
-          "agent_attri": "两名",
           "object_attri": "",
           "time": "目前",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "两名",
+          "trigger_subject": "受伤者"
         }
       ]
     },
@@ -117,54 +117,54 @@
         {
           "child_event_id": "e08",
           "trigger": "了解到",
-          "trigger_agent": "记者",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "圣约翰医院",
           "organization": "圣约翰医院",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "记者"
         },
         {
           "child_event_id": "e09",
           "trigger": "被-砍",
-          "trigger_agent": "女生",
           "trigger_object": "",
-          "agent_attri": "两名",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "两名",
+          "trigger_subject": "女生"
         },
         {
           "child_event_id": "e10",
           "trigger": "处于",
-          "trigger_agent": "女生",
           "trigger_object": "休克",
-          "agent_attri": "其中一名",
           "object_attri": "失血性",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "其中一名",
+          "trigger_subject": "女生"
         },
         {
           "child_event_id": "e11",
           "trigger": "抢救",
-          "trigger_agent": "医院",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "圣约翰医院",
           "organization": "圣约翰医院",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "医院"
         }
       ]
     },
@@ -174,15 +174,15 @@
         {
           "child_event_id": "e12",
           "trigger": "脱离",
-          "trigger_agent": "女生",
           "trigger_object": "危险",
-          "agent_attri": "另外一名",
           "object_attri": "生命",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "另外一名",
+          "trigger_subject": "女生"
         }
       ]
     }

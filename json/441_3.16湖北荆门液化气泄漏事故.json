@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "车",
           "trigger_object": "碰撞",
-          "agent_attri": "一满载24吨液化石油气槽",
           "object_attri": "",
           "time": "2013年3月16日0时26分",
           "time_align": "2013-03-16-00-26",
           "location": "湖北省荆门市掇刀区团林镇207国道2040公里处歆旺液化气站门口",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一满载24吨液化石油气槽",
+          "trigger_subject": "车"
         },
         {
           "child_event_id": "e02",
           "trigger": "导致",
-          "trigger_agent": "",
           "trigger_object": "损坏",
-          "agent_attri": "",
           "object_attri": "槽车液位计",
           "time": "2013年3月16日0时26分",
           "time_align": "2013-03-16-00-26",
           "location": "湖北省荆门市掇刀区团林镇207国道2040公里处歆旺液化气站门口",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "致使",
-          "trigger_agent": "",
           "trigger_object": "泄漏",
-          "agent_attri": "",
           "object_attri": "液化气大量",
           "time": "2013年3月16日0时26分",
           "time_align": "2013-03-16-00-26",
           "location": "湖北省荆门市掇刀区团林镇207国道2040公里处歆旺液化气站门口",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -50,54 +50,54 @@
         {
           "child_event_id": "e04",
           "trigger": "赶往",
-          "trigger_agent": "部门",
           "trigger_object": "事故现场",
-          "agent_attri": "当地公安、消防、安监等",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "湖北省荆门市掇刀区团林镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "当地公安、消防、安监等",
+          "trigger_subject": "部门"
         },
         {
           "child_event_id": "e05",
           "trigger": "救援",
-          "trigger_agent": "部门",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "湖北省荆门市掇刀区团林镇207国道2040公里处歆旺液化气站门口",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "部门"
         },
         {
           "child_event_id": "e06",
           "trigger": "取得",
-          "trigger_agent": "抢险救援行动",
           "trigger_object": "成功",
-          "agent_attri": "历时9小时的重大",
           "object_attri": "圆满",
           "time": "",
           "time_align": "",
           "location": "湖北省荆门市掇刀区团林镇207国道2040公里处歆旺液化气站门口",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "历时9小时的重大",
+          "trigger_subject": "抢险救援行动"
         },
         {
           "child_event_id": "e07",
           "trigger": "无",
-          "trigger_agent": "",
           "trigger_object": "伤亡",
-          "agent_attri": "",
           "object_attri": "人员",
           "time": "",
           "time_align": "",
           "location": "湖北省荆门市掇刀区团林镇207国道2040公里处歆旺液化气站门口",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

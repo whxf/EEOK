@@ -7,40 +7,40 @@
           "child_event_id": "e01",
           "time": "2010年8月4日凌晨",
           "time_align": "2010-08-04-XX-XX",
-          "trigger_agent": "司机",
-          "agent_attri": "一",
           "trigger": "撞倒",
           "trigger_object": "民警",
           "object_attri": "3名执法",
           "location": "安徽芜湖",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一",
+          "trigger_subject": "司机"
         },
         {
           "child_event_id": "e02",
           "time": "2010年8月4日凌晨",
           "time_align": "2010-08-04-XX-XX",
-          "trigger_agent": "特警",
-          "agent_attri": "年仅22岁的",
           "trigger": "牺牲",
           "trigger_object": "",
           "object_attri": "",
           "location": "安徽芜湖",
           "organization": "",
-          "person": "范鑫"
+          "person": "范鑫",
+          "subject_attri": "年仅22岁的",
+          "trigger_subject": "特警"
         },
         {
           "child_event_id": "e03",
           "time": "2010年8月4日凌晨",
           "time_align": "2010-08-04-XX-XX",
-          "trigger_agent": "民警",
-          "agent_attri": "2位",
           "trigger": "重伤",
           "trigger_object": "",
           "object_attri": "",
           "location": "安徽芜湖",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "2位",
+          "trigger_subject": "民警"
         }
       ]
     },
@@ -51,14 +51,14 @@
           "child_event_id": "e04",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "犯罪嫌疑人",
-          "agent_attri": "",
           "trigger": "被-刑拘。",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": "王某"
+          "person": "王某",
+          "subject_attri": "",
+          "trigger_subject": "犯罪嫌疑人"
         }
       ]
     },
@@ -69,14 +69,14 @@
           "child_event_id": "e05",
           "time": "2010年11月9日",
           "time_align": "2010-11-09-XX-XX",
-          "trigger_agent": "案",
-          "agent_attri": "该",
           "trigger": "开庭",
           "trigger_object": "审理",
           "object_attri": "公开",
           "location": "芜湖",
           "organization": "芜湖中院",
-          "person": ""
+          "person": "",
+          "subject_attri": "该",
+          "trigger_subject": "案"
         }
       ]
     }

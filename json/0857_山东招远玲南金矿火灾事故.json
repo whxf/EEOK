@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "矿",
           "trigger_object": "起火事故",
-          "agent_attri": "山东省招远招远玲南金",
           "object_attri": "电缆",
           "time": "2010年8月6日下午5时",
           "time_align": "2010-05-06-17-XX",
           "location": "山东省招远",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "山东省招远招远玲南金",
+          "trigger_subject": "矿"
         }
       ]
     },
@@ -24,41 +24,41 @@
         {
           "child_event_id": "e02",
           "trigger": "救援",
-          "trigger_agent": "",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "7日12时42分",
           "time_align": "2010-05-07-12-42",
           "location": "山东省招远",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "升井",
-          "trigger_agent": "人员",
           "trigger_object": "",
-          "agent_attri": "井下329名作业",
           "object_attri": "",
           "time": "7日12时42分",
           "time_align": "2010-05-07-12-42",
           "location": "山东省招远",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "井下329名作业",
+          "trigger_subject": "人员"
         },
         {
           "child_event_id": "e04",
           "trigger": "死亡",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "16",
           "object_attri": "",
           "time": "7日12时42分",
           "time_align": "2010-05-07-12-42",
           "location": "山东省招远",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "16",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -68,28 +68,28 @@
         {
           "child_event_id": "e05",
           "trigger": "展开",
-          "trigger_agent": "工作",
           "trigger_object": "",
-          "agent_attri": "事故善后",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "事故善后",
+          "trigger_subject": "工作"
         },
         {
           "child_event_id": "e06",
           "trigger": "被-调查",
-          "trigger_agent": "原因",
           "trigger_object": "",
-          "agent_attri": "事故",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "事故",
+          "trigger_subject": "原因"
         }
       ]
     }

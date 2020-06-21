@@ -1,0 +1,386 @@
+Prefix(:=<http://www.eeok.com#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.eeok.com>
+
+Declaration(Class(:event))
+Declaration(Class(:event_info))
+Declaration(Class(:relation))
+Declaration(Class(:relation_info))
+Declaration(Class(:sub_event))
+Declaration(ObjectProperty(:has_agent_attri))
+Declaration(ObjectProperty(:has_from))
+Declaration(ObjectProperty(:has_label))
+Declaration(ObjectProperty(:has_location))
+Declaration(ObjectProperty(:has_object_attri))
+Declaration(ObjectProperty(:has_organization))
+Declaration(ObjectProperty(:has_person))
+Declaration(ObjectProperty(:has_time))
+Declaration(ObjectProperty(:has_time_align))
+Declaration(ObjectProperty(:has_to))
+Declaration(ObjectProperty(:has_trigger))
+Declaration(ObjectProperty(:has_trigger_agent))
+Declaration(ObjectProperty(:has_trigger_object))
+Declaration(ObjectProperty(:is_from_of))
+Declaration(ObjectProperty(:is_to_of))
+Declaration(DataProperty(:event_info))
+Declaration(DataProperty(:event_info_agent_attri))
+Declaration(DataProperty(:event_info_location))
+Declaration(DataProperty(:event_info_object_attri))
+Declaration(DataProperty(:event_info_person))
+Declaration(DataProperty(:event_info_time))
+Declaration(DataProperty(:event_info_time_align))
+Declaration(DataProperty(:event_info_trigger))
+Declaration(DataProperty(:event_info_trigger_agent))
+Declaration(DataProperty(:event_info_trigger_object))
+Declaration(DataProperty(:evnt_info_organization))
+Declaration(DataProperty(:relation_info))
+Declaration(DataProperty(:relation_info_from))
+Declaration(DataProperty(:relation_info_to))
+Declaration(DataProperty(:relation_label))
+
+
+
+
+Declaration(NamedIndividual(:E01))
+Declaration(NamedIndividual(:E02))
+Declaration(NamedIndividual(:E03))
+
+
+Declaration(NamedIndividual(:e01))
+Declaration(NamedIndividual(:e02))
+Declaration(NamedIndividual(:e03))
+Declaration(NamedIndividual(:e04))
+
+
+Declaration(NamedIndividual(:R-01-02))
+Declaration(NamedIndividual(:R-02-03))
+
+
+Declaration(NamedIndividual(:r-01-02))
+Declaration(NamedIndividual(:r-01-03))
+Declaration(NamedIndividual(:r-02-04))
+Declaration(NamedIndividual(:r-03-04))
+
+
+Declaration(NamedIndividual(:s-01-01))
+Declaration(NamedIndividual(:s-02-02))
+Declaration(NamedIndividual(:s-02-03))
+Declaration(NamedIndividual(:s-03-04))
+
+
+Declaration(NamedIndividual(:被-调查))
+Declaration(NamedIndividual(:发生))
+Declaration(NamedIndividual(:13人))
+Declaration(NamedIndividual(:造成))
+Declaration(NamedIndividual(:事故))
+Declaration(NamedIndividual(:2011年12月27日))
+Declaration(NamedIndividual(:交通事故))
+Declaration(NamedIndividual(:一起重大))
+Declaration(NamedIndividual(:鸡西市麻山区境内))
+Declaration(NamedIndividual(:死亡))
+Declaration(NamedIndividual(:原因))
+Declaration(NamedIndividual(:7人))
+Declaration(NamedIndividual(:2011-12-27-XX-XX))
+Declaration(NamedIndividual(:受伤))
+
+
+Declaration(NamedIndividual(:时序关系))
+Declaration(NamedIndividual(:子事件关系))
+Declaration(NamedIndividual(:因果关系))
+
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :has_agent_attri (:has_agent_attri)
+
+ObjectPropertyDomain(:has_agent_attri :event_info)
+ObjectPropertyRange(:has_agent_attri :sub_event)
+
+# Object Property: :has_from (:has_from)
+
+InverseObjectProperties(:has_from :is_from_of)
+ObjectPropertyDomain(:has_from :relation_info)
+ObjectPropertyRange(:has_from :relation)
+
+# Object Property: :has_label (:has_label)
+
+ObjectPropertyDomain(:has_label :relation_info)
+ObjectPropertyRange(:has_label :relation)
+
+# Object Property: :has_location (:has_location)
+
+ObjectPropertyDomain(:has_location :event_info)
+ObjectPropertyRange(:has_location :event)
+
+# Object Property: :has_object_attri (:has_object_attri)
+
+ObjectPropertyDomain(:has_object_attri :event_info)
+ObjectPropertyRange(:has_object_attri :sub_event)
+
+# Object Property: :has_organization (:has_organization)
+
+ObjectPropertyDomain(:has_organization :event_info)
+ObjectPropertyRange(:has_organization :sub_event)
+
+# Object Property: :has_person (:has_person)
+
+ObjectPropertyDomain(:has_person :event_info)
+ObjectPropertyRange(:has_person :sub_event)
+
+# Object Property: :has_time (:has_time)
+
+ObjectPropertyDomain(:has_time :event_info)
+ObjectPropertyRange(:has_time :sub_event)
+
+# Object Property: :has_time_align (:has_time_align)
+
+ObjectPropertyDomain(:has_time_align :event_info)
+ObjectPropertyRange(:has_time_align :sub_event)
+
+# Object Property: :has_to (:has_to)
+
+InverseObjectProperties(:has_to :is_to_of)
+ObjectPropertyDomain(:has_to :relation_info)
+ObjectPropertyRange(:has_to :relation)
+
+# Object Property: :has_trigger (:has_trigger)
+
+ObjectPropertyDomain(:has_trigger :event_info)
+ObjectPropertyRange(:has_trigger :event)
+
+# Object Property: :has_trigger_agent (:has_trigger_agent)
+
+ObjectPropertyDomain(:has_trigger_agent :event_info)
+ObjectPropertyRange(:has_trigger_agent :event)
+
+# Object Property: :has_trigger_object (:has_trigger_object)
+
+ObjectPropertyDomain(:has_trigger_object :event_info)
+ObjectPropertyRange(:has_trigger_object :event)
+
+# Object Property: :is_from_of (:is_from_of)
+
+ObjectPropertyDomain(:is_from_of :relation_info)
+ObjectPropertyRange(:is_from_of :relation)
+
+# Object Property: :is_to_of (:is_to_of)
+
+ObjectPropertyDomain(:is_to_of :relation_info)
+ObjectPropertyRange(:is_to_of :relation)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :event_info_agent_attri (:event_info_agent_attri)
+
+SubDataPropertyOf(:event_info_agent_attri :event_info)
+DataPropertyDomain(:event_info_agent_attri :event_info)
+DataPropertyRange(:event_info_agent_attri xsd:string)
+
+# Data Property: :event_info_location (:event_info_location)
+
+SubDataPropertyOf(:event_info_location :event_info)
+DataPropertyDomain(:event_info_location :event_info)
+DataPropertyRange(:event_info_location xsd:string)
+
+# Data Property: :event_info_object_attri (:event_info_object_attri)
+
+SubDataPropertyOf(:event_info_object_attri :event_info)
+DataPropertyDomain(:event_info_object_attri :event_info)
+DataPropertyRange(:event_info_object_attri xsd:string)
+
+# Data Property: :event_info_person (:event_info_person)
+
+SubDataPropertyOf(:event_info_person :event_info)
+DataPropertyDomain(:event_info_person :event_info)
+DataPropertyRange(:event_info_person xsd:string)
+
+# Data Property: :event_info_time (:event_info_time)
+
+SubDataPropertyOf(:event_info_time :event_info)
+DataPropertyDomain(:event_info_time :event_info)
+DataPropertyRange(:event_info_time xsd:string)
+
+# Data Property: :event_info_time_align (:event_info_time_align)
+
+SubDataPropertyOf(:event_info_time_align :event_info)
+DataPropertyDomain(:event_info_time_align :event_info)
+DataPropertyRange(:event_info_time_align xsd:string)
+
+# Data Property: :event_info_trigger (:event_info_trigger)
+
+SubDataPropertyOf(:event_info_trigger :event_info)
+DataPropertyDomain(:event_info_trigger :event_info)
+DataPropertyRange(:event_info_trigger xsd:string)
+
+# Data Property: :event_info_trigger_agent (:event_info_trigger_agent)
+
+SubDataPropertyOf(:event_info_trigger_agent :event_info)
+DataPropertyDomain(:event_info_trigger_agent :event_info)
+DataPropertyRange(:event_info_trigger_agent xsd:string)
+
+# Data Property: :event_info_trigger_object (:event_info_trigger_object)
+
+SubDataPropertyOf(:event_info_trigger_object :event_info)
+DataPropertyDomain(:event_info_trigger_object :event_info)
+DataPropertyRange(:event_info_trigger_object xsd:string)
+
+# Data Property: :evnt_info_organization (:evnt_info_organization)
+
+SubDataPropertyOf(:evnt_info_organization :event_info)
+DataPropertyDomain(:evnt_info_organization :event_info)
+DataPropertyRange(:evnt_info_organization xsd:string)
+
+# Data Property: :relation_info_from (:relation_info_from)
+
+SubDataPropertyOf(:relation_info_from :relation_info)
+DataPropertyDomain(:relation_info_from :relation_info)
+DataPropertyRange(:relation_info_from xsd:string)
+
+# Data Property: :relation_info_to (:relation_info_to)
+
+SubDataPropertyOf(:relation_info_to :relation_info)
+DataPropertyDomain(:relation_info_to :relation_info)
+DataPropertyRange(:relation_info_to xsd:string)
+
+# Data Property: :relation_label (:relation_label)
+
+SubDataPropertyOf(:relation_label :relation_info)
+DataPropertyDomain(:relation_label :relation_info)
+DataPropertyRange(:relation_label xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :sub_event (:sub_event)
+
+SubClassOf(:sub_event :event)
+
+
+############################
+#   Named Individuals
+############################
+
+
+ClassAssertion(:event :E01)
+ObjectPropertyAssertion(:has_trigger :E01 :发生)
+ObjectPropertyAssertion(:has_trigger_object :E01 :交通事故)
+ObjectPropertyAssertion(:is_from_of :E01 :R-01-02)
+ObjectPropertyAssertion(:is_from_of :E01 :s-01-01)
+ClassAssertion(:event :E02)
+ObjectPropertyAssertion(:has_trigger :E02 :造成)
+ObjectPropertyAssertion(:has_trigger_object :E02 :死亡)
+ObjectPropertyAssertion(:is_from_of :E02 :R-02-03)
+ObjectPropertyAssertion(:is_from_of :E02 :s-02-02)
+ObjectPropertyAssertion(:is_from_of :E02 :s-02-03)
+ClassAssertion(:event :E03)
+ObjectPropertyAssertion(:has_trigger :E03 :被-调查)
+ObjectPropertyAssertion(:has_trigger_object :E03 :原因)
+ObjectPropertyAssertion(:is_from_of :E03 :s-03-04)
+
+
+ClassAssertion(:sub_event :e01)
+ObjectPropertyAssertion(:has_trigger :e01 :发生)
+ObjectPropertyAssertion(:has_trigger_object :e01 :交通事故)
+ObjectPropertyAssertion(:has_object_attri :e01 :一起重大)
+ObjectPropertyAssertion(:has_time :e01 :2011年12月27日)
+ObjectPropertyAssertion(:has_time_align :e01 :2011-12-27-XX-XX)
+ObjectPropertyAssertion(:has_location :e01 :鸡西市麻山区境内)
+ObjectPropertyAssertion(:is_from_of :e01 :r-01-02)
+ObjectPropertyAssertion(:is_from_of :e01 :r-01-03)
+ClassAssertion(:sub_event :e02)
+ObjectPropertyAssertion(:has_trigger :e02 :造成)
+ObjectPropertyAssertion(:has_trigger_object :e02 :死亡)
+ObjectPropertyAssertion(:has_object_attri :e02 :7人)
+ObjectPropertyAssertion(:has_time :e02 :2011年12月27日)
+ObjectPropertyAssertion(:has_time_align :e02 :2011-12-27-XX-XX)
+ObjectPropertyAssertion(:has_location :e02 :鸡西市麻山区境内)
+ObjectPropertyAssertion(:is_from_of :e02 :r-02-04)
+ClassAssertion(:sub_event :e03)
+ObjectPropertyAssertion(:has_trigger :e03 :造成)
+ObjectPropertyAssertion(:has_trigger_object :e03 :受伤)
+ObjectPropertyAssertion(:has_object_attri :e03 :13人)
+ObjectPropertyAssertion(:has_time :e03 :2011年12月27日)
+ObjectPropertyAssertion(:has_time_align :e03 :2011-12-27-XX-XX)
+ObjectPropertyAssertion(:has_location :e03 :鸡西市麻山区境内)
+ObjectPropertyAssertion(:is_from_of :e03 :r-03-04)
+ClassAssertion(:sub_event :e04)
+ObjectPropertyAssertion(:has_trigger :e04 :被-调查)
+ObjectPropertyAssertion(:has_trigger_object :e04 :原因)
+ObjectPropertyAssertion(:has_object_attri :e04 :事故)
+ObjectPropertyAssertion(:has_location :e04 :鸡西市麻山区境内)
+
+
+ClassAssertion(:relation :R-01-02)
+ObjectPropertyAssertion(:has_label :R-01-02 :因果关系)
+ObjectPropertyAssertion(:has_to :R-01-02 :E02)
+ClassAssertion(:relation :R-02-03)
+ObjectPropertyAssertion(:has_label :R-02-03 :时序关系)
+ObjectPropertyAssertion(:has_to :R-02-03 :E03)
+
+
+ClassAssertion(:relation :r-01-02)
+ObjectPropertyAssertion(:has_label :r-01-02 :因果关系)
+ObjectPropertyAssertion(:has_to :r-01-02 :e02)
+ClassAssertion(:relation :r-01-03)
+ObjectPropertyAssertion(:has_label :r-01-03 :因果关系)
+ObjectPropertyAssertion(:has_to :r-01-03 :e03)
+ClassAssertion(:relation :r-02-04)
+ObjectPropertyAssertion(:has_label :r-02-04 :时序关系)
+ObjectPropertyAssertion(:has_to :r-02-04 :e04)
+ClassAssertion(:relation :r-03-04)
+ObjectPropertyAssertion(:has_label :r-03-04 :时序关系)
+ObjectPropertyAssertion(:has_to :r-03-04 :e04)
+
+
+ClassAssertion(:relation :s-01-01)
+ObjectPropertyAssertion(:has_label :s-01-01 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-01-01 :e01)
+ClassAssertion(:relation :s-02-02)
+ObjectPropertyAssertion(:has_label :s-02-02 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-02-02 :e02)
+ClassAssertion(:relation :s-02-03)
+ObjectPropertyAssertion(:has_label :s-02-03 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-02-03 :e03)
+ClassAssertion(:relation :s-03-04)
+ObjectPropertyAssertion(:has_label :s-03-04 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-03-04 :e04)
+
+
+ClassAssertion(:event_info :被-调查)
+ClassAssertion(:event_info :发生)
+ClassAssertion(:event_info :13人)
+ClassAssertion(:event_info :造成)
+ClassAssertion(:event_info :事故)
+ClassAssertion(:event_info :2011年12月27日)
+ClassAssertion(:event_info :交通事故)
+ClassAssertion(:event_info :一起重大)
+ClassAssertion(:event_info :鸡西市麻山区境内)
+ClassAssertion(:event_info :死亡)
+ClassAssertion(:event_info :原因)
+ClassAssertion(:event_info :7人)
+ClassAssertion(:event_info :2011-12-27-XX-XX)
+ClassAssertion(:event_info :受伤)
+
+
+ClassAssertion(:relation_info :时序关系)
+ClassAssertion(:relation_info :子事件关系)
+ClassAssertion(:relation_info :因果关系)
+
+
+
+)

@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2015年1月3日中午12时40分",
           "time_align": "2015-01-03-12-40",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "坍塌事故",
           "object_attri": "一起山坡",
           "location": "广东雷州市杨家镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "time": "2015年1月3日中午12时40分",
           "time_align": "2015-01-03-12-40",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "死亡",
           "object_attri": "3人不幸",
           "location": "广东雷州市杨家镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -38,27 +38,27 @@
           "child_event_id": "e03",
           "time": "",
           "time_align": "",
-          "trigger_agent": "村民/警察",
-          "agent_attri": "一些/",
           "trigger": "赶到",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "琛来村",
           "organization": "杨家镇派出所",
-          "person": ""
+          "person": "",
+          "subject_attri": "一些/",
+          "trigger_subject": "村民/警察"
         },
         {
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "实施",
           "trigger_object": "救援",
           "object_attri": "",
           "location": "琛来村",
           "organization": "杨家镇派出所",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -69,27 +69,27 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "医生",
-          "agent_attri": "",
           "trigger": "抢救",
           "trigger_object": "",
           "object_attri": "",
           "location": "广东雷州市杨家镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "医生"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "被埋者",
-          "agent_attri": "3名",
           "trigger": "身亡",
           "trigger_object": "",
           "object_attri": "",
           "location": "广东雷州市杨家镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "3名",
+          "trigger_subject": "被埋者"
         }
       ]
     }

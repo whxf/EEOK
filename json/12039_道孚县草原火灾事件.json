@@ -5,68 +5,68 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "",
           "trigger": "突发",
           "trigger_object": "火灾",
-          "agent_attri": "",
           "object_attri": "草原",
           "time": "2010年12月5日12时30分",
           "time_align": "2010-12-05-12-30",
           "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
-          "trigger_agent": "",
           "trigger": "突起",
           "trigger_object": "大风",
-          "agent_attri": "",
           "object_attri": "",
           "time": "15点10分",
           "time_align": "2010-12-5-15-10",
           "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
-          "trigger_agent": "",
           "trigger": "遇难",
           "trigger_object": "人员",
-          "agent_attri": "",
           "object_attri": "22名扑救",
           "time": "15点10分",
           "time_align": "2010-12-5-15-10",
           "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
-          "trigger_agent": "",
           "trigger": "导致",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "4名群众",
           "time": "15点10分",
           "time_align": "2010-12-5-15-10",
           "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
-          "trigger_agent": "重伤人员",
           "trigger": "送往-救治",
           "trigger_object": "",
-          "agent_attri": "3名",
           "object_attri": "康定",
           "time": "15点10分",
           "time_align": "2010-12-5-15-10",
           "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "3名",
+          "trigger_subject": "重伤人员"
         }
       ]
     },
@@ -76,15 +76,15 @@
         {
           "child_event_id": "e06",
           "trigger": "扑灭",
-          "trigger_agent": "救火人员",
           "trigger_object": "大火",
-          "agent_attri": "",
           "object_attri": "彻底",
           "time": "12月6日凌晨",
           "time_align": "2010-12-06-XX-XX",
           "location": "四川省甘孜州道孚县鲜水镇孜龙村呷乌沟",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "救火人员"
         }
       ]
     },
@@ -94,15 +94,15 @@
         {
           "child_event_id": "e07",
           "trigger": "调查",
-          "trigger_agent": "",
           "trigger_object": "火灾原因",
-          "agent_attri": "四川甘孜州纪委和检察院",
           "object_attri": "",
           "time": "2010年12月6日",
           "time_align": "2010-12-06-XX-XX",
           "location": "道孚县",
           "organization": "四川甘孜州纪委和检察院",
-          "person": ""
+          "person": "",
+          "subject_attri": "四川甘孜州纪委和检察院",
+          "trigger_subject": ""
         }
       ]
     },
@@ -112,15 +112,15 @@
         {
           "child_event_id": "e08",
           "trigger": "遇难",
-          "trigger_agent": "战士",
           "trigger_object": "",
-          "agent_attri": "四川道孚火灾15名",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "四川道孚",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "四川道孚火灾15名",
+          "trigger_subject": "战士"
         }
       ]
     },
@@ -130,15 +130,15 @@
         {
           "child_event_id": "e09",
           "trigger": "送别",
-          "trigger_agent": "万人",
           "trigger_object": "战士",
-          "agent_attri": "火灾中遇难15名",
           "object_attri": "",
           "time": "2010年12月07日",
           "time_align": "",
           "location": "四川道孚",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "火灾中遇难15名",
+          "trigger_subject": "万人"
         }
       ]
     },
@@ -148,15 +148,15 @@
         {
           "child_event_id": "e10",
           "trigger": "被-追认为",
-          "trigger_agent": "群众/公务人员",
           "trigger_object": "革命烈士",
-          "agent_attri": "4名/2名",
           "object_attri": "",
           "time": "2010年12月09日",
           "time_align": "2010-12-09-XX-XX",
           "location": "道孚",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "4名/2名",
+          "trigger_subject": "群众/公务人员"
         }
       ]
     }

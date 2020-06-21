@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "景区",
           "trigger_object": "事故",
-          "agent_attri": "叠彩山",
           "object_attri": "山体滑坡",
           "time": "2015年3月19日",
           "time_align": "2015-03-19-XX-XX",
           "location": "广西桂林叠彩山景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "叠彩山",
+          "trigger_subject": "景区"
         },
         {
           "child_event_id": "e02",
           "trigger": "砸死",
-          "trigger_agent": "石头",
           "trigger_object": "游客",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2015年3月19日",
           "time_align": "2015-03-19-XX-XX",
           "location": "广西桂林叠彩山景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "石头"
         },
         {
           "child_event_id": "e03",
           "trigger": "死亡",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "7",
           "object_attri": "",
           "time": "2015年3月19日",
           "time_align": "2015-03-19-XX-XX",
           "location": "广西桂林叠彩山景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "7",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -50,28 +50,28 @@
         {
           "child_event_id": "e04",
           "trigger": "介入",
-          "trigger_agent": "工作人员",
           "trigger_object": "",
-          "agent_attri": "当地公安、消防、旅游等部门的",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "广西桂林",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "当地公安、消防、旅游等部门的",
+          "trigger_subject": "工作人员"
         },
         {
           "child_event_id": "e05",
           "trigger": "商讨",
-          "trigger_agent": "工作人员",
           "trigger_object": "方案",
-          "agent_attri": "当地公安、消防、旅游等部门的",
           "object_attri": "援救",
           "time": "",
           "time_align": "",
           "location": "广西桂林",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "当地公安、消防、旅游等部门的",
+          "trigger_subject": "工作人员"
         }
       ]
     }

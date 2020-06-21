@@ -6,67 +6,67 @@
         {
           "child_event_id": "e01",
           "trigger": "突发",
-          "trigger_agent": "油漆厂",
           "trigger_object": "大火",
-          "agent_attri": "一家",
           "object_attri": "",
           "time": "2015年7月22日中午12时",
           "time_align": "2015-07-22-12-00",
           "location": "大广高速3065km江西赣州市南康段高速路边",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一家",
+          "trigger_subject": "油漆厂"
         },
         {
           "child_event_id": "e02",
           "trigger": "蔓延",
-          "trigger_agent": "大火",
           "trigger_object": "附近",
-          "agent_attri": "",
           "object_attri": "高速公路",
           "time": "2015年7月22日中午12时",
           "time_align": "2015-07-22-12-00",
           "location": "大广高速3065km江西赣州市南康段高速路边",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "大火"
         },
         {
           "child_event_id": "e03",
           "trigger": "导致",
-          "trigger_agent": "火灾",
           "trigger_object": "黑烟",
-          "agent_attri": "",
           "object_attri": "大量",
           "time": "2015年7月22日中午12时",
           "time_align": "2015-07-22-12-00",
           "location": "大广高速3065km江西赣州市南康段高速路边",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "火灾"
         },
         {
           "child_event_id": "e04",
           "trigger": "笼罩",
-          "trigger_agent": "黑烟",
           "trigger_object": "高速",
-          "agent_attri": "大量",
           "object_attri": "",
           "time": "2015年7月22日中午12时",
           "time_align": "2015-07-22-12-00",
           "location": "大广高速3065km江西赣州市南康段高速路边",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "大量",
+          "trigger_subject": "黑烟"
         },
         {
           "child_event_id": "e05",
           "trigger": "封闭",
-          "trigger_agent": "",
           "trigger_object": "高速/",
-          "agent_attri": "",
           "object_attri": "大广/赣定段",
           "time": "2015年7月22日中午12时",
           "time_align": "2015-07-22-12-00",
           "location": "大广高速赣定段",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

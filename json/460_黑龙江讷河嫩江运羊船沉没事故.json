@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "沉没事故",
-          "agent_attri": "",
           "object_attri": "自用运羊船",
           "time": "2013年5月31日9时15分",
           "time_align": "2013-05-31-09-15",
           "location": "黑龙江省齐齐哈尔讷河市拉哈镇嫩江铁路沙场西北1公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -24,41 +24,41 @@
         {
           "child_event_id": "e02",
           "trigger": "获救生还",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "2",
           "object_attri": "",
           "time": "2013年5月31日9时15分",
           "time_align": "2013-05-31-09-15",
           "location": "黑龙江省齐齐哈尔讷河市拉哈镇嫩江铁路沙场西北1公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "2",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e03",
           "trigger": "死亡",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "1",
           "object_attri": "",
           "time": "2013年5月31日9时15分",
           "time_align": "2013-05-31-09-15",
           "location": "黑龙江省齐齐哈尔讷河市拉哈镇嫩江铁路沙场西北1公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "1",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e04",
           "trigger": "下落不明",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "4",
           "object_attri": "",
           "time": "2013年5月31日9时15分",
           "time_align": "2013-05-31-09-15",
           "location": "黑龙江省齐齐哈尔讷河市拉哈镇嫩江铁路沙场西北1公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "4",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -68,15 +68,15 @@
         {
           "child_event_id": "e05",
           "trigger": "打捞",
-          "trigger_agent": "",
           "trigger_object": "人员",
-          "agent_attri": "",
           "object_attri": "失踪",
           "time": "目前",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

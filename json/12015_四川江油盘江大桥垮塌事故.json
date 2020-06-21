@@ -5,55 +5,55 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "大桥",
           "trigger": "垮塌",
           "trigger_object": "",
-          "agent_attri": "四川省江油市青莲镇盘江",
           "object_attri": "",
           "time": "2013年7月9日11时30分",
           "time_align": "2013-07-09-11-30",
           "location": "四川省江油市青莲镇盘江大桥（青莲老桥）",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "四川省江油市青莲镇盘江",
+          "trigger_subject": "大桥"
         },
         {
           "child_event_id": "e02",
           "trigger": "失踪",
-          "trigger_agent": "车",
           "trigger_object": "",
-          "agent_attri": "5辆",
           "object_attri": "",
           "time": "9日21时",
           "time_align": "2013-07-09-21-XX",
           "location": "四川省江油市青莲镇盘江大桥（青莲老桥）",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "5辆",
+          "trigger_subject": "车"
         },
         {
           "child_event_id": "e03",
           "trigger": "确认",
-          "trigger_agent": "",
           "trigger_object": "救起",
-          "agent_attri": "",
           "object_attri": "3人",
           "time": "9日21时",
           "time_align": "2013-07-09-21-XX",
           "location": "四川省江油市青莲镇盘江大桥（青莲老桥）",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "trigger": "确认",
-          "trigger_agent": "",
           "trigger_object": "失踪",
-          "agent_attri": "",
           "object_attri": "6人",
           "time": "9日21时",
           "time_align": "2013-07-09-21-XX",
           "location": "四川省江油市青莲镇盘江大桥（青莲老桥）",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -63,40 +63,41 @@
         {
           "child_event_id": "e05",
           "trigger": "打捞",
-          "trigger_agent": "",
           "trigger_object": "遗体/面包车",
-          "agent_attri": "",
           "object_attri": "两具/一辆",
           "time": "10月15日上午",
           "time_align": "2013-10-15-XX-XX",
           "location": "四川省江油市青莲镇盘江大桥（青莲老桥）",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e06",
           "trigger": "确认",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "5人",
           "time": "10月15日上午",
           "time_align": "2013-10-15-XX-XX",
           "location": "四川省江油市青莲镇盘江大桥（青莲老桥）",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e07",
           "trigger": "确认",
-          "trigger_agent": "",
           "trigger_object": "失踪",
-          "agent_attri": "",
           "object_attri": "7人",
           "time": "10月15日上午",
           "time_align": "2013-10-15-XX-XX",
           "location": "四川省江油市青莲镇盘江大桥（青莲老桥）",
-          "person": ""
+          "person": "",
+          "organization": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

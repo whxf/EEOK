@@ -7,53 +7,53 @@
           "child_event_id": "e01",
           "time": "2014年12月31日上午9时30分",
           "time_align": "2014-12-31-09-30",
-          "trigger_agent": "厂房",
-          "agent_attri": "广东富华工程机械制造有限公司",
           "trigger": "发生",
           "trigger_object": "爆燃事故",
           "object_attri": "一起气体",
           "location": "广东佛山顺德区勒流街道港口路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "广东富华工程机械制造有限公司",
+          "trigger_subject": "厂房"
         },
         {
           "child_event_id": "e02",
           "time": "",
           "time_align": "",
-          "trigger_agent": "政府",
-          "agent_attri": "顺德区",
           "trigger": "核查",
           "trigger_object": "",
           "object_attri": "",
           "location": "顺德区",
           "organization": "顺德区政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "顺德区",
+          "trigger_subject": "政府"
         },
         {
           "child_event_id": "e03",
           "time": "当天中午13时20分",
           "time_align": "2014-12-31-13-20",
-          "trigger_agent": "事故",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "死亡",
           "object_attri": "17人",
           "location": "广东佛山顺德区勒流街道港口路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         },
         {
           "child_event_id": "e04",
           "time": "当天中午13时20分",
           "time_align": "2014-12-31-13-20",
-          "trigger_agent": "事故",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "受伤",
           "object_attri": "33人",
           "location": "广东佛山顺德区勒流街道港口路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         }
       ]
     },
@@ -64,53 +64,53 @@
           "child_event_id": "e05",
           "time": "今天早上",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "市区主要",
           "trigger": "到达",
           "trigger_object": "现场",
           "object_attri": "事故",
           "location": "广东佛山顺德区勒流街道港口路",
           "organization": "",
-          "person": "刘悦伦/鲁毅/区邦敏/黄喜忠"
+          "person": "刘悦伦/鲁毅/区邦敏/黄喜忠",
+          "subject_attri": "市区主要",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e06",
           "time": "今天早上",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "市区主要",
           "trigger": "启动",
           "trigger_object": "预案",
           "object_attri": "应急",
           "location": "广东佛山顺德区勒流街道港口路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "市区主要",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e07",
           "time": "今天早上",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "市区主要",
           "trigger": "成立",
           "trigger_object": "工作组",
           "object_attri": "事故调查专项",
           "location": "广东佛山顺德区勒流街道港口路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "市区主要",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e08",
           "time": "今天早上",
           "time_align": "",
-          "trigger_agent": "领导",
-          "agent_attri": "市区主要",
           "trigger": "进行",
           "trigger_object": "善后",
           "object_attri": "",
           "location": "广东佛山顺德区勒流街道港口路",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "市区主要",
+          "trigger_subject": "领导"
         }
       ]
     }
@@ -120,19 +120,16 @@
       "e02": "顺承关系"
     },
     "e02": {
-      "e03": "因果关系",
+      "e03": "并列关系",
       "e04": "顺承关系",
-      "e02": "因果关系",
       "e05": "顺承关系"
     },
     "e03": {
       "e04": "顺承关系",
-      "e02": "并列关系",
       "e05": "顺承关系"
     },
     "e04": {
-      "e05": "顺承关系",
-      "e03": "并列关系"
+      "e05": "顺承关系"
     },
     "e05": {
       "e06": "顺承关系"

@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "遭到",
-          "trigger_agent": "客车",
           "trigger_object": "袭击",
-          "agent_attri": "一辆",
           "object_attri": "炸弹",
           "time": "2012年7月1日",
           "time_align": "2012-07-01-XX-XX",
           "location": "巴西北部迪尔地区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆",
+          "trigger_subject": "客车"
         },
         {
           "child_event_id": "e02",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "至少3人",
           "time": "2012年7月1日",
           "time_align": "2012-07-01-XX-XX",
           "location": "巴西北部迪尔地区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "trigger": "受伤",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "9",
           "object_attri": "",
           "time": "2012年7月1日",
           "time_align": "2012-07-01-XX-XX",
           "location": "巴西北部迪尔地区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "9",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -50,15 +50,15 @@
         {
           "child_event_id": "e04",
           "trigger": "未-宣称",
-          "trigger_agent": "组织",
           "trigger_object": "制造袭击事件",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "组织"
         }
       ]
     },
@@ -68,28 +68,28 @@
         {
           "child_event_id": "e05",
           "trigger": "封锁",
-          "trigger_agent": "警方",
           "trigger_object": "区域",
-          "agent_attri": "",
           "object_attri": "事发",
           "time": "",
           "time_align": "",
           "location": "巴西北部迪尔地区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "警方"
         },
         {
           "child_event_id": "e06",
           "trigger": "展开",
-          "trigger_agent": "警方",
           "trigger_object": "调查",
-          "agent_attri": "9",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "巴西北部迪尔地区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "9",
+          "trigger_subject": "警方"
         }
       ]
     }

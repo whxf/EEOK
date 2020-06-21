@@ -1,0 +1,460 @@
+Prefix(:=<http://www.eeok.com#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.eeok.com>
+
+Declaration(Class(:event))
+Declaration(Class(:event_info))
+Declaration(Class(:relation))
+Declaration(Class(:relation_info))
+Declaration(Class(:sub_event))
+Declaration(ObjectProperty(:has_agent_attri))
+Declaration(ObjectProperty(:has_from))
+Declaration(ObjectProperty(:has_label))
+Declaration(ObjectProperty(:has_location))
+Declaration(ObjectProperty(:has_object_attri))
+Declaration(ObjectProperty(:has_organization))
+Declaration(ObjectProperty(:has_person))
+Declaration(ObjectProperty(:has_time))
+Declaration(ObjectProperty(:has_time_align))
+Declaration(ObjectProperty(:has_to))
+Declaration(ObjectProperty(:has_trigger))
+Declaration(ObjectProperty(:has_trigger_agent))
+Declaration(ObjectProperty(:has_trigger_object))
+Declaration(ObjectProperty(:is_from_of))
+Declaration(ObjectProperty(:is_to_of))
+Declaration(DataProperty(:event_info))
+Declaration(DataProperty(:event_info_agent_attri))
+Declaration(DataProperty(:event_info_location))
+Declaration(DataProperty(:event_info_object_attri))
+Declaration(DataProperty(:event_info_person))
+Declaration(DataProperty(:event_info_time))
+Declaration(DataProperty(:event_info_time_align))
+Declaration(DataProperty(:event_info_trigger))
+Declaration(DataProperty(:event_info_trigger_agent))
+Declaration(DataProperty(:event_info_trigger_object))
+Declaration(DataProperty(:evnt_info_organization))
+Declaration(DataProperty(:relation_info))
+Declaration(DataProperty(:relation_info_from))
+Declaration(DataProperty(:relation_info_to))
+Declaration(DataProperty(:relation_label))
+
+
+
+
+Declaration(NamedIndividual(:E01))
+Declaration(NamedIndividual(:E02))
+Declaration(NamedIndividual(:E03))
+Declaration(NamedIndividual(:E04))
+Declaration(NamedIndividual(:E05))
+Declaration(NamedIndividual(:E06))
+
+
+Declaration(NamedIndividual(:e01))
+Declaration(NamedIndividual(:e02))
+Declaration(NamedIndividual(:e03))
+Declaration(NamedIndividual(:e04))
+Declaration(NamedIndividual(:e05))
+Declaration(NamedIndividual(:e06))
+
+
+Declaration(NamedIndividual(:R-01-02))
+Declaration(NamedIndividual(:R-02-03))
+Declaration(NamedIndividual(:R-03-04))
+Declaration(NamedIndividual(:R-04-05))
+Declaration(NamedIndividual(:R-05-06))
+
+
+Declaration(NamedIndividual(:r-01-02))
+Declaration(NamedIndividual(:r-02-03))
+Declaration(NamedIndividual(:r-03-04))
+Declaration(NamedIndividual(:r-04-05))
+Declaration(NamedIndividual(:r-05-06))
+
+
+Declaration(NamedIndividual(:s-01-01))
+Declaration(NamedIndividual(:s-02-02))
+Declaration(NamedIndividual(:s-03-03))
+Declaration(NamedIndividual(:s-04-04))
+Declaration(NamedIndividual(:s-05-05))
+Declaration(NamedIndividual(:s-06-06))
+
+
+Declaration(NamedIndividual(:XXXX-11-17-20-XX))
+Declaration(NamedIndividual(:灭火))
+Declaration(NamedIndividual(:调动))
+Declaration(NamedIndividual(:10个/28台/240余名))
+Declaration(NamedIndividual(:周谷堆批发市场))
+Declaration(NamedIndividual(:消防官兵))
+Declaration(NamedIndividual(:遭受))
+Declaration(NamedIndividual(:苦战))
+Declaration(NamedIndividual(:被-扑灭))
+Declaration(NamedIndividual(:大火))
+Declaration(NamedIndividual(:现场))
+Declaration(NamedIndividual(:公安))
+Declaration(NamedIndividual(:当晚23时))
+Declaration(NamedIndividual(:消防中队/消防车/消防官兵))
+Declaration(NamedIndividual(:11月17日晚20时))
+Declaration(NamedIndividual(:火袭))
+Declaration(NamedIndividual(:合肥市))
+Declaration(NamedIndividual(:消防支队))
+Declaration(NamedIndividual(:赶到))
+Declaration(NamedIndividual(:干货区))
+
+
+Declaration(NamedIndividual(:时序关系))
+Declaration(NamedIndividual(:子事件关系))
+Declaration(NamedIndividual(:因果关系))
+
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: :has_agent_attri (:has_agent_attri)
+
+ObjectPropertyDomain(:has_agent_attri :event_info)
+ObjectPropertyRange(:has_agent_attri :sub_event)
+
+# Object Property: :has_from (:has_from)
+
+InverseObjectProperties(:has_from :is_from_of)
+ObjectPropertyDomain(:has_from :relation_info)
+ObjectPropertyRange(:has_from :relation)
+
+# Object Property: :has_label (:has_label)
+
+ObjectPropertyDomain(:has_label :relation_info)
+ObjectPropertyRange(:has_label :relation)
+
+# Object Property: :has_location (:has_location)
+
+ObjectPropertyDomain(:has_location :event_info)
+ObjectPropertyRange(:has_location :event)
+
+# Object Property: :has_object_attri (:has_object_attri)
+
+ObjectPropertyDomain(:has_object_attri :event_info)
+ObjectPropertyRange(:has_object_attri :sub_event)
+
+# Object Property: :has_organization (:has_organization)
+
+ObjectPropertyDomain(:has_organization :event_info)
+ObjectPropertyRange(:has_organization :sub_event)
+
+# Object Property: :has_person (:has_person)
+
+ObjectPropertyDomain(:has_person :event_info)
+ObjectPropertyRange(:has_person :sub_event)
+
+# Object Property: :has_time (:has_time)
+
+ObjectPropertyDomain(:has_time :event_info)
+ObjectPropertyRange(:has_time :sub_event)
+
+# Object Property: :has_time_align (:has_time_align)
+
+ObjectPropertyDomain(:has_time_align :event_info)
+ObjectPropertyRange(:has_time_align :sub_event)
+
+# Object Property: :has_to (:has_to)
+
+InverseObjectProperties(:has_to :is_to_of)
+ObjectPropertyDomain(:has_to :relation_info)
+ObjectPropertyRange(:has_to :relation)
+
+# Object Property: :has_trigger (:has_trigger)
+
+ObjectPropertyDomain(:has_trigger :event_info)
+ObjectPropertyRange(:has_trigger :event)
+
+# Object Property: :has_trigger_agent (:has_trigger_agent)
+
+ObjectPropertyDomain(:has_trigger_agent :event_info)
+ObjectPropertyRange(:has_trigger_agent :event)
+
+# Object Property: :has_trigger_object (:has_trigger_object)
+
+ObjectPropertyDomain(:has_trigger_object :event_info)
+ObjectPropertyRange(:has_trigger_object :event)
+
+# Object Property: :is_from_of (:is_from_of)
+
+ObjectPropertyDomain(:is_from_of :relation_info)
+ObjectPropertyRange(:is_from_of :relation)
+
+# Object Property: :is_to_of (:is_to_of)
+
+ObjectPropertyDomain(:is_to_of :relation_info)
+ObjectPropertyRange(:is_to_of :relation)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: :event_info_agent_attri (:event_info_agent_attri)
+
+SubDataPropertyOf(:event_info_agent_attri :event_info)
+DataPropertyDomain(:event_info_agent_attri :event_info)
+DataPropertyRange(:event_info_agent_attri xsd:string)
+
+# Data Property: :event_info_location (:event_info_location)
+
+SubDataPropertyOf(:event_info_location :event_info)
+DataPropertyDomain(:event_info_location :event_info)
+DataPropertyRange(:event_info_location xsd:string)
+
+# Data Property: :event_info_object_attri (:event_info_object_attri)
+
+SubDataPropertyOf(:event_info_object_attri :event_info)
+DataPropertyDomain(:event_info_object_attri :event_info)
+DataPropertyRange(:event_info_object_attri xsd:string)
+
+# Data Property: :event_info_person (:event_info_person)
+
+SubDataPropertyOf(:event_info_person :event_info)
+DataPropertyDomain(:event_info_person :event_info)
+DataPropertyRange(:event_info_person xsd:string)
+
+# Data Property: :event_info_time (:event_info_time)
+
+SubDataPropertyOf(:event_info_time :event_info)
+DataPropertyDomain(:event_info_time :event_info)
+DataPropertyRange(:event_info_time xsd:string)
+
+# Data Property: :event_info_time_align (:event_info_time_align)
+
+SubDataPropertyOf(:event_info_time_align :event_info)
+DataPropertyDomain(:event_info_time_align :event_info)
+DataPropertyRange(:event_info_time_align xsd:string)
+
+# Data Property: :event_info_trigger (:event_info_trigger)
+
+SubDataPropertyOf(:event_info_trigger :event_info)
+DataPropertyDomain(:event_info_trigger :event_info)
+DataPropertyRange(:event_info_trigger xsd:string)
+
+# Data Property: :event_info_trigger_agent (:event_info_trigger_agent)
+
+SubDataPropertyOf(:event_info_trigger_agent :event_info)
+DataPropertyDomain(:event_info_trigger_agent :event_info)
+DataPropertyRange(:event_info_trigger_agent xsd:string)
+
+# Data Property: :event_info_trigger_object (:event_info_trigger_object)
+
+SubDataPropertyOf(:event_info_trigger_object :event_info)
+DataPropertyDomain(:event_info_trigger_object :event_info)
+DataPropertyRange(:event_info_trigger_object xsd:string)
+
+# Data Property: :evnt_info_organization (:evnt_info_organization)
+
+SubDataPropertyOf(:evnt_info_organization :event_info)
+DataPropertyDomain(:evnt_info_organization :event_info)
+DataPropertyRange(:evnt_info_organization xsd:string)
+
+# Data Property: :relation_info_from (:relation_info_from)
+
+SubDataPropertyOf(:relation_info_from :relation_info)
+DataPropertyDomain(:relation_info_from :relation_info)
+DataPropertyRange(:relation_info_from xsd:string)
+
+# Data Property: :relation_info_to (:relation_info_to)
+
+SubDataPropertyOf(:relation_info_to :relation_info)
+DataPropertyDomain(:relation_info_to :relation_info)
+DataPropertyRange(:relation_info_to xsd:string)
+
+# Data Property: :relation_label (:relation_label)
+
+SubDataPropertyOf(:relation_label :relation_info)
+DataPropertyDomain(:relation_label :relation_info)
+DataPropertyRange(:relation_label xsd:string)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: :sub_event (:sub_event)
+
+SubClassOf(:sub_event :event)
+
+
+############################
+#   Named Individuals
+############################
+
+
+ClassAssertion(:event :E01)
+ObjectPropertyAssertion(:has_trigger :E01 :遭受)
+ObjectPropertyAssertion(:has_trigger_object :E01 :火袭)
+ObjectPropertyAssertion(:has_trigger_subject :E01 :干货区)
+ObjectPropertyAssertion(:is_from_of :E01 :R-01-02)
+ObjectPropertyAssertion(:is_from_of :E01 :s-01-01)
+ClassAssertion(:event :E02)
+ObjectPropertyAssertion(:has_trigger :E02 :调动)
+ObjectPropertyAssertion(:has_trigger_object :E02 :消防中队/消防车/消防官兵)
+ObjectPropertyAssertion(:has_trigger_subject :E02 :消防支队)
+ObjectPropertyAssertion(:is_from_of :E02 :R-02-03)
+ObjectPropertyAssertion(:is_from_of :E02 :s-02-02)
+ClassAssertion(:event :E03)
+ObjectPropertyAssertion(:has_trigger :E03 :赶到)
+ObjectPropertyAssertion(:has_trigger_object :E03 :现场)
+ObjectPropertyAssertion(:has_trigger_subject :E03 :消防中队/消防车/消防官兵)
+ObjectPropertyAssertion(:is_from_of :E03 :R-03-04)
+ObjectPropertyAssertion(:is_from_of :E03 :s-03-03)
+ClassAssertion(:event :E04)
+ObjectPropertyAssertion(:has_trigger :E04 :灭火)
+ObjectPropertyAssertion(:has_trigger_subject :E04 :消防中队/消防车/消防官兵)
+ObjectPropertyAssertion(:is_from_of :E04 :R-04-05)
+ObjectPropertyAssertion(:is_from_of :E04 :s-04-04)
+ClassAssertion(:event :E05)
+ObjectPropertyAssertion(:has_trigger :E05 :苦战)
+ObjectPropertyAssertion(:has_trigger_subject :E05 :消防官兵)
+ObjectPropertyAssertion(:is_from_of :E05 :R-05-06)
+ObjectPropertyAssertion(:is_from_of :E05 :s-05-05)
+ClassAssertion(:event :E06)
+ObjectPropertyAssertion(:has_trigger :E06 :被-扑灭)
+ObjectPropertyAssertion(:has_trigger_subject :E06 :大火)
+ObjectPropertyAssertion(:is_from_of :E06 :s-06-06)
+
+
+ClassAssertion(:sub_event :e01)
+ObjectPropertyAssertion(:has_time :e01 :11月17日晚20时)
+ObjectPropertyAssertion(:has_time_align :e01 :XXXX-11-17-20-XX)
+ObjectPropertyAssertion(:has_trigger :e01 :遭受)
+ObjectPropertyAssertion(:has_trigger_object :e01 :火袭)
+ObjectPropertyAssertion(:has_location :e01 :合肥市)
+ObjectPropertyAssertion(:has_subject_attri :e01 :周谷堆批发市场)
+ObjectPropertyAssertion(:has_trigger_subject :e01 :干货区)
+ObjectPropertyAssertion(:is_from_of :e01 :r-01-02)
+ClassAssertion(:sub_event :e02)
+ObjectPropertyAssertion(:has_time :e02 :11月17日晚20时)
+ObjectPropertyAssertion(:has_time_align :e02 :XXXX-11-17-20-XX)
+ObjectPropertyAssertion(:has_trigger :e02 :调动)
+ObjectPropertyAssertion(:has_trigger_object :e02 :消防中队/消防车/消防官兵)
+ObjectPropertyAssertion(:has_object_attri :e02 :10个/28台/240余名)
+ObjectPropertyAssertion(:has_location :e02 :合肥市)
+ObjectPropertyAssertion(:has_subject_attri :e02 :公安)
+ObjectPropertyAssertion(:has_trigger_subject :e02 :消防支队)
+ObjectPropertyAssertion(:is_from_of :e02 :r-02-03)
+ClassAssertion(:sub_event :e03)
+ObjectPropertyAssertion(:has_time :e03 :11月17日晚20时)
+ObjectPropertyAssertion(:has_time_align :e03 :XXXX-11-17-20-XX)
+ObjectPropertyAssertion(:has_trigger :e03 :赶到)
+ObjectPropertyAssertion(:has_trigger_object :e03 :现场)
+ObjectPropertyAssertion(:has_location :e03 :合肥市)
+ObjectPropertyAssertion(:has_subject_attri :e03 :10个/28台/240余名)
+ObjectPropertyAssertion(:has_trigger_subject :e03 :消防中队/消防车/消防官兵)
+ObjectPropertyAssertion(:is_from_of :e03 :r-03-04)
+ClassAssertion(:sub_event :e04)
+ObjectPropertyAssertion(:has_time :e04 :11月17日晚20时)
+ObjectPropertyAssertion(:has_time_align :e04 :XXXX-11-17-20-XX)
+ObjectPropertyAssertion(:has_trigger :e04 :灭火)
+ObjectPropertyAssertion(:has_location :e04 :合肥市)
+ObjectPropertyAssertion(:has_subject_attri :e04 :10个/28台/240余名)
+ObjectPropertyAssertion(:has_trigger_subject :e04 :消防中队/消防车/消防官兵)
+ObjectPropertyAssertion(:is_from_of :e04 :r-04-05)
+ClassAssertion(:sub_event :e05)
+ObjectPropertyAssertion(:has_trigger :e05 :苦战)
+ObjectPropertyAssertion(:has_location :e05 :合肥市)
+ObjectPropertyAssertion(:has_trigger_subject :e05 :消防官兵)
+ObjectPropertyAssertion(:is_from_of :e05 :r-05-06)
+ClassAssertion(:sub_event :e06)
+ObjectPropertyAssertion(:has_time :e06 :当晚23时)
+ObjectPropertyAssertion(:has_trigger :e06 :被-扑灭)
+ObjectPropertyAssertion(:has_location :e06 :合肥市)
+ObjectPropertyAssertion(:has_trigger_subject :e06 :大火)
+
+
+ClassAssertion(:relation :R-01-02)
+ObjectPropertyAssertion(:has_label :R-01-02 :时序关系)
+ObjectPropertyAssertion(:has_to :R-01-02 :E02)
+ClassAssertion(:relation :R-02-03)
+ObjectPropertyAssertion(:has_label :R-02-03 :时序关系)
+ObjectPropertyAssertion(:has_to :R-02-03 :E03)
+ClassAssertion(:relation :R-03-04)
+ObjectPropertyAssertion(:has_label :R-03-04 :时序关系)
+ObjectPropertyAssertion(:has_to :R-03-04 :E04)
+ClassAssertion(:relation :R-04-05)
+ObjectPropertyAssertion(:has_label :R-04-05 :时序关系)
+ObjectPropertyAssertion(:has_to :R-04-05 :E05)
+ClassAssertion(:relation :R-05-06)
+ObjectPropertyAssertion(:has_label :R-05-06 :时序关系)
+ObjectPropertyAssertion(:has_to :R-05-06 :E06)
+
+
+ClassAssertion(:relation :r-01-02)
+ObjectPropertyAssertion(:has_label :r-01-02 :时序关系)
+ObjectPropertyAssertion(:has_to :r-01-02 :e02)
+ClassAssertion(:relation :r-02-03)
+ObjectPropertyAssertion(:has_label :r-02-03 :时序关系)
+ObjectPropertyAssertion(:has_to :r-02-03 :e03)
+ClassAssertion(:relation :r-03-04)
+ObjectPropertyAssertion(:has_label :r-03-04 :时序关系)
+ObjectPropertyAssertion(:has_to :r-03-04 :e04)
+ClassAssertion(:relation :r-04-05)
+ObjectPropertyAssertion(:has_label :r-04-05 :时序关系)
+ObjectPropertyAssertion(:has_to :r-04-05 :e05)
+ClassAssertion(:relation :r-05-06)
+ObjectPropertyAssertion(:has_label :r-05-06 :时序关系)
+ObjectPropertyAssertion(:has_to :r-05-06 :e06)
+
+
+ClassAssertion(:relation :s-01-01)
+ObjectPropertyAssertion(:has_label :s-01-01 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-01-01 :e01)
+ClassAssertion(:relation :s-02-02)
+ObjectPropertyAssertion(:has_label :s-02-02 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-02-02 :e02)
+ClassAssertion(:relation :s-03-03)
+ObjectPropertyAssertion(:has_label :s-03-03 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-03-03 :e03)
+ClassAssertion(:relation :s-04-04)
+ObjectPropertyAssertion(:has_label :s-04-04 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-04-04 :e04)
+ClassAssertion(:relation :s-05-05)
+ObjectPropertyAssertion(:has_label :s-05-05 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-05-05 :e05)
+ClassAssertion(:relation :s-06-06)
+ObjectPropertyAssertion(:has_label :s-06-06 :子事件关系 )
+ObjectPropertyAssertion(:has_to :s-06-06 :e06)
+
+
+ClassAssertion(:event_info :XXXX-11-17-20-XX)
+ClassAssertion(:event_info :灭火)
+ClassAssertion(:event_info :调动)
+ClassAssertion(:event_info :10个/28台/240余名)
+ClassAssertion(:event_info :周谷堆批发市场)
+ClassAssertion(:event_info :消防官兵)
+ClassAssertion(:event_info :遭受)
+ClassAssertion(:event_info :苦战)
+ClassAssertion(:event_info :被-扑灭)
+ClassAssertion(:event_info :大火)
+ClassAssertion(:event_info :现场)
+ClassAssertion(:event_info :公安)
+ClassAssertion(:event_info :当晚23时)
+ClassAssertion(:event_info :消防中队/消防车/消防官兵)
+ClassAssertion(:event_info :11月17日晚20时)
+ClassAssertion(:event_info :火袭)
+ClassAssertion(:event_info :合肥市)
+ClassAssertion(:event_info :消防支队)
+ClassAssertion(:event_info :赶到)
+ClassAssertion(:event_info :干货区)
+
+
+ClassAssertion(:relation_info :时序关系)
+ClassAssertion(:relation_info :子事件关系)
+ClassAssertion(:relation_info :因果关系)
+
+
+
+)

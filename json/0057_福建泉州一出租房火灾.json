@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2013年5月30日凌晨近4时",
           "time_align": "2013-05-30-04-00",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "火灾",
           "object_attri": "",
           "location": "泉州市区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "time": "2013年5月30日凌晨近4时",
           "time_align": "2013-05-30-04-00",
-          "trigger_agent": "租户",
-          "agent_attri": "年轻女",
           "trigger": "身亡",
           "trigger_object": "",
           "object_attri": "",
           "location": "泉州市区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "年轻女",
+          "trigger_subject": "租户"
         }
       ]
     },
@@ -38,14 +38,14 @@
           "child_event_id": "e03",
           "time": "",
           "time_align": "",
-          "trigger_agent": "部门",
-          "agent_attri": "刑侦",
           "trigger": "介入",
           "trigger_object": "调查",
           "object_attri": "",
           "location": "泉州市、丰泽区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "刑侦",
+          "trigger_subject": "部门"
         }
       ]
     },
@@ -56,27 +56,27 @@
           "child_event_id": "e04",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "此事",
-          "agent_attri": "",
           "trigger": "移交",
           "trigger_object": "刑侦部门",
           "object_attri": "公安",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "此事"
         },
         {
           "child_event_id": "e05",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "刑警",
-          "agent_attri": "",
           "trigger": "侦查",
           "trigger_object": "案",
           "object_attri": "此",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "刑警"
         }
       ]
     }

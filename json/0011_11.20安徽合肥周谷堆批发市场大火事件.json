@@ -7,53 +7,53 @@
           "child_event_id": "e01",
           "time": "11月17日晚20时",
           "time_align": "XXXX-11-17-20-XX",
-          "trigger_agent": "干货区",
-          "agent_attri": "周谷堆批发市场",
           "trigger": "遭受",
           "trigger_object": "火袭",
           "object_attri": "",
           "location": "合肥市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "周谷堆批发市场",
+          "trigger_subject": "干货区"
         },
         {
           "child_event_id": "e02",
           "time": "11月17日晚20时",
           "time_align": "XXXX-11-17-20-XX",
-          "trigger_agent": "消防支队",
-          "agent_attri": "公安",
           "trigger": "调动",
           "trigger_object": "消防中队/消防车/消防官兵",
           "object_attri": "10个/28台/240余名",
           "location": "合肥市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "公安",
+          "trigger_subject": "消防支队"
         },
         {
           "child_event_id": "e03",
           "time": "11月17日晚20时",
           "time_align": "XXXX-11-17-20-XX",
-          "trigger_agent": "消防中队/消防车/消防官兵",
-          "agent_attri": "10个/28台/240余名",
           "trigger": "赶到",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "合肥市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "10个/28台/240余名",
+          "trigger_subject": "消防中队/消防车/消防官兵"
         },
         {
           "child_event_id": "e04",
           "time": "11月17日晚20时",
           "time_align": "XXXX-11-17-20-XX",
-          "trigger_agent": "消防中队/消防车/消防官兵",
-          "agent_attri": "10个/28台/240余名",
           "trigger": "灭火",
           "trigger_object": "",
           "object_attri": "",
           "location": "合肥市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "10个/28台/240余名",
+          "trigger_subject": "消防中队/消防车/消防官兵"
         }
       ]
     },
@@ -64,27 +64,27 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "消防官兵",
-          "agent_attri": "",
           "trigger": "苦战",
           "trigger_object": "",
           "object_attri": "",
           "location": "合肥市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "消防官兵"
         },
         {
           "child_event_id": "e06",
           "time": "当晚23时",
           "time_align": "",
-          "trigger_agent": "大火",
-          "agent_attri": "",
           "trigger": "被-扑灭",
           "trigger_object": "",
           "object_attri": "",
           "location": "合肥市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "大火"
         }
       ]
     }

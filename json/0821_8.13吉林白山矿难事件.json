@@ -6,54 +6,54 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "井",
           "trigger_object": "瓦斯事故",
-          "agent_attri": "吉盛矿业有限公司一",
           "object_attri": "一起",
           "time": "8月13日6时",
           "time_align": "XXXX-08-13-06-00",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "吉盛矿业有限公司一",
+          "trigger_subject": "井"
         },
         {
           "child_event_id": "e02",
           "trigger": "入井",
-          "trigger_agent": "当班",
           "trigger_object": "人",
-          "agent_attri": "",
           "object_attri": "116",
           "time": "8月13日6时",
           "time_align": "XXXX-08-13-06-00",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "当班"
         },
         {
           "child_event_id": "e03",
           "trigger": "升井",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "95",
           "object_attri": "",
           "time": "8月13日6时",
           "time_align": "XXXX-08-13-06-00",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "95",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e04",
           "trigger": "被-困",
-          "trigger_agent": "人",
           "trigger_object": "井下",
-          "agent_attri": "21",
           "object_attri": "",
           "time": "8月13日6时",
           "time_align": "XXXX-08-13-06-00",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "21",
+          "trigger_subject": "人"
         }
       ]
     },
@@ -63,28 +63,28 @@
         {
           "child_event_id": "e05",
           "trigger": "入井",
-          "trigger_agent": "救护队",
           "trigger_object": "施救",
-          "agent_attri": "白山市矿山救护队、通化矿业集团救护队70人",
           "object_attri": "",
           "time": "当日中午",
           "time_align": "XXXX-08-13-XX-XX",
           "location": "白山市",
           "organization": "白山市矿山救护队、通化矿业集团救护队",
-          "person": ""
+          "person": "",
+          "subject_attri": "白山市矿山救护队、通化矿业集团救护队70人",
+          "trigger_subject": "救护队"
         },
         {
           "child_event_id": "e06",
           "trigger": "发现",
-          "trigger_agent": "搜救人员",
           "trigger_object": "遇难者",
-          "agent_attri": "白山市矿山救护队、通化矿业集团救护队70人",
           "object_attri": "4名",
           "time": "当日中午",
           "time_align": "XXXX-08-13-XX-XX",
           "location": "白山市",
           "organization": "白山市矿山救护队、通化矿业集团救护队",
-          "person": ""
+          "person": "",
+          "subject_attri": "白山市矿山救护队、通化矿业集团救护队70人",
+          "trigger_subject": "搜救人员"
         }
       ]
     },
@@ -94,54 +94,54 @@
         {
           "child_event_id": "e07",
           "trigger": "抢救",
-          "trigger_agent": "搜救人员",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "13日14时",
           "time_align": "XXXX-08-13-14-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "搜救人员"
         },
         {
           "child_event_id": "e08",
           "trigger": "获救",
-          "trigger_agent": "人",
           "trigger_object": "",
-          "agent_attri": "4",
           "object_attri": "",
           "time": "13日14时",
           "time_align": "XXXX-08-13-14-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "4",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e09",
           "trigger": "被-送往",
-          "trigger_agent": "人",
           "trigger_object": "医院",
-          "agent_attri": "4",
           "object_attri": "",
           "time": "13日14时",
           "time_align": "XXXX-08-13-14-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "4",
+          "trigger_subject": "人"
         },
         {
           "child_event_id": "e10",
           "trigger": "救治",
-          "trigger_agent": "医院",
           "trigger_object": "人",
-          "agent_attri": "",
           "object_attri": "4",
           "time": "13日14时",
           "time_align": "XXXX-08-13-14-XX",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "医院"
         }
       ]
     },
@@ -151,28 +151,28 @@
         {
           "child_event_id": "e11",
           "trigger": "去世",
-          "trigger_agent": "矿工",
           "trigger_object": "",
-          "agent_attri": "3名伤势较重",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "3名伤势较重",
+          "trigger_subject": "矿工"
         },
         {
           "child_event_id": "e12",
           "trigger": "平稳",
-          "trigger_agent": "伤势",
           "trigger_object": "",
-          "agent_attri": "1人",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "1人",
+          "trigger_subject": "伤势"
         }
       ]
     }

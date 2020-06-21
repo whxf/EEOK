@@ -5,29 +5,29 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "",
           "trigger": "由于",
           "trigger_object": "强对流天气",
-          "agent_attri": "",
           "object_attri": "突发局部",
           "time": "2016年6月4日14时40分",
           "time_align": "2016-06-04-14-40",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "trigger": "发生",
-          "trigger_agent": "",
           "trigger_object": "沉船",
-          "agent_attri": "",
           "object_attri": "一起",
           "time": "2016年6月4日14时40分",
           "time_align": "2016-06-04-14-40",
           "location": "广元市白龙湖风景名胜区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,41 +37,41 @@
         {
           "child_event_id": "e03",
           "trigger": "翻沉",
-          "trigger_agent": "游船",
           "trigger_object": "",
-          "agent_attri": "核载25人、实载18人的广元市轮船公司“双龙”号",
           "object_attri": "",
           "time": "",
           "time_align": "2016-06-04-14-40",
           "location": "广元市白龙湖风景名胜区",
           "organization": "广元市轮船公司",
-          "person": ""
+          "person": "",
+          "subject_attri": "核载25人、实载18人的广元市轮船公司“双龙”号",
+          "trigger_subject": "游船"
         },
         {
           "child_event_id": "e04",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "15人",
           "time": "",
           "time_align": "2016-06-04-14-40",
           "location": "广元市白龙湖风景名胜区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "受伤",
-          "agent_attri": "",
           "object_attri": "3人",
           "time": "",
           "time_align": "2016-06-04-14-40",
           "location": "广元市白龙湖风景名胜区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -81,28 +81,28 @@
         {
           "child_event_id": "e06",
           "trigger": "公布",
-          "trigger_agent": "监督管理局",
           "trigger_object": "调查报告",
-          "agent_attri": "四川省安全生产",
           "object_attri": "重大沉船事故",
           "time": "28日",
           "time_align": "2016-06-28-XX-XX",
           "location": "四川省",
           "organization": "四川省安全生产监督管理局",
-          "person": ""
+          "person": "",
+          "subject_attri": "四川省安全生产",
+          "trigger_subject": "监督管理局"
         },
         {
           "child_event_id": "e07",
           "trigger": "建议",
-          "trigger_agent": "监督管理局",
           "trigger_object": "处分",
-          "agent_attri": "四川省安全生成",
           "object_attri": "21人",
           "time": "28日",
           "time_align": "2016-06-28-XX-XX",
           "location": "四川省",
           "organization": "四川省安全生产监督管理局",
-          "person": ""
+          "person": "",
+          "subject_attri": "四川省安全生成",
+          "trigger_subject": "监督管理局"
         }
       ]
     },
@@ -112,15 +112,15 @@
         {
           "child_event_id": "e08",
           "trigger": "引起",
-          "trigger_agent": "该事件",
           "trigger_object": "关注",
-          "agent_attri": "",
           "object_attri": "社会大众的普遍",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "该事件"
         }
       ]
     }
@@ -137,8 +137,7 @@
       "e05": "因果关系"
     },
     "e04": {
-      "e05": "顺承关系",
-      "e04": "并列关系"
+      "e05": "顺承关系"
     },
     "e05": {
       "e06": "顺承关系"

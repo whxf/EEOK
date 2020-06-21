@@ -7,40 +7,40 @@
           "child_event_id": "e01",
           "time": "2010年9月13日下午15时",
           "time_align": "2010-09-13-15-XX",
-          "trigger_agent": "窝点",
-          "agent_attri": "村委会荔枝场内一私炮",
           "trigger": "发生",
           "trigger_object": "爆炸",
           "object_attri": "",
           "location": "广东省电白县水东镇蓝田坡村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "村委会荔枝场内一私炮",
+          "trigger_subject": "窝点"
         },
         {
           "child_event_id": "e02",
           "time": "2010年9月13日下午15时",
           "time_align": "2010-09-13-15-XX",
-          "trigger_agent": "事故",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "死亡",
           "object_attri": "2人当场",
           "location": "广东省电白县水东镇蓝田坡村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         },
         {
           "child_event_id": "e03",
           "time": "2010年9月13日下午15时",
           "time_align": "2010-09-13-15-XX",
-          "trigger_agent": "事故",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "受伤",
           "object_attri": "16人",
           "location": "广东省电白县水东镇蓝田坡村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         }
       ]
     },
@@ -51,53 +51,53 @@
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "陈亚春/谢金坚",
-          "agent_attri": "副市长/副县长",
           "trigger": "赶赴",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "广东省电白县水东镇蓝田坡村",
           "organization": "",
-          "person": "陈亚春/谢金坚"
+          "person": "陈亚春/谢金坚",
+          "subject_attri": "副市长/副县长",
+          "trigger_subject": "陈亚春/谢金坚"
         },
         {
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "陈亚春/谢金坚",
-          "agent_attri": "副市长/副县长",
           "trigger": "指挥",
           "trigger_object": "抢救",
           "object_attri": "",
           "location": "广东省电白县水东镇蓝田坡村",
           "organization": "",
-          "person": "陈亚春/谢金坚"
+          "person": "陈亚春/谢金坚",
+          "subject_attri": "副市长/副县长",
+          "trigger_subject": "陈亚春/谢金坚"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "公安部门",
-          "agent_attri": "",
           "trigger": "开展",
           "trigger_object": "取证工作",
           "object_attri": "调查",
           "location": "广东省电白县水东镇蓝田坡村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "公安部门"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "彻查",
           "trigger_object": "原因",
           "object_attri": "事故",
           "location": "广东省电白县水东镇蓝田坡村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -108,27 +108,27 @@
           "child_event_id": "e08",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "调查",
           "trigger_object": "原因",
           "object_attri": "事故",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e09",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "进行",
           "trigger_object": "善后工作",
           "object_attri": "有关",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

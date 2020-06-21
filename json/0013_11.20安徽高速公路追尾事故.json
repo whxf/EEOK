@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2014年11月20日",
           "time_align": "2014-11-20-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "受",
           "trigger_object": "影响",
           "object_attri": "大雾",
           "location": "合淮阜高速往安徽合肥方向77公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "time": "2014年11月20日",
           "time_align": "2014-11-20-XX-XX",
-          "trigger_agent": "车",
-          "agent_attri": "超过70辆",
           "trigger": "发生",
           "trigger_object": "追尾事故",
           "object_attri": "",
           "location": "合淮阜高速往安徽合肥方向77公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "超过70辆",
+          "trigger_subject": "车"
         }
       ]
     },
@@ -38,27 +38,27 @@
           "child_event_id": "e03",
           "time": "2014年11月20日",
           "time_align": "2014-11-20-XX-XX",
-          "trigger_agent": "事故",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "死",
           "object_attri": "一",
           "location": "合淮阜高速往安徽合肥方向77公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         },
         {
           "child_event_id": "e04",
           "time": "2014年11月20日",
           "time_align": "2014-11-20-XX-XX",
-          "trigger_agent": "事故",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "伤",
           "object_attri": "十一",
           "location": "合淮阜高速往安徽合肥方向77公里处",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "事故"
         }
       ]
     },
@@ -69,27 +69,27 @@
           "child_event_id": "e05",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "伤者",
-          "agent_attri": "",
           "trigger": "被-送往",
           "trigger_object": "医院",
           "object_attri": "",
-          "location,": "",
+          "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "伤者"
         },
         {
           "child_event_id": "e06",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "医院",
           "trigger": "进行",
           "trigger_object": "救治",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "医院",
+          "trigger_subject": ""
         }
       ]
     }

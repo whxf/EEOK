@@ -6,41 +6,41 @@
         {
           "child_event_id": "e01",
           "trigger": "发生",
-          "trigger_agent": "KTV",
           "trigger_object": "爆炸",
-          "agent_attri": "一酒店",
           "object_attri": "",
           "time": "2017年2月17日上午11点",
           "time_align": "2017-02-17-11-XX",
           "location": "承德市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一酒店",
+          "trigger_subject": "KTV"
         },
         {
           "child_event_id": "e02",
           "trigger": "采取",
-          "trigger_agent": "相关部门",
           "trigger_object": "预案",
-          "agent_attri": "政府",
           "object_attri": "应急",
           "time": "2017年2月17日上午11点",
           "time_align": "2017-02-17-11-XX",
           "location": "承德市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "政府",
+          "trigger_subject": "相关部门"
         },
         {
           "child_event_id": "e03",
           "trigger": "调查",
-          "trigger_agent": "相关部门",
           "trigger_object": "原因",
-          "agent_attri": "政府",
           "object_attri": "事件发生",
           "time": "2017年2月17日上午11点",
           "time_align": "2017-02-17-11-XX",
           "location": "承德市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "政府",
+          "trigger_subject": "相关部门"
         }
       ]
     },
@@ -50,28 +50,28 @@
         {
           "child_event_id": "e04",
           "trigger": "排查",
-          "trigger_agent": "警方",
           "trigger_object": "",
-          "agent_attri": "承德市",
           "object_attri": "",
           "time": "2017年2月17日",
           "time_align": "2017-02-17-XX-XX",
           "location": "承德市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "承德市",
+          "trigger_subject": "警方"
         },
         {
           "child_event_id": "e05",
           "trigger": "断定",
-          "trigger_agent": "爆炸原因",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2017年2月17日",
           "time_align": "2017-02-17-XX-XX",
           "location": "承德市",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "爆炸原因"
         }
       ]
     }

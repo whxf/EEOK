@@ -7,53 +7,53 @@
           "child_event_id": "e01",
           "time": "2015年5月1日",
           "time_align": "2015-01-01-XX-XX",
-          "trigger_agent": "暴雨",
-          "agent_attri": "",
           "trigger": "引发",
           "trigger_object": "滑落事件",
           "object_attri": "山石",
           "location": "广东韶关乳源大峡谷景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "暴雨"
         },
         {
           "child_event_id": "e02",
           "time": "2015年5月1日",
           "time_align": "2015-01-01-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "导致",
           "trigger_object": "死亡",
           "object_attri": "1人",
           "location": "广东韶关乳源大峡谷景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
           "time": "2015年5月1日",
           "time_align": "2015-01-01-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "导致",
           "trigger_object": "重伤",
           "object_attri": "3人",
           "location": "广东韶关乳源大峡谷景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e05",
           "time": "2015年5月1日",
           "time_align": "2015-01-01-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "导致",
           "trigger_object": "轻伤",
           "object_attri": "4人",
           "location": "广东韶关乳源大峡谷景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -64,14 +64,14 @@
           "child_event_id": "e05",
           "time": "目前",
           "time_align": "",
-          "trigger_agent": "救援工作",
-          "agent_attri": "现场",
           "trigger": "完成",
           "trigger_object": "",
           "object_attri": "",
           "location": "广东韶关乳源大峡谷景区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "现场",
+          "trigger_subject": "救援工作"
         }
       ]
     },
@@ -82,27 +82,27 @@
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "受伤人员",
-          "agent_attri": "全部",
           "trigger": "转移",
           "trigger_object": "医院",
           "object_attri": "人民",
           "location": "韶关市/乳源县",
           "organization": "韶关市/乳源县人民医院",
-          "person": ""
+          "person": "",
+          "subject_attri": "全部",
+          "trigger_subject": "受伤人员"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "进行",
           "trigger_object": "医治",
           "object_attri": "",
           "location": "韶关市/乳源县",
           "organization": "韶关市/乳源县人民医院",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

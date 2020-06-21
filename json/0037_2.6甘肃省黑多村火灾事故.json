@@ -7,14 +7,14 @@
           "child_event_id": "e01",
           "time": "2013年2月6日晚",
           "time_align": "2013-02-06-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "火灾",
           "object_attri": "民房",
           "location": "甘肃省甘南藏族自治州迭部县腊子口乡黑多村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -25,40 +25,40 @@
           "child_event_id": "e02",
           "time": "2013年2月6日晚",
           "time_align": "2013-02-06-XX-XX",
-          "trigger_agent": "火灾",
-          "agent_attri": "",
           "trigger": "烧毁",
           "trigger_object": "民宅",
           "object_attri": "",
           "location": "甘肃省甘南藏族自治州迭部县腊子口乡黑多村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "火灾"
         },
         {
           "child_event_id": "e03",
           "time": "2013年2月6日晚",
           "time_align": "2013-02-06-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "受灾",
           "object_attri": "420人",
           "location": "甘肃省甘南藏族自治州迭部县腊子口乡黑多村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e04",
           "time": "2013年2月6日晚",
           "time_align": "2013-02-06-XX-XX",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "未-造成",
           "trigger_object": "伤亡",
           "object_attri": "人员",
           "location": "甘肃省甘南藏族自治州迭部县腊子口乡黑多村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -69,52 +69,53 @@
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "负责人",
-          "agent_attri": "甘南州/迭部县相关",
           "trigger": "赶赴",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "甘南州/迭部县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "甘南州/迭部县相关",
+          "trigger_subject": "负责人"
         },
         {
           "child_event_id": "e06",
           "time": "",
-          "trigger_agent": "负责人",
-          "agent_attri": "甘南州/迭部县相关",
           "trigger": "启动",
           "trigger_object": "应急预案",
           "object_attri": "迭部县处置森林/草原/民宅火灾",
           "location": "甘肃省甘南藏族自治州迭部县腊子口乡黑多村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "time_align": "",
+          "subject_attri": "甘南州/迭部县相关",
+          "trigger_subject": "负责人"
         },
         {
           "child_event_id": "e07",
           "time": "",
           "time_align": "",
-          "trigger_agent": "负责人",
-          "agent_attri": "甘南州/迭部县相关",
           "trigger": "成立",
           "trigger_object": "指挥部",
           "object_attri": "现场救火",
           "location": "甘肃省甘南藏族自治州迭部县腊子口乡黑多村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "甘南州/迭部县相关",
+          "trigger_subject": "负责人"
         },
         {
           "child_event_id": "e08",
           "time": "",
           "time_align": "",
-          "trigger_agent": "负责人",
-          "agent_attri": "甘南州/迭部县相关",
           "trigger": "开展",
           "trigger_object": "救助",
           "object_attri": "",
           "location": "甘肃省甘南藏族自治州迭部县腊子口乡黑多村",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "甘南州/迭部县相关",
+          "trigger_subject": "负责人"
         }
       ]
     }

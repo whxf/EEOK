@@ -7,14 +7,14 @@
           "child_event_id": "e01",
           "time": "",
           "time_align": "",
-          "trigger_agent": "市场",
-          "agent_attri": "一农贸",
           "trigger": "发生",
           "trigger_object": "伤人事件",
           "object_attri": "一起驾车",
           "location": "北京昌平区",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一农贸",
+          "trigger_subject": "市场"
         }
       ]
     },
@@ -25,66 +25,66 @@
           "child_event_id": "e02",
           "time": "",
           "time_align": "",
-          "trigger_agent": "警方",
-          "agent_attri": "北京",
           "trigger": "通报",
           "trigger_object": "",
           "object_attri": "",
           "location": "北京",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "北京",
+          "trigger_subject": "警方"
         },
         {
           "child_event_id": "e03",
           "time": "2016年12月21日15时",
           "time_align": "2016-12-21-15-00",
-          "trigger_agent": "车",
-          "agent_attri": "一辆面包",
           "trigger": "驶入",
           "trigger_object": "市场",
           "object_attri": "一农贸",
           "location": "昌平区马池口镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "一辆面包",
+          "trigger_subject": "车"
         },
         {
           "child_event_id": "e04",
           "time": "2016年12月21日15时",
           "time_align": "2016-12-21-15-00",
-          "trigger_agent": "人员",
-          "agent_attri": "市场内",
           "trigger": "发生",
           "trigger_object": "碰撞",
           "object_attri": "",
           "location": "昌平区马池口镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "市场内",
+          "trigger_subject": "人员"
         },
         {
           "child_event_id": "e05",
           "time": "2016年12月21日15时",
           "time_align": "2016-12-21-15-00",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "死亡",
           "object_attri": "4人",
           "location": "昌平区马池口镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e06",
           "time": "2016年12月21日15时",
           "time_align": "2016-12-21-15-00",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "造成",
           "trigger_object": "受伤",
           "object_attri": "多人不同程度",
           "location": "昌平区马池口镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

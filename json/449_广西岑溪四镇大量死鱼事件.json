@@ -6,15 +6,15 @@
         {
           "child_event_id": "e01",
           "trigger": "出现",
-          "trigger_agent": "",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "大量网箱养鱼",
           "time": "9月22日至25日",
           "time_align": "XXXX-09-22-XX-XX",
           "location": "岑溪镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -24,41 +24,41 @@
         {
           "child_event_id": "e03",
           "trigger": "担心",
-          "trigger_agent": "居民",
           "trigger_object": "垮坝",
-          "agent_attri": "当地",
           "object_attri": "上游广东信宜紫金尾矿库",
           "time": "",
           "time_align": "",
           "location": "岑溪镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "当地",
+          "trigger_subject": "居民"
         },
         {
           "child_event_id": "e03",
           "trigger": "垮塌",
-          "trigger_agent": "矿库",
           "trigger_object": "",
-          "agent_attri": "上游广东信宜紫金尾",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "岑溪镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "上游广东信宜紫金尾",
+          "trigger_subject": "矿库"
         },
         {
           "child_event_id": "e04",
           "trigger": "造成",
-          "trigger_agent": "",
           "trigger_object": "污染",
-          "agent_attri": "",
           "object_attri": "水体",
           "time": "",
           "time_align": "",
           "location": "岑溪镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -68,80 +68,80 @@
         {
           "child_event_id": "e06",
           "trigger": "要求",
-          "trigger_agent": "水产部门",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "岑溪镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "水产部门"
         },
         {
           "child_event_id": "e06",
           "trigger": "被-打捞",
-          "trigger_agent": "死鱼",
           "trigger_object": "",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "岑溪镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "死鱼"
         },
         {
           "child_event_id": "e07",
           "trigger": "进行",
-          "trigger_agent": "",
           "trigger_object": "深埋",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e08",
           "trigger": "不能",
-          "trigger_agent": "",
           "trigger_object": "加工",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "岑溪镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e09",
           "trigger": "不能",
-          "trigger_agent": "",
           "trigger_object": "出售",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "岑溪镇",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e10",
           "trigger": "不能",
-          "trigger_agent": "",
           "trigger_object": "食用",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }

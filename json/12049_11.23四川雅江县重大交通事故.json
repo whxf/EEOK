@@ -5,41 +5,42 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "",
           "trigger": "发生",
           "trigger_object": "交通事故",
-          "agent_attri": "",
           "object_attri": "",
           "time": "2011年11月23日13时35分",
           "time_align": "2011-11-23-13-35",
           "location": "四川甘孜雅江县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
-          "trigger_agent": "",
           "trigger": "造成",
           "trigger_object": "死亡",
-          "agent_attri": "17人",
           "time": "2011年11月23日13时35分",
           "time_align": "2011-11-23-13-35",
           "location": "四川甘孜雅江县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "object_attri": "",
+          "subject_attri": "17人",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e03",
-          "trigger_agent": "",
           "trigger": "造成",
           "trigger_object": "受伤",
-          "agent_attri": "2人",
           "object_attri": "",
           "time": "2011年11月23日13时35分",
           "time_align": "2011-11-23-13-35",
           "location": "四川甘孜雅江县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "2人",
+          "trigger_subject": ""
         }
       ]
     },
@@ -48,68 +49,68 @@
       "event_graph": [
         {
           "child_event_id": "e04",
-          "trigger_agent": "政府",
           "trigger": "启动",
           "trigger_object": "应急预案",
-          "agent_attri": "甘孜",
           "object_attri": "重大交通事故",
           "time": "",
           "time_align": "",
           "location": "甘孜州",
           "organization": "甘孜州委/州政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "甘孜",
+          "trigger_subject": "政府"
         },
         {
           "child_event_id": "e05",
-          "trigger_agent": "政府",
           "trigger": "成立",
           "trigger_object": "工作组",
-          "agent_attri": "",
           "object_attri": "事故调查处理",
           "time": "",
           "time_align": "",
           "location": "甘孜州",
           "organization": "甘孜州委/州政府",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "政府"
         },
         {
           "child_event_id": "e06",
-          "trigger_agent": "领导",
           "trigger": "赶赴",
           "trigger_object": "现场",
-          "agent_attri": "",
           "object_attri": "事故",
           "time": "",
           "time_align": "",
           "location": "甘孜州",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e07",
-          "trigger_agent": "领导",
           "trigger": "展开",
           "trigger_object": "善后",
-          "agent_attri": "",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "四川甘孜雅江县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e08",
-          "trigger_agent": "领导",
           "trigger": "展开",
           "trigger_object": "调查",
-          "agent_attri": "",
           "object_attri": "事故",
           "time": "",
           "time_align": "",
           "location": "四川甘孜雅江县",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "领导"
         }
       ]
     },
@@ -118,16 +119,16 @@
       "event_graph": [
         {
           "child_event_id": "e09",
-          "trigger_agent": "相关部门",
           "trigger": "通报",
           "trigger_object": "情况",
-          "agent_attri": "",
           "object_attri": "雅江县重大交通事故的最新",
           "time": "11月24日",
           "time_align": "2011-11-24-XX-XX",
           "location": "四川省甘孜藏族自治州",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "相关部门"
         }
       ]
     }

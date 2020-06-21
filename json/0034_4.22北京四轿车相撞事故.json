@@ -7,27 +7,27 @@
           "child_event_id": "e01",
           "time": "2013年4月22日18时10分",
           "time_align": "2013-04-22-18-10",
-          "trigger_agent": "",
-          "agent_attri": "",
           "trigger": "发生",
           "trigger_object": "相撞事故",
           "object_attri": "四车",
           "location": "北京市海淀区玲珑路慈寿寺桥西",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         },
         {
           "child_event_id": "e02",
           "time": "2013年4月22日18时10分",
           "time_align": "2013-04-22-18-10",
-          "trigger_agent": "车",
-          "agent_attri": "3辆",
           "trigger": "起火",
           "trigger_object": "",
           "object_attri": "",
           "location": "北京市海淀区玲珑路慈寿寺桥西",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "3辆",
+          "trigger_subject": "车"
         }
       ]
     },
@@ -38,53 +38,53 @@
           "child_event_id": "e03",
           "time": "",
           "time_align": "",
-          "trigger_agent": "消防",
-          "agent_attri": "",
           "trigger": "赶至",
           "trigger_object": "现场",
           "object_attri": "",
           "location": "北京市海淀区玲珑路慈寿寺桥西",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "消防"
         },
         {
           "child_event_id": "e04",
           "time": "",
           "time_align": "",
-          "trigger_agent": "消防",
-          "agent_attri": "",
           "trigger": "扑灭",
           "trigger_object": "大火",
           "object_attri": "",
           "location": "北京市海淀区玲珑路慈寿寺桥西",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "消防"
         },
         {
           "child_event_id": "e05",
           "time": "",
           "time_align": "",
-          "trigger_agent": "伤者",
-          "agent_attri": "",
           "trigger": "被-送往",
           "trigger_object": "医院",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "伤者"
         },
         {
           "child_event_id": "e06",
           "time": "",
           "time_align": "",
-          "trigger_agent": "伤者",
-          "agent_attri": "",
           "trigger": "治疗",
           "trigger_object": "",
           "object_attri": "",
           "location": "",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "伤者"
         }
       ]
     },
@@ -95,14 +95,14 @@
           "child_event_id": "e07",
           "time": "晚上8点",
           "time_align": "2013-04-22-20-00",
-          "trigger_agent": "交通",
-          "agent_attri": "",
           "trigger": "恢复",
           "trigger_object": "",
           "object_attri": "",
           "location": "北京市海淀区玲珑路慈寿寺桥西",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": "交通"
         }
       ]
     }

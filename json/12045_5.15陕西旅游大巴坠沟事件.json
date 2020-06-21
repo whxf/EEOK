@@ -5,29 +5,29 @@
       "event_graph": [
         {
           "child_event_id": "e01",
-          "trigger_agent": "大巴车",
           "trigger": "发生",
           "trigger_object": "坠崖",
-          "agent_attri": "西安相伴商贸有限公司一辆大",
           "object_attri": "",
           "time": "2015年5月15日下午3时27分",
           "time_align": "2015-05-15-15-27",
           "location": "陕西淳化",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "西安相伴商贸有限公司一辆大",
+          "trigger_subject": "大巴车"
         },
         {
           "child_event_id": "e02",
-          "trigger_agent": "",
           "trigger": "造成",
           "trigger_object": "死亡",
-          "agent_attri": "",
           "object_attri": "30人",
           "time": "下午18时30分",
           "time_align": "2015-05-15-18-30",
           "location": "陕西淳化",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     },
@@ -37,41 +37,41 @@
         {
           "child_event_id": "e03",
           "trigger": "赶赴",
-          "trigger_agent": "领导",
           "trigger_object": "现场",
-          "agent_attri": "陕西省相关部门",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "陕西省",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "陕西省相关部门",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e04",
           "trigger": "指挥",
-          "trigger_agent": "领导",
           "trigger_object": "处置工作",
-          "agent_attri": "陕西省",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "陕西淳化",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "陕西省",
+          "trigger_subject": "领导"
         },
         {
           "child_event_id": "e05",
           "trigger": "指挥",
-          "trigger_agent": "领导",
           "trigger_object": "抢救工作",
-          "agent_attri": "陕西省",
           "object_attri": "",
           "time": "",
           "time_align": "",
           "location": "陕西淳化",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "陕西省",
+          "trigger_subject": "领导"
         }
       ]
     },
@@ -81,15 +81,15 @@
         {
           "child_event_id": "e06",
           "trigger": "被-封锁",
-          "trigger_agent": "现场",
           "trigger_object": "警方",
-          "agent_attri": "旅游大巴车",
           "object_attri": "",
           "time": "5月15日晚20点24分",
           "time_align": "2015-05-15-20-24",
           "location": "陕西淳化",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "旅游大巴车",
+          "trigger_subject": "现场"
         }
       ]
     },
@@ -99,15 +99,15 @@
         {
           "child_event_id": "e07",
           "trigger": "结束",
-          "trigger_agent": "",
           "trigger_object": "救援工作",
-          "agent_attri": "",
           "object_attri": "旅游大巴",
           "time": "5月15日晚20点",
           "time_align": "2015-05-15-20-XX",
           "location": "陕西淳化",
           "organization": "",
-          "person": ""
+          "person": "",
+          "subject_attri": "",
+          "trigger_subject": ""
         }
       ]
     }
